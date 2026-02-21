@@ -1,0 +1,340 @@
+{
+  "era": {
+    "id": "pre-prophethood",
+    "title": "Before the Light",
+    "titleArabic": "قبل البعثة",
+    "description": "The years leading up to Prophethood — from the birth of Muhammad ﷺ to the age of forty. A period of preparation, in which Allah shaped His final Messenger through loss, honesty, contemplation, and an upbringing unlike any other.",
+    "timespan": "571 CE – 610 CE",
+    "timespanHijri": "52 BH – 12 BH",
+    "themeColor": "#1a3a2a",
+    "accentColor": "#c9a84c"
+  },
+  "events": [
+    {
+      "id": "pre-001",
+      "title": "The Year of the Elephant",
+      "titleArabic": "عام الفيل",
+      "year": "52 BH",
+      "yearCE": "571 CE",
+      "month": "Muharram",
+      "category": "historical-context",
+      "summary": "Abraha, the Abyssinian ruler of Yemen, marched upon Makkah with an army including war elephants to destroy the Ka'bah. Allah sent flocks of birds (Ababil) carrying stones of baked clay, destroying the army completely. This event is recorded in Surah Al-Fil.",
+      "significance": "This miraculous event, occurring in the same year as the Prophet's ﷺ birth, demonstrated Allah's protection of the Sacred House and set the stage for the arrival of the final Messenger. The Arabs dated events from this year, calling it 'The Year of the Elephant.'",
+      "quranReferences": [
+        {
+          "surah": 105,
+          "surahName": "Al-Fil",
+          "ayahRange": "1-5",
+          "textArabic": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَـٰبِ ٱلْفِيلِ",
+          "textEnglish": "Have you not seen how your Lord dealt with the People of the Elephant?"
+        }
+      ],
+      "hadithReferences": [],
+      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah", "Ibn Kathir's Al-Bidaya wan-Nihaya"],
+      "keyFigures": ["Abraha al-Ashram", "Abdul Muttalib ibn Hashim"],
+      "location": "Makkah",
+      "locationArabic": "مكة المكرمة"
+    },
+    {
+      "id": "pre-002",
+      "title": "The Birth of the Prophet ﷺ",
+      "titleArabic": "مولد النبي ﷺ",
+      "year": "52 BH",
+      "yearCE": "571 CE",
+      "month": "Rabi' al-Awwal",
+      "category": "birth",
+      "summary": "Muhammad ﷺ was born on a Monday in Rabi' al-Awwal, approximately 50-55 days after the Incident of the Elephant, in the house of his mother Aminah in Makkah. His father Abdullah had passed away before his birth. He was born into the Banu Hashim clan of the Quraysh tribe.",
+      "significance": "The birth of the final Messenger of Allah, the Seal of the Prophets. His father had already passed away, and he would be raised as an orphan — a deliberate preparation by Allah so that no one could claim any human had shaped his character or mission.",
+      "quranReferences": [
+        {
+          "surah": 93,
+          "surahName": "Ad-Duha",
+          "ayahRange": "6-8",
+          "textArabic": "أَلَمْ يَجِدْكَ يَتِيمًۭا فَـَٔاوَىٰ ۝ وَوَجَدَكَ ضَآلًّۭا فَهَدَىٰ ۝ وَوَجَدَكَ عَآئِلًۭا فَأَغْنَىٰ",
+          "textEnglish": "Did He not find you an orphan and give you shelter? And found you lost and guided you? And found you in need and made you self-sufficient?"
+        }
+      ],
+      "hadithReferences": [
+        {
+          "source": "Sahih Muslim",
+          "hadithNumber": "2606",
+          "narrator": "Abu Qatadah al-Ansari",
+          "textEnglish": "The Prophet ﷺ was asked about fasting on Monday. He said: 'That is the day on which I was born and the day on which I received Revelation.'"
+        }
+      ],
+      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah", "Sahih Muslim"],
+      "keyFigures": ["Aminah bint Wahb", "Abdullah ibn Abdul Muttalib", "Abdul Muttalib ibn Hashim"],
+      "location": "Makkah",
+      "locationArabic": "مكة المكرمة"
+    },
+    {
+      "id": "pre-003",
+      "title": "Nursing by Halimah al-Sa'diyyah",
+      "titleArabic": "رضاعة حليمة السعدية",
+      "year": "52-48 BH",
+      "yearCE": "571-575 CE",
+      "month": "",
+      "category": "childhood",
+      "summary": "Following Arab custom, the infant Muhammad ﷺ was entrusted to Halimah bint Abi Dhu'ayb of the Banu Sa'd tribe to be nursed and raised in the desert. The presence of the child brought remarkable blessings (barakah) to Halimah's household — her previously barren land became fertile, her animals gave abundant milk, and her family's fortunes changed.",
+      "significance": "The desert upbringing served a profound purpose: it gave the Prophet ﷺ physical strength, pure Arabic eloquence, and exposure to the open, uncorrupted nature of Bedouin life. This practice was common among the noble families of Quraysh, and it would shape the character of the future Messenger.",
+      "quranReferences": [],
+      "hadithReferences": [],
+      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah", "Ibn Kathir's Al-Bidaya wan-Nihaya"],
+      "keyFigures": ["Halimah bint Abi Dhu'ayb al-Sa'diyyah", "Al-Harith ibn Abdul Uzza (Halimah's husband)"],
+      "location": "Desert of Banu Sa'd",
+      "locationArabic": "بادية بني سعد"
+    },
+    {
+      "id": "pre-004",
+      "title": "The Opening of the Chest",
+      "titleArabic": "شق الصدر",
+      "year": "48 BH",
+      "yearCE": "~575 CE",
+      "month": "",
+      "category": "miracle",
+      "summary": "When Muhammad ﷺ was approximately four years old, while playing with other children, two men in white garments (angels) came to him, laid him down, opened his chest, extracted a blood clot from his heart, and washed his heart with Zamzam water in a golden basin before replacing it.",
+      "significance": "This event — the purification of the Prophet's ﷺ heart — was a divine preparation, cleansing him of any inclination toward sin. It occurred at least twice in his life: once in childhood and once before the Night Journey (Isra wal Mi'raj). It was this event that alarmed Halimah, leading her to return the child to his mother Aminah.",
+      "quranReferences": [
+        {
+          "surah": 94,
+          "surahName": "Ash-Sharh",
+          "ayahRange": "1-3",
+          "textArabic": "أَلَمْ نَشْرَحْ لَكَ صَدْرَكَ ۝ وَوَضَعْنَا عَنكَ وِزْرَكَ ۝ ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
+          "textEnglish": "Did We not expand for you your chest? And We removed from you your burden, which had weighed upon your back."
+        }
+      ],
+      "hadithReferences": [
+        {
+          "source": "Sahih Muslim",
+          "hadithNumber": "162",
+          "narrator": "Anas ibn Malik",
+          "textEnglish": "The Messenger of Allah ﷺ was visited by Jibril while he was playing with other boys. Jibril took hold of him and laid him down, then he opened his chest, took out his heart, and extracted a blood-clot from it, then said: 'This is the share of Shaytan in you.' Then he washed it in a golden vessel with Zamzam water, then put it back together and returned it to its place."
+        }
+      ],
+      "primarySources": ["Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
+      "keyFigures": ["Jibril (Angel Gabriel)"],
+      "location": "Desert of Banu Sa'd",
+      "locationArabic": "بادية بني سعد"
+    },
+    {
+      "id": "pre-005",
+      "title": "Death of His Mother Aminah",
+      "titleArabic": "وفاة أمه آمنة",
+      "year": "46 BH",
+      "yearCE": "~577 CE",
+      "month": "",
+      "category": "loss",
+      "summary": "When Muhammad ﷺ was approximately six years old, his mother Aminah bint Wahb passed away at al-Abwa' (a place between Makkah and Madinah) while returning from a visit to the grave of his father Abdullah and to relatives in Madinah. The young Muhammad ﷺ became a full orphan.",
+      "significance": "Having already lost his father before birth, the loss of his mother at such a young age deepened the Prophet's ﷺ experience of vulnerability and loss. This shaped his profound compassion for orphans and the weak, and Allah's care for him through this period is referenced in the Quran.",
+      "quranReferences": [
+        {
+          "surah": 93,
+          "surahName": "Ad-Duha",
+          "ayahRange": "6",
+          "textArabic": "أَلَمْ يَجِدْكَ يَتِيمًۭا فَـَٔاوَىٰ",
+          "textEnglish": "Did He not find you an orphan and give you shelter?"
+        }
+      ],
+      "hadithReferences": [],
+      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
+      "keyFigures": ["Aminah bint Wahb", "Umm Ayman (Barakah)"],
+      "location": "Al-Abwa'",
+      "locationArabic": "الأبواء"
+    },
+    {
+      "id": "pre-006",
+      "title": "Under the Care of Abdul Muttalib",
+      "titleArabic": "كفالة عبد المطلب",
+      "year": "46-44 BH",
+      "yearCE": "577-579 CE",
+      "month": "",
+      "category": "childhood",
+      "summary": "After the death of his mother, Muhammad ﷺ was taken into the care of his grandfather Abdul Muttalib, the chief of the Banu Hashim and the custodian of the Ka'bah. Abdul Muttalib loved him deeply and treated him with exceptional tenderness, allowing him to sit on his own mat near the Ka'bah — a privilege given to no other child.",
+      "significance": "Abdul Muttalib's deep love and special treatment of Muhammad ﷺ reflected an intuitive recognition of his grandson's exceptional nature. His grandfather's elevated status in Makkan society also ensured Muhammad ﷺ was exposed to leadership, diplomacy, and the affairs of the Quraysh from a young age.",
+      "quranReferences": [],
+      "hadithReferences": [],
+      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
+      "keyFigures": ["Abdul Muttalib ibn Hashim"],
+      "location": "Makkah",
+      "locationArabic": "مكة المكرمة"
+    },
+    {
+      "id": "pre-007",
+      "title": "Death of Abdul Muttalib",
+      "titleArabic": "وفاة عبد المطلب",
+      "year": "44 BH",
+      "yearCE": "~579 CE",
+      "month": "",
+      "category": "loss",
+      "summary": "Abdul Muttalib passed away when Muhammad ﷺ was approximately eight years old. Before his death, he entrusted the care of his grandson to his son Abu Talib, the full brother of Muhammad's ﷺ father Abdullah.",
+      "significance": "Another profound loss in the young Muhammad's ﷺ life. Yet each loss drew him closer to complete reliance upon Allah alone. Abu Talib would become his guardian, protector, and one of his greatest supporters — though he never accepted Islam.",
+      "quranReferences": [],
+      "hadithReferences": [],
+      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
+      "keyFigures": ["Abdul Muttalib ibn Hashim", "Abu Talib ibn Abdul Muttalib"],
+      "location": "Makkah",
+      "locationArabic": "مكة المكرمة"
+    },
+    {
+      "id": "pre-008",
+      "title": "Under the Care of Abu Talib",
+      "titleArabic": "كفالة أبي طالب",
+      "year": "44 BH onwards",
+      "yearCE": "579 CE onwards",
+      "month": "",
+      "category": "childhood",
+      "summary": "Abu Talib took Muhammad ﷺ into his household and raised him alongside his own children. Despite being one of the less wealthy among the sons of Abdul Muttalib, Abu Talib loved Muhammad ﷺ dearly — even more than his own children — and never left him alone during his youth.",
+      "significance": "Abu Talib's guardianship would prove pivotal. He would protect the Prophet ﷺ throughout the entire Makkan period of his mission, shielding him from the wrath of the Quraysh through the power of tribal bonds and his personal authority as chief of Banu Hashim.",
+      "quranReferences": [],
+      "hadithReferences": [],
+      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
+      "keyFigures": ["Abu Talib ibn Abdul Muttalib"],
+      "location": "Makkah",
+      "locationArabic": "مكة المكرمة"
+    },
+    {
+      "id": "pre-009",
+      "title": "Journey to Syria with Abu Talib",
+      "titleArabic": "الرحلة إلى الشام مع أبي طالب",
+      "year": "40 BH",
+      "yearCE": "~583 CE",
+      "month": "",
+      "category": "journey",
+      "summary": "At the age of twelve, Muhammad ﷺ accompanied Abu Talib on a trade caravan to Syria. During the journey, they encountered a Christian monk named Bahira (also known as Sergius) near Busra. Bahira recognized signs of prophethood in the young Muhammad ﷺ and advised Abu Talib to take him back to Makkah and guard him carefully.",
+      "significance": "This event demonstrated that even before prophethood, the signs of Muhammad's ﷺ special status were recognizable to people of knowledge from earlier scriptures. The encounter with Bahira is one of the earliest recorded acknowledgments of Muhammad's ﷺ future mission.",
+      "quranReferences": [],
+      "hadithReferences": [
+        {
+          "source": "Jami' at-Tirmidhi",
+          "hadithNumber": "3620",
+          "narrator": "Abu Musa al-Ash'ari",
+          "textEnglish": "Abu Talib went to Ash-Sham (Syria) and the Prophet ﷺ went with him along with some elders of the Quraysh. When they came near the monk Bahira, he came out to them... He said: 'Go back with him and guard him against the Jews, for by Allah, if they see him and recognise in him what I recognise, they will plot evil against him.'"
+        }
+      ],
+      "primarySources": ["Jami' at-Tirmidhi", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
+      "keyFigures": ["Abu Talib ibn Abdul Muttalib", "Bahira (the monk)"],
+      "location": "Busra, Syria",
+      "locationArabic": "بصرى الشام"
+    },
+    {
+      "id": "pre-010",
+      "title": "The Pact of Al-Fudul (Hilf al-Fudul)",
+      "titleArabic": "حلف الفضول",
+      "year": "31 BH",
+      "yearCE": "~590 CE",
+      "month": "",
+      "category": "society",
+      "summary": "Muhammad ﷺ participated in the Hilf al-Fudul, a pact formed in the house of Abdullah ibn Jud'an among several Qurayshi clans. The alliance pledged to support the oppressed, return rights to their rightful owners, and stand together against injustice — regardless of tribal affiliations.",
+      "significance": "The Prophet ﷺ later said about this pact: 'I witnessed a pact in the house of Abdullah ibn Jud'an that was more beloved to me than a herd of red camels. If I were called to it in Islam, I would respond.' This shows his ﷺ commitment to justice even before his prophetic mission, and that Islam endorses alliances for justice even with non-Muslims.",
+      "quranReferences": [],
+      "hadithReferences": [
+        {
+          "source": "As-Sunan al-Kubra, al-Bayhaqi",
+          "hadithNumber": "",
+          "narrator": "Reported traditions",
+          "textEnglish": "The Prophet ﷺ said: 'I witnessed in the house of Abdullah ibn Jud'an a pact that, if I were called to it in Islam, I would respond. They pledged to return rights to their rightful owners and that no oppressor would overpower the oppressed.'"
+        }
+      ],
+      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah", "Al-Bayhaqi"],
+      "keyFigures": ["Abdullah ibn Jud'an"],
+      "location": "Makkah",
+      "locationArabic": "مكة المكرمة"
+    },
+    {
+      "id": "pre-011",
+      "title": "Working as a Shepherd",
+      "titleArabic": "رعي الغنم",
+      "year": "39-27 BH",
+      "yearCE": "~583-596 CE",
+      "month": "",
+      "category": "livelihood",
+      "summary": "Muhammad ﷺ worked as a shepherd in Makkah, tending sheep for the people of Makkah in return for wages. This was a profession shared by all the Prophets of Allah.",
+      "significance": "The Prophet ﷺ himself confirmed that every prophet was a shepherd. Shepherding develops patience, vigilance, humility, and the ability to care for a flock — qualities essential for the one who would guide all of humanity. It also kept him connected to the simple, contemplative life.",
+      "quranReferences": [],
+      "hadithReferences": [
+        {
+          "source": "Sahih al-Bukhari",
+          "hadithNumber": "2262",
+          "narrator": "Abu Hurairah",
+          "textEnglish": "The Prophet ﷺ said: 'Allah did not send any prophet who was not a shepherd.' The Companions asked: 'Were you a shepherd too?' He said: 'Yes, I used to tend the sheep of the people of Makkah for some qirats.'"
+        }
+      ],
+      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum"],
+      "keyFigures": [],
+      "location": "Makkah and its surroundings",
+      "locationArabic": "مكة وما حولها"
+    },
+    {
+      "id": "pre-012",
+      "title": "Marriage to Khadijah bint Khuwaylid",
+      "titleArabic": "زواجه من خديجة بنت خويلد",
+      "year": "28 BH",
+      "yearCE": "~595 CE",
+      "month": "Safar",
+      "category": "marriage",
+      "summary": "At the age of twenty-five, Muhammad ﷺ married Khadijah bint Khuwaylid, a noble and wealthy businesswoman of Quraysh who was approximately forty years old. She had been impressed by his honesty, integrity, and excellent character after he managed her trade caravan to Syria. She proposed to him through a female intermediary.",
+      "significance": "Khadijah was the first wife of the Prophet ﷺ, and their marriage lasted twenty-five years until her death. She was the first person to believe in his message, his greatest supporter during the most difficult years, and the mother of all his surviving children except Ibrahim. The Prophet ﷺ never married another woman during her lifetime.",
+      "quranReferences": [],
+      "hadithReferences": [
+        {
+          "source": "Sahih al-Bukhari",
+          "hadithNumber": "3818",
+          "narrator": "Ali ibn Abi Talib",
+          "textEnglish": "The Prophet ﷺ said: 'The best of its women was Maryam (daughter of Imran), and the best of its women was Khadijah (bint Khuwaylid).'"
+        }
+      ],
+      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
+      "keyFigures": ["Khadijah bint Khuwaylid"],
+      "location": "Makkah",
+      "locationArabic": "مكة المكرمة"
+    },
+    {
+      "id": "pre-013",
+      "title": "Rebuilding of the Ka'bah",
+      "titleArabic": "بناء الكعبة",
+      "year": "17 BH",
+      "yearCE": "~605 CE",
+      "month": "",
+      "category": "historical-context",
+      "summary": "When Muhammad ﷺ was thirty-five years old, the Quraysh undertook the rebuilding of the Ka'bah after it was damaged by floods. A dispute arose over who would have the honor of placing the Black Stone (al-Hajar al-Aswad) back in its corner. The tribes were on the verge of conflict when they agreed to let the next person to enter the Ka'bah precinct decide. Muhammad ﷺ entered, and they exclaimed 'Al-Amin!' (The Trustworthy One). He placed the Black Stone on a cloth and had representatives of each tribe hold a corner and lift it together, then he placed the stone with his own hands.",
+      "significance": "This event demonstrates two things: Muhammad ﷺ was already known as 'Al-Amin' (The Trustworthy) and 'As-Sadiq' (The Truthful) before prophethood, and his wisdom in resolving disputes was already recognized. His solution satisfied all parties — a hallmark of prophetic wisdom.",
+      "quranReferences": [],
+      "hadithReferences": [
+        {
+          "source": "Sahih al-Bukhari",
+          "hadithNumber": "1586",
+          "narrator": "Aisha",
+          "textEnglish": "The Prophet ﷺ said: 'Were your people not close to the pre-Islamic period of ignorance, I would have demolished the Ka'bah and rebuilt it on the foundation of Ibrahim, for the Quraysh curtailed its construction.'"
+        }
+      ],
+      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
+      "keyFigures": ["The tribes of Quraysh"],
+      "location": "Makkah – The Ka'bah",
+      "locationArabic": "مكة المكرمة – الكعبة"
+    },
+    {
+      "id": "pre-014",
+      "title": "Retreat to Cave Hira",
+      "titleArabic": "التحنث في غار حراء",
+      "year": "13-12 BH",
+      "yearCE": "~609-610 CE",
+      "month": "",
+      "category": "spiritual",
+      "summary": "In the years preceding his prophethood, Muhammad ﷺ began retreating to the Cave of Hira on Jabal an-Nur (the Mountain of Light) on the outskirts of Makkah. He would spend days and nights in solitary contemplation and worship, taking provisions with him. Khadijah would send food for him. He was drawn to reflection and solitude, away from the idolatry and moral corruption of Makkan society.",
+      "significance": "This period of seclusion was the final stage of divine preparation before revelation. The Prophet ﷺ was already rejecting the idol worship of his people and seeking truth. The practice of 'Tahannuth' (devout seclusion) was also practiced by Ibrahim. Six months before the first revelation, he began seeing true dreams that would come true the very next day like the breaking of dawn.",
+      "quranReferences": [],
+      "hadithReferences": [
+        {
+          "source": "Sahih al-Bukhari",
+          "hadithNumber": "3",
+          "narrator": "Aisha",
+          "textEnglish": "The commencement of divine inspiration to the Messenger of Allah ﷺ was in the form of true dreams in his sleep. He never saw a dream except that it came true like bright daylight. Then seclusion was made beloved to him, and he used to seclude himself in the Cave of Hira, engaging in Tahannuth (devotional worship) for several nights."
+        }
+      ],
+      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
+      "keyFigures": ["Khadijah bint Khuwaylid"],
+      "location": "Cave of Hira, Jabal an-Nur",
+      "locationArabic": "غار حراء – جبل النور"
+    }
+  ]
+}
