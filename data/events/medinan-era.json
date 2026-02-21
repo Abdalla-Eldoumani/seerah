@@ -1,0 +1,546 @@
+{
+  "era": {
+    "id": "medinan",
+    "title": "The Dawn of a Civilization",
+    "titleArabic": "العهد المدني",
+    "description": "Ten years that transformed the world. From the establishment of the first Islamic state to the farewell pilgrimage, the Medinan period saw the completion of Islamic law, decisive battles, the conquest of Makkah, and the perfection of the religion. A community persecuted for thirteen years emerged as a beacon of justice, mercy, and civilization.",
+    "timespan": "622 CE – 632 CE",
+    "timespanHijri": "1 AH – 11 AH",
+    "themeColor": "#0d1b2a",
+    "accentColor": "#d4af37"
+  },
+  "events": [
+    {
+      "id": "med-001",
+      "title": "Building of Masjid Quba",
+      "titleArabic": "بناء مسجد قباء",
+      "year": "1 AH",
+      "yearCE": "622 CE",
+      "month": "Rabi' al-Awwal",
+      "category": "establishment",
+      "summary": "Upon arriving in the area of Quba on the outskirts of Madinah, the Prophet ﷺ stayed with the Banu Amr ibn Awf and participated in laying the foundations of Masjid Quba — the first mosque built in Islam. He spent four days there before proceeding to Madinah.",
+      "significance": "Masjid Quba holds a special status as the first mosque in Islam. Allah described it as a mosque 'founded on righteousness from the first day.' The Prophet ﷺ later said that praying in Masjid Quba is equivalent to performing Umrah.",
+      "quranReferences": [
+        {
+          "surah": 9,
+          "surahName": "At-Tawbah",
+          "ayahRange": "108",
+          "textArabic": "لَّمَسْجِدٌ أُسِّسَ عَلَى ٱلتَّقْوَىٰ مِنْ أَوَّلِ يَوْمٍ أَحَقُّ أَن تَقُومَ فِيهِ",
+          "textEnglish": "A mosque founded on righteousness from the first day is more worthy for you to stand in."
+        }
+      ],
+      "hadithReferences": [
+        {
+          "source": "Jami' at-Tirmidhi",
+          "hadithNumber": "324",
+          "narrator": "Usaid ibn Hudair",
+          "textEnglish": "The Prophet ﷺ said: 'Prayer in Masjid Quba is like performing Umrah.'"
+        }
+      ],
+      "primarySources": ["Jami' at-Tirmidhi", "Ar-Raheeq Al-Makhtum"],
+      "keyFigures": ["Banu Amr ibn Awf"],
+      "location": "Quba, outskirts of Madinah",
+      "locationArabic": "قباء – المدينة المنورة"
+    },
+    {
+      "id": "med-002",
+      "title": "Building of Masjid al-Nabawi",
+      "titleArabic": "بناء المسجد النبوي",
+      "year": "1 AH",
+      "yearCE": "622 CE",
+      "month": "Rabi' al-Awwal",
+      "category": "establishment",
+      "summary": "The Prophet ﷺ entered Madinah and his camel knelt at a plot of land belonging to two orphan boys. He purchased the land and built the Prophet's Mosque (Masjid al-Nabawi) there, participating personally in the construction alongside the Companions. Adjacent to the mosque, he built rooms for his family and a covered area (the Suffah) for poor Muslims who had no homes.",
+      "significance": "Masjid al-Nabawi became the center of the new Islamic civilization — serving simultaneously as a mosque, school, parliament, court, and social welfare center. The Ahl as-Suffah (People of the Bench) were devoted students of knowledge who lived in the mosque, and from them came many of the greatest hadith narrators. Prayer in this mosque carries a reward of one thousand prayers elsewhere.",
+      "quranReferences": [],
+      "hadithReferences": [
+        {
+          "source": "Sahih al-Bukhari",
+          "hadithNumber": "1190",
+          "narrator": "Abu Hurairah",
+          "textEnglish": "The Prophet ﷺ said: 'A prayer in this mosque of mine is better than one thousand prayers in any other mosque, except Masjid al-Haram.'"
+        }
+      ],
+      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
+      "keyFigures": ["Sahl and Suhayl (the orphan boys)", "The Muhajirun and Ansar"],
+      "location": "Madinah",
+      "locationArabic": "المدينة المنورة"
+    },
+    {
+      "id": "med-003",
+      "title": "Brotherhood Between Muhajirun and Ansar",
+      "titleArabic": "المؤاخاة بين المهاجرين والأنصار",
+      "year": "1 AH",
+      "yearCE": "622 CE",
+      "month": "",
+      "category": "community",
+      "summary": "The Prophet ﷺ established a unique bond of brotherhood (mu'akhah) between the Muhajirun (the emigrants from Makkah) and the Ansar (the helpers of Madinah). Each Ansari was paired with a Muhajir, and the Ansar shared their wealth, homes, and even offered to divide their properties equally. The generosity of the Ansar was so extraordinary that the Muhajirun prayed for Allah to reward them.",
+      "significance": "This was a revolutionary social innovation — creating bonds stronger than blood-ties based on shared faith. The Ansar's selflessness was unprecedented; some offered half their wealth and even offered to divorce one of their wives so their Muhajir brother could marry her (which was refused). Allah praised the Ansar in the Quran for their selfless devotion.",
+      "quranReferences": [
+        {
+          "surah": 59,
+          "surahName": "Al-Hashr",
+          "ayahRange": "9",
+          "textArabic": "وَٱلَّذِينَ تَبَوَّءُو ٱلدَّارَ وَٱلْإِيمَـٰنَ مِن قَبْلِهِمْ يُحِبُّونَ مَنْ هَاجَرَ إِلَيْهِمْ وَلَا يَجِدُونَ فِىٓ صُدُورِهِمْ حَاجَةًۭ مِّمَّآ أُوتُوا۟ وَيُؤْثِرُونَ عَلَىٰٓ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌۭ",
+          "textEnglish": "And those who settled in the Home and embraced the faith before them love those who emigrated to them and find no need in their hearts for what was given to them, and give preference over themselves even though poverty be their lot."
+        }
+      ],
+      "hadithReferences": [],
+      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
+      "keyFigures": ["Abdur-Rahman ibn Awf", "Sa'd ibn ar-Rabi'", "The Muhajirun", "The Ansar"],
+      "location": "Madinah",
+      "locationArabic": "المدينة المنورة"
+    },
+    {
+      "id": "med-004",
+      "title": "The Constitution of Madinah",
+      "titleArabic": "صحيفة المدينة",
+      "year": "1 AH",
+      "yearCE": "622 CE",
+      "month": "",
+      "category": "legislation",
+      "summary": "The Prophet ﷺ drafted the Constitution of Madinah (Sahifat al-Madinah), a formal agreement between the Muslims, the Jewish tribes, and other inhabitants of Madinah. It established the rights and duties of all citizens, guaranteed religious freedom, established mutual defense obligations, and declared Madinah a sanctuary. It declared all signatories as one Ummah (community) united in defense.",
+      "significance": "This document is considered one of the earliest written constitutions in history. It established a pluralistic society under the rule of law where different religious communities coexisted with defined rights and responsibilities. The Prophet ﷺ was recognized as the supreme authority for dispute resolution. It was a remarkable document of statecraft.",
+      "quranReferences": [],
+      "hadithReferences": [],
+      "primarySources": ["Ibn Ishaq's Sirah", "Ar-Raheeq Al-Makhtum", "Abu Ubayd's Kitab al-Amwal"],
+      "keyFigures": ["The Jewish tribes of Madinah (Banu Qaynuqa, Banu Nadir, Banu Qurayza)", "The Muhajirun", "The Ansar"],
+      "location": "Madinah",
+      "locationArabic": "المدينة المنورة"
+    },
+    {
+      "id": "med-005",
+      "title": "The Legislation of Adhan",
+      "titleArabic": "تشريع الأذان",
+      "year": "1 AH",
+      "yearCE": "622 CE",
+      "month": "",
+      "category": "legislation",
+      "summary": "The Muslims needed a way to call people to prayer. Abdullah ibn Zayd saw a vision in his dream of a man calling to prayer with specific words. When he informed the Prophet ﷺ, the Prophet ﷺ said it was a true vision and instructed Bilal ibn Rabah to call the Adhan, as his voice was more beautiful. Umar ibn al-Khattab confirmed he had seen the same vision.",
+      "significance": "The Adhan became one of the most distinctive symbols of Islam — five times a day, the call to prayer rises over Muslim lands. Bilal, the formerly enslaved Abyssinian who had been tortured for his faith, became the first muezzin, elevated by Islam from the lowest rung of Makkan society to one of the most honored positions in the new community.",
+      "quranReferences": [],
+      "hadithReferences": [
+        {
+          "source": "Sunan Abu Dawud",
+          "hadithNumber": "498",
+          "narrator": "Abdullah ibn Zayd",
+          "textEnglish": "Abdullah ibn Zayd said: 'When the Messenger of Allah ﷺ ordered a bell to be made to summon people to prayer, a man came to me while I was sleeping and showed me a bell. I said: O servant of Allah, will you sell this bell? He said: What will you do with it? I said: We will call people to prayer. He said: Shall I not show you something better? He then taught me the words of the Adhan.'"
+        }
+      ],
+      "primarySources": ["Sunan Abu Dawud", "Ar-Raheeq Al-Makhtum"],
+      "keyFigures": ["Bilal ibn Rabah", "Abdullah ibn Zayd", "Umar ibn al-Khattab"],
+      "location": "Madinah",
+      "locationArabic": "المدينة المنورة"
+    },
+    {
+      "id": "med-006",
+      "title": "The Change of Qiblah",
+      "titleArabic": "تحويل القبلة",
+      "year": "2 AH",
+      "yearCE": "624 CE",
+      "month": "Rajab or Sha'ban",
+      "category": "legislation",
+      "summary": "Approximately sixteen or seventeen months after the Hijrah, the direction of prayer (Qiblah) was changed from Masjid al-Aqsa in Jerusalem to the Ka'bah in Makkah. This occurred while the Prophet ﷺ was leading the Dhuhr (or Asr) prayer in the mosque of Banu Salamah. Midway through the prayer, the revelation came commanding the change, and the Prophet ﷺ and the congregation turned from facing Jerusalem to facing Makkah.",
+      "significance": "The change of Qiblah was a test of faith — those who truly followed the Prophet ﷺ obeyed immediately, while hypocrites and doubters used it as a point of criticism. The mosque where this occurred became known as Masjid al-Qiblatayn (the Mosque of the Two Qiblahs). The Ka'bah, built by Ibrahim, was restored as the center of Muslim worship.",
+      "quranReferences": [
+        {
+          "surah": 2,
+          "surahName": "Al-Baqarah",
+          "ayahRange": "144",
+          "textArabic": "قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِى ٱلسَّمَآءِ ۖ فَلَنُوَلِّيَنَّكَ قِبْلَةًۭ تَرْضَىٰهَا ۚ فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدِ ٱلْحَرَامِ",
+          "textEnglish": "We have certainly seen the turning of your face toward the heaven. So We will surely turn you to a Qiblah with which you will be pleased. So turn your face toward al-Masjid al-Haram."
+        }
+      ],
+      "hadithReferences": [
+        {
+          "source": "Sahih al-Bukhari",
+          "hadithNumber": "4486",
+          "narrator": "Al-Bara' ibn Azib",
+          "textEnglish": "We prayed with the Prophet ﷺ toward Bayt al-Maqdis (Jerusalem) for sixteen or seventeen months. Then he was turned toward the Ka'bah."
+        }
+      ],
+      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
+      "keyFigures": [],
+      "location": "Masjid al-Qiblatayn, Madinah",
+      "locationArabic": "مسجد القبلتين – المدينة"
+    },
+    {
+      "id": "med-007",
+      "title": "The Battle of Badr",
+      "titleArabic": "غزوة بدر الكبرى",
+      "year": "2 AH",
+      "yearCE": "624 CE",
+      "month": "17 Ramadan",
+      "category": "battle",
+      "summary": "The first major military engagement in Islam. 313 Muslims faced approximately 1,000 well-armed Qurayshi warriors at the wells of Badr. Despite being outnumbered and under-equipped, the Muslims won a decisive victory. Allah sent angels to fight alongside the believers. Seventy of the Quraysh were killed including Abu Jahl, and seventy were captured as prisoners of war.",
+      "significance": "Badr is called 'Yawm al-Furqan' (the Day of Criterion) — the day that distinguished truth from falsehood. It was the turning point that established Islam as a political and military force. The Prophet ﷺ consulted his Companions before the battle (shura), treated prisoners humanely (a revolutionary concept), and some were freed in exchange for teaching Muslim children to read. Surah Al-Anfal was revealed regarding this battle.",
+      "quranReferences": [
+        {
+          "surah": 8,
+          "surahName": "Al-Anfal",
+          "ayahRange": "9-10",
+          "textArabic": "إِذْ تَسْتَغِيثُونَ رَبَّكُمْ فَٱسْتَجَابَ لَكُمْ أَنِّى مُمِدُّكُم بِأَلْفٍۢ مِّنَ ٱلْمَلَـٰٓئِكَةِ مُرْدِفِينَ",
+          "textEnglish": "When you called upon your Lord for help, He answered you: 'I will reinforce you with a thousand angels, following one another.'"
+        },
+        {
+          "surah": 3,
+          "surahName": "Aal-Imran",
+          "ayahRange": "123",
+          "textArabic": "وَلَقَدْ نَصَرَكُمُ ٱللَّهُ بِبَدْرٍۢ وَأَنتُمْ أَذِلَّةٌۭ",
+          "textEnglish": "And Allah had already given you victory at Badr while you were few in number."
+        }
+      ],
+      "hadithReferences": [
+        {
+          "source": "Sahih Muslim",
+          "hadithNumber": "1763",
+          "narrator": "Umar ibn al-Khattab",
+          "textEnglish": "The Prophet ﷺ looked at the disbelievers — they were one thousand — and his companions were three hundred and nineteen. The Prophet ﷺ turned toward the Qiblah, stretched out his hands and began to cry out to his Lord: 'O Allah, accomplish for me what You have promised. O Allah, if this small band of Muslims is destroyed, You will not be worshipped on this earth.'"
+        }
+      ],
+      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
+      "keyFigures": ["Abu Jahl (killed)", "Umayyah ibn Khalaf (killed)", "Utbah ibn Rabi'ah (killed)", "Ali ibn Abi Talib", "Hamza ibn Abdul Muttalib"],
+      "location": "Badr, southwest of Madinah",
+      "locationArabic": "بدر"
+    },
+    {
+      "id": "med-008",
+      "title": "The Battle of Uhud",
+      "titleArabic": "غزوة أحد",
+      "year": "3 AH",
+      "yearCE": "625 CE",
+      "month": "Shawwal",
+      "category": "battle",
+      "summary": "The Quraysh marched on Madinah with 3,000 warriors seeking revenge for Badr. The battle took place at Mount Uhud. The Muslims initially had the upper hand, but when the archers stationed on the hill disobeyed the Prophet's ﷺ order and left their positions to collect spoils, Khalid ibn al-Walid (then fighting for the Quraysh) led a cavalry charge from behind. The Prophet ﷺ was wounded in the face, his tooth was broken, and the Muslims suffered seventy casualties, including Hamza ibn Abdul Muttalib, the Prophet's ﷺ beloved uncle, who was martyred and mutilated.",
+      "significance": "Uhud was a deeply painful lesson about the consequences of disobedience and the love of worldly gain. But it also revealed the Prophet's ﷺ incredible courage — he stood firm when most had fled. When the false rumor spread that the Prophet ﷺ had been killed, some lost heart, but others like Anas ibn al-Nadr charged forward saying: 'What is the use of living after the Messenger of Allah?' Sixty verses of Surah Aal-Imran address this battle.",
+      "quranReferences": [
+        {
+          "surah": 3,
+          "surahName": "Aal-Imran",
+          "ayahRange": "140-142",
+          "textArabic": "إِن يَمْسَسْكُمْ قَرْحٌۭ فَقَدْ مَسَّ ٱلْقَوْمَ قَرْحٌۭ مِّثْلُهُۥ ۚ وَتِلْكَ ٱلْأَيَّامُ نُدَاوِلُهَا بَيْنَ ٱلنَّاسِ",
+          "textEnglish": "If a wound has touched you, a similar wound has already touched the other people. We alternate these days among the people."
+        },
+        {
+          "surah": 3,
+          "surahName": "Aal-Imran",
+          "ayahRange": "144",
+          "textArabic": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌۭ قَدْ خَلَتْ مِن قَبْلِهِ ٱلرُّسُلُ",
+          "textEnglish": "Muhammad is no more than a messenger; other messengers have passed before him."
+        }
+      ],
+      "hadithReferences": [],
+      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
+      "keyFigures": ["Hamza ibn Abdul Muttalib (martyred)", "Mus'ab ibn Umayr (martyred)", "Khalid ibn al-Walid (Quraysh cavalry)", "Hind bint Utbah"],
+      "location": "Mount Uhud, north of Madinah",
+      "locationArabic": "جبل أحد – المدينة"
+    },
+    {
+      "id": "med-009",
+      "title": "The Battle of the Trench (Al-Khandaq / Al-Ahzab)",
+      "titleArabic": "غزوة الخندق / الأحزاب",
+      "year": "5 AH",
+      "yearCE": "627 CE",
+      "month": "Shawwal",
+      "category": "battle",
+      "summary": "A massive coalition of 10,000 warriors from the Quraysh, Ghatafan, and other tribes marched on Madinah. On the advice of Salman al-Farisi, the Muslims dug a trench around the vulnerable northern approach to the city — a tactic unknown to the Arabs. The 3,000 Muslim defenders held the trench while the coalition laid siege for approximately one month. Allah sent a fierce wind and unseen forces that scattered the enemy camp, and they retreated in disarray.",
+      "significance": "This was the last major offensive by the Quraysh against Madinah. The Prophet ﷺ himself dug the trench alongside the Companions, sharing their hunger and hardship. During the digging, a massive rock was struck by the Prophet ﷺ and sparks flew, and he prophesied the conquest of Persia, Rome, and Yemen. After this battle, the Prophet ﷺ declared: 'Now we will march to them, and they will not march to us.'",
+      "quranReferences": [
+        {
+          "surah": 33,
+          "surahName": "Al-Ahzab",
+          "ayahRange": "9-11",
+          "textArabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ جَآءَتْكُمْ جُنُودٌۭ فَأَرْسَلْنَا عَلَيْهِمْ رِيحًۭا وَجُنُودًۭا لَّمْ تَرَوْهَا",
+          "textEnglish": "O you who believe, remember the favor of Allah upon you when armies came to you, and We sent upon them a wind and forces you did not see."
+        }
+      ],
+      "hadithReferences": [
+        {
+          "source": "Sahih al-Bukhari",
+          "hadithNumber": "4109",
+          "narrator": "Sahl ibn Sa'd",
+          "textEnglish": "We were with the Messenger of Allah ﷺ in the Trench, and they were digging while we were carrying the soil on our shoulders. The Messenger of Allah ﷺ said: 'O Allah, there is no life except the life of the Hereafter, so forgive the Ansar and the Muhajirun.'"
+        }
+      ],
+      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
+      "keyFigures": ["Salman al-Farisi", "Nu'aym ibn Mas'ud (who secretly embraced Islam and divided the coalition)"],
+      "location": "Northern approach to Madinah",
+      "locationArabic": "شمال المدينة"
+    },
+    {
+      "id": "med-010",
+      "title": "The Treaty of Hudaybiyah",
+      "titleArabic": "صلح الحديبية",
+      "year": "6 AH",
+      "yearCE": "628 CE",
+      "month": "Dhul Qa'dah",
+      "category": "treaty",
+      "summary": "The Prophet ﷺ set out with 1,400 Muslims for Umrah, not for war. The Quraysh blocked them at Hudaybiyah near Makkah. After negotiations, a ten-year truce was agreed upon. Its terms seemed unfavorable to the Muslims: they would return that year without performing Umrah, any Qurayshi who fled to Madinah must be returned, but any Muslim who went to Makkah would not be returned. Many Companions, especially Umar, found these terms difficult to accept.",
+      "significance": "Though it appeared to be a setback, the Quran called it 'a manifest victory' (Fath Mubin). The treaty gave Muslims the legitimacy to operate openly, allowed them to make alliances, and led to a massive wave of conversions during the peace. Within two years, more people entered Islam than in the previous nineteen years combined. It proved the Prophet's ﷺ superior strategic vision.",
+      "quranReferences": [
+        {
+          "surah": 48,
+          "surahName": "Al-Fath",
+          "ayahRange": "1-3",
+          "textArabic": "إِنَّا فَتَحْنَا لَكَ فَتْحًۭا مُّبِينًۭا ۝ لِّيَغْفِرَ لَكَ ٱللَّهُ مَا تَقَدَّمَ مِن ذَنۢبِكَ وَمَا تَأَخَّرَ",
+          "textEnglish": "Indeed, We have given you a manifest victory, that Allah may forgive for you what preceded of your sin and what will follow."
+        },
+        {
+          "surah": 48,
+          "surahName": "Al-Fath",
+          "ayahRange": "18",
+          "textArabic": "لَّقَدْ رَضِىَ ٱللَّهُ عَنِ ٱلْمُؤْمِنِينَ إِذْ يُبَايِعُونَكَ تَحْتَ ٱلشَّجَرَةِ",
+          "textEnglish": "Certainly Allah was pleased with the believers when they pledged allegiance to you under the tree."
+        }
+      ],
+      "hadithReferences": [],
+      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
+      "keyFigures": ["Suhayl ibn Amr (Quraysh negotiator)", "Umar ibn al-Khattab", "Uthman ibn Affan (sent as envoy to Makkah)"],
+      "location": "Hudaybiyah, near Makkah",
+      "locationArabic": "الحديبية"
+    },
+    {
+      "id": "med-011",
+      "title": "Letters to the Kings and Leaders",
+      "titleArabic": "رسائل إلى الملوك والزعماء",
+      "year": "7 AH",
+      "yearCE": "628 CE",
+      "month": "Muharram and after",
+      "category": "dawah",
+      "summary": "The Prophet ﷺ sent letters to the rulers of the known world inviting them to Islam, including: Heraclius (the Roman Emperor), Khosrau II (the Persian Emperor), the Muqawqis (ruler of Egypt), An-Najashi (King of Abyssinia), and others. Approximately 22-25 letters were sent. Heraclius recognized the truth of the message but did not accept. Khosrau tore up the letter, and the Prophet ﷺ said: 'His kingdom will be torn apart.'",
+      "significance": "This demonstrated the universal nature of the Prophet's ﷺ message — Islam was not an Arab religion but a call to all of humanity. The period of peace after Hudaybiyah made this diplomatic outreach possible. Khosrau's kingdom was indeed destroyed within a decade. Heraclius's recognition of the Prophet's ﷺ truthfulness is recorded in detail in Sahih al-Bukhari.",
+      "quranReferences": [],
+      "hadithReferences": [
+        {
+          "source": "Sahih al-Bukhari",
+          "hadithNumber": "7",
+          "narrator": "Abdullah ibn Abbas",
+          "textEnglish": "The Prophet ﷺ wrote to Caesar... Abu Sufyan [before his Islam] was summoned and Heraclius asked him about the Prophet ﷺ. After the questioning, Heraclius said: 'If what you say is true, then he will rule over what is beneath these two feet of mine.'"
+        }
+      ],
+      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum"],
+      "keyFigures": ["Heraclius (Roman Emperor)", "Khosrau II (Persian Emperor)", "Al-Muqawqis (Egypt)", "An-Najashi (Abyssinia)"],
+      "location": "Letters sent from Madinah to various kingdoms",
+      "locationArabic": "المدينة المنورة"
+    },
+    {
+      "id": "med-012",
+      "title": "The Battle of Khaybar",
+      "titleArabic": "غزوة خيبر",
+      "year": "7 AH",
+      "yearCE": "628 CE",
+      "month": "Muharram/Rabi' al-Awwal",
+      "category": "battle",
+      "summary": "The Prophet ﷺ marched with 1,420 warriors against the Jewish fortress complex of Khaybar, whose inhabitants had been plotting with the Quraysh and other tribes against the Muslims. After a prolonged siege, Ali ibn Abi Talib was given the banner and led the assault that conquered the main fortress. The inhabitants were allowed to remain and farm their land in exchange for half the produce.",
+      "significance": "Khaybar was the largest Jewish settlement in Arabia and a center of opposition to Islam. Its conquest secured Madinah's northern frontier and demonstrated the military capability of the Muslim state. The Prophet ﷺ was poisoned by a Jewish woman of Khaybar who placed poison in a roasted lamb; the effects of this poisoning would contribute to his final illness years later.",
+      "quranReferences": [
+        {
+          "surah": 48,
+          "surahName": "Al-Fath",
+          "ayahRange": "20",
+          "textArabic": "وَعَدَكُمُ ٱللَّهُ مَغَانِمَ كَثِيرَةًۭ تَأْخُذُونَهَا فَعَجَّلَ لَكُمْ هَـٰذِهِۦ",
+          "textEnglish": "Allah has promised you much spoils that you will take, and He hastened this for you."
+        }
+      ],
+      "hadithReferences": [
+        {
+          "source": "Sahih al-Bukhari",
+          "hadithNumber": "4210",
+          "narrator": "Sahl ibn Sa'd",
+          "textEnglish": "The Prophet ﷺ said on the day of Khaybar: 'I will give the banner tomorrow to a man through whose hands Allah will bring about victory; he loves Allah and His Messenger, and Allah and His Messenger love him.' The next morning, he gave the banner to Ali ibn Abi Talib."
+        }
+      ],
+      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
+      "keyFigures": ["Ali ibn Abi Talib", "Marhab (Jewish warrior killed by Ali)"],
+      "location": "Khaybar, north of Madinah",
+      "locationArabic": "خيبر"
+    },
+    {
+      "id": "med-013",
+      "title": "The Conquest of Makkah (Fath Makkah)",
+      "titleArabic": "فتح مكة",
+      "year": "8 AH",
+      "yearCE": "630 CE",
+      "month": "Ramadan (20th)",
+      "category": "conquest",
+      "summary": "After the Quraysh violated the Treaty of Hudaybiyah by supporting an attack on the Prophet's ﷺ allies (Banu Khuza'ah), the Prophet ﷺ marched on Makkah with 10,000 Muslims. The city surrendered almost without resistance. The Prophet ﷺ entered Makkah on his camel with his head bowed in humility, reciting Surah Al-Fath. He went directly to the Ka'bah, circled it, and destroyed the 360 idols inside and around it, reciting: 'Truth has come and falsehood has perished. Indeed, falsehood is ever bound to perish.' He then declared a general amnesty for the people of Makkah.",
+      "significance": "The conquest of Makkah is one of the most extraordinary events in history. The Prophet ﷺ, who had been driven out as a persecuted refugee eight years earlier, returned as a victor but displayed unparalleled mercy. He forgave even his worst enemies, including those who had tortured, killed, and persecuted Muslims for decades. When asked what he would do with the Quraysh, he said: 'Go, for you are free.' This act of mercy led to the mass acceptance of Islam across Arabia.",
+      "quranReferences": [
+        {
+          "surah": 17,
+          "surahName": "Al-Isra",
+          "ayahRange": "81",
+          "textArabic": "وَقُلْ جَآءَ ٱلْحَقُّ وَزَهَقَ ٱلْبَـٰطِلُ ۚ إِنَّ ٱلْبَـٰطِلَ كَانَ زَهُوقًۭا",
+          "textEnglish": "And say: Truth has come and falsehood has perished. Indeed, falsehood is ever bound to perish."
+        },
+        {
+          "surah": 110,
+          "surahName": "An-Nasr",
+          "ayahRange": "1-3",
+          "textArabic": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ ۝ وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًۭا ۝ فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
+          "textEnglish": "When the victory of Allah has come and the conquest, and you see the people entering into the religion of Allah in multitudes, then exalt with praise of your Lord and ask His forgiveness. Indeed, He is ever Accepting of repentance."
+        }
+      ],
+      "hadithReferences": [
+        {
+          "source": "Sahih al-Bukhari",
+          "hadithNumber": "4287",
+          "narrator": "Abdullah ibn Mas'ud",
+          "textEnglish": "The Prophet ﷺ entered Makkah on the Day of the Conquest, and there were 360 idols around the Ka'bah. He started poking them with a stick he had in his hand, saying: 'Truth has come and falsehood has perished. Indeed, falsehood is ever bound to perish.'"
+        }
+      ],
+      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
+      "keyFigures": ["Abu Sufyan (accepted Islam)", "Khalid ibn al-Walid (now Muslim)", "Hind bint Utbah (accepted Islam)"],
+      "location": "Makkah",
+      "locationArabic": "مكة المكرمة"
+    },
+    {
+      "id": "med-014",
+      "title": "The Battle of Hunayn",
+      "titleArabic": "غزوة حنين",
+      "year": "8 AH",
+      "yearCE": "630 CE",
+      "month": "Shawwal",
+      "category": "battle",
+      "summary": "Shortly after the conquest of Makkah, the tribes of Hawazin and Thaqif gathered 20,000 warriors to fight the Muslims. The Prophet ﷺ marched with 12,000 — the largest Muslim army ever assembled. Initially, the Muslims were ambushed in the Hunayn valley and many fled in confusion. The Prophet ﷺ stood firm on his mule, calling the Companions back, until the tide turned and the Muslims won a decisive victory.",
+      "significance": "Hunayn demonstrated that numbers alone do not guarantee victory — only reliance on Allah does. Some Muslims had felt invincible due to their large numbers, and the initial rout was a divine reminder. The Prophet's ﷺ personal courage in standing firm while arrows flew around him, calling 'I am the Prophet, there is no lie! I am the son of Abdul Muttalib!' was extraordinary.",
+      "quranReferences": [
+        {
+          "surah": 9,
+          "surahName": "At-Tawbah",
+          "ayahRange": "25-26",
+          "textArabic": "لَقَدْ نَصَرَكُمُ ٱللَّهُ فِى مَوَاطِنَ كَثِيرَةٍۢ ۙ وَيَوْمَ حُنَيْنٍ ۙ إِذْ أَعْجَبَتْكُمْ كَثْرَتُكُمْ فَلَمْ تُغْنِ عَنكُمْ شَيْـًۭٔا",
+          "textEnglish": "Allah has already given you victory in many regions and on the day of Hunayn, when your great number pleased you, but it did not avail you at all."
+        }
+      ],
+      "hadithReferences": [
+        {
+          "source": "Sahih Muslim",
+          "hadithNumber": "1776",
+          "narrator": "Al-Abbas ibn Abdul Muttalib",
+          "textEnglish": "I was with the Prophet ﷺ on the Day of Hunayn. Abu Sufyan ibn al-Harith and I clung to the Messenger of Allah ﷺ and did not leave him. The Prophet ﷺ was riding his white mule... He said: 'I am the Prophet, there is no lie. I am the son of Abdul Muttalib.'"
+        }
+      ],
+      "primarySources": ["Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
+      "keyFigures": ["Al-Abbas ibn Abdul Muttalib", "Abu Sufyan ibn al-Harith"],
+      "location": "Valley of Hunayn, between Makkah and Ta'if",
+      "locationArabic": "وادي حنين"
+    },
+    {
+      "id": "med-015",
+      "title": "The Battle of Tabuk",
+      "titleArabic": "غزوة تبوك",
+      "year": "9 AH",
+      "yearCE": "630 CE",
+      "month": "Rajab",
+      "category": "battle",
+      "summary": "Learning that the Byzantine Empire was gathering forces near the northern border, the Prophet ﷺ mobilized the largest army in Islamic history — 30,000 warriors — and marched to Tabuk in extreme heat and drought. The expedition was called 'Jaysh al-Usrah' (the Army of Hardship). Uthman ibn Affan single-handedly funded a large portion of the expedition. When they reached Tabuk, the Byzantine forces had withdrawn, and the Prophet ﷺ secured the northern frontier through treaties with local tribes.",
+      "significance": "Tabuk was the final major military expedition of the Prophet ﷺ. It exposed the hypocrites who made excuses not to participate, and Surah At-Tawbah was largely revealed in this context. The story of Ka'b ibn Malik, who truthfully confessed his failure to join and was boycotted for fifty days before Allah accepted his repentance, is one of the most powerful narratives in the hadith literature.",
+      "quranReferences": [
+        {
+          "surah": 9,
+          "surahName": "At-Tawbah",
+          "ayahRange": "38-39",
+          "textArabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ مَا لَكُمْ إِذَا قِيلَ لَكُمُ ٱنفِرُوا۟ فِى سَبِيلِ ٱللَّهِ ٱثَّاقَلْتُمْ إِلَى ٱلْأَرْضِ",
+          "textEnglish": "O you who believe, what is the matter with you that when you are told to march forth in the cause of Allah, you cling heavily to the earth?"
+        },
+        {
+          "surah": 9,
+          "surahName": "At-Tawbah",
+          "ayahRange": "118",
+          "textArabic": "وَعَلَى ٱلثَّلَـٰثَةِ ٱلَّذِينَ خُلِّفُوا۟",
+          "textEnglish": "And upon the three who were left behind... (regarding Ka'b ibn Malik and his companions)"
+        }
+      ],
+      "hadithReferences": [
+        {
+          "source": "Sahih al-Bukhari",
+          "hadithNumber": "4418",
+          "narrator": "Ka'b ibn Malik",
+          "textEnglish": "Ka'b narrated his story of not joining the expedition of Tabuk: '...Then Allah revealed His forgiveness for us in the last part of the night, and the Prophet ﷺ announced it after the Fajr prayer...'"
+        }
+      ],
+      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
+      "keyFigures": ["Uthman ibn Affan (major funder)", "Ka'b ibn Malik", "Abu Bakr as-Siddiq"],
+      "location": "Tabuk, northern Arabia",
+      "locationArabic": "تبوك"
+    },
+    {
+      "id": "med-016",
+      "title": "The Farewell Pilgrimage (Hajjat al-Wada')",
+      "titleArabic": "حجة الوداع",
+      "year": "10 AH",
+      "yearCE": "632 CE",
+      "month": "Dhul Hijjah",
+      "category": "pilgrimage",
+      "summary": "In the tenth year after Hijrah, the Prophet ﷺ performed Hajj — the only Hajj of his life — with approximately 100,000 or more Muslims. On the 9th of Dhul Hijjah, standing at Arafat, he delivered his Farewell Sermon (Khutbat al-Wada'), addressing all of humanity with principles of equality, justice, women's rights, the prohibition of usury, and the sanctity of life and property. He asked the people: 'Have I conveyed the message?' and they responded: 'Yes!' He said: 'O Allah, bear witness.'",
+      "significance": "This was the culmination of the Prophet's ﷺ 23-year mission. The Farewell Sermon is one of the greatest speeches in human history, establishing principles of human rights, racial equality, and social justice that were centuries ahead of their time. On this occasion, the final verse of legislation was revealed, declaring the perfection of the religion. The Prophet ﷺ hinted at his impending departure.",
+      "quranReferences": [
+        {
+          "surah": 5,
+          "surahName": "Al-Ma'idah",
+          "ayahRange": "3",
+          "textArabic": "ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ ٱلْإِسْلَـٰمَ دِينًۭا",
+          "textEnglish": "This day I have perfected for you your religion and completed My favor upon you and have approved for you Islam as your religion."
+        }
+      ],
+      "hadithReferences": [
+        {
+          "source": "Sahih Muslim",
+          "hadithNumber": "1218",
+          "narrator": "Jabir ibn Abdullah",
+          "textEnglish": "The Prophet ﷺ said in his sermon at Arafat: 'O people, your blood, your property, and your honor are sacred to you, like the sanctity of this day, in this month, in this city. All the practices of Jahiliyyah are under my feet. The usury of Jahiliyyah is abolished... Fear Allah regarding women, for you have taken them as a trust from Allah...'"
+        }
+      ],
+      "primarySources": ["Sahih Muslim", "Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum"],
+      "keyFigures": ["Approximately 100,000+ Muslims"],
+      "location": "Arafat, Mina, and Makkah",
+      "locationArabic": "عرفة ومنى ومكة"
+    },
+    {
+      "id": "med-017",
+      "title": "The Death of the Prophet ﷺ",
+      "titleArabic": "وفاة النبي ﷺ",
+      "year": "11 AH",
+      "yearCE": "632 CE",
+      "month": "12 Rabi' al-Awwal (Monday)",
+      "category": "death",
+      "summary": "The Prophet ﷺ fell ill and his condition worsened over several days. During his illness, he continued to lead prayers until he became too weak, at which point he instructed Abu Bakr to lead the prayers. He spent his final days in the room of Aisha. On Monday, 12th Rabi' al-Awwal, he passed away with his head resting on Aisha's chest, having chosen to be with 'the Highest Companion' (Ar-Rafiq al-A'la). He was 63 years old.",
+      "significance": "The death of the Prophet ﷺ was the most devastating event for the Muslim community. Umar initially refused to believe it, threatening anyone who said the Prophet ﷺ had died. Abu Bakr entered, kissed the Prophet's ﷺ forehead, and addressed the people with the verse: 'Muhammad is no more than a messenger; other messengers have passed before him.' This confirmed the truth and Umar collapsed. The Prophet ﷺ was buried in the room where he died — now part of Masjid al-Nabawi.",
+      "quranReferences": [
+        {
+          "surah": 3,
+          "surahName": "Aal-Imran",
+          "ayahRange": "144",
+          "textArabic": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌۭ قَدْ خَلَتْ مِن قَبْلِهِ ٱلرُّسُلُ ۚ أَفَإِيْن مَّاتَ أَوْ قُتِلَ ٱنقَلَبْتُمْ عَلَىٰٓ أَعْقَـٰبِكُمْ",
+          "textEnglish": "Muhammad is no more than a messenger; other messengers have passed before him. So if he were to die or be killed, would you turn back on your heels?"
+        },
+        {
+          "surah": 39,
+          "surahName": "Az-Zumar",
+          "ayahRange": "30",
+          "textArabic": "إِنَّكَ مَيِّتٌۭ وَإِنَّهُم مَّيِّتُونَ",
+          "textEnglish": "Indeed, you are to die, and indeed, they are to die."
+        }
+      ],
+      "hadithReferences": [
+        {
+          "source": "Sahih al-Bukhari",
+          "hadithNumber": "4449",
+          "narrator": "Aisha",
+          "textEnglish": "The Prophet ﷺ died in my house and on my day, and between my chest and my neck. Allah joined my saliva with his saliva at his death. Abdur-Rahman ibn Abu Bakr entered with a siwak (tooth stick), and the Prophet ﷺ looked at it, so I took it and chewed it to soften it, then gave it to him. He rubbed his teeth with it... then his hand dropped and he was gazing upward, saying: 'With the Highest Companion... with the Highest Companion.'"
+        },
+        {
+          "source": "Sahih al-Bukhari",
+          "hadithNumber": "1241",
+          "narrator": "Aisha",
+          "textEnglish": "Abu Bakr came, uncovered the Prophet's ﷺ face, bent over him and kissed him, and wept, saying: 'You are dearer to me than my father and mother. By Allah, Allah will not cause you to die twice.' Then he went out and said: 'Whoever worshipped Muhammad, then Muhammad has died. And whoever worshipped Allah, then Allah is alive and will never die.' Then he recited the verse: 'Muhammad is no more than a messenger...'"
+        }
+      ],
+      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
+      "keyFigures": ["Aisha bint Abi Bakr", "Abu Bakr as-Siddiq", "Umar ibn al-Khattab", "Ali ibn Abi Talib (who washed the body)"],
+      "location": "The room of Aisha, adjacent to Masjid al-Nabawi, Madinah",
+      "locationArabic": "حجرة عائشة – المسجد النبوي – المدينة"
+    }
+  ]
+}
