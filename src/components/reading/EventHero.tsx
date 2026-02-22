@@ -1,6 +1,5 @@
 import { cn } from '@/lib/utils';
 import { getCategoryLabel, getCategoryColor } from '@/lib/utils';
-import { CATEGORY_ICONS } from '@/types/seerah';
 import type { SeerahEvent } from '@/types/seerah';
 
 interface EventHeroProps {
@@ -10,7 +9,6 @@ interface EventHeroProps {
 export default function EventHero({ event }: EventHeroProps) {
   const categoryLabel = getCategoryLabel(event.category);
   const categoryColor = getCategoryColor(event.category);
-  const categoryIcon = CATEGORY_ICONS[event.category];
 
   return (
     <header className="text-center py-12 md:py-16 lg:py-20 space-y-6">
@@ -55,7 +53,6 @@ export default function EventHero({ event }: EventHeroProps) {
           )}
           style={{ backgroundColor: categoryColor }}
         >
-          <span aria-hidden="true">{categoryIcon}</span>
           {categoryLabel}
         </span>
       </div>
