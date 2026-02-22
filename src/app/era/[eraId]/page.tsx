@@ -7,7 +7,6 @@ import { Divider } from '@/components/ui/Divider';
 import { Badge } from '@/components/ui/Badge';
 import EraNav from '@/components/navigation/EraNav';
 import { getCategoryLabel, getCategoryColor } from '@/lib/utils';
-import { CATEGORY_ICONS } from '@/types/seerah';
 import type { EraId } from '@/types/seerah';
 
 export function generateStaticParams() {
@@ -97,7 +96,6 @@ export default async function EraPage({
           {events.map((event) => {
             const categoryLabel = getCategoryLabel(event.category);
             const categoryColor = getCategoryColor(event.category);
-            const categoryIcon = CATEGORY_ICONS[event.category];
             const truncatedSummary =
               event.summary.length > 80
                 ? event.summary.slice(0, 80) + '...'
@@ -130,9 +128,6 @@ export default async function EraPage({
                     variant="category"
                     style={{ backgroundColor: categoryColor }}
                   >
-                    <span aria-hidden="true" className="mr-1">
-                      {categoryIcon}
-                    </span>
                     {categoryLabel}
                   </Badge>
                 </div>
