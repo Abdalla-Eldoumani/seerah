@@ -123,3 +123,33 @@ export const CATEGORY_LABELS: Record<EventCategory, string> = {
   'death': 'Death',
 };
 
+export const CATEGORY_ICONS: Record<EventCategory, string> = {
+  'historical-context': '📜',
+  'birth': '⭐',
+  'childhood': '🌱',
+  'miracle': '✨',
+  'loss': '🕊️',
+  'journey': '🐪',
+  'society': '🤝',
+  'livelihood': '🐑',
+  'marriage': '💍',
+  'spiritual': '🌙',
+  'revelation': '📖',
+  'confirmation': '✅',
+  'dawah': '📢',
+  'education': '🏫',
+  'persecution': '⛓️',
+  'migration': '🚶',
+  'conversion': '❤️',
+  'plot': '⚔️',
+  'pledge': '🤲',
+  'establishment': '🏗️',
+  'community': '👥',
+  'legislation': '⚖️',
+  'battle': '🛡️',
+  'treaty': '📋',
+  'conquest': '🏴',
+  'pilgrimage': '🕋',
+  'death': '🕯️',
+};
+
