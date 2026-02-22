@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { getCategoryLabel, getCategoryColor } from '@/lib/utils';
-import { CATEGORY_ICONS, type SeerahEvent, type EraId } from '@/types/seerah';
+import type { SeerahEvent, EraId } from '@/types/seerah';
 
 interface TimelineNodeProps {
   event: SeerahEvent;
@@ -11,7 +11,6 @@ interface TimelineNodeProps {
 
 export default function TimelineNode({ event, eraId, index }: TimelineNodeProps) {
   const isEven = index % 2 === 0;
-  const categoryIcon = CATEGORY_ICONS[event.category];
   const categoryLabel = getCategoryLabel(event.category);
   const categoryColor = getCategoryColor(event.category);
 
@@ -63,9 +62,6 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
       >
         {/* Category badge */}
         <div className="flex items-center gap-2 mb-2">
-          <span className="text-sm" aria-hidden="true">
-            {categoryIcon}
-          </span>
           <span
             className="text-xs font-body uppercase tracking-wider"
             style={{ color: categoryColor }}
