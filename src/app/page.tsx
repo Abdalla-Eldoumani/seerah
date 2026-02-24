@@ -75,22 +75,22 @@ export default function HomePage() {
 
       {/* Decorative gold corner accents */}
       <div
-        className="absolute top-8 left-8 w-16 h-16 border-t-2 border-l-2 rounded-tl-sm"
+        className="absolute top-4 left-4 w-10 h-10 sm:top-6 sm:left-6 sm:w-12 sm:h-12 md:top-8 md:left-8 md:w-16 md:h-16 border-t-2 border-l-2 rounded-tl-sm"
         style={{ borderColor: 'var(--color-gold)', opacity: 0.3 }}
         aria-hidden="true"
       />
       <div
-        className="absolute top-8 right-8 w-16 h-16 border-t-2 border-r-2 rounded-tr-sm"
+        className="absolute top-4 right-4 w-10 h-10 sm:top-6 sm:right-6 sm:w-12 sm:h-12 md:top-8 md:right-8 md:w-16 md:h-16 border-t-2 border-r-2 rounded-tr-sm"
         style={{ borderColor: 'var(--color-gold)', opacity: 0.3 }}
         aria-hidden="true"
       />
       <div
-        className="absolute bottom-8 left-8 w-16 h-16 border-b-2 border-l-2 rounded-bl-sm"
+        className="absolute bottom-4 left-4 w-10 h-10 sm:bottom-6 sm:left-6 sm:w-12 sm:h-12 md:bottom-8 md:left-8 md:w-16 md:h-16 border-b-2 border-l-2 rounded-bl-sm"
         style={{ borderColor: 'var(--color-gold)', opacity: 0.3 }}
         aria-hidden="true"
       />
       <div
-        className="absolute bottom-8 right-8 w-16 h-16 border-b-2 border-r-2 rounded-br-sm"
+        className="absolute bottom-4 right-4 w-10 h-10 sm:bottom-6 sm:right-6 sm:w-12 sm:h-12 md:bottom-8 md:right-8 md:w-16 md:h-16 border-b-2 border-r-2 rounded-br-sm"
         style={{ borderColor: 'var(--color-gold)', opacity: 0.3 }}
         aria-hidden="true"
       />
@@ -139,7 +139,7 @@ export default function HomePage() {
         {/* Decorative divider */}
         <div className="flex items-center justify-center gap-4 mb-8" aria-hidden="true">
           <div
-            className="flex-1 max-w-[100px] h-px"
+            className="flex-1 max-w-[60px] sm:max-w-[80px] md:max-w-[100px] h-px"
             style={{
               background:
                 'linear-gradient(to right, transparent, var(--color-gold))',
@@ -150,7 +150,7 @@ export default function HomePage() {
             style={{ backgroundColor: 'var(--color-gold)' }}
           />
           <div
-            className="flex-1 max-w-[100px] h-px"
+            className="flex-1 max-w-[60px] sm:max-w-[80px] md:max-w-[100px] h-px"
             style={{
               background:
                 'linear-gradient(to left, transparent, var(--color-gold))',
