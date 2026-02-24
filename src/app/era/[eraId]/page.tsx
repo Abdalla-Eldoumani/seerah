@@ -93,7 +93,7 @@ export default async function EraPage({
           {events.length} Events in This Era
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {events.map((event) => {
             const categoryLabel = getCategoryLabel(event.category);
             const categoryColor = getCategoryColor(event.category);
