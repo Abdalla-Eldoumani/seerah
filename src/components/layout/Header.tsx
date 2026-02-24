@@ -14,7 +14,7 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-40 bg-parchment/95 backdrop-blur-sm border-b border-gold/20">
-      <nav className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      <nav className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Site name */}
           <Link
@@ -41,7 +41,7 @@ export function Header() {
           {/* Mobile hamburger button */}
           <button
             type="button"
-            className="sm:hidden p-2 text-ink-light hover:text-gold-dark transition-colors"
+            className="sm:hidden p-2.5 min-h-[44px] min-w-[44px] flex items-center justify-center text-ink-light hover:text-gold-dark transition-colors"
             onClick={() => setMobileMenuOpen((prev) => !prev)}
             aria-expanded={mobileMenuOpen}
             aria-label={mobileMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
@@ -83,7 +83,7 @@ export function Header() {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="block font-display text-sm tracking-widest uppercase text-ink-light hover:text-gold-dark transition-colors"
+                  className="block py-2 font-display text-sm tracking-widest uppercase text-ink-light hover:text-gold-dark transition-colors"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {link.label}
