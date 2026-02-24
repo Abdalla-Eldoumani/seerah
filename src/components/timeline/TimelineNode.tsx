@@ -24,7 +24,7 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
   return (
     <div
       className={cn(
-        'relative mb-10 md:mb-14',
+        'timeline-node relative mb-10 sm:mb-12 md:mb-14',
         // On mobile: always left-aligned with padding for the spine dot
         'pl-12 md:pl-0',
         // On desktop: alternate sides
