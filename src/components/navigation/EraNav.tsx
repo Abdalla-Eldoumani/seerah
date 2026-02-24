@@ -27,7 +27,7 @@ const ERA_LINKS: { id: EraId; label: string; href: string }[] = [
 export default function EraNav({ currentEra }: EraNavProps) {
   return (
     <nav aria-label="Era navigation" className="flex justify-center">
-      <ul className="flex items-center gap-1 md:gap-2 flex-wrap justify-center">
+      <ul className="flex items-center gap-1 sm:gap-1.5 md:gap-2 flex-wrap justify-center">
         {ERA_LINKS.map((era) => {
           const isActive = currentEra === era.id;
           return (
@@ -35,7 +35,7 @@ export default function EraNav({ currentEra }: EraNavProps) {
               <Link
                 href={era.href}
                 className={cn(
-                  'inline-block px-4 py-2 rounded-md text-sm md:text-base font-display transition-colors duration-200',
+                  'inline-block px-4 py-2.5 rounded-md text-sm sm:text-sm md:text-base font-display transition-colors duration-200',
                   isActive
                     ? 'bg-gold text-ink shadow-sm'
                     : 'text-ink-light hover:bg-parchment-dark hover:text-ink'
