@@ -81,7 +81,7 @@ export default async function EventPage({
 
   return (
     <main className="min-h-screen bg-parchment pb-24">
-      <Container className="pt-8 md:pt-12">
+      <Container className="pt-6 sm:pt-8 md:pt-12">
         {/* Breadcrumb navigation */}
         <Breadcrumb
           items={[
