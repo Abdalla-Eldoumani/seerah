@@ -1,0 +1,106 @@
+{
+  "site": {
+    "name": "نور السيرة",
+    "subtitle": "نور السيرة النبوية",
+    "tagline": "رحلة تفاعلية في حياة النبي محمد ﷺ",
+    "description": "تسعة وأربعون حدثاً رئيسياً من حياة النبي محمد ﷺ، مستقاةٌ من المصادر الإسلامية الموثّقة."
+  },
+  "nav": {
+    "timeline": "الخط الزمني",
+    "about": "عن المشروع",
+    "openMenu": "فتح قائمة التنقّل",
+    "closeMenu": "إغلاق قائمة التنقّل",
+    "switchToArabic": "العربية",
+    "switchToEnglish": "English"
+  },
+  "home": {
+    "ctaPrimary": "ابدأ الرحلة",
+    "ctaSecondary": "عن المشروع"
+  },
+  "timeline": {
+    "title": "الخط الزمني",
+    "subtitle": "تسعة وأربعون حدثاً عبر ثلاث حقب، من سنة ٥٧١م إلى ٦٣٢م.",
+    "metaTitle": "الخط الزمني",
+    "metaDescription": "استعرض الخط الزمني الكامل لحياة النبي محمد ﷺ عبر الحقب الثلاث."
+  },
+  "era": {
+    "eventsCountSingular": "حدثٌ واحد في هذه الحقبة",
+    "eventsCountPlural": "{count} أحداث في هذه الحقبة",
+    "names": {
+      "pre-prophethood": "قبل البعثة",
+      "meccan": "العهد المكّي",
+      "medinan": "العهد المدني"
+    }
+  },
+  "event": {
+    "summaryHeading": "ملخّص الحدث",
+    "significanceHeading": "أهمّية الحدث",
+    "quranHeading": "الآيات القرآنية",
+    "hadithHeading": "الأحاديث النبوية",
+    "keyFiguresHeading": "أبرز الشخصيات",
+    "primarySourcesHeading": "المصادر الأصلية",
+    "narratedBy": "الراوي",
+    "navPrev": "السابق",
+    "navNext": "التالي",
+    "surah": "سورة",
+    "translationLabel": "الترجمة"
+  },
+  "breadcrumb": {
+    "home": "الرئيسية"
+  },
+  "about": {
+    "title": "عن نور السيرة",
+    "purposeHeading": "الغاية",
+    "purposeBody": "نور السيرة تجربةٌ تفاعلية على الويب لدراسة حياة النبي محمد ﷺ، تعرض تسعةً وأربعين حدثاً رئيسياً عبر ثلاث حقب تاريخية، مستقاةً بالكامل من محتوى موثّق مسبقاً في المصادر الإسلامية المعتمدة.",
+    "sourcesHeading": "المصادر",
+    "hadithCollectionsHeading": "كتب الحديث",
+    "seerahWorksHeading": "كتب السيرة",
+    "additionalSourcesHeading": "مصادر أخرى",
+    "methodologyHeading": "المنهجية",
+    "methodologyBody": "اعتُمد كتاب الرحيق المختوم إطاراً زمنياً رئيسياً لتحديد الأحداث، ثم قورنت مع كتب الحديث الكبرى، وتُحقّق منها في كتب التفسير. ولم تُستشهد إلا الأحاديث الصحيحة والحسنة. وتتبع التواريخ رأي جمهور العلماء.",
+    "differencesHeading": "اختلاف العلماء",
+    "differencesBody": "تختلف بعض التواريخ بين العلماء، ويتبع هذا المشروع الآراء الأكثر شيوعاً في المصادر المذكورة أعلاه. ويُشجَّع القرّاء على الدراسة على أيدي العلماء المؤهّلين والرجوع إلى المصادر الأصلية لمزيدٍ من التعمّق.",
+    "sadaqahHeading": "صدقة جارية",
+    "sadaqahBody": "نُويت بهذا المشروع الصدقة الجارية. نسأل الله أن يتقبّل هذا العمل وأن يجعله نافعاً للأمّة."
+  },
+  "footer": {
+    "copyright": "© {year} نور السيرة",
+    "verifiedNote": "محتوى موثّق من مصادر إسلامية معتمدة",
+    "sourcesLink": "المصادر والمشروع"
+  },
+  "notFound": {
+    "title": "الصفحة غير موجودة",
+    "body": "الصفحة التي تبحث عنها غير موجودة. ربما نُقلت أو يكون المسار خاطئاً.",
+    "ctaHome": "العودة إلى الرئيسية",
+    "ctaTimeline": "عرض الخط الزمني"
+  },
+  "categories": {
+    "historical-context": "سياق تاريخي",
+    "birth": "ميلاد",
+    "childhood": "طفولة",
+    "miracle": "معجزة",
+    "loss": "فقد",
+    "journey": "رحلة",
+    "society": "مجتمع",
+    "livelihood": "معيشة",
+    "marriage": "زواج",
+    "spiritual": "تعبّد",
+    "revelation": "وحي",
+    "confirmation": "تصديق",
+    "dawah": "دعوة",
+    "education": "تعليم",
+    "persecution": "اضطهاد",
+    "migration": "هجرة",
+    "conversion": "إسلام",
+    "plot": "مؤامرة",
+    "pledge": "بيعة",
+    "establishment": "تأسيس",
+    "community": "بناء المجتمع",
+    "legislation": "تشريع",
+    "battle": "غزوة",
+    "treaty": "معاهدة",
+    "conquest": "فتح",
+    "pilgrimage": "حج",
+    "death": "وفاة"
+  }
+}
