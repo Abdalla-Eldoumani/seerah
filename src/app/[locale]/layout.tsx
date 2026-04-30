@@ -81,11 +81,19 @@ export default async function LocaleLayout({
   }
   setRequestLocale(locale);
 
+  // Load only the fonts each locale actually renders. Latin pages skip the
+  // Plex Arabic UI face. Arabic pages skip Cormorant Garamond and Source Serif.
+  // Amiri is loaded everywhere because Quranic verses render in Amiri regardless of locale.
+  const fontClass =
+    locale === 'ar'
+      ? `${amiri.variable} ${ibmPlexSansArabic.variable}`
+      : `${amiri.variable} ${cormorantGaramond.variable} ${sourceSerif4.variable}`;
+
   return (
     <html
       lang={locale}
       dir={localeDirection[locale]}
-      className={`${amiri.variable} ${cormorantGaramond.variable} ${sourceSerif4.variable} ${ibmPlexSansArabic.variable}`}
+      className={fontClass}
     >
       <body className="min-h-screen flex flex-col">
         <NextIntlClientProvider>
