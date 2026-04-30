@@ -1,32 +1,38 @@
 'use client';
 
 import { useState } from 'react';
-import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 import { cn } from '@/lib/utils';
+import { Link } from '@/i18n/navigation';
+import type { Locale } from '@/i18n/routing';
+import LanguageSwitcher from '@/components/navigation/LanguageSwitcher';
 
-const NAV_LINKS = [
-  { label: 'Timeline', href: '/timeline' },
-  { label: 'About', href: '/about' },
-] as const;
+interface HeaderProps {
+  locale: Locale;
+}
 
-export function Header() {
+export function Header({ locale }: HeaderProps) {
+  const t = useTranslations();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const navLinks = [
+    { label: t('nav.timeline'), href: '/timeline' },
+    { label: t('nav.about'), href: '/about' },
+  ];
 
   return (
     <header className="sticky top-0 z-40 bg-parchment/95 backdrop-blur-sm border-b border-gold/20">
       <nav className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
-          {/* Site name */}
           <Link
             href="/"
             className="font-display text-xl sm:text-2xl font-semibold text-ink tracking-wide hover:text-gold-dark transition-colors"
           >
-            Noor al-Seerah
+            {t('site.name')}
           </Link>
 
-          {/* Desktop nav */}
           <ul className="hidden sm:flex items-center gap-8">
-            {NAV_LINKS.map((link) => (
+            {navLinks.map((link) => (
               <li key={link.href}>
                 <Link
                   href={link.href}
@@ -36,15 +42,17 @@ export function Header() {
                 </Link>
               </li>
             ))}
+            <li>
+              <LanguageSwitcher locale={locale} />
+            </li>
           </ul>
 
-          {/* Mobile hamburger button */}
           <button
             type="button"
             className="sm:hidden p-2.5 min-h-[44px] min-w-[44px] flex items-center justify-center text-ink-light hover:text-gold-dark transition-colors"
             onClick={() => setMobileMenuOpen((prev) => !prev)}
             aria-expanded={mobileMenuOpen}
-            aria-label={mobileMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
+            aria-label={mobileMenuOpen ? t('nav.closeMenu') : t('nav.openMenu')}
           >
             <svg
               className="h-6 w-6"
@@ -71,15 +79,14 @@ export function Header() {
           </button>
         </div>
 
-        {/* Mobile nav menu */}
         <div
           className={cn(
             'sm:hidden overflow-hidden transition-all duration-200 ease-in-out',
-            mobileMenuOpen ? 'max-h-40 pb-4' : 'max-h-0'
+            mobileMenuOpen ? 'max-h-48 pb-4' : 'max-h-0'
           )}
         >
           <ul className="flex flex-col gap-3 border-t border-gold/10 pt-4">
-            {NAV_LINKS.map((link) => (
+            {navLinks.map((link) => (
               <li key={link.href}>
                 <Link
                   href={link.href}
@@ -90,6 +97,9 @@ export function Header() {
                 </Link>
               </li>
             ))}
+            <li className="py-2">
+              <LanguageSwitcher locale={locale} />
+            </li>
           </ul>
         </div>
       </nav>
