@@ -97,14 +97,46 @@ export default async function EventPage({
       }
     : null;
 
+  const eventTitle = isAr ? event.titleArabic : event.title;
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: eventTitle,
+    description: event.summary.slice(0, 200),
+    inLanguage: locale === 'ar' ? 'ar-SA' : 'en-US',
+    author: { '@type': 'Organization', name: 'Noor al-Seerah Project' },
+    publisher: { '@type': 'Organization', name: 'Noor al-Seerah Project' },
+    mainEntityOfPage: pageUrl(locale, `/era/${era.id}/${event.id}`),
+    isBasedOn: event.primarySources,
+  };
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: tBreadcrumb('home'), item: pageUrl(locale, '/') },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: tEra(eraId),
+        item: pageUrl(locale, `/era/${era.id}`),
+      },
+      { '@type': 'ListItem', position: 3, name: eventTitle },
+    ],
+  };
+  // Encode `<` defensively so the JSON cannot terminate the surrounding script element.
+  const articleJson = JSON.stringify(articleSchema).replace(/</g, '\\u003c');
+  const breadcrumbJson = JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c');
+
   return (
     <main className="min-h-screen bg-parchment pb-24">
+      <script type="application/ld+json">{articleJson}</script>
+      <script type="application/ld+json">{breadcrumbJson}</script>
       <Container className="pt-6 sm:pt-8 md:pt-12">
         <Breadcrumb
           items={[
             { label: tBreadcrumb('home'), href: '/' },
             { label: tEra(eraId), href: `/era/${era.id}` },
-            { label: isAr ? event.titleArabic : event.title },
+            { label: eventTitle },
           ]}
         />
 
