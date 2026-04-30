@@ -1,25 +1,56 @@
 @import "tailwindcss";
 
-:root {
-  /* Primary — Deep manuscript tones */
+@theme {
+  /* Colour palette: parchment surface, ink text, warm gold accent, deep midnight anchor. */
   --color-parchment: #f5efe0;
   --color-parchment-dark: #e8dcc8;
-  --color-ink: #1a1a1a;
+  --color-parchment-deep: #ddcfb4;
+
+  --color-ink: #14110a;
   --color-ink-light: #3d3628;
+  --color-ink-soft: #5e5641;
 
-  /* Gold — Islamic art inspiration */
-  --color-gold: #c9a84c;
-  --color-gold-light: #e2c87a;
-  --color-gold-dark: #8b6914;
+  --color-gold: #b88a2a;
+  --color-gold-light: #d8b25a;
+  --color-gold-dark: #7a5b13;
 
-  /* Era-specific accent colors */
-  --color-era-pre: #1a3a2a;
+  --color-midnight: #0d1b2a;
+  --color-midnight-light: #1c2d44;
+
+  --color-era-pre: #1f3a2a;
   --color-era-meccan: #1a1a2e;
   --color-era-medinan: #0d1b2a;
 
-  /* Accents */
-  --color-accent-red: #8b2020;
+  --color-accent-red: #762020;
   --color-accent-green: #2d5a27;
+
+  /* Typographic scale (fluid via clamp). */
+  --text-display: clamp(2.75rem, 1.6rem + 4vw, 5rem);
+  --text-display--line-height: 1.05;
+  --text-h1: clamp(2rem, 1.4rem + 2.4vw, 3.5rem);
+  --text-h1--line-height: 1.1;
+  --text-h2: clamp(1.5rem, 1.2rem + 1.4vw, 2.25rem);
+  --text-h2--line-height: 1.2;
+  --text-h3: clamp(1.25rem, 1.1rem + 0.8vw, 1.625rem);
+  --text-h3--line-height: 1.3;
+  --text-lead: clamp(1.0625rem, 1rem + 0.4vw, 1.25rem);
+  --text-lead--line-height: 1.6;
+  --text-body: 1rem;
+  --text-body--line-height: 1.65;
+  --text-meta: 0.875rem;
+  --text-meta--line-height: 1.5;
+  --text-small: 0.75rem;
+  --text-small--line-height: 1.4;
+
+  /* Font families. */
+  --font-arabic: var(--font-amiri), "Amiri", "Noto Naskh Arabic", serif;
+  --font-display: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  --font-body: var(--font-source-serif), "Source Serif 4", Georgia, serif;
+
+  /* Motion tokens. */
+  --ease-soft: cubic-bezier(0.32, 0.72, 0.21, 1);
+  --duration-quick: 160ms;
+  --duration-slow: 280ms;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -30,203 +61,153 @@
 
 @layer base {
   body {
-    @apply text-ink bg-parchment;
-    font-family: var(--font-source-serif), Georgia, 'Times New Roman', serif;
-    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    background-color: var(--color-parchment);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.025'/%3E%3C/svg%3E");
     background-repeat: repeat;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-cormorant), 'Cormorant Garamond', Georgia, serif;
-    @apply text-ink;
-  }
-
-  h1 {
-    @apply text-4xl md:text-5xl lg:text-6xl font-bold leading-tight;
-  }
-
-  h2 {
-    @apply text-3xl md:text-4xl font-semibold leading-snug;
-  }
-
-  h3 {
-    @apply text-2xl md:text-3xl font-medium;
-  }
-
-  p {
-    @apply leading-relaxed text-ink-light;
+    font-family: var(--font-display);
+    color: var(--color-ink);
   }
 
   ::selection {
     background-color: var(--color-gold-light);
     color: var(--color-ink);
   }
-}
 
-@layer components {
-  /* Arabic text utility */
-  .arabic-text {
-    direction: rtl;
-    font-family: var(--font-amiri), 'Amiri', serif;
-    line-height: 2;
-    font-size: 1.5em;
-    text-align: center;
-  }
-
-  /* Quran verse block */
-  .quran-verse {
-    background: var(--color-parchment-dark);
-    border-left: 4px solid var(--color-gold);
-    padding: 2rem;
-    margin: 2rem 0;
-    border-radius: 4px;
-    position: relative;
-  }
-
-  .quran-verse::before {
-    content: '\FDFD';
-    position: absolute;
-    top: -0.5rem;
-    right: 1rem;
-    font-size: 1.5rem;
-    color: var(--color-gold);
-    opacity: 0.4;
-  }
-
-  .quran-verse .arabic-text {
-    font-size: 1.75em;
-    line-height: 2.2;
-    color: var(--color-ink);
-    margin-bottom: 0.75rem;
-  }
-
-  .quran-verse .citation {
-    @apply text-sm font-medium;
-    color: var(--color-gold-dark);
-    text-align: center;
-    margin: 0.75rem 0;
-  }
-
-  .quran-verse .translation {
-    @apply text-base italic;
-    color: var(--color-ink-light);
-    text-align: center;
-    font-family: var(--font-source-serif), Georgia, serif;
-    max-width: 60ch;
-    margin: 0 auto;
-  }
-
-  /* Hadith block */
-  .hadith-block {
-    background: color-mix(in srgb, var(--color-era-medinan) 5%, white);
-    border-left: 3px solid var(--color-gold-dark);
-    padding: 1.5rem;
-    margin: 1.5rem 0;
-    border-radius: 4px;
-  }
-
-  .hadith-block .source {
-    @apply text-sm font-semibold tracking-wide uppercase;
-    color: var(--color-gold-dark);
-    margin-bottom: 0.25rem;
-  }
-
-  .hadith-block .narrator {
-    @apply text-sm italic;
-    color: var(--color-ink-light);
-    margin-bottom: 0.75rem;
-  }
-
-  .hadith-block .text {
-    @apply text-base leading-relaxed;
-    color: var(--color-ink-light);
-    font-family: var(--font-source-serif), Georgia, serif;
-  }
-
-  /* Drop cap for event summaries */
-  .drop-cap::first-letter {
-    font-family: var(--font-cormorant), 'Cormorant Garamond', serif;
-    float: left;
-    font-size: 3.5em;
-    line-height: 0.8;
-    padding-right: 0.1em;
-    padding-top: 0.05em;
-    color: var(--color-gold-dark);
-    font-weight: 700;
-  }
-
-  /* Decorative divider */
-  .divider {
-    @apply flex items-center justify-center gap-4 my-8;
-  }
-
-  .divider::before,
-  .divider::after {
-    content: '';
-    @apply flex-1 h-px;
-    background: linear-gradient(
-      to var(--direction, right),
-      transparent,
-      var(--color-gold),
-      transparent
-    );
-  }
-
-  .divider::before {
-    --direction: right;
-  }
-
-  .divider::after {
-    --direction: left;
-  }
-
-  /* Reading progress bar */
-  .reading-progress {
-    @apply fixed top-0 left-0 h-1 z-50;
-    background: linear-gradient(to right, var(--color-gold-dark), var(--color-gold), var(--color-gold-light));
-    transition: width 50ms linear;
+  :focus-visible {
+    outline: 2px solid var(--color-midnight);
+    outline-offset: 3px;
+    border-radius: 2px;
   }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-
-  .gpu {
-    transform: translateZ(0);
-    will-change: transform;
-  }
+/* Arabic content. Used inside any element that holds rendered Arabic text. */
+.arabic-text {
+  direction: rtl;
+  font-family: var(--font-arabic);
+  line-height: 1.9;
+  font-size: 1.35em;
+  text-align: center;
 }
 
-/* Optimize paint for fixed elements */
-.reading-progress,
-[class*="fixed"] {
-  contain: layout style;
+/* Quran verse: editorial blockquote with hairline gold rules. No card. */
+.quran-verse {
+  margin: 2.25rem auto;
+  padding: 1.75rem 0;
+  border-top: 1px solid color-mix(in oklab, var(--color-gold) 60%, transparent);
+  border-bottom: 1px solid color-mix(in oklab, var(--color-gold) 60%, transparent);
+  max-width: 60ch;
+  text-align: center;
 }
 
-/* Isolate timeline node layout calculations */
-.timeline-node {
-  contain: content;
+.quran-verse .arabic-text {
+  font-size: 1.6em;
+  line-height: 2;
+  color: var(--color-ink);
+  margin-bottom: 1rem;
 }
 
-/* Constrain paragraph width in reading content */
+.quran-verse .citation {
+  font-size: 0.8125rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-gold-dark);
+  margin: 0.75rem 0;
+}
+
+.quran-verse .translation {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-ink-light);
+  font-family: var(--font-body);
+  max-width: 56ch;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+/* Hadith: quiet treatment, no tinted background. */
+.hadith-block {
+  margin: 1.75rem 0;
+  padding: 1rem 0 1rem 1.25rem;
+  border-inline-start: 2px solid color-mix(in oklab, var(--color-gold-dark) 70%, transparent);
+}
+
+.hadith-block .source {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-gold-dark);
+  margin-bottom: 0.25rem;
+}
+
+.hadith-block .narrator {
+  font-size: 0.875rem;
+  font-style: italic;
+  color: var(--color-ink-soft);
+  margin-bottom: 0.75rem;
+}
+
+.hadith-block .text {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-ink-light);
+  font-family: var(--font-body);
+}
+
+/* Drop cap: smaller than before, no bold, gold colour. */
+.drop-cap::first-letter {
+  font-family: var(--font-display);
+  float: inline-start;
+  font-size: 2.4em;
+  line-height: 0.9;
+  padding-inline-end: 0.08em;
+  padding-block-start: 0.05em;
+  color: var(--color-gold-dark);
+  font-weight: 500;
+}
+
+/* Decorative divider with two hairline rules. */
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-block: 2rem;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to var(--direction, right),
+    transparent,
+    color-mix(in oklab, var(--color-gold) 80%, transparent),
+    transparent
+  );
+}
+
+.divider::before { --direction: right; }
+.divider::after  { --direction: left; }
+
+/* Constrain reading content. */
 .reading-content p,
 .drop-cap {
   max-width: 70ch;
 }
 
-/* Optimize font rendering */
-body {
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* Print styles */
+/* Print sheet: legible, ornament-free. */
 @media print {
   header, footer, nav,
-  .reading-progress,
   [role="progressbar"] {
     display: none !important;
   }
@@ -235,25 +216,35 @@ body {
     background: white !important;
     background-image: none !important;
     color: black !important;
+    font-size: 11pt;
+    line-height: 1.5;
   }
 
-  .quran-verse {
-    border-left-color: #333 !important;
-    break-inside: avoid;
-  }
-
+  .quran-verse,
   .hadith-block {
-    border-left-color: #666 !important;
     break-inside: avoid;
+    page-break-inside: avoid;
+    border-color: #444 !important;
   }
 
-  a[href]::after {
+  .drop-cap::first-letter {
+    color: #333 !important;
+  }
+
+  a[href^="http"]::after {
     content: " (" attr(href) ")";
-    font-size: 0.8em;
-    color: #666;
+    font-size: 0.85em;
+    color: #555;
   }
+}
 
-  a[href^="/"]::after {
-    content: none;
+/* Performance: contain layout for fixed and timeline elements. */
+.timeline-node {
+  contain: content;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
   }
 }
