@@ -1,0 +1,106 @@
+{
+  "site": {
+    "name": "Noor al-Seerah",
+    "subtitle": "The Light of the Biography",
+    "tagline": "An interactive journey through the life of Prophet Muhammad ﷺ",
+    "description": "Forty-nine key events from the life of Prophet Muhammad ﷺ, drawn from authenticated Islamic sources."
+  },
+  "nav": {
+    "timeline": "Timeline",
+    "about": "About",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "switchToArabic": "العربية",
+    "switchToEnglish": "English"
+  },
+  "home": {
+    "ctaPrimary": "Begin the journey",
+    "ctaSecondary": "About this project"
+  },
+  "timeline": {
+    "title": "The Timeline",
+    "subtitle": "Forty-nine events across three eras, from 571 to 632 CE.",
+    "metaTitle": "Timeline",
+    "metaDescription": "Explore the complete timeline of the life of Prophet Muhammad ﷺ across three eras."
+  },
+  "era": {
+    "eventsCountSingular": "{count} event in this era",
+    "eventsCountPlural": "{count} events in this era",
+    "names": {
+      "pre-prophethood": "Before the Light",
+      "meccan": "The Light in the Darkness",
+      "medinan": "The Dawn of a Civilisation"
+    }
+  },
+  "event": {
+    "summaryHeading": "Summary",
+    "significanceHeading": "Why this matters",
+    "quranHeading": "Quran references",
+    "hadithHeading": "Hadith references",
+    "keyFiguresHeading": "Key figures",
+    "primarySourcesHeading": "Primary sources",
+    "narratedBy": "Narrated by",
+    "navPrev": "Previous",
+    "navNext": "Next",
+    "surah": "Surah",
+    "translationLabel": "Translation"
+  },
+  "breadcrumb": {
+    "home": "Home"
+  },
+  "about": {
+    "title": "About Noor al-Seerah",
+    "purposeHeading": "Purpose",
+    "purposeBody": "Noor al-Seerah is an interactive web experience for learning the life of Prophet Muhammad ﷺ. It presents forty-nine key events across three historical eras, drawn entirely from pre-verified content in authenticated Islamic sources.",
+    "sourcesHeading": "Sources",
+    "hadithCollectionsHeading": "Hadith collections",
+    "seerahWorksHeading": "Seerah works",
+    "additionalSourcesHeading": "Additional sources",
+    "methodologyHeading": "Methodology",
+    "methodologyBody": "Events were identified using Ar-Raheeq Al-Makhtum as the primary chronological framework, cross-referenced with the major hadith collections, and verified against tafsir literature. Only sahih and hasan narrations are cited. Dates follow the majority scholarly opinion.",
+    "differencesHeading": "Scholarly differences",
+    "differencesBody": "Some dates differ among scholars. This project follows the most commonly cited opinions in the sources listed above. Readers are encouraged to study under qualified scholars and consult original sources for deeper understanding.",
+    "sadaqahHeading": "Sadaqah Jariyah",
+    "sadaqahBody": "This project is intended as sadaqah jariyah, an ongoing charity. We ask Allah to accept this effort and make it a source of benefit."
+  },
+  "footer": {
+    "copyright": "© {year} Noor al-Seerah",
+    "verifiedNote": "Content verified from authenticated Islamic sources",
+    "sourcesLink": "Sources and about"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you are looking for does not exist. It may have been moved, or the path may be incorrect.",
+    "ctaHome": "Return home",
+    "ctaTimeline": "View timeline"
+  },
+  "categories": {
+    "historical-context": "Historical context",
+    "birth": "Birth",
+    "childhood": "Childhood",
+    "miracle": "Miracle",
+    "loss": "Loss",
+    "journey": "Journey",
+    "society": "Society",
+    "livelihood": "Livelihood",
+    "marriage": "Marriage",
+    "spiritual": "Devotion",
+    "revelation": "Revelation",
+    "confirmation": "Confirmation",
+    "dawah": "Da'wah",
+    "education": "Education",
+    "persecution": "Persecution",
+    "migration": "Migration",
+    "conversion": "Acceptance of Islam",
+    "plot": "Plot against Islam",
+    "pledge": "Pledge of allegiance",
+    "establishment": "Establishment",
+    "community": "Community building",
+    "legislation": "Legislation",
+    "battle": "Expedition",
+    "treaty": "Treaty",
+    "conquest": "Conquest",
+    "pilgrimage": "Pilgrimage",
+    "death": "Passing"
+  }
+}
