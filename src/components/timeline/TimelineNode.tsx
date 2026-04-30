@@ -22,10 +22,14 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
   const categoryColor = getCategoryColor(event.category);
   const dateLine = formatEventDate(event, locale);
 
+  const summarySource =
+    isAr && event.summaryArabic ? event.summaryArabic : event.summary;
+  const summaryLang = isAr && event.summaryArabic ? 'ar' : 'en';
+  const summaryDir = summaryLang === 'ar' ? 'rtl' : 'ltr';
   const truncatedSummary =
-    event.summary.length > 100
-      ? event.summary.slice(0, 100).replace(/\s+\S*$/, '') + '...'
-      : event.summary;
+    summarySource.length > 100
+      ? summarySource.slice(0, 100).replace(/\s+\S*$/, '') + '...'
+      : summarySource;
 
   return (
     <div
@@ -96,12 +100,15 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
           {dateLine}
         </p>
 
-        {/* English summary preview hidden on /ar; Arabic site shows title, date, location only. */}
-        {!isAr && (
-          <p className="text-sm font-body text-ink-light leading-relaxed mt-3">
-            {truncatedSummary}
-          </p>
-        )}
+        <p
+          lang={summaryLang}
+          dir={summaryDir}
+          className={`text-sm text-ink-light leading-relaxed mt-3 ${
+            summaryLang === 'ar' ? '' : 'font-body'
+          }`}
+        >
+          {truncatedSummary}
+        </p>
 
         {event.location && (
           <p className="text-xs font-body text-ink-light/60 mt-3">
