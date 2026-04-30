@@ -45,6 +45,11 @@ export interface HadithReference {
   hadithNumber: string;
   narrator: string;
   textEnglish: string;
+  // Optional. When populated from a verified source (e.g. Sunnah.com Arabic
+  // text for Bukhari/Muslim), the Arabic site will render this instead of
+  // the English translation. Only ever populated by humans from verified
+  // sources, never generated.
+  textArabic?: string;
 }
 
 export interface SeerahEvent {
@@ -56,7 +61,13 @@ export interface SeerahEvent {
   month: string;
   category: EventCategory;
   summary: string;
+  // Optional Arabic version of the summary, populated by humans from a
+  // verified source (e.g. the Arabic edition of Ar-Raheeq Al-Makhtum).
+  // The Arabic site renders this when present, otherwise falls back to
+  // the English summary with explicit lang/dir markup.
+  summaryArabic?: string;
   significance: string;
+  significanceArabic?: string;
   quranReferences: QuranReference[];
   hadithReferences: HadithReference[];
   primarySources: string[];
@@ -70,6 +81,9 @@ export interface EraMetadata {
   title: string;
   titleArabic: string;
   description: string;
+  // Optional Arabic version of the era description, populated by humans
+  // from a verified seerah source.
+  descriptionArabic?: string;
   timespan: string;
   timespanHijri: string;
   themeColor: string;
