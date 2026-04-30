@@ -35,6 +35,10 @@ function localizeHijriMonth(monthString: string, locale: Locale): string {
   for (const [en, ar] of Object.entries(HIJRI_MONTHS_AR)) {
     out = out.replaceAll(en, ar);
   }
+  // Strip English ordinal suffixes (20th, 21st, 2nd, 3rd) on Arabic so the
+  // result reads as a clean Arabic-script line; the digit itself remains
+  // (and gets converted to Eastern Arabic numerals below).
+  out = out.replace(/(\d+)(st|nd|rd|th)\b/g, '$1');
   return toEasternDigits(out);
 }
 
