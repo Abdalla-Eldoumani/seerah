@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { notFound } from 'next/navigation';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { amiri, cormorantGaramond, sourceSerif4 } from '@/lib/fonts';
+import { amiri, cormorantGaramond, ibmPlexSansArabic, sourceSerif4 } from '@/lib/fonts';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { routing, localeDirection, type Locale } from '@/i18n/routing';
@@ -80,7 +80,7 @@ export default async function LocaleLayout({
     <html
       lang={locale}
       dir={localeDirection[locale]}
-      className={`${amiri.variable} ${cormorantGaramond.variable} ${sourceSerif4.variable}`}
+      className={`${amiri.variable} ${cormorantGaramond.variable} ${sourceSerif4.variable} ${ibmPlexSansArabic.variable}`}
     >
       <body className="min-h-screen flex flex-col">
         <NextIntlClientProvider>
