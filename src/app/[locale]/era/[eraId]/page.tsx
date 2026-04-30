@@ -11,7 +11,7 @@ import EraNav from '@/components/navigation/EraNav';
 import { Link } from '@/i18n/navigation';
 import { getCategoryColor } from '@/config/categories';
 import { CategoryGlyph } from '@/components/icons/CategoryGlyph';
-import { formatEraTimespan, toEasternDigits } from '@/lib/dates';
+import { formatEraTimespan } from '@/lib/dates';
 import type { EraId } from '@/types/seerah';
 import { routing, type Locale } from '@/i18n/routing';
 
@@ -145,7 +145,7 @@ export default async function EraPage({
 
                 <div className="flex items-center gap-3 mb-3 flex-wrap">
                   <Badge variant="date">
-                    {isAr ? toEasternDigits(event.yearCE.replace(/\s*CE\s*$/i, '')) + ' م' : event.yearCE}
+                    {isAr ? event.yearCE.replace(/\s*CE\s*$/i, '').trim() + ' م' : event.yearCE}
                   </Badge>
                   <Badge
                     variant="category"
