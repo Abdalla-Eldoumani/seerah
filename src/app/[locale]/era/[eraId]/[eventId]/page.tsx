@@ -142,17 +142,24 @@ export default async function EventPage({
 
         <EventHero event={event} />
 
-        {/* Long-form English fields (summary, significance, hadith translation) are hidden on /ar
-            until human-authored Arabic versions exist in the JSON. The Arabic site keeps the
-            event title, date, location, Quran verse text, key figures, and primary sources. */}
-        {!isAr && (
-          <>
-            <Divider />
-            <EventSummary summary={event.summary} />
-            <Divider />
-            <EventSignificance significance={event.significance} />
-          </>
-        )}
+        <Divider />
+
+        {/* Prefer the Arabic version when an authored translation has been added
+            to the JSON; otherwise show the English text and tell the component
+            via the `lang` prop so it applies the right dir/font and bidi works. */}
+        <EventSummary
+          summary={isAr && event.summaryArabic ? event.summaryArabic : event.summary}
+          lang={isAr && event.summaryArabic ? 'ar' : 'en'}
+        />
+
+        <Divider />
+
+        <EventSignificance
+          significance={
+            isAr && event.significanceArabic ? event.significanceArabic : event.significance
+          }
+          lang={isAr && event.significanceArabic ? 'ar' : 'en'}
+        />
 
         {event.quranReferences.length > 0 && (
           <section className="my-8 md:my-12 max-w-prose mx-auto">
@@ -167,7 +174,7 @@ export default async function EventPage({
           </section>
         )}
 
-        {!isAr && event.hadithReferences.length > 0 && (
+        {event.hadithReferences.length > 0 && (
           <section className="my-8 md:my-12 max-w-prose mx-auto">
             <h2 className="font-display text-2xl md:text-3xl font-semibold text-ink mb-6">
               {tEvent('hadithHeading')}
