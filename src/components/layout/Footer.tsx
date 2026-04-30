@@ -1,26 +1,25 @@
-import Link from 'next/link';
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 
 export function Footer() {
+  const t = useTranslations();
+  const year = new Date().getFullYear();
+
   return (
     <footer className="border-t border-gold/15 mt-16">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-10">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-ink-light/70">
-          {/* Copyright */}
-          <p className="font-body">
-            &copy; {new Date().getFullYear()} Noor al-Seerah
-          </p>
+          <p className="font-body">{t('footer.copyright', { year })}</p>
 
-          {/* Center note */}
           <p className="font-body text-center text-xs max-w-xs">
-            Content verified from authenticated Islamic sources
+            {t('footer.verifiedNote')}
           </p>
 
-          {/* Links */}
           <Link
             href="/about"
             className="font-display text-xs tracking-widest uppercase hover:text-gold-dark transition-colors"
           >
-            Sources &amp; About
+            {t('footer.sourcesLink')}
           </Link>
         </div>
       </div>
