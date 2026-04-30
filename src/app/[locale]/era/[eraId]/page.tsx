@@ -11,6 +11,7 @@ import EraNav from '@/components/navigation/EraNav';
 import { Link } from '@/i18n/navigation';
 import { getCategoryColor } from '@/config/categories';
 import { CategoryGlyph } from '@/components/icons/CategoryGlyph';
+import { formatEraTimespan, toEasternDigits } from '@/lib/dates';
 import type { EraId } from '@/types/seerah';
 import { routing, type Locale } from '@/i18n/routing';
 
@@ -50,6 +51,7 @@ export default async function EraPage({
   const tEra = await getTranslations({ locale, namespace: 'era' });
   const tCategories = await getTranslations({ locale, namespace: 'categories' });
   const isAr = locale === 'ar';
+  const timespan = formatEraTimespan(era, locale as Locale);
 
   const eraTitle = tEra(`names.${eraId}`);
   const countLabel =
@@ -86,12 +88,16 @@ export default async function EraPage({
           )}
 
           <p className="font-body text-lg md:text-xl text-ink-light/70">
-            {era.timespan}
+            {timespan.primary}
             <span className="mx-2 text-gold" aria-hidden="true">
               ·
             </span>
-            <span dir="rtl" lang="ar" className="font-arabic">
-              {era.timespanHijri}
+            <span
+              dir={isAr ? 'ltr' : 'rtl'}
+              lang={isAr ? 'en' : 'ar'}
+              className={isAr ? 'font-body' : 'font-arabic'}
+            >
+              {timespan.secondary}
             </span>
           </p>
 
@@ -144,7 +150,9 @@ export default async function EraPage({
                 )}
 
                 <div className="flex items-center gap-3 mb-3 flex-wrap">
-                  <Badge variant="date">{event.yearCE}</Badge>
+                  <Badge variant="date">
+                    {isAr ? toEasternDigits(event.yearCE.replace(/\s*CE\s*$/i, '')) + ' م' : event.yearCE}
+                  </Badge>
                   <Badge
                     variant="category"
                     style={{ backgroundColor: categoryColor }}
