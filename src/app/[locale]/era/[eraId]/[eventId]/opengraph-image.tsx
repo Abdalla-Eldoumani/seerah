@@ -1,31 +1,12 @@
 import { ImageResponse } from 'next/og';
 import { getEventById, getEraMetadata } from '@/lib/data';
 import { formatEventDate } from '@/lib/dates';
-import { getAllEras, getEventsByEra } from '@/lib/data';
-import { routing, type Locale } from '@/i18n/routing';
+import type { Locale } from '@/i18n/routing';
 import type { EraId } from '@/types/seerah';
 
+export const alt = 'Noor al-Seerah event';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
-
-export const alt = 'Noor al-Seerah event';
-
-export function generateImageMetadata() {
-  return [{ id: 'og', alt }];
-}
-
-export function generateStaticParams() {
-  const eras = getAllEras();
-  const params: { locale: string; eraId: string; eventId: string }[] = [];
-  for (const locale of routing.locales) {
-    for (const era of eras) {
-      for (const event of getEventsByEra(era.id)) {
-        params.push({ locale, eraId: era.id, eventId: event.id });
-      }
-    }
-  }
-  return params;
-}
 
 export default async function Image({
   params,
@@ -34,17 +15,12 @@ export default async function Image({
 }) {
   const { locale, eraId, eventId } = await params;
   const event = getEventById(eventId);
-  if (!event) {
-    return new ImageResponse(
-      <div style={{ display: 'flex' }}>Not found</div>,
-      size
-    );
-  }
   const era = getEraMetadata(eraId as EraId);
+
   const isAr = locale === 'ar';
-  const title = isAr ? event.titleArabic : event.title;
+  const title = event ? (isAr ? event.titleArabic : event.title) : '';
   const eraTitle = isAr ? era.titleArabic : era.title;
-  const dateLine = formatEventDate(event, locale as Locale);
+  const dateLine = event ? formatEventDate(event, locale as Locale) : '';
 
   return new ImageResponse(
     (
@@ -76,13 +52,7 @@ export default async function Image({
           <span>{eraTitle}</span>
         </div>
 
-        <div
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            gap: 24,
-          }}
-        >
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
           <div
             style={{
               fontSize: 72,
@@ -94,14 +64,7 @@ export default async function Image({
           >
             {title}
           </div>
-          <div
-            style={{
-              fontSize: 28,
-              color: '#5e5641',
-            }}
-          >
-            {dateLine}
-          </div>
+          <div style={{ fontSize: 28, color: '#5e5641' }}>{dateLine}</div>
         </div>
 
         <div
