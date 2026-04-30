@@ -13,7 +13,7 @@ export const cormorantGaramond = Cormorant_Garamond({
   subsets: ['latin'],
   weight: ['400', '600'],
   variable: '--font-cormorant',
-  display: 'swap',
+  display: 'optional',
 });
 
 // Source Serif 4: English body text.
@@ -21,7 +21,7 @@ export const sourceSerif4 = Source_Serif_4({
   subsets: ['latin'],
   weight: ['400'],
   variable: '--font-source-serif',
-  display: 'swap',
+  display: 'optional',
 });
 
 // IBM Plex Sans Arabic: Arabic UI and navigation. Never applies to Quranic verses.
