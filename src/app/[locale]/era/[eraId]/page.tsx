@@ -95,12 +95,23 @@ export default async function EraPage({
             <span dir="ltr">{timespan.secondary}</span>
           </p>
 
-          {/* Era descriptions are English-only in the JSON; hide on /ar until an Arabic version is authored. */}
-          {!isAr && (
-            <p className="font-body text-base md:text-lg text-ink-light leading-relaxed max-w-2xl mx-auto">
-              {era.description}
-            </p>
-          )}
+          {/* Era description: prefer Arabic when authored, otherwise English with explicit LTR markup. */}
+          {(() => {
+            const useArabic = isAr && Boolean(era.descriptionArabic);
+            const text = useArabic ? era.descriptionArabic! : era.description;
+            const lang = useArabic ? 'ar' : 'en';
+            const dir = useArabic ? 'rtl' : 'ltr';
+            const fontClass = useArabic ? '' : 'font-body';
+            return (
+              <p
+                lang={lang}
+                dir={dir}
+                className={`${fontClass} text-base md:text-lg text-ink-light leading-relaxed max-w-2xl mx-auto`}
+              >
+                {text}
+              </p>
+            );
+          })()}
 
           <Divider className="mt-8" />
 
@@ -119,10 +130,14 @@ export default async function EraPage({
           {events.map((event) => {
             const categoryLabel = tCategories(event.category);
             const categoryColor = getCategoryColor(event.category);
+            const summarySource =
+              isAr && event.summaryArabic ? event.summaryArabic : event.summary;
+            const summaryLang = isAr && event.summaryArabic ? 'ar' : 'en';
+            const summaryDir = summaryLang === 'ar' ? 'rtl' : 'ltr';
             const truncatedSummary =
-              event.summary.length > 80
-                ? event.summary.slice(0, 80) + '...'
-                : event.summary;
+              summarySource.length > 80
+                ? summarySource.slice(0, 80) + '...'
+                : summarySource;
 
             return (
               <Link
@@ -162,12 +177,15 @@ export default async function EraPage({
                   </Badge>
                 </div>
 
-                {/* English summary hidden on /ar until an Arabic version is authored. */}
-                {!isAr && (
-                  <p className="font-body text-sm text-ink-light/70 leading-relaxed">
-                    {truncatedSummary}
-                  </p>
-                )}
+                <p
+                  lang={summaryLang}
+                  dir={summaryDir}
+                  className={`text-sm text-ink-light/70 leading-relaxed ${
+                    summaryLang === 'ar' ? '' : 'font-body'
+                  }`}
+                >
+                  {truncatedSummary}
+                </p>
               </Link>
             );
           })}
