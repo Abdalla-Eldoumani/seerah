@@ -3,6 +3,7 @@ import { Link } from '@/i18n/navigation';
 import { hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
+import { HomeOrnament } from '@/components/icons/HomeOrnament';
 
 export default async function HomePage({
   params,
@@ -55,6 +56,8 @@ export default async function HomePage({
       </div>
 
       <div className="relative z-10 text-center px-6 py-16 max-w-2xl mx-auto">
+        <HomeOrnament className="mx-auto mb-8 w-20 h-20 text-gold-dark/70" />
+
         <p
           dir="rtl"
           lang="ar"
