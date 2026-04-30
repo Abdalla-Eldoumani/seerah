@@ -1,6 +1,7 @@
 import { useLocale, useTranslations } from 'next-intl';
 import { cn } from '@/lib/utils';
-import { getCategoryColor } from '@/lib/utils';
+import { getCategoryColor } from '@/config/categories';
+import { CategoryGlyph } from '@/components/icons/CategoryGlyph';
 import type { SeerahEvent } from '@/types/seerah';
 
 interface EventHeroProps {
@@ -56,6 +57,7 @@ export default function EventHero({ event }: EventHeroProps) {
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-medium tracking-wide text-parchment"
           style={{ backgroundColor: categoryColor }}
         >
+          <CategoryGlyph category={event.category} className="w-4 h-4" />
           {categoryLabel}
         </span>
       </div>
