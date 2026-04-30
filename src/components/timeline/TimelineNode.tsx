@@ -96,9 +96,12 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
           {dateLine}
         </p>
 
-        <p className="text-sm font-body text-ink-light leading-relaxed mt-3">
-          {truncatedSummary}
-        </p>
+        {/* English summary preview hidden on /ar; Arabic site shows title, date, location only. */}
+        {!isAr && (
+          <p className="text-sm font-body text-ink-light leading-relaxed mt-3">
+            {truncatedSummary}
+          </p>
+        )}
 
         {event.location && (
           <p className="text-xs font-body text-ink-light/60 mt-3">
