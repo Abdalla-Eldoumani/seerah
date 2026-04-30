@@ -27,7 +27,11 @@ export async function generateMetadata({
   const subtitle = tSite('subtitle');
   const description = tSite('description');
 
+  const siteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL ?? 'https://noor-al-seerah.vercel.app';
+
   return {
+    metadataBase: new URL(siteUrl),
     title: {
       default: `${siteName} | ${subtitle}`,
       template: `%s | ${siteName}`,
@@ -48,10 +52,11 @@ export async function generateMetadata({
       locale: locale === 'ar' ? 'ar_SA' : 'en_US',
     },
     alternates: {
+      canonical: locale === 'ar' ? '/ar' : '/',
       languages: {
-        en: '/',
-        ar: '/ar',
-        'x-default': '/',
+        en: `${siteUrl}/`,
+        ar: `${siteUrl}/ar`,
+        'x-default': `${siteUrl}/`,
       },
     },
   };
