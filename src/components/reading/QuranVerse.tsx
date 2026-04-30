@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl';
 import type { QuranReference } from '@/types/seerah';
 
 interface QuranVerseProps {
@@ -5,26 +6,19 @@ interface QuranVerseProps {
 }
 
 export default function QuranVerse({ reference }: QuranVerseProps) {
+  const t = useTranslations('event');
+
   return (
     <blockquote className="quran-verse">
-      {/* Arabic text */}
-      <p
-        dir="rtl"
-        lang="ar"
-        className="arabic-text font-arabic"
-      >
+      <p dir="rtl" lang="ar" className="arabic-text font-arabic">
         {reference.textArabic}
       </p>
 
-      {/* Citation */}
       <p className="citation">
-        Surah {reference.surahName}, {reference.ayahRange}
+        {t('surah')} {reference.surahName}, {reference.ayahRange}
       </p>
 
-      {/* English translation */}
-      <p className="translation italic">
-        {reference.textEnglish}
-      </p>
+      <p className="translation italic">{reference.textEnglish}</p>
     </blockquote>
   );
 }
