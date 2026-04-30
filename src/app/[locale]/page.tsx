@@ -43,7 +43,10 @@ export default async function HomePage({
           </p>
         ) : (
           <>
-            <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-ink tracking-tight mb-3">
+            <h1
+              className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold text-ink tracking-tight mb-3"
+              style={{ fontFamily: 'Georgia, "Times New Roman", serif' }}
+            >
               {t('name')}
             </h1>
             <p className="font-display text-lg sm:text-xl md:text-2xl text-ink-light font-medium tracking-wide mb-8 mx-auto">
