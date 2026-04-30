@@ -24,6 +24,15 @@ import Breadcrumb from '@/components/navigation/Breadcrumb';
 import type { EraId } from '@/types/seerah';
 import { routing, type Locale } from '@/i18n/routing';
 
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://noor-al-seerah.vercel.app';
+
+function pageUrl(locale: string, path: string): string {
+  return locale === routing.defaultLocale
+    ? `${SITE_URL}${path}`
+    : `${SITE_URL}/${locale}${path}`;
+}
+
 export function generateStaticParams() {
   const eras = getAllEras();
   const params: { locale: string; eraId: string; eventId: string }[] = [];
