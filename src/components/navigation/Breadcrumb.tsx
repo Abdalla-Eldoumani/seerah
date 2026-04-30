@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import { cn } from '@/lib/utils';
+import { Link } from '@/i18n/navigation';
 
 interface BreadcrumbItem {
   label: string;
@@ -18,14 +18,23 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
           const isLast = index === items.length - 1;
           return (
             <li key={index} className="flex items-center gap-1.5">
-              {/* Separator */}
               {index > 0 && (
-                <span className="text-ink-light/30" aria-hidden="true">
-                  &gt;
-                </span>
+                <svg
+                  className="w-3.5 h-3.5 text-ink-light/30 rtl:scale-x-[-1]"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={2}
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                  />
+                </svg>
               )}
 
-              {/* Breadcrumb link or current page label */}
               {item.href && !isLast ? (
                 <Link
                   href={item.href}
