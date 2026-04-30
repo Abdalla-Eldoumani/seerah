@@ -95,9 +95,12 @@ export default async function EraPage({
             <span dir="ltr">{timespan.secondary}</span>
           </p>
 
-          <p className="font-body text-base md:text-lg text-ink-light leading-relaxed max-w-2xl mx-auto">
-            {era.description}
-          </p>
+          {/* Era descriptions are English-only in the JSON; hide on /ar until an Arabic version is authored. */}
+          {!isAr && (
+            <p className="font-body text-base md:text-lg text-ink-light leading-relaxed max-w-2xl mx-auto">
+              {era.description}
+            </p>
+          )}
 
           <Divider className="mt-8" />
 
@@ -159,9 +162,12 @@ export default async function EraPage({
                   </Badge>
                 </div>
 
-                <p className="font-body text-sm text-ink-light/70 leading-relaxed">
-                  {truncatedSummary}
-                </p>
+                {/* English summary hidden on /ar until an Arabic version is authored. */}
+                {!isAr && (
+                  <p className="font-body text-sm text-ink-light/70 leading-relaxed">
+                    {truncatedSummary}
+                  </p>
+                )}
               </Link>
             );
           })}
