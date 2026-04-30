@@ -9,7 +9,8 @@ import { Divider } from '@/components/ui/Divider';
 import { Badge } from '@/components/ui/Badge';
 import EraNav from '@/components/navigation/EraNav';
 import { Link } from '@/i18n/navigation';
-import { getCategoryColor } from '@/lib/utils';
+import { getCategoryColor } from '@/config/categories';
+import { CategoryGlyph } from '@/components/icons/CategoryGlyph';
 import type { EraId } from '@/types/seerah';
 import { routing, type Locale } from '@/i18n/routing';
 
@@ -148,6 +149,10 @@ export default async function EraPage({
                     variant="category"
                     style={{ backgroundColor: categoryColor }}
                   >
+                    <CategoryGlyph
+                      category={event.category}
+                      className="w-3.5 h-3.5 me-1"
+                    />
                     {categoryLabel}
                   </Badge>
                 </div>
