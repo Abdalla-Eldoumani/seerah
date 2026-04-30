@@ -1,3 +1,7 @@
+import createNextIntlPlugin from 'next-intl/plugin';
+
+const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -10,7 +14,6 @@ const nextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256],
   },
 
-  // Security + caching headers (used by Vercel and next start)
   async headers() {
     return [
       {
@@ -39,4 +42,4 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);
