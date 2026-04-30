@@ -2,6 +2,8 @@ import { useLocale, useTranslations } from 'next-intl';
 import { cn } from '@/lib/utils';
 import { getCategoryColor } from '@/config/categories';
 import { CategoryGlyph } from '@/components/icons/CategoryGlyph';
+import { formatEventDate } from '@/lib/dates';
+import type { Locale } from '@/i18n/routing';
 import type { SeerahEvent } from '@/types/seerah';
 
 interface EventHeroProps {
@@ -9,12 +11,12 @@ interface EventHeroProps {
 }
 
 export default function EventHero({ event }: EventHeroProps) {
-  const locale = useLocale();
+  const locale = useLocale() as Locale;
   const t = useTranslations();
   const isAr = locale === 'ar';
   const categoryLabel = t(`categories.${event.category}`);
   const categoryColor = getCategoryColor(event.category);
-  const dateLine = [event.month, event.year].filter(Boolean).join(', ');
+  const dateLine = formatEventDate(event, locale);
 
   return (
     <header className="text-center py-12 md:py-16 lg:py-20 space-y-6">
@@ -36,7 +38,7 @@ export default function EventHero({ event }: EventHeroProps) {
       )}
 
       <p className="text-lg md:text-xl text-ink-light/70 font-body mx-auto">
-        {dateLine ? `${dateLine} (${event.yearCE})` : event.yearCE}
+        {dateLine}
       </p>
 
       <p className="text-base md:text-lg text-ink-light/60 font-body mx-auto">
