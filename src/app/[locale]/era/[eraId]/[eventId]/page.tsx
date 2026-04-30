@@ -142,13 +142,17 @@ export default async function EventPage({
 
         <EventHero event={event} />
 
-        <Divider />
-
-        <EventSummary summary={event.summary} />
-
-        <Divider />
-
-        <EventSignificance significance={event.significance} />
+        {/* Long-form English fields (summary, significance, hadith translation) are hidden on /ar
+            until human-authored Arabic versions exist in the JSON. The Arabic site keeps the
+            event title, date, location, Quran verse text, key figures, and primary sources. */}
+        {!isAr && (
+          <>
+            <Divider />
+            <EventSummary summary={event.summary} />
+            <Divider />
+            <EventSignificance significance={event.significance} />
+          </>
+        )}
 
         {event.quranReferences.length > 0 && (
           <section className="my-8 md:my-12 max-w-prose mx-auto">
@@ -163,7 +167,7 @@ export default async function EventPage({
           </section>
         )}
 
-        {event.hadithReferences.length > 0 && (
+        {!isAr && event.hadithReferences.length > 0 && (
           <section className="my-8 md:my-12 max-w-prose mx-auto">
             <h2 className="font-display text-2xl md:text-3xl font-semibold text-ink mb-6">
               {tEvent('hadithHeading')}
