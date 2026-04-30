@@ -22,39 +22,6 @@ export default async function HomePage({
 
   return (
     <main className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div
-        className="absolute inset-0 pointer-events-none"
-        aria-hidden="true"
-        style={{ opacity: 0.04 }}
-      >
-        <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <pattern
-              id="islamic-pattern"
-              x="0"
-              y="0"
-              width="80"
-              height="80"
-              patternUnits="userSpaceOnUse"
-            >
-              <polygon
-                points="40,8 56,16 64,32 64,48 56,64 40,72 24,64 16,48 16,32 24,16"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="0.8"
-              />
-              <polygon
-                points="40,18 48,28 58,28 52,38 54,48 40,44 26,48 28,38 22,28 32,28"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="0.5"
-              />
-            </pattern>
-          </defs>
-          <rect width="100%" height="100%" fill="url(#islamic-pattern)" />
-        </svg>
-      </div>
-
       <div className="relative z-10 text-center px-6 py-16 max-w-2xl mx-auto">
         <HomeOrnament className="mx-auto mb-8 w-20 h-20 text-gold-dark/70" />
 
