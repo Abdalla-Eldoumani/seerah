@@ -1,5 +1,6 @@
-import { Amiri, Cormorant_Garamond, Source_Serif_4 } from 'next/font/google';
+import { Amiri, Cormorant_Garamond, IBM_Plex_Sans_Arabic, Source_Serif_4 } from 'next/font/google';
 
+// Amiri: Quranic verses, classical Arabic in JSON, the ﷺ symbol context.
 export const amiri = Amiri({
   subsets: ['arabic', 'latin'],
   weight: ['400', '700'],
@@ -7,6 +8,7 @@ export const amiri = Amiri({
   display: 'swap',
 });
 
+// Cormorant Garamond: English display headings.
 export const cormorantGaramond = Cormorant_Garamond({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
@@ -14,9 +16,18 @@ export const cormorantGaramond = Cormorant_Garamond({
   display: 'swap',
 });
 
+// Source Serif 4: English body text.
 export const sourceSerif4 = Source_Serif_4({
   subsets: ['latin'],
   weight: ['400', '600'],
   variable: '--font-source-serif',
+  display: 'swap',
+});
+
+// IBM Plex Sans Arabic: Arabic UI and navigation. Never applies to Quranic verses.
+export const ibmPlexSansArabic = IBM_Plex_Sans_Arabic({
+  subsets: ['arabic', 'latin'],
+  weight: ['400', '500', '600'],
+  variable: '--font-plex-arabic',
   display: 'swap',
 });
