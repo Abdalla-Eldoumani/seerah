@@ -2,7 +2,9 @@ import { useLocale, useTranslations } from 'next-intl';
 import { cn } from '@/lib/utils';
 import { getCategoryColor } from '@/config/categories';
 import { CategoryGlyph } from '@/components/icons/CategoryGlyph';
+import { formatEventDate } from '@/lib/dates';
 import { Link } from '@/i18n/navigation';
+import type { Locale } from '@/i18n/routing';
 import type { SeerahEvent, EraId } from '@/types/seerah';
 
 interface TimelineNodeProps {
@@ -12,12 +14,13 @@ interface TimelineNodeProps {
 }
 
 export default function TimelineNode({ event, eraId, index }: TimelineNodeProps) {
-  const locale = useLocale();
+  const locale = useLocale() as Locale;
   const t = useTranslations();
   const isAr = locale === 'ar';
   const isEven = index % 2 === 0;
   const categoryLabel = t(`categories.${event.category}`);
   const categoryColor = getCategoryColor(event.category);
+  const dateLine = formatEventDate(event, locale);
 
   const truncatedSummary =
     event.summary.length > 100
@@ -90,7 +93,7 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
         </p>
 
         <p className="text-sm font-body text-ink-light/80 mt-2">
-          {event.year} &middot; {event.yearCE}
+          {dateLine}
         </p>
 
         <p className="text-sm font-body text-ink-light leading-relaxed mt-3">
