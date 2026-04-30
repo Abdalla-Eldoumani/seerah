@@ -1,6 +1,7 @@
 import { useLocale, useTranslations } from 'next-intl';
 import { cn } from '@/lib/utils';
-import { getCategoryColor } from '@/lib/utils';
+import { getCategoryColor } from '@/config/categories';
+import { CategoryGlyph } from '@/components/icons/CategoryGlyph';
 import { Link } from '@/i18n/navigation';
 import type { SeerahEvent, EraId } from '@/types/seerah';
 
@@ -56,6 +57,11 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
         )}
       >
         <div className="flex items-center gap-2 mb-2">
+          <CategoryGlyph
+            category={event.category}
+            className="w-4 h-4"
+            style={{ color: categoryColor }}
+          />
           <span
             className="text-xs font-body uppercase tracking-wider"
             style={{ color: categoryColor }}
