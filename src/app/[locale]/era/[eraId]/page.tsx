@@ -87,18 +87,12 @@ export default async function EraPage({
             </h1>
           )}
 
-          <p className="font-body text-lg md:text-xl text-ink-light/70">
-            {timespan.primary}
+          <p className="font-body text-lg md:text-xl text-ink-light/70" dir="ltr">
+            <span dir="ltr">{timespan.primary}</span>
             <span className="mx-2 text-gold" aria-hidden="true">
               ·
             </span>
-            <span
-              dir={isAr ? 'ltr' : 'rtl'}
-              lang={isAr ? 'en' : 'ar'}
-              className={isAr ? 'font-body' : 'font-arabic'}
-            >
-              {timespan.secondary}
-            </span>
+            <span dir="ltr">{timespan.secondary}</span>
           </p>
 
           <p className="font-body text-base md:text-lg text-ink-light leading-relaxed max-w-2xl mx-auto">
