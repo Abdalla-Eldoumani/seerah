@@ -1,5 +1,7 @@
 import { useLocale, useTranslations } from 'next-intl';
 import { cn } from '@/lib/utils';
+import { formatEraTimespan } from '@/lib/dates';
+import type { Locale } from '@/i18n/routing';
 import type { EraMetadata, SeerahEvent } from '@/types/seerah';
 import TimelineNode from './TimelineNode';
 
@@ -14,9 +16,10 @@ export default function TimelineEraSection({
   events,
   startIndex,
 }: TimelineEraSectionProps) {
-  const locale = useLocale();
+  const locale = useLocale() as Locale;
   const t = useTranslations('era.names');
   const isAr = locale === 'ar';
+  const timespan = formatEraTimespan(era, locale);
 
   return (
     <section className="relative pb-8">
@@ -38,7 +41,7 @@ export default function TimelineEraSection({
             </p>
           )}
           <p className="font-body text-sm text-parchment/60 mt-2">
-            {era.timespan} &middot; {era.timespanHijri}
+            {timespan.primary} &middot; {timespan.secondary}
           </p>
         </div>
       </div>
