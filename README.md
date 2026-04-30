@@ -1,57 +1,41 @@
-# Noor al-Seerah (نور السيرة)
+# Noor al-Seerah
 
-An interactive web experience for learning the life of Prophet Muhammad ﷺ, built with Next.js.
+An interactive bilingual reader for the life of Prophet Muhammad ﷺ. Forty-nine events drawn from authenticated Islamic sources, presented across three eras with English and Arabic UIs side by side. Content lives in JSON and is never modified by the application; the code is UI around verified data.
 
-## What this is
+## Screenshots
 
-49 key events from the Prophet's life, organized across three eras:
-
-- **Pre-Prophethood** (571–610 CE) — 14 events from the Year of the Elephant through the spiritual retreats at Cave Hira
-- **Meccan Era** (610–622 CE) — 18 events covering the first revelation, early persecution, and the migration to Madinah
-- **Medinan Era** (622–632 CE) — 17 events from the building of Masjid Quba through the Farewell Pilgrimage
-
-All content is pre-verified from authenticated Islamic sources (Sahih al-Bukhari, Sahih Muslim, Ar-Raheeq Al-Makhtum, and others listed in `docs/SOURCES.md`). The code never generates, modifies, or rewrites any religious content — it reads from JSON data files and displays them as-is.
+Add screenshots at `docs/screenshots/home-en.png` and `docs/screenshots/home-ar.png` to display them here.
 
 ## Stack
 
-- **Next.js 14** (App Router, static generation)
-- **TypeScript**
-- **Tailwind CSS** with a custom "Living Manuscript" design system (parchment, gold, ink tones)
-- **Amiri** font for Arabic text, **Cormorant Garamond** for English headings, **Source Serif 4** for body text
+- Next.js 16 (App Router, async params, Turbopack)
+- React 19
+- TypeScript 5
+- Tailwind CSS 4 with CSS-first tokens
+- next-intl for routing and translations
 
-## Project structure
-
-```
-data/events/          # Pre-verified JSON content (do not edit)
-src/app/              # Next.js pages (home, timeline, era, event detail, about, 404)
-src/components/       # React components (reading, timeline, navigation, layout, ui)
-src/lib/              # Data loading, fonts, utilities, metadata helpers
-src/hooks/            # Custom React hooks (scroll progress, media query, etc.)
-src/styles/           # Global CSS with color palette and typography
-src/types/            # TypeScript type definitions
-docs/                 # Source documentation and methodology
-```
-
-## Running locally
+## Quick start
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+The app runs at `http://localhost:3000`. English is at `/`, Arabic at `/ar`.
 
-## Building for production
+## Build
 
 ```bash
 npm run build
 npm run start
 ```
 
-## Deploying
+## More
 
-The project includes a `vercel.json` with caching and security headers. Push to a Git repo connected to Vercel and it deploys automatically.
+- [Sources and methodology](docs/SOURCES.md)
+- [Architecture overview](docs/ARCHITECTURE.md)
+- [Internationalisation notes](docs/I18N.md)
 
-## Content policy
+## License
 
-The JSON files in `data/events/` are the single source of truth. Every event includes title (Arabic + English), dates (Hijri + CE), summary, significance, Quran references, Hadith references, key figures, and location. If you spot an error in the content, flag it for human review rather than editing directly.
+MIT.
