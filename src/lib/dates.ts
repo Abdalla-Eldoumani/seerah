@@ -49,11 +49,12 @@ function localizeHijriYear(yearString: string, locale: Locale): string {
 }
 
 // Convert a CE year string (e.g., "613-615 CE") to its locale display.
+// CE dates keep Western digits on both locales; only the suffix changes.
 function localizeGregorianYear(yearString: string, locale: Locale): string {
   if (!yearString) return '';
   if (locale !== 'ar') return yearString;
   const numeric = yearString.replace(/\s*CE\s*$/i, '').trim();
-  return `${toEasternDigits(numeric)} م`;
+  return `${numeric} م`;
 }
 
 // Format an event's date line: month, Hijri year (Gregorian year).
@@ -90,5 +91,5 @@ function localizeHijriRange(range: string): string {
 
 function localizeGregorianRange(range: string): string {
   const cleaned = range.replace(/CE/gi, '').replace(/\s+/g, ' ').trim();
-  return `${toEasternDigits(cleaned)} م`;
+  return `${cleaned} م`;
 }
