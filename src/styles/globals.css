@@ -44,6 +44,7 @@
 
   /* Font families. */
   --font-arabic: var(--font-amiri), "Amiri", "Noto Naskh Arabic", serif;
+  --font-arabic-ui: var(--font-plex-arabic), "IBM Plex Sans Arabic", "Tahoma", sans-serif;
   --font-display: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
   --font-body: var(--font-source-serif), "Source Serif 4", Georgia, serif;
 
@@ -71,9 +72,26 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  /* Arabic UI: nav, body text, generic UI uses IBM Plex Sans Arabic. */
+  /* Quranic verses and classical Arabic spans keep the Amiri family via .font-arabic. */
+  body[dir="rtl"] {
+    font-family: var(--font-arabic-ui);
+    line-height: 1.75;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
     color: var(--color-ink);
+  }
+
+  body[dir="rtl"] h1,
+  body[dir="rtl"] h2,
+  body[dir="rtl"] h3,
+  body[dir="rtl"] h4,
+  body[dir="rtl"] h5,
+  body[dir="rtl"] h6 {
+    font-family: var(--font-arabic-ui);
+    font-weight: 600;
   }
 
   ::selection {
