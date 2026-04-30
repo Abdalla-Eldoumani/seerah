@@ -52,7 +52,7 @@ export async function generateMetadata({
       locale: locale === 'ar' ? 'ar_SA' : 'en_US',
     },
     alternates: {
-      canonical: locale === 'ar' ? '/ar' : '/',
+      canonical: locale === 'ar' ? `${siteUrl}/ar` : `${siteUrl}/`,
       languages: {
         en: `${siteUrl}/`,
         ar: `${siteUrl}/ar`,
