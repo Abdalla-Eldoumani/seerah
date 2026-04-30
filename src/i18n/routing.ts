@@ -4,6 +4,8 @@ export const routing = defineRouting({
   locales: ['en', 'ar'],
   defaultLocale: 'en',
   localePrefix: 'as-needed',
+  // URL is the source of truth for locale. No cookie- or header-based redirects.
+  localeDetection: false,
 });
 
 export type Locale = (typeof routing.locales)[number];
