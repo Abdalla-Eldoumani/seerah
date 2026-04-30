@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl';
 import type { HadithReference } from '@/types/seerah';
 
 interface HadithBlockProps {
@@ -5,22 +6,18 @@ interface HadithBlockProps {
 }
 
 export default function HadithBlock({ reference }: HadithBlockProps) {
+  const t = useTranslations('event');
+  const sourceLine = reference.hadithNumber
+    ? `${reference.source}, #${reference.hadithNumber}`
+    : reference.source;
+
   return (
     <div className="hadith-block">
-      {/* Source line */}
-      <p className="source">
-        {reference.source}, #{reference.hadithNumber}
-      </p>
-
-      {/* Narrator */}
+      <p className="source">{sourceLine}</p>
       <p className="narrator">
-        Narrated by: {reference.narrator}
+        {t('narratedBy')}: {reference.narrator}
       </p>
-
-      {/* Hadith text with quotation marks */}
-      <p className="text">
-        &ldquo;{reference.textEnglish}&rdquo;
-      </p>
+      <p className="text">&ldquo;{reference.textEnglish}&rdquo;</p>
     </div>
   );
 }
