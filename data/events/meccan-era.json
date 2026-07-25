@@ -4,6 +4,8 @@
     "title": "The Light in the Darkness",
     "titleArabic": "العهد المكي",
     "description": "Thirteen years of revelation, persecution, patience, and unwavering faith. From the first words revealed in Cave Hira to the momentous migration to Madinah — the period in which Islam was born, the early believers were forged through suffering, and the Quran's foundational message of Tawhid was established.",
+    "descriptionArabic": "ثلاث عشرة سنة من الوحي والاضطهاد والصبر والثبات على الإيمان. من أول ما نزل في غار حراء إلى الهجرة العظيمة إلى المدينة، وهي المرحلة التي وُلد فيها الإسلام، وصُهر فيها المؤمنون الأولون بالبلاء، وتقرّرت فيها رسالة التوحيد التي قام عليها القرآن.",
+    "descriptionFrench": "Treize années de révélation, de persécution, de patience et de foi inébranlable. Des premiers mots révélés dans la grotte de Hirâ jusqu'à la grande émigration vers Médine : la période où l'islam naquit, où les premiers croyants furent éprouvés par la souffrance, et où s'établit le message fondateur du tawhîd porté par le Coran.",
     "timespan": "610 CE – 622 CE",
     "timespanHijri": "12 BH – 1 AH",
     "themeColor": "#1a1a2e",
@@ -19,7 +21,11 @@
       "month": "Ramadan (17th or 21st)",
       "category": "revelation",
       "summary": "While in seclusion in the Cave of Hira during Ramadan, the Angel Jibril appeared to Muhammad ﷺ at the age of forty and commanded him to 'Read!' (Iqra'). The first five verses of Surah Al-Alaq were revealed. Muhammad ﷺ was deeply shaken by the experience and rushed home to Khadijah, trembling and saying 'Cover me! Cover me!' (Zammilooni).",
+      "summaryArabic": "بينما كان معتكفًا في غار حراء في رمضان، تراءى له جبريل عليه السلام وهو ابن أربعين سنة فأمره: «اقرأ». فنزلت أول خمس آيات من سورة العلق. وقد اضطرب النبي صلى الله عليه وسلم من هول ما رأى فرجع إلى خديجة يرجف فؤاده يقول: «زمّلوني زمّلوني».",
+      "summaryFrench": "Alors qu'il était en retraite dans la grotte de Hirâ pendant le Ramadan, l'ange Jibrîl apparut à Mouhammad ﷺ, âgé de quarante ans, et lui ordonna : « Lis ! » (Iqra'). Les cinq premiers versets de la sourate Al-'Alaq furent révélés. Mouhammad ﷺ fut profondément bouleversé et rentra en hâte auprès de Khadîja, tremblant et disant : « Couvrez-moi ! Couvrez-moi ! » (Zammiloûnî).",
       "significance": "This is the single most transformative moment in human history after creation itself — the beginning of the final revelation from Allah to mankind. The very first word revealed was 'Iqra' (Read/Recite), establishing that this religion would be built upon knowledge, learning, and the pursuit of truth.",
+      "significanceArabic": "هذه أعظم لحظة تحوّل في تاريخ البشرية بعد الخلق نفسه، إذ بدأ بها الوحي الخاتم من الله إلى الناس. وكانت أول كلمة نزلت «اقرأ»، فتقرر بذلك أن هذا الدين قائم على العلم والتعلم وطلب الحق.",
+      "significanceFrench": "C'est le moment le plus transformateur de l'histoire humaine après la création elle-même : le début de la révélation finale d'Allah aux hommes. Le tout premier mot révélé fut « Iqra' » (Lis, récite), établissant que cette religion serait bâtie sur le savoir, l'apprentissage et la recherche de la vérité.",
       "quranReferences": [
         {
           "surah": 96,
@@ -37,8 +43,16 @@
           "textEnglish": "The angel came to him and said: 'Read!' He replied: 'I cannot read.' The Prophet ﷺ said: 'Then he took hold of me and pressed me until I could bear it no more, then he released me and said: Read!' I said: 'I cannot read.' He pressed me a second time until I could bear it no more, then released me and said: 'Read!' I said: 'I cannot read.' He pressed me a third time, then released me and said: 'Read in the name of your Lord who created...'"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Jibril (Angel Gabriel)", "Khadijah bint Khuwaylid", "Waraqah ibn Nawfal"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Jibril (Angel Gabriel)",
+        "Khadijah bint Khuwaylid",
+        "Waraqah ibn Nawfal"
+      ],
       "location": "Cave of Hira, Jabal an-Nur",
       "locationArabic": "غار حراء – جبل النور"
     },
@@ -51,7 +65,11 @@
       "month": "Ramadan",
       "category": "confirmation",
       "summary": "After Muhammad ﷺ returned home terrified from Cave Hira, Khadijah comforted him and took him to her cousin Waraqah ibn Nawfal, an elderly Christian scholar who had knowledge of the earlier scriptures. Waraqah confirmed that what had come to Muhammad ﷺ was the same Namus (divine revelation) that had come to Musa (Moses). He warned that his people would drive him out and expressed his wish to support him.",
+      "summaryArabic": "لما رجع النبي صلى الله عليه وسلم من غار حراء خائفًا، طمأنته خديجة وذهبت به إلى ابن عمها ورقة بن نوفل، وكان شيخًا نصرانيًّا عالمًا بالكتب السابقة. فأخبره ورقة أن الذي جاءه هو الناموس الذي نزل على موسى عليه السلام، وحذّره أن قومه سيخرجونه، وتمنى أن يكون حيًّا لينصره.",
+      "summaryFrench": "Lorsque Mouhammad ﷺ rentra terrifié de la grotte de Hirâ, Khadîja le réconforta et le conduisit auprès de son cousin Waraqa ibn Nawfal, un savant chrétien âgé qui connaissait les Écritures antérieures. Waraqa confirma que ce qui était venu à Mouhammad ﷺ était le même Nâmoûs (la révélation divine) qui était venu à Moûsâ (Moïse). Il l'avertit que son peuple le chasserait et exprima le souhait de pouvoir le soutenir.",
       "significance": "Khadijah became the first person to believe in the Prophet ﷺ — the first Muslim. Her immediate, unwavering support was crucial. Waraqah's confirmation from the perspective of earlier scriptures provided external validation of the prophetic experience. Waraqah also foretold the persecution that would come.",
+      "significanceArabic": "فكانت خديجة أول من آمن بالنبي صلى الله عليه وسلم، أول مسلمة. وكان ثباتها ومساندتها الفورية أمرًا حاسمًا. أما تصديق ورقة من جهة الكتب السابقة فقد أعطى شهادة خارجية على صدق ما رأى، كما تنبأ ورقة بما سيقع من الأذى.",
+      "significanceFrench": "Khadîja devint la première personne à croire au Prophète ﷺ, la première musulmane. Son soutien immédiat et sans faille fut déterminant. La confirmation de Waraqa, du point de vue des Écritures antérieures, apporta une validation extérieure de l'expérience prophétique. Waraqa annonça aussi la persécution à venir.",
       "quranReferences": [],
       "hadithReferences": [
         {
@@ -61,8 +79,14 @@
           "textEnglish": "Waraqah said: 'This is the same Namus (i.e., the angel who brought divine revelations) that Allah sent to Musa. I wish I were young and could live until the time when your people will drive you out.' The Messenger of Allah ﷺ asked: 'Will they drive me out?' Waraqah said: 'Yes, no man has ever come with what you have come with except that he was treated with enmity.'"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Khadijah bint Khuwaylid", "Waraqah ibn Nawfal"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Khadijah bint Khuwaylid",
+        "Waraqah ibn Nawfal"
+      ],
       "location": "Makkah",
       "locationArabic": "مكة المكرمة"
     },
@@ -75,7 +99,11 @@
       "month": "",
       "category": "revelation",
       "summary": "After the first revelation, there was a pause (fatrah) in the coming of revelation. During this period, the Prophet ﷺ experienced great anxiety and longing, yearning for the angel to return. This pause lasted for a period scholars differ about — ranging from a few days to several months.",
+      "summaryArabic": "بعد أول وحي فتر الوحي مدة، فأصاب النبي صلى الله عليه وسلم في تلك المدة همّ وشوق شديد إلى عودة الملك. وقد اختلف أهل العلم في مدة هذه الفترة، فقيل أيام وقيل أشهر.",
+      "summaryFrench": "Après la première révélation, il y eut une interruption (fatra) dans la venue de la révélation. Durant cette période, le Prophète ﷺ éprouva une grande angoisse et un vif désir du retour de l'ange. Les savants divergent sur la durée de cette interruption, de quelques jours à plusieurs mois.",
       "significance": "The pause served to deepen the Prophet's ﷺ longing for divine communication and to prepare him for the continuous mission ahead. When revelation resumed with the opening verses of Surah Al-Muddaththir, it marked the beginning of his active mission to call people to Allah.",
+      "significanceArabic": "كانت هذه الفترة لتعميق شوق النبي صلى الله عليه وسلم إلى الوحي وتهيئته للرسالة المتصلة بعدها. فلما عاد الوحي بأوائل سورة المدثر كان ذلك إيذانًا ببدء دعوته العملية إلى الله.",
+      "significanceFrench": "Cette pause servit à approfondir chez le Prophète ﷺ le désir de la communication divine et à le préparer à la mission continue qui l'attendait. Lorsque la révélation reprit avec les premiers versets de la sourate Al-Mouddaththir, ce fut le début de sa mission active d'appel vers Allah.",
       "quranReferences": [
         {
           "surah": 74,
@@ -93,8 +121,13 @@
           "textEnglish": "The Prophet ﷺ said while speaking about the pause of revelation: 'While I was walking, I heard a voice from the sky. I looked up and saw the same angel who had come to me in the Cave of Hira sitting on a chair between the sky and the earth. I was terrified and went home saying: Wrap me! Wrap me! Then Allah revealed: O you wrapped in garments, arise and warn...'"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Jibril (Angel Gabriel)"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Jibril (Angel Gabriel)"
+      ],
       "location": "Makkah",
       "locationArabic": "مكة المكرمة"
     },
@@ -107,11 +140,28 @@
       "month": "",
       "category": "dawah",
       "summary": "For approximately three years, the Prophet ﷺ called people to Islam privately. The first to accept were his wife Khadijah bint Khuwaylid (the first woman), his young cousin Ali ibn Abi Talib (among the first youth), his freed slave Zayd ibn Harithah, and his close friend Abu Bakr as-Siddiq. Abu Bakr then brought many prominent companions to Islam including Uthman ibn Affan, Az-Zubayr ibn al-Awwam, Abdur-Rahman ibn Awf, Sa'd ibn Abi Waqqas, and Talhah ibn Ubaydillah.",
+      "summaryArabic": "دعا النبي صلى الله عليه وسلم إلى الإسلام سرًّا نحو ثلاث سنين. فكان أول من أسلم زوجه خديجة بنت خويلد وهي أول امرأة، وابن عمه علي بن أبي طالب وهو من أوائل الفتيان، ومولاه زيد بن حارثة، وصديقه أبو بكر الصديق. ثم أسلم على يد أبي بكر جماعة من كبار الصحابة منهم عثمان بن عفان والزبير بن العوام وعبد الرحمن بن عوف وسعد بن أبي وقاص وطلحة بن عبيد الله.",
+      "summaryFrench": "Pendant environ trois ans, le Prophète ﷺ appela les gens à l'islam en privé. Les premiers à répondre furent son épouse Khadîja bint Khouwaylid (la première femme), son jeune cousin Alî ibn Abî Tâlib (parmi les premiers jeunes), son affranchi Zayd ibn Hâritha, et son ami proche Abou Bakr as-Siddîq. Abou Bakr amena ensuite à l'islam de nombreux compagnons éminents, dont Othmân ibn Affân, Az-Zoubayr ibn al-Awwâm, Abd ar-Rahmân ibn Awf, Sa'd ibn Abî Waqqâs et Talha ibn Oubaydillâh.",
       "significance": "This three-year secret phase allowed the early community to establish its spiritual foundations through learning the Quran and strengthening faith before facing the inevitable persecution. The quality of these earliest converts — many of whom are among the Ten Promised Paradise — shows how Islam first attracted the most sincere and upright hearts.",
+      "significanceArabic": "أتاحت هذه المرحلة السرية للجماعة الأولى أن ترسّخ أسسها الإيمانية بتعلم القرآن وتقوية اليقين قبل مواجهة الأذى المحتوم. وفي منزلة هؤلاء الأولين، وفيهم من العشرة المبشرين بالجنة، دليل على أن الإسلام استمال أول ما استمال أصدق القلوب وأقومها.",
+      "significanceFrench": "Cette phase secrète de trois ans permit à la première communauté d'asseoir ses fondations spirituelles par l'apprentissage du Coran et l'affermissement de la foi, avant d'affronter la persécution inévitable. La qualité de ces tout premiers convertis, dont beaucoup comptent parmi les Dix à qui le Paradis fut promis, montre que l'islam attira d'abord les cœurs les plus sincères et les plus droits.",
       "quranReferences": [],
       "hadithReferences": [],
-      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["Khadijah bint Khuwaylid", "Ali ibn Abi Talib", "Zayd ibn Harithah", "Abu Bakr as-Siddiq", "Uthman ibn Affan", "Az-Zubayr ibn al-Awwam", "Abdur-Rahman ibn Awf", "Sa'd ibn Abi Waqqas", "Talhah ibn Ubaydillah"],
+      "primarySources": [
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "Khadijah bint Khuwaylid",
+        "Ali ibn Abi Talib",
+        "Zayd ibn Harithah",
+        "Abu Bakr as-Siddiq",
+        "Uthman ibn Affan",
+        "Az-Zubayr ibn al-Awwam",
+        "Abdur-Rahman ibn Awf",
+        "Sa'd ibn Abi Waqqas",
+        "Talhah ibn Ubaydillah"
+      ],
       "location": "Makkah",
       "locationArabic": "مكة المكرمة"
     },
@@ -124,11 +174,21 @@
       "month": "",
       "category": "education",
       "summary": "The house of al-Arqam ibn Abi al-Arqam near Mount Safa became the secret gathering place for the early Muslims. Here, the Prophet ﷺ taught the Quran, led prayers, and nurtured the small but growing community of believers in private, away from the persecution of the Quraysh.",
+      "summaryArabic": "صارت دار الأرقم بن أبي الأرقم قرب الصفا مجتمعًا سريًّا للمسلمين الأوائل، يعلّمهم فيها النبي صلى الله عليه وسلم القرآن ويصلي بهم ويربّي تلك الجماعة الناشئة بعيدًا عن أذى قريش.",
+      "summaryFrench": "La maison d'al-Arqam ibn Abî al-Arqam, près du mont Safâ, devint le lieu de rassemblement secret des premiers musulmans. Le Prophète ﷺ y enseignait le Coran, dirigeait les prières et formait cette communauté restreinte mais grandissante, à l'abri de la persécution de Qouraych.",
       "significance": "Dar al-Arqam was the first institution of Islamic learning. It served as a mosque, school, and community center. The fact that the early Muslims had to meet in secrecy demonstrates the hostility they faced, but also the power of the message — despite danger, people continued to accept Islam. Al-Arqam himself was among the earliest seven converts.",
+      "significanceArabic": "كانت دار الأرقم أول مؤسسة تعليمية في الإسلام، جمعت بين المسجد والمدرسة ومجمع الجماعة. وفي اضطرار المسلمين الأوائل إلى الاجتماع سرًّا دليل على شدة ما لقوا، وفي استمرار دخول الناس في الدين مع الخطر دليل على قوة الرسالة. وكان الأرقم نفسه من السابقين السبعة الأولين.",
+      "significanceFrench": "Dâr al-Arqam fut la première institution d'enseignement islamique, à la fois mosquée, école et centre communautaire. Le fait que les premiers musulmans aient dû se réunir en secret montre l'hostilité qu'ils affrontaient, mais aussi la force du message : malgré le danger, les gens continuaient d'embrasser l'islam. Al-Arqam lui-même comptait parmi les sept premiers convertis.",
       "quranReferences": [],
       "hadithReferences": [],
-      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah", "Ibn Sa'd's Tabaqat"],
-      "keyFigures": ["Al-Arqam ibn Abi al-Arqam"],
+      "primarySources": [
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah",
+        "Ibn Sa'd's Tabaqat"
+      ],
+      "keyFigures": [
+        "Al-Arqam ibn Abi al-Arqam"
+      ],
       "location": "Dar al-Arqam, near Mount Safa, Makkah",
       "locationArabic": "دار الأرقم عند الصفا – مكة"
     },
@@ -141,7 +201,11 @@
       "month": "",
       "category": "dawah",
       "summary": "After the command from Allah to warn his closest relatives, the Prophet ﷺ climbed Mount Safa and called out to the clans of Quraysh by name. When they gathered, he asked them: 'If I told you there was an army behind this mountain ready to attack, would you believe me?' They said: 'Yes, we have never known you to lie.' He then called them to worship Allah alone. Abu Lahab responded with hostility, saying 'May you perish! Is this what you gathered us for?'",
+      "summaryArabic": "لما أُمر بإنذار عشيرته الأقربين، صعد النبي صلى الله عليه وسلم الصفا فنادى بطون قريش بأسمائها. فلما اجتمعوا قال لهم: «أرأيتم لو أخبرتكم أن خيلًا بالوادي تريد أن تغير عليكم أكنتم مصدقيّ؟» قالوا: نعم، ما جرّبنا عليك كذبًا. فدعاهم إلى عبادة الله وحده. فردّ عليه أبو لهب بالأذى فقال: «تبًّا لك، ألهذا جمعتنا؟»",
+      "summaryFrench": "Après l'ordre d'Allah d'avertir ses plus proches parents, le Prophète ﷺ monta sur le mont Safâ et appela les clans de Qouraych par leurs noms. Quand ils furent rassemblés, il leur demanda : « Si je vous disais qu'une armée se tient derrière cette montagne, prête à vous attaquer, me croiriez-vous ? » Ils répondirent : « Oui, nous ne t'avons jamais connu menteur. » Il les appela alors à adorer Allah seul. Abou Lahab répondit avec hostilité : « Périsses-tu ! Est-ce pour cela que tu nous as réunis ? »",
       "significance": "This was the transition from the secret to the public phase of the Prophet's ﷺ mission. His reputation as 'As-Sadiq Al-Amin' (The Truthful, The Trustworthy) was so well-established that even his enemies could not deny his honesty. Abu Lahab's hostile response prompted the revelation of Surah Al-Masad.",
+      "significanceArabic": "كان هذا انتقالًا من مرحلة السر إلى مرحلة الجهر. وقد بلغ من رسوخ وصفه بالصادق الأمين أن أعداءه لم يستطيعوا إنكار صدقه. وكان جواب أبي لهب سببًا في نزول سورة المسد.",
+      "significanceFrench": "Ce fut le passage de la phase secrète à la phase publique de la mission du Prophète ﷺ. Sa réputation d'as-Sâdiq al-Amîn (le Véridique, le Digne de confiance) était si bien établie que même ses ennemis ne pouvaient nier son honnêteté. La réponse hostile d'Abou Lahab entraîna la révélation de la sourate Al-Masad.",
       "quranReferences": [
         {
           "surah": 111,
@@ -166,8 +230,14 @@
           "textEnglish": "When the verse 'And warn your closest kindred' was revealed, the Prophet ﷺ ascended Mount Safa and called: 'O Banu Fihr! O Banu Adi!' addressing the sub-tribes of Quraysh until they gathered."
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Abu Lahab"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Abu Lahab"
+      ],
       "location": "Mount Safa, Makkah",
       "locationArabic": "جبل الصفا – مكة"
     },
@@ -180,7 +250,11 @@
       "month": "",
       "category": "persecution",
       "summary": "As the public call to Islam grew, the Quraysh intensified their persecution of Muslims. Bilal ibn Rabah was tortured by his master Umayyah ibn Khalaf, placed on burning sand with heavy stones on his chest, yet he continued saying 'Ahad! Ahad!' (One! One!). The family of Yasir — Yasir, Sumayyah, and their son Ammar — were severely tortured. Abu Bakr purchased and freed Bilal and several other enslaved Muslims.",
+      "summaryArabic": "لما اتسعت الدعوة الجهرية اشتد أذى قريش للمسلمين. فعُذّب بلال بن رباح على يد سيده أمية بن خلف، يُلقى على الرمضاء ويوضع على صدره الحجر الثقيل وهو يقول: «أحد أحد». وعُذّب آل ياسر: ياسر وسمية وابنهما عمار عذابًا شديدًا. واشترى أبو بكر بلالًا وغيره من المستضعفين فأعتقهم.",
+      "summaryFrench": "À mesure que l'appel public grandissait, Qouraych intensifia la persécution des musulmans. Bilâl ibn Rabâh fut torturé par son maître Oumayya ibn Khalaf, étendu sur le sable brûlant avec de lourdes pierres sur la poitrine, tout en continuant de dire : « Ahad ! Ahad ! » (Un ! Un !). La famille de Yâsir, à savoir Yâsir, Soumayya et leur fils Ammâr, fut torturée avec sévérité. Abou Bakr acheta et affranchit Bilâl et plusieurs autres musulmans réduits en esclavage.",
       "significance": "The persecution revealed the depth of faith in these early believers and their willingness to suffer for the truth. Sumayyah bint Khayyat became the first martyr in Islam, killed by Abu Jahl with a spear. The Prophet ﷺ, witnessing their suffering, could only say: 'Be patient, O family of Yasir, for your appointment is Paradise.'",
+      "significanceArabic": "كشف هذا الأذى عمق إيمان أولئك السابقين واستعدادهم للبذل في سبيل الحق. وكانت سمية بنت خياط أول شهيدة في الإسلام، قتلها أبو جهل بحربة. وكان النبي صلى الله عليه وسلم يرى عذابهم فيقول: «صبرًا آل ياسر، فإن موعدكم الجنة».",
+      "significanceFrench": "La persécution révéla la profondeur de la foi de ces premiers croyants et leur disposition à souffrir pour la vérité. Soumayya bint Khayyât devint la première martyre de l'islam, tuée par Abou Jahl d'un coup de lance. Le Prophète ﷺ, témoin de leurs souffrances, ne pouvait que dire : « Patience, ô famille de Yâsir, car votre rendez-vous est le Paradis. »",
       "quranReferences": [
         {
           "surah": 16,
@@ -198,8 +272,20 @@
           "textEnglish": "The Prophet ﷺ passed by the family of Yasir while they were being tortured and said: 'Be patient, O family of Yasir, for your appointment is Paradise.'"
         }
       ],
-      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah", "Ibn Kathir's Al-Bidaya wan-Nihaya"],
-      "keyFigures": ["Bilal ibn Rabah", "Sumayyah bint Khayyat", "Yasir ibn Amir", "Ammar ibn Yasir", "Abu Bakr as-Siddiq", "Umayyah ibn Khalaf", "Abu Jahl"],
+      "primarySources": [
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah",
+        "Ibn Kathir's Al-Bidaya wan-Nihaya"
+      ],
+      "keyFigures": [
+        "Bilal ibn Rabah",
+        "Sumayyah bint Khayyat",
+        "Yasir ibn Amir",
+        "Ammar ibn Yasir",
+        "Abu Bakr as-Siddiq",
+        "Umayyah ibn Khalaf",
+        "Abu Jahl"
+      ],
       "location": "Makkah",
       "locationArabic": "مكة المكرمة"
     },
@@ -212,11 +298,22 @@
       "month": "Rajab",
       "category": "migration",
       "summary": "When persecution became unbearable, the Prophet ﷺ instructed a group of Muslims to migrate to Abyssinia (modern-day Ethiopia), under the rule of the just Christian king, An-Najashi (Negus). The first group comprised twelve men and four women, led by Uthman ibn Affan and his wife Ruqayyah, the Prophet's ﷺ daughter.",
+      "summaryArabic": "لما اشتد البلاء أمر النبي صلى الله عليه وسلم طائفة من المسلمين بالهجرة إلى الحبشة، وكان عليها ملك نصراني عادل هو النجاشي. وكانت الطائفة الأولى اثني عشر رجلًا وأربع نسوة، على رأسهم عثمان بن عفان وزوجه رقية بنت رسول الله صلى الله عليه وسلم.",
+      "summaryFrench": "Lorsque la persécution devint insupportable, le Prophète ﷺ ordonna à un groupe de musulmans d'émigrer en Abyssinie (l'Éthiopie actuelle), sous l'autorité du juste roi chrétien An-Najâchî (le Négus). Le premier groupe comptait douze hommes et quatre femmes, conduits par Othmân ibn Affân et son épouse Rouqayya, fille du Prophète ﷺ.",
       "significance": "This was the first migration in Islam. The Prophet ﷺ chose Abyssinia because of the justice of its ruler, demonstrating that Muslims could seek refuge with just non-Muslims. It also established the principle that when practicing the faith becomes impossible in one land, migration to a place of safety is not just permitted but can be obligatory.",
+      "significanceArabic": "كانت هذه أول هجرة في الإسلام. واختار النبي صلى الله عليه وسلم الحبشة لعدل ملكها، وفي ذلك بيان أن المسلم قد يلجأ إلى غير المسلم إذا كان عادلًا. وتقرر بها أن العجز عن إقامة الدين في أرض يجعل الهجرة إلى دار أمن مشروعة، بل قد تكون واجبة.",
+      "significanceFrench": "Ce fut la première émigration de l'islam. Le Prophète ﷺ choisit l'Abyssinie en raison de la justice de son souverain, montrant que les musulmans pouvaient chercher refuge auprès de non-musulmans justes. Cela établit aussi le principe selon lequel, quand la pratique de la foi devient impossible dans une terre, l'émigration vers un lieu sûr n'est pas seulement permise mais peut devenir obligatoire.",
       "quranReferences": [],
       "hadithReferences": [],
-      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["Uthman ibn Affan", "Ruqayyah bint Muhammad", "An-Najashi (Negus)"],
+      "primarySources": [
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "Uthman ibn Affan",
+        "Ruqayyah bint Muhammad",
+        "An-Najashi (Negus)"
+      ],
       "location": "From Makkah to Abyssinia (Ethiopia)",
       "locationArabic": "من مكة إلى الحبشة"
     },
@@ -229,7 +326,11 @@
       "month": "Shawwal",
       "category": "migration",
       "summary": "A larger group of approximately 83 men and 18-19 women undertook the second migration to Abyssinia. When the Quraysh sent emissaries (Amr ibn al-As and Abdullah ibn Abi Rabi'ah) to An-Najashi to demand the return of the Muslims, Ja'far ibn Abi Talib eloquently defended Islam before the king. He recited verses from Surah Maryam about Prophet Isa (Jesus), which moved An-Najashi to tears, and the king refused to hand them over.",
+      "summaryArabic": "خرجت طائفة أكبر نحو ثلاثة وثمانين رجلًا وثماني عشرة أو تسع عشرة امرأة في الهجرة الثانية إلى الحبشة. فأرسلت قريش عمرو بن العاص وعبد الله بن أبي ربيعة إلى النجاشي يطلبان ردّ المسلمين، فقام جعفر بن أبي طالب فدافع عن الإسلام بين يدي الملك بيانًا بليغًا، وتلا عليه آيات من سورة مريم في شأن عيسى عليه السلام، فبكى النجاشي وأبى أن يسلّمهم.",
+      "summaryFrench": "Un groupe plus important, d'environ quatre-vingt-trois hommes et dix-huit ou dix-neuf femmes, entreprit la seconde émigration vers l'Abyssinie. Lorsque Qouraych envoya des émissaires, Amr ibn al-Âs et Abdallah ibn Abî Rabî'a, réclamer au Négus le retour des musulmans, Ja'far ibn Abî Tâlib défendit l'islam avec éloquence devant le roi. Il récita des versets de la sourate Maryam au sujet du prophète 'Îsâ (Jésus), ce qui émut le Négus aux larmes, et le roi refusa de les livrer.",
       "significance": "Ja'far's speech before An-Najashi is one of the most powerful moments in early Islamic history. He described the pre-Islamic state of the Arabs and how Islam transformed them. An-Najashi's refusal to hand over the Muslims, despite pressure from the Quraysh, demonstrated the power of truth to move just hearts, regardless of religious background.",
+      "significanceArabic": "خطبة جعفر بين يدي النجاشي من أعظم مواقف التاريخ الإسلامي الأول، إذ وصف حال العرب في الجاهلية وكيف غيّرهم الإسلام. وفي إباء النجاشي تسليمهم مع ضغط قريش دليل على أثر الحق في القلوب العادلة مهما اختلف الدين.",
+      "significanceFrench": "Le discours de Ja'far devant le Négus est l'un des moments les plus forts de l'histoire islamique naissante. Il y décrivit l'état des Arabes avant l'islam et la transformation que l'islam avait opérée. Le refus du Négus de livrer les musulmans, malgré la pression de Qouraych, démontra le pouvoir de la vérité de toucher les cœurs justes, quelle que soit leur appartenance religieuse.",
       "quranReferences": [
         {
           "surah": 19,
@@ -240,8 +341,16 @@
         }
       ],
       "hadithReferences": [],
-      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah", "Musnad Ahmad"],
-      "keyFigures": ["Ja'far ibn Abi Talib", "An-Najashi (Negus)", "Amr ibn al-As"],
+      "primarySources": [
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah",
+        "Musnad Ahmad"
+      ],
+      "keyFigures": [
+        "Ja'far ibn Abi Talib",
+        "An-Najashi (Negus)",
+        "Amr ibn al-As"
+      ],
       "location": "Abyssinia (Ethiopia)",
       "locationArabic": "الحبشة"
     },
@@ -254,7 +363,11 @@
       "month": "Dhul Hijjah",
       "category": "conversion",
       "summary": "Hamza ibn Abdul Muttalib, the Prophet's ﷺ uncle and a fierce warrior, accepted Islam after witnessing Abu Jahl's verbal abuse of the Prophet ﷺ. Shortly after, Umar ibn al-Khattab, initially one of Islam's staunchest opponents, accepted Islam after hearing his sister Fatimah reciting Surah Ta-Ha. Both conversions dramatically strengthened the Muslim community.",
+      "summaryArabic": "أسلم حمزة بن عبد المطلب عم النبي صلى الله عليه وسلم، وكان فارسًا شجاعًا، بعدما بلغه ما نال أبو جهل من النبي صلى الله عليه وسلم من الأذى بالقول. ثم أسلم بعده بقليل عمر بن الخطاب، وكان من أشد الناس على الإسلام، لما سمع أخته فاطمة تقرأ سورة طه. وقد قوي بإسلامهما أمر المسلمين قوة ظاهرة.",
+      "summaryFrench": "Hamza ibn Abd al-Mouttalib, oncle du Prophète ﷺ et guerrier redoutable, embrassa l'islam après avoir été témoin des insultes d'Abou Jahl envers le Prophète ﷺ. Peu après, Omar ibn al-Khattâb, d'abord l'un des adversaires les plus acharnés de l'islam, embrassa l'islam après avoir entendu sa sœur Fâtima réciter la sourate Tâ-Hâ. Ces deux conversions renforcèrent considérablement la communauté musulmane.",
       "significance": "Hamza and Umar were both men of great stature and influence. The Prophet ﷺ had prayed for one of the two 'Umars' — Umar ibn al-Khattab or Amr ibn Hisham (Abu Jahl) — to accept Islam. With these two conversions, the Muslims gained the strength to pray openly at the Ka'bah for the first time, walking in two rows with Hamza leading one and Umar leading the other.",
+      "significanceArabic": "كان حمزة وعمر من أهل الشرف والمكانة. وقد كان النبي صلى الله عليه وسلم دعا أن يعزّ الله الإسلام بأحد العُمَرين: عمر بن الخطاب أو عمرو بن هشام أبي جهل. فلما أسلما استطاع المسلمون أن يصلوا عند الكعبة ظاهرين لأول مرة، يمشون صفين يقود أحدهما حمزة والآخر عمر.",
+      "significanceFrench": "Hamza et Omar étaient tous deux des hommes de grande stature et d'influence. Le Prophète ﷺ avait invoqué Allah pour que l'un des deux « Omar », Omar ibn al-Khattâb ou Amr ibn Hichâm (Abou Jahl), embrasse l'islam. Avec ces deux conversions, les musulmans purent prier ouvertement auprès de la Ka'ba pour la première fois, marchant en deux rangs, l'un conduit par Hamza et l'autre par Omar.",
       "quranReferences": [
         {
           "surah": 20,
@@ -272,8 +385,16 @@
           "textEnglish": "The Prophet ﷺ said: 'O Allah, strengthen Islam with the dearer to You of these two men: Umar ibn al-Khattab or Abu Jahl ibn Hisham.' And the dearer of them to Allah was Umar."
         }
       ],
-      "primarySources": ["Jami' at-Tirmidhi", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["Hamza ibn Abdul Muttalib", "Umar ibn al-Khattab", "Fatimah bint al-Khattab"],
+      "primarySources": [
+        "Jami' at-Tirmidhi",
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "Hamza ibn Abdul Muttalib",
+        "Umar ibn al-Khattab",
+        "Fatimah bint al-Khattab"
+      ],
       "location": "Makkah",
       "locationArabic": "مكة المكرمة"
     },
@@ -286,11 +407,22 @@
       "month": "",
       "category": "persecution",
       "summary": "The Quraysh imposed a total economic and social boycott on Banu Hashim and Banu Muttalib, confining them to the valley of Abu Talib (Shi'b Abi Talib). A document was drawn up and hung inside the Ka'bah, declaring that no one would trade with them, marry from them, or have any social dealings with them until they handed over Muhammad ﷺ. The boycott lasted approximately three years, during which the Muslims suffered severe hunger and hardship.",
+      "summaryArabic": "فرضت قريش على بني هاشم وبني المطلب مقاطعة اقتصادية واجتماعية تامة، وحصرتهم في شعب أبي طالب. وكُتبت في ذلك صحيفة عُلّقت في جوف الكعبة، ألا يبايعوهم ولا يناكحوهم ولا يخالطوهم حتى يسلّموا محمدًا صلى الله عليه وسلم. ودامت المقاطعة نحو ثلاث سنين لقي المسلمون فيها جوعًا شديدًا وشدة بالغة.",
+      "summaryFrench": "Qouraych imposa un boycott économique et social total aux Banoû Hâchim et aux Banoû al-Mouttalib, les confinant dans la vallée d'Abou Tâlib (Chi'b Abî Tâlib). Un document fut rédigé et suspendu à l'intérieur de la Ka'ba, déclarant que nul ne commercerait avec eux, ne prendrait épouse parmi eux, ni n'aurait de relation sociale avec eux tant qu'ils ne livreraient pas Mouhammad ﷺ. Le boycott dura environ trois ans, durant lesquels les musulmans souffrirent d'une faim et d'une détresse extrêmes.",
       "significance": "Despite the crushing conditions — the cries of starving children could be heard from outside the valley — not a single member of Banu Hashim betrayed the Prophet ﷺ. The boycott ended when the document in the Ka'bah was found to have been eaten by termites, leaving only the words 'Bismika Allahumma' (In Your Name, O Allah). Several Qurayshi nobles also objected to the boycott's cruelty.",
+      "significanceArabic": "ومع شدة ما نزل بهم، حتى كان يُسمع بكاء الصبية من الجوع خارج الشعب، لم يخذل أحد من بني هاشم النبي صلى الله عليه وسلم. وانتهت المقاطعة حين وُجدت الصحيفة قد أكلتها الأرضة فلم يبق منها إلا «باسمك اللهم». كما أنكر جماعة من أشراف قريش قسوة تلك المقاطعة.",
+      "significanceFrench": "Malgré des conditions écrasantes, au point que les cris des enfants affamés s'entendaient depuis l'extérieur de la vallée, pas un seul membre des Banoû Hâchim ne trahit le Prophète ﷺ. Le boycott prit fin lorsqu'on découvrit que le document dans la Ka'ba avait été rongé par les termites, ne laissant que les mots « Bismika Allâhoumma » (En Ton nom, ô Allah). Plusieurs notables de Qouraych s'étaient aussi élevés contre la cruauté de ce boycott.",
       "quranReferences": [],
       "hadithReferences": [],
-      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah", "Ibn Sa'd's Tabaqat"],
-      "keyFigures": ["Abu Talib ibn Abdul Muttalib", "The clans of Banu Hashim and Banu Muttalib"],
+      "primarySources": [
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah",
+        "Ibn Sa'd's Tabaqat"
+      ],
+      "keyFigures": [
+        "Abu Talib ibn Abdul Muttalib",
+        "The clans of Banu Hashim and Banu Muttalib"
+      ],
       "location": "Shi'b Abi Talib (Valley of Abu Talib), Makkah",
       "locationArabic": "شعب أبي طالب – مكة"
     },
@@ -303,7 +435,11 @@
       "month": "Sha'ban/Ramadan",
       "category": "loss",
       "summary": "Within a short period, the Prophet ﷺ lost both Abu Talib — his uncle and protector — and Khadijah — his beloved wife of 25 years and his greatest supporter. Abu Talib died without accepting Islam despite the Prophet's ﷺ plea. Khadijah passed away in Ramadan of the same year.",
+      "summaryArabic": "فقد النبي صلى الله عليه وسلم في مدة يسيرة عمه أبا طالب وهو حاميه، وزوجه خديجة رفيقة خمس وعشرين سنة وأعظم من ساندته. ومات أبو طالب ولم يدخل في الإسلام مع إلحاح النبي صلى الله عليه وسلم عليه. وتوفيت خديجة في رمضان من العام نفسه.",
+      "summaryFrench": "En peu de temps, le Prophète ﷺ perdit à la fois Abou Tâlib, son oncle et protecteur, et Khadîja, son épouse bien-aimée de vingt-cinq ans et son plus grand soutien. Abou Tâlib mourut sans embrasser l'islam malgré les supplications du Prophète ﷺ. Khadîja s'éteignit au mois de Ramadan de la même année.",
       "significance": "These twin losses left the Prophet ﷺ more vulnerable than ever. Abu Talib's protection had been the primary barrier preventing the Quraysh from physically harming him. Khadijah had been his emotional anchor, the first believer, and his confidante. The Prophet ﷺ called this period his greatest sorrow. Allah later consoled him with the Night Journey.",
+      "significanceArabic": "تركه هذان الفقدان أشد ما يكون ضعفًا. فقد كانت حماية أبي طالب هي الحاجز الأول الذي منع قريشًا من إيذائه في بدنه، وكانت خديجة سكنه ومؤنسه وأول من آمن به. وقد سمّى النبي صلى الله عليه وسلم ذلك العام عام الحزن، ثم عزّاه الله بالإسراء.",
+      "significanceFrench": "Ces deux pertes laissèrent le Prophète ﷺ plus vulnérable que jamais. La protection d'Abou Tâlib avait été le principal rempart empêchant Qouraych de lui faire physiquement du mal. Khadîja avait été son ancrage affectif, la première croyante et sa confidente. Le Prophète ﷺ appela cette période son plus grand chagrin. Allah le consola ensuite par le Voyage nocturne.",
       "quranReferences": [
         {
           "surah": 28,
@@ -321,8 +457,15 @@
           "textEnglish": "The Prophet ﷺ said: 'Allah did not grant me anyone better than her (Khadijah). She believed in me when people rejected me, she supported me with her wealth when people deprived me, and Allah granted me children through her when He did not through other women.'"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["Abu Talib ibn Abdul Muttalib", "Khadijah bint Khuwaylid"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "Abu Talib ibn Abdul Muttalib",
+        "Khadijah bint Khuwaylid"
+      ],
       "location": "Makkah",
       "locationArabic": "مكة المكرمة"
     },
@@ -335,7 +478,11 @@
       "month": "Shawwal",
       "category": "dawah",
       "summary": "Seeking support after the death of Abu Talib, the Prophet ﷺ traveled to Ta'if with Zayd ibn Harithah to invite the Thaqif tribe to Islam. The people of Ta'if not only rejected him but sent their children and slaves to stone him until his blessed sandals were soaked with blood. Zayd shielded him with his own body. The Angel of the Mountains offered to crush the people of Ta'if between the two mountains, but the Prophet ﷺ refused, hoping that from their descendants would come people who worship Allah alone.",
+      "summaryArabic": "خرج النبي صلى الله عليه وسلم إلى الطائف بعد موت أبي طالب يلتمس النصرة، ومعه زيد بن حارثة، يدعو ثقيفًا إلى الإسلام. فلم يردّوه فحسب، بل أغروا به سفهاءهم وصبيانهم يرمونه بالحجارة حتى دميت قدماه الشريفتان. ووقاه زيد بنفسه. وعرض عليه ملك الجبال أن يطبق عليهم الأخشبين فأبى النبي صلى الله عليه وسلم، ورجا أن يخرج من أصلابهم من يعبد الله وحده.",
+      "summaryFrench": "Cherchant du soutien après la mort d'Abou Tâlib, le Prophète ﷺ se rendit à Tâ'if avec Zayd ibn Hâritha pour inviter la tribu de Thaqîf à l'islam. Les gens de Tâ'if non seulement le rejetèrent, mais lancèrent contre lui leurs enfants et leurs esclaves qui le lapidèrent jusqu'à ce que ses sandales bénies soient imbibées de sang. Zayd le protégea de son propre corps. L'ange des montagnes proposa d'écraser les gens de Tâ'if entre les deux montagnes, mais le Prophète ﷺ refusa, espérant que de leur descendance viendraient des gens qui adoreraient Allah seul.",
       "significance": "This is one of the most emotionally powerful moments in the Seerah. At his most vulnerable — orphaned of both protector and wife, stoned and bleeding — the Prophet ﷺ responded not with vengeance but with mercy and hope. His supplication to Allah at this moment is one of the most moving prayers ever recorded. And his mercy was vindicated: Ta'if later accepted Islam.",
+      "significanceArabic": "هذا من أعظم مواقف السيرة أثرًا في النفس. ففي أشد حالاته ضعفًا، وقد فقد حاميه وزوجه ورُجم حتى أدمي، لم يقابل ذلك بانتقام بل بالرحمة والرجاء. ودعاؤه في تلك الساعة من أبلغ ما رُوي من الدعاء. وقد صدق رجاؤه، فأسلمت الطائف بعد ذلك.",
+      "significanceFrench": "C'est l'un des moments les plus bouleversants de la sîra. Au plus profond de sa vulnérabilité, privé de son protecteur et de son épouse, lapidé et ensanglanté, le Prophète ﷺ répondit non par la vengeance mais par la miséricorde et l'espérance. Son invocation à Allah en cet instant est l'une des prières les plus émouvantes jamais rapportées. Et sa miséricorde fut justifiée : Tâ'if embrassa plus tard l'islam.",
       "quranReferences": [],
       "hadithReferences": [
         {
@@ -345,8 +492,16 @@
           "textEnglish": "The Prophet ﷺ said: 'The angel of the mountains called me, greeted me, and said: O Muhammad, Allah has heard what your people said to you. I am the Angel of the Mountains, and your Lord has sent me so that you may command me. If you wish, I can bring together the two mountains that stand opposite each other at the extremities of Makkah to crush them.' The Prophet ﷺ said: 'Rather, I hope that Allah will bring out from their descendants people who worship Allah alone, without associating anything with Him.'"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Zayd ibn Harithah", "The Angel of the Mountains", "The chiefs of Thaqif"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Zayd ibn Harithah",
+        "The Angel of the Mountains",
+        "The chiefs of Thaqif"
+      ],
       "location": "Ta'if",
       "locationArabic": "الطائف"
     },
@@ -359,7 +514,11 @@
       "month": "Rajab (according to many scholars)",
       "category": "miracle",
       "summary": "In one night, the Prophet ﷺ was transported from Masjid al-Haram in Makkah to Masjid al-Aqsa in Jerusalem (al-Isra), where he led all the prophets in prayer. He was then ascended through the seven heavens (al-Mi'raj), meeting various prophets at each level, until he reached the Sidrat al-Muntaha — the farthest boundary — and was granted audience with Allah, where the five daily prayers were prescribed.",
+      "summaryArabic": "أُسري بالنبي صلى الله عليه وسلم في ليلة واحدة من المسجد الحرام بمكة إلى المسجد الأقصى ببيت المقدس، فصلى بالأنبياء جميعًا إمامًا. ثم عُرج به في السماوات السبع، يلقى في كل سماء نبيًّا، حتى بلغ سدرة المنتهى، وكلّمه ربه، وفُرضت عليه الصلوات الخمس.",
+      "summaryFrench": "En une seule nuit, le Prophète ﷺ fut transporté de la Mosquée sacrée de La Mecque à la mosquée al-Aqsâ à Jérusalem (al-Isrâ), où il dirigea tous les prophètes dans la prière. Il fut ensuite élevé à travers les sept cieux (al-Mi'râj), rencontrant divers prophètes à chaque niveau, jusqu'à atteindre Sidrat al-Mountahâ, la limite ultime, et être admis auprès d'Allah, où les cinq prières quotidiennes furent prescrites.",
       "significance": "This miraculous journey came at the Prophet's ﷺ lowest point — after the Year of Sorrow and the rejection at Ta'if — as a divine consolation and elevation. The prescription of the five daily prayers (initially fifty, reduced to five through Musa's advice and the Prophet's ﷺ return to Allah) became the pillar of Muslim worship. Abu Bakr earned the title 'As-Siddiq' (The Confirmer of Truth) for his immediate belief in this journey.",
+      "significanceArabic": "جاءت هذه الرحلة المعجزة في أشد أوقاته، بعد عام الحزن وردّ أهل الطائف، تسلية له ورفعًا لقدره. وصارت الصلوات الخمس، وقد فُرضت خمسين ثم خُففت إلى خمس بمشورة موسى عليه السلام ومراجعة النبي صلى الله عليه وسلم ربَّه، عماد عبادة المسلم. ونال أبو بكر لقب الصديق لتصديقه بها من فوره.",
+      "significanceFrench": "Ce voyage miraculeux survint au point le plus bas du Prophète ﷺ, après l'année du chagrin et le rejet de Tâ'if, comme consolation et élévation divines. La prescription des cinq prières quotidiennes, d'abord cinquante puis réduites à cinq sur le conseil de Moûsâ et les retours du Prophète ﷺ auprès d'Allah, devint le pilier de l'adoration du musulman. Abou Bakr gagna le titre d'as-Siddîq (celui qui atteste de la vérité) pour avoir cru immédiatement à ce voyage.",
       "quranReferences": [
         {
           "surah": 17,
@@ -384,8 +543,16 @@
           "textEnglish": "The Prophet ﷺ was brought the Buraq and he rode it until he arrived at Bayt al-Maqdis (Jerusalem). He tied the Buraq to the ring used by the prophets. Then he entered the Mosque and prayed two rak'at, then he was taken to the heavens..."
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Jibril (Angel Gabriel)", "Abu Bakr as-Siddiq", "Previous Prophets (Ibrahim, Musa, Isa, and others)"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Jibril (Angel Gabriel)",
+        "Abu Bakr as-Siddiq",
+        "Previous Prophets (Ibrahim, Musa, Isa, and others)"
+      ],
       "location": "From Makkah to Jerusalem to the Heavens",
       "locationArabic": "من مكة إلى بيت المقدس إلى السماوات"
     },
@@ -398,7 +565,11 @@
       "month": "Dhul Hijjah",
       "category": "pledge",
       "summary": "During the Hajj season, twelve men from Madinah (six from the Aws and six from the Khazraj) met the Prophet ﷺ at Aqaba (near Mina) and pledged allegiance to him. They promised not to associate anything with Allah, not to steal, not to commit unlawful relations, not to kill their children, not to slander, and not to disobey the Prophet ﷺ in any matter of good.",
+      "summaryArabic": "في موسم الحج لقي النبي صلى الله عليه وسلم اثني عشر رجلًا من أهل المدينة، ستة من الأوس وستة من الخزرج، عند العقبة قرب منى، فبايعوه. بايعوه على ألا يشركوا بالله شيئًا ولا يسرقوا ولا يزنوا ولا يقتلوا أولادهم ولا يأتوا ببهتان ولا يعصوه في معروف.",
+      "summaryFrench": "Durant la saison du pèlerinage, douze hommes de Médine, six des Aws et six des Khazraj, rencontrèrent le Prophète ﷺ à Aqaba, près de Minâ, et lui prêtèrent allégeance. Ils s'engagèrent à ne rien associer à Allah, à ne pas voler, à ne pas commettre de relations illicites, à ne pas tuer leurs enfants, à ne pas calomnier, et à ne pas désobéir au Prophète ﷺ en toute chose convenable.",
       "significance": "This pledge, known as the 'Pledge of Women' because it did not include the obligation of military support, was the first formal alliance between the Prophet ﷺ and the people of Madinah. It opened the door for Islam to take root in a new city and would ultimately lead to the Hijrah. The Prophet ﷺ sent Mus'ab ibn Umayr as the first ambassador and teacher of Islam to Madinah.",
+      "significanceArabic": "وتسمى هذه بيعة النساء لأنها لم تتضمن القتال. وهي أول عهد رسمي بين النبي صلى الله عليه وسلم وأهل المدينة، فتحت الباب لتمكّن الإسلام في بلد جديد، وأفضت في النهاية إلى الهجرة. وقد بعث النبي صلى الله عليه وسلم مصعب بن عمير أول سفير ومعلم للإسلام إلى المدينة.",
+      "significanceFrench": "Ce serment, appelé « serment des femmes » parce qu'il n'incluait pas l'obligation d'un soutien militaire, fut la première alliance formelle entre le Prophète ﷺ et les gens de Médine. Il ouvrit la voie à l'enracinement de l'islam dans une nouvelle cité et conduisit finalement à l'Hégire. Le Prophète ﷺ envoya Mous'ab ibn Oumayr comme premier ambassadeur et enseignant de l'islam à Médine.",
       "quranReferences": [],
       "hadithReferences": [
         {
@@ -408,8 +579,15 @@
           "textEnglish": "We pledged allegiance to the Messenger of Allah ﷺ on the basis that we would not associate anything with Allah, would not steal, would not commit adultery, would not kill our children, would not bring any slander we had fabricated, and would not disobey him in any good deed."
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["Twelve men from Madinah", "Mus'ab ibn Umayr"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "Twelve men from Madinah",
+        "Mus'ab ibn Umayr"
+      ],
       "location": "Aqaba, near Mina",
       "locationArabic": "العقبة – منى"
     },
@@ -422,11 +600,25 @@
       "month": "Dhul Hijjah",
       "category": "pledge",
       "summary": "Seventy-three men and two women from Madinah met the Prophet ﷺ secretly at Aqaba during the Hajj season and pledged allegiance to him. This time, the pledge included military protection — they promised to defend the Prophet ﷺ as they would defend their own families. Twelve leaders (nuqaba) were appointed to represent their tribes.",
+      "summaryArabic": "لقي ثلاثة وسبعون رجلًا وامرأتان من أهل المدينة النبي صلى الله عليه وسلم سرًّا عند العقبة في موسم الحج فبايعوه. وتضمنت هذه البيعة النصرة بالسلاح، فعاهدوه أن يمنعوه مما يمنعون منه أنفسهم وأهليهم. وعُيّن اثنا عشر نقيبًا يمثلون قبائلهم.",
+      "summaryFrench": "Soixante-treize hommes et deux femmes de Médine rencontrèrent secrètement le Prophète ﷺ à Aqaba durant la saison du pèlerinage et lui prêtèrent allégeance. Cette fois, le serment incluait la protection militaire : ils promirent de défendre le Prophète ﷺ comme ils défendraient leurs propres familles. Douze responsables (nouqabâ) furent désignés pour représenter leurs tribus.",
       "significance": "This pledge was the turning point that made the Hijrah possible. The people of Madinah offered the Prophet ﷺ not just asylum but active protection and support. The two women who pledged were Nusaybah bint Ka'b (Umm Umarah) and Asma bint Amr. Al-Abbas, the Prophet's ﷺ uncle, was present to verify the commitment of the Madinan delegates.",
+      "significanceArabic": "كانت هذه البيعة نقطة التحول التي جعلت الهجرة ممكنة، إذ بذل أهل المدينة للنبي صلى الله عليه وسلم لا الإيواء وحده بل الحماية والنصرة. والمرأتان اللتان بايعتا هما نسيبة بنت كعب أم عمارة وأسماء بنت عمرو. وحضر العباس عم النبي صلى الله عليه وسلم ليستوثق من عهد وفد المدينة.",
+      "significanceFrench": "Ce serment fut le tournant qui rendit l'Hégire possible. Les gens de Médine offrirent au Prophète ﷺ non seulement l'asile mais une protection et un soutien actifs. Les deux femmes qui prêtèrent serment furent Nousayba bint Ka'b (Oumm Oumâra) et Asmâ bint Amr. Al-Abbâs, oncle du Prophète ﷺ, était présent pour s'assurer de l'engagement des délégués médinois.",
       "quranReferences": [],
       "hadithReferences": [],
-      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah", "Musnad Ahmad"],
-      "keyFigures": ["73 men and 2 women from Madinah", "Nusaybah bint Ka'b", "Asma bint Amr", "Al-Abbas ibn Abdul Muttalib", "As'ad ibn Zurarah"],
+      "primarySources": [
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah",
+        "Musnad Ahmad"
+      ],
+      "keyFigures": [
+        "73 men and 2 women from Madinah",
+        "Nusaybah bint Ka'b",
+        "Asma bint Amr",
+        "Al-Abbas ibn Abdul Muttalib",
+        "As'ad ibn Zurarah"
+      ],
       "location": "Aqaba, near Mina",
       "locationArabic": "العقبة – منى"
     },
@@ -439,7 +631,11 @@
       "month": "Safar",
       "category": "plot",
       "summary": "Learning of the Prophet's ﷺ plan to migrate, the Quraysh convened an emergency council at Dar al-Nadwa. After debating various plans, they decided on Abu Jahl's proposal: to select one strong young man from each tribe to collectively assassinate Muhammad ﷺ in his bed, thus spreading the blood-guilt across all tribes and making retaliation impossible for Banu Hashim.",
+      "summaryArabic": "لما علمت قريش بعزم النبي صلى الله عليه وسلم على الهجرة اجتمعوا في دار الندوة. وبعد أن تداولوا في الرأي أخذوا برأي أبي جهل: أن يُنتدب من كل قبيلة فتى شديد فيضربوه ضربة رجل واحد، فيتفرق دمه في القبائل، فلا يقدر بنو هاشم على المطالبة بثأره.",
+      "summaryFrench": "Apprenant le projet d'émigration du Prophète ﷺ, Qouraych tint un conseil d'urgence à Dâr an-Nadwa. Après avoir débattu de plusieurs plans, ils retinrent la proposition d'Abou Jahl : choisir un jeune homme robuste dans chaque tribu pour assassiner collectivement Mouhammad ﷺ dans son lit, répartissant ainsi la responsabilité du sang sur toutes les tribus et rendant toute vengeance impossible pour les Banoû Hâchim.",
       "significance": "Allah informed the Prophet ﷺ of the plot through revelation. This was the Quraysh's most serious attempt to kill him — a coordinated assassination plan. The Prophet ﷺ asked Ali ibn Abi Talib to sleep in his bed as a decoy, covered in his green cloak, and slipped out past the assassins unseen, reciting the opening verses of Surah Ya-Sin.",
+      "significanceArabic": "فأطلع الله نبيه صلى الله عليه وسلم على المكيدة بالوحي. وكانت أخطر محاولة لقريش لقتله، إذ كانت اغتيالًا مدبّرًا. فأمر النبي صلى الله عليه وسلم عليًّا أن ينام في فراشه متسجيًّا ببرده الأخضر، وخرج من بينهم لم يروه وهو يتلو أوائل سورة يس.",
+      "significanceFrench": "Allah informa le Prophète ﷺ du complot par la révélation. Ce fut la tentative la plus sérieuse de Qouraych pour le tuer, un plan d'assassinat coordonné. Le Prophète ﷺ demanda à Alî ibn Abî Tâlib de dormir dans son lit en guise de leurre, couvert de son manteau vert, et sortit sans être vu des assassins, en récitant les premiers versets de la sourate Yâ-Sîn.",
       "quranReferences": [
         {
           "surah": 8,
@@ -457,8 +653,16 @@
         }
       ],
       "hadithReferences": [],
-      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah", "Tafsir Ibn Kathir"],
-      "keyFigures": ["Abu Jahl", "Ali ibn Abi Talib", "The chiefs of Quraysh"],
+      "primarySources": [
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah",
+        "Tafsir Ibn Kathir"
+      ],
+      "keyFigures": [
+        "Abu Jahl",
+        "Ali ibn Abi Talib",
+        "The chiefs of Quraysh"
+      ],
       "location": "Dar al-Nadwa, Makkah",
       "locationArabic": "دار الندوة – مكة"
     },
@@ -471,7 +675,11 @@
       "month": "Rabi' al-Awwal",
       "category": "migration",
       "summary": "The Prophet ﷺ departed Makkah with Abu Bakr as-Siddiq, heading south to the Cave of Thawr to evade the Qurayshi pursuit. They hid there for three nights while search parties came dangerously close — at which point Abu Bakr expressed fear, and the Prophet ﷺ said 'Do not grieve, indeed Allah is with us.' A spider spun a web and pigeons nested at the cave's entrance. After three nights, they continued to Madinah via an unusual coastal route, guided by Abdullah ibn Urayqit. They arrived in Quba on Monday, 8th or 12th Rabi' al-Awwal.",
+      "summaryArabic": "خرج النبي صلى الله عليه وسلم من مكة ومعه أبو بكر الصديق، فاتجها جنوبًا إلى غار ثور فرارًا من طلب قريش. فمكثا فيه ثلاث ليال، وقد اقترب الطلب حتى خاف أبو بكر، فقال له النبي صلى الله عليه وسلم: «لا تحزن إن الله معنا». ونسج العنكبوت على الغار وعشّش الحمام عند بابه. ثم مضيا بعد ثلاث إلى المدينة على طريق الساحل غير المعتاد، يدلّهما عبد الله بن أُريقط. فقدما قباء يوم الاثنين لثمان أو اثنتي عشرة ليلة خلت من ربيع الأول.",
+      "summaryFrench": "Le Prophète ﷺ quitta La Mecque avec Abou Bakr as-Siddîq, se dirigeant vers le sud jusqu'à la grotte de Thawr pour échapper à la poursuite de Qouraych. Ils s'y cachèrent trois nuits pendant que les patrouilles approchaient dangereusement, moment où Abou Bakr exprima sa crainte et où le Prophète ﷺ lui dit : « Ne t'afflige pas, Allah est certes avec nous. » Une araignée tissa sa toile et des colombes nichèrent à l'entrée de la grotte. Après trois nuits, ils poursuivirent vers Médine par une route côtière inhabituelle, guidés par Abdallah ibn Ourayqit. Ils arrivèrent à Qubâ un lundi, le 8 ou le 12 Rabî' al-Awwal.",
       "significance": "The Hijrah is so pivotal that it marks the beginning of the Islamic calendar. It represents the transition from persecution to establishment, from a persecuted minority to a community with sovereignty. The journey itself was filled with miracles and demonstrations of complete trust in Allah (tawakkul). The Muslims of Madinah (the Ansar) received the Prophet ﷺ with joy and singing.",
+      "significanceArabic": "الهجرة من عظيم شأنها أن جُعلت مبدأ التاريخ الإسلامي. وهي انتقال من الاضطهاد إلى التمكين، ومن أقلية مضطهدة إلى أمة لها سيادتها. وقد اكتنف الرحلة من الآيات ومظاهر التوكل على الله ما اكتنفها. واستقبل أنصار المدينة النبي صلى الله عليه وسلم بالفرح والنشيد.",
+      "significanceFrench": "L'Hégire est si décisive qu'elle marque le début du calendrier islamique. Elle représente le passage de la persécution à l'établissement, d'une minorité persécutée à une communauté souveraine. Le voyage lui-même fut jalonné de signes et de manifestations d'une confiance totale en Allah (tawakkoul). Les musulmans de Médine, les Ansâr, accueillirent le Prophète ﷺ avec joie et par des chants.",
       "quranReferences": [
         {
           "surah": 9,
@@ -489,8 +697,20 @@
           "textEnglish": "Abu Bakr said: 'O Messenger of Allah, if one of them were to look down at his feet, he would see us!' The Prophet ﷺ said: 'O Abu Bakr, what do you think about two when Allah is the third?'"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["Abu Bakr as-Siddiq", "Ali ibn Abi Talib", "Asma bint Abi Bakr", "Abdullah ibn Abi Bakr", "Abdullah ibn Urayqit (the guide)", "Suraqah ibn Malik"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "Abu Bakr as-Siddiq",
+        "Ali ibn Abi Talib",
+        "Asma bint Abi Bakr",
+        "Abdullah ibn Abi Bakr",
+        "Abdullah ibn Urayqit (the guide)",
+        "Suraqah ibn Malik"
+      ],
       "location": "From Makkah to Cave Thawr to Quba to Madinah",
       "locationArabic": "من مكة إلى غار ثور إلى قباء إلى المدينة"
     }
