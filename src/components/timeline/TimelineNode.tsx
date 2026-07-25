@@ -17,6 +17,7 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
   const locale = useLocale() as Locale;
   const t = useTranslations();
   const isAr = locale === 'ar';
+  const isArabicLocation = isAr && Boolean(event.locationArabic);
   const isEven = index % 2 === 0;
   const categoryLabel = t(`categories.${event.category}`);
   const categoryColor = getCategoryColor(event.category);
@@ -111,8 +112,12 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
         </p>
 
         {event.location && (
-          <p className="text-xs font-body text-ink-light/60 mt-3">
-            {event.location}
+          <p
+            className="text-xs font-body text-ink-light/60 mt-3"
+            dir={isArabicLocation ? 'rtl' : 'ltr'}
+            lang={isArabicLocation ? 'ar' : 'en'}
+          >
+            {isArabicLocation ? event.locationArabic : event.location}
           </p>
         )}
       </Link>

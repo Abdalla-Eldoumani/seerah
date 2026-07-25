@@ -14,6 +14,7 @@ export default function EventHero({ event }: EventHeroProps) {
   const locale = useLocale() as Locale;
   const t = useTranslations();
   const isAr = locale === 'ar';
+  const showArabicLocation = isAr && Boolean(event.locationArabic);
   const categoryLabel = t(`categories.${event.category}`);
   const categoryColor = getCategoryColor(event.category);
   const dateLine = formatEventDate(event, locale);
@@ -42,16 +43,13 @@ export default function EventHero({ event }: EventHeroProps) {
       </p>
 
       <p className="text-base md:text-lg text-ink-light/60 font-body mx-auto">
-        {event.location}
-        {event.locationArabic && (
-          <>
-            {' '}
-            <span aria-hidden="true" className="text-ink-light/30">|</span>{' '}
-            <span dir="rtl" lang="ar" className="font-arabic">
-              {event.locationArabic}
-            </span>
-          </>
-        )}
+        <span
+          dir={showArabicLocation ? 'rtl' : 'ltr'}
+          lang={showArabicLocation ? 'ar' : 'en'}
+          className={showArabicLocation ? 'font-arabic' : undefined}
+        >
+          {showArabicLocation ? event.locationArabic : event.location}
+        </span>
       </p>
 
       <div className="flex justify-center">
