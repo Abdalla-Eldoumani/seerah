@@ -90,6 +90,8 @@ export default async function LocaleLayout({
   }
   setRequestLocale(locale);
 
+  const tNav = await getTranslations({ locale, namespace: 'nav' });
+
   // Load only the fonts each locale actually renders. Latin pages skip the
   // Plex Arabic UI face. Arabic pages skip Cormorant Garamond and Source Serif.
   // Amiri is loaded everywhere because Quranic verses render in Amiri regardless of locale.
@@ -106,8 +108,18 @@ export default async function LocaleLayout({
     >
       <body className="min-h-screen flex flex-col">
         <NextIntlClientProvider>
+          {/* Without this a keyboard user traverses the whole header on every
+              one of the ~170 pages before reaching the content. */}
+          <a
+            href="#main"
+            className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:start-2 focus:z-50 focus:rounded-lg focus:bg-midnight focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-parchment"
+          >
+            {tNav('skipToContent')}
+          </a>
           <Header locale={locale as Locale} />
-          <div className="flex-1">{children}</div>
+          <main id="main" className="flex-1">
+            {children}
+          </main>
           <Footer />
         </NextIntlClientProvider>
       </body>

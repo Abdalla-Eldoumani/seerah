@@ -12,7 +12,8 @@
     "closeMenu": "Close navigation menu",
     "switchToArabic": "العربية",
     "switchToEnglish": "English",
-    "language": "Language"
+    "language": "Language",
+    "skipToContent": "Skip to content"
   },
   "home": {
     "ctaPrimary": "Begin the journey",
