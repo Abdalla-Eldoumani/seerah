@@ -22,21 +22,30 @@ export default function EventHero({ event }: EventHeroProps) {
 
   return (
     <header className="text-center py-12 md:py-16 lg:py-20 space-y-6">
-      <p
-        dir="rtl"
-        lang="ar"
-        className={cn(
-          'font-arabic text-gold-dark leading-relaxed',
-          isAr ? 'text-4xl md:text-5xl lg:text-6xl' : 'text-3xl md:text-4xl lg:text-5xl'
-        )}
-      >
-        {event.titleArabic}
-      </p>
-
-      {!isAr && (
-        <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-ink leading-tight text-balance">
-          {localizedField(event, 'title', locale).text}
+      {/* On Arabic the Arabic title is the page heading. Gating the only h1
+          behind `!isAr` left every Arabic page with no h1 at all, so a screen
+          reader had nothing to announce as the document title. */}
+      {isAr ? (
+        <h1
+          dir="rtl"
+          lang="ar"
+          className="font-arabic text-gold-dark leading-relaxed text-4xl md:text-5xl lg:text-6xl"
+        >
+          {event.titleArabic}
         </h1>
+      ) : (
+        <>
+          <p
+            dir="rtl"
+            lang="ar"
+            className="font-arabic text-gold-dark leading-relaxed text-3xl md:text-4xl lg:text-5xl"
+          >
+            {event.titleArabic}
+          </p>
+          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-ink leading-tight text-balance">
+            {localizedField(event, 'title', locale).text}
+          </h1>
+        </>
       )}
 
       <p className="text-lg md:text-xl text-ink-light/70 font-body mx-auto">

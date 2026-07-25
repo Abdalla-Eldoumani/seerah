@@ -25,17 +25,25 @@ export default async function HomePage({
       <div className="relative z-10 text-center px-6 py-16 max-w-2xl mx-auto">
         <HomeOrnament className="mx-auto mb-8 w-20 h-20 text-gold-dark/70" />
 
-        <p
-          dir="rtl"
-          lang="ar"
-          className={`font-arabic text-gold ${
-            isAr
-              ? 'text-5xl sm:text-6xl md:text-7xl mb-4'
-              : 'text-3xl sm:text-4xl md:text-5xl mb-4'
-          } leading-relaxed`}
-        >
-          {tArabic('name')}
-        </p>
+        {/* The Arabic wordmark is the page heading on Arabic. It used to be a
+            <p> on every locale, which left /ar with no h1 at all. */}
+        {isAr ? (
+          <h1
+            dir="rtl"
+            lang="ar"
+            className="font-arabic text-gold text-5xl sm:text-6xl md:text-7xl mb-4 leading-relaxed"
+          >
+            {tArabic('name')}
+          </h1>
+        ) : (
+          <p
+            dir="rtl"
+            lang="ar"
+            className="font-arabic text-gold text-3xl sm:text-4xl md:text-5xl mb-4 leading-relaxed"
+          >
+            {tArabic('name')}
+          </p>
+        )}
 
         {isAr ? (
           <p

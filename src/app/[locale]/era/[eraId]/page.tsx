@@ -71,23 +71,31 @@ export default async function EraPage({
         }}
       >
         <Container className="text-center space-y-6">
-          <p
-            dir="rtl"
-            lang="ar"
-            className={`font-arabic ${
-              isAr
-                ? 'text-4xl md:text-5xl lg:text-6xl'
-                : 'text-3xl md:text-4xl lg:text-5xl'
-            } leading-relaxed`}
-            style={{ color: era.themeColor }}
-          >
-            {era.titleArabic}
-          </p>
-
-          {!isAr && (
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-ink tracking-tight">
-              {eraTitle}
+          {/* On Arabic the Arabic era name is the page heading; the h1 used to
+              be gated behind `!isAr`, leaving /ar/era/* with no heading. */}
+          {isAr ? (
+            <h1
+              dir="rtl"
+              lang="ar"
+              className="font-arabic text-4xl md:text-5xl lg:text-6xl leading-relaxed"
+              style={{ color: era.themeColor }}
+            >
+              {era.titleArabic}
             </h1>
+          ) : (
+            <>
+              <p
+                dir="rtl"
+                lang="ar"
+                className="font-arabic text-3xl md:text-4xl lg:text-5xl leading-relaxed"
+                style={{ color: era.themeColor }}
+              >
+                {era.titleArabic}
+              </p>
+              <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-ink tracking-tight">
+                {eraTitle}
+              </h1>
+            </>
           )}
 
           <p className="font-body text-lg md:text-xl text-ink-light/70" dir="ltr">

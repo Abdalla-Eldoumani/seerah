@@ -82,24 +82,27 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
           </span>
         </div>
 
-        {!isAr && (
-          <h3 className="font-display text-lg md:text-xl text-ink leading-snug group-hover:text-gold-dark transition-colors">
-            {localizedField(event, 'title', locale).text}
+        {/* On Arabic the Arabic title is the card heading. Gating the only
+            h3 behind `!isAr` left the Arabic timeline with no card headings,
+            so nothing could be navigated by heading. */}
+        {isAr ? (
+          <h3
+            dir="rtl"
+            lang="ar"
+            className="font-arabic text-xl md:text-2xl text-ink group-hover:text-gold-dark transition-colors"
+          >
+            {event.titleArabic}
           </h3>
+        ) : (
+          <>
+            <h3 className="font-display text-lg md:text-xl text-ink leading-snug group-hover:text-gold-dark transition-colors">
+              {localizedField(event, 'title', locale).text}
+            </h3>
+            <p dir="rtl" lang="ar" className={cn('font-arabic', 'text-base text-ink-light/70 mt-1')}>
+              {event.titleArabic}
+            </p>
+          </>
         )}
-
-        <p
-          dir="rtl"
-          lang="ar"
-          className={cn(
-            'font-arabic',
-            isAr
-              ? 'text-xl md:text-2xl text-ink'
-              : 'text-base text-ink-light/70 mt-1'
-          )}
-        >
-          {event.titleArabic}
-        </p>
 
         <p className="text-sm font-body text-ink-light/80 mt-2">
           {dateLine}
