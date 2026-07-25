@@ -15,7 +15,7 @@ export default function EventHero({ event }: EventHeroProps) {
   const locale = useLocale() as Locale;
   const t = useTranslations();
   const isAr = locale === 'ar';
-  const showArabicLocation = isAr && Boolean(event.locationArabic);
+  const place = localizedField(event, 'location', locale);
   const categoryLabel = t(`categories.${event.category}`);
   const categoryColor = getCategoryColor(event.category);
   const dateLine = formatEventDate(event, locale);
@@ -45,11 +45,11 @@ export default function EventHero({ event }: EventHeroProps) {
 
       <p className="text-base md:text-lg text-ink-light/60 font-body mx-auto">
         <span
-          dir={showArabicLocation ? 'rtl' : 'ltr'}
-          lang={showArabicLocation ? 'ar' : 'en'}
-          className={showArabicLocation ? 'font-arabic' : undefined}
+          dir={place.lang === 'ar' ? 'rtl' : 'ltr'}
+          lang={place.lang}
+          className={place.lang === 'ar' ? 'font-arabic' : undefined}
         >
-          {localizedField(event, 'location', locale).text}
+          {place.text}
         </span>
       </p>
 

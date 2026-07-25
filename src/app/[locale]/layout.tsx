@@ -6,6 +6,14 @@ import { amiri, cormorantGaramond, ibmPlexSansArabic, sourceSerif4 } from '@/lib
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { routing, localeDirection, type Locale } from '@/i18n/routing';
+
+// Open Graph wants the underscore form. Keeping the map beside the locale list
+// makes adding a fourth locale a compile error rather than a silent en_US.
+const OG_LOCALES: Record<Locale, string> = {
+  en: 'en_US',
+  ar: 'ar_SA',
+  fr: 'fr_FR',
+};
 import '@/styles/globals.css';
 
 export function generateStaticParams() {
@@ -49,13 +57,14 @@ export async function generateMetadata({
       title: `${siteName} | ${subtitle}`,
       description,
       type: 'website',
-      locale: locale === 'ar' ? 'ar_SA' : 'en_US',
+      locale: OG_LOCALES[locale as Locale] ?? OG_LOCALES.en,
     },
     alternates: {
-      canonical: locale === 'ar' ? `${siteUrl}/ar` : `${siteUrl}/`,
+      canonical: locale === routing.defaultLocale ? `${siteUrl}/` : `${siteUrl}/${locale}`,
       languages: {
         en: `${siteUrl}/`,
         ar: `${siteUrl}/ar`,
+        fr: `${siteUrl}/fr`,
         'x-default': `${siteUrl}/`,
       },
     },

@@ -18,15 +18,18 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
   const locale = useLocale() as Locale;
   const t = useTranslations();
   const isAr = locale === 'ar';
-  const isArabicLocation = isAr && Boolean(event.locationArabic);
+  const place = localizedField(event, 'location', locale);
   const isEven = index % 2 === 0;
   const categoryLabel = t(`categories.${event.category}`);
   const categoryColor = getCategoryColor(event.category);
   const dateLine = formatEventDate(event, locale);
 
-  const summarySource =
-    isAr && event.summaryArabic ? event.summaryArabic : event.summary;
-  const summaryLang = isAr && event.summaryArabic ? 'ar' : 'en';
+  // The two-way ternary this replaced showed the English summary on every
+  // French node. The scanner could not see it: English and French are both
+  // Latin, so the script check passed on all 49.
+  const summary = localizedField(event, 'summary', locale);
+  const summarySource = summary.text;
+  const summaryLang = summary.lang;
   const summaryDir = summaryLang === 'ar' ? 'rtl' : 'ltr';
   const truncatedSummary =
     summarySource.length > 100
@@ -115,10 +118,10 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
         {event.location && (
           <p
             className="text-xs font-body text-ink-light/60 mt-3"
-            dir={isArabicLocation ? 'rtl' : 'ltr'}
-            lang={isArabicLocation ? 'ar' : 'en'}
+            dir={place.lang === 'ar' ? 'rtl' : 'ltr'}
+            lang={place.lang}
           >
-            {localizedField(event, 'location', locale).text}
+            {place.text}
           </p>
         )}
       </Link>

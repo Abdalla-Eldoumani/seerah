@@ -1,6 +1,14 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { localizedField } from '@/lib/localized';
+
+// schema.org wants BCP 47. A French page declaring en-US tells a search engine
+// and a screen reader the wrong thing about its own contents.
+const BCP47: Record<string, string> = {
+  en: 'en-US',
+  ar: 'ar-SA',
+  fr: 'fr-FR',
+};
 import { hasLocale } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import {
@@ -104,8 +112,8 @@ export default async function EventPage({
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: eventTitle,
-    description: event.summary.slice(0, 200),
-    inLanguage: locale === 'ar' ? 'ar-SA' : 'en-US',
+    description: localizedField(event, 'summary', locale as Locale).text.slice(0, 200),
+    inLanguage: BCP47[locale as Locale] ?? BCP47.en,
     author: { '@type': 'Organization', name: 'Noor al-Seerah Project' },
     publisher: { '@type': 'Organization', name: 'Noor al-Seerah Project' },
     mainEntityOfPage: pageUrl(locale, `/era/${era.id}/${event.id}`),

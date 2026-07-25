@@ -20,7 +20,7 @@ export default async function Image({
 
   const isAr = locale === 'ar';
   const title = event ? localizedField(event, 'title', locale as Locale).text : '';
-  const eraTitle = era ? (isAr ? era.titleArabic : era.title) : '';
+  const eraTitle = era ? localizedField(era, 'title', locale as Locale).text : '';
   const dateLine = event ? formatEventDate(event, locale as Locale) : '';
 
   return new ImageResponse(
