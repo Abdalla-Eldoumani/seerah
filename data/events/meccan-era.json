@@ -3,6 +3,7 @@
     "id": "meccan",
     "title": "The Light in the Darkness",
     "titleArabic": "العهد المكي",
+    "titleFrench": "La lumière dans les ténèbres",
     "description": "Thirteen years of revelation, persecution, patience, and unwavering faith. From the first words revealed in Cave Hira to the momentous migration to Madinah — the period in which Islam was born, the early believers were forged through suffering, and the Quran's foundational message of Tawhid was established.",
     "descriptionArabic": "ثلاث عشرة سنة من الوحي والاضطهاد والصبر والثبات على الإيمان. من أول ما نزل في غار حراء إلى الهجرة العظيمة إلى المدينة، وهي المرحلة التي وُلد فيها الإسلام، وصُهر فيها المؤمنون الأولون بالبلاء، وتقرّرت فيها رسالة التوحيد التي قام عليها القرآن.",
     "descriptionFrench": "Treize années de révélation, de persécution, de patience et de foi inébranlable. Des premiers mots révélés dans la grotte de Hirâ jusqu'à la grande émigration vers Médine : la période où l'islam naquit, où les premiers croyants furent éprouvés par la souffrance, et où s'établit le message fondateur du tawhîd porté par le Coran.",
@@ -16,6 +17,7 @@
       "id": "mec-001",
       "title": "The First Revelation",
       "titleArabic": "نزول الوحي",
+      "titleFrench": "La première révélation",
       "year": "12 BH",
       "yearCE": "610 CE",
       "month": "Ramadan (17th or 21st)",
@@ -31,8 +33,10 @@
           "surah": 96,
           "surahName": "Al-Alaq",
           "ayahRange": "1-5",
-          "textArabic": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ ۝ خَلَقَ ٱلْإِنسَـٰنَ مِنْ عَلَقٍ ۝ ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ ۝ ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ ۝ عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ",
-          "textEnglish": "Read in the name of your Lord who created. Created man from a clinging clot. Read, and your Lord is the Most Generous. Who taught by the pen. Taught man that which he knew not."
+          "textArabic": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ ۝ خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ ۝ ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ ۝ ٱلَّذِى عَلَّمَ بِٱلْقَلَمِ ۝ عَلَّمَ ٱلْإِنسَٰنَ مَا لَمْ يَعْلَمْ",
+          "textEnglish": "Recite in the name of your Lord who created - Created man from a clinging substance. Recite, and your Lord is the most Generous - Who taught by the pen - Taught man that which he knew not.",
+          "textFrench": "Lis, au nom de ton Seigneur qui a créé, qui a créé l'homme d'une adhérence. Lis! Ton Seigneur est le Très Noble, qui a enseigné par la plume [le calame], a enseigné à l'homme ce qu'il ne savait pas.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [
@@ -40,7 +44,11 @@
           "source": "Sahih al-Bukhari",
           "hadithNumber": "3",
           "narrator": "Aisha",
-          "textEnglish": "The angel came to him and said: 'Read!' He replied: 'I cannot read.' The Prophet ﷺ said: 'Then he took hold of me and pressed me until I could bear it no more, then he released me and said: Read!' I said: 'I cannot read.' He pressed me a second time until I could bear it no more, then released me and said: 'Read!' I said: 'I cannot read.' He pressed me a third time, then released me and said: 'Read in the name of your Lord who created...'"
+          "textEnglish": "The angel came to him and said: 'Read!' He replied: 'I cannot read.' The Prophet ﷺ said: 'Then he took hold of me and pressed me until I could bear it no more, then he released me and said: Read!' I said: 'I cannot read.' He pressed me a second time until I could bear it no more, then released me and said: 'Read!' I said: 'I cannot read.' He pressed me a third time, then released me and said: 'Read in the name of your Lord who created...'",
+          "grade": "sahih",
+          "textFrench": "L'ange vint à lui et dit : « Lis ! » Il répondit : « Je ne sais pas lire. » Le Prophète ﷺ dit : « Il me saisit alors et me serra jusqu'à la limite de mes forces, puis il me relâcha et dit : Lis ! » Je dis : « Je ne sais pas lire. » Il me serra une deuxième fois jusqu'à la limite de mes forces, puis me relâcha et dit : « Lis ! » Je dis : « Je ne sais pas lire. » Il me serra une troisième fois, puis me relâcha et dit : « Lis, au nom de ton Seigneur qui a créé... »",
+          "translationProvenance": "project",
+          "textArabic": "أَوَّلُ مَا بُدِئَ بِهِ رَسُولُ اللَّهِ صلى الله عليه وسلم مِنَ الْوَحْىِ الرُّؤْيَا الصَّالِحَةُ فِي النَّوْمِ، فَكَانَ لاَ يَرَى رُؤْيَا إِلاَّ جَاءَتْ مِثْلَ فَلَقِ الصُّبْحِ، ثُمَّ حُبِّبَ إِلَيْهِ الْخَلاَءُ، وَكَانَ يَخْلُو بِغَارِ حِرَاءٍ فَيَتَحَنَّثُ فِيهِ ـ وَهُوَ التَّعَبُّدُ ـ اللَّيَالِيَ ذَوَاتِ الْعَدَدِ قَبْلَ أَنْ يَنْزِعَ إِلَى أَهْلِهِ، وَيَتَزَوَّدُ لِذَلِكَ، ثُمَّ يَرْجِعُ إِلَى خَدِيجَةَ، فَيَتَزَوَّدُ لِمِثْلِهَا، حَتَّى جَاءَهُ الْحَقُّ وَهُوَ فِي غَارِ حِرَاءٍ، فَجَاءَهُ الْمَلَكُ فَقَالَ اقْرَأْ‏.‏ قَالَ ‏\"‏ مَا أَنَا بِقَارِئٍ ‏\"‏‏.‏ قَالَ ‏\"‏ فَأَخَذَنِي فَغَطَّنِي حَتَّى بَلَغَ مِنِّي الْجَهْدَ، ثُمَّ أَرْسَلَنِي فَقَالَ اقْرَأْ‏.‏ قُلْتُ مَا أَنَا بِقَارِئٍ‏.‏ فَأَخَذَنِي فَغَطَّنِي الثَّانِيَةَ حَتَّى بَلَغَ مِنِّي الْجَهْدَ، ثُمَّ أَرْسَلَنِي فَقَالَ اقْرَأْ‏.‏ فَقُلْتُ مَا أَنَا بِقَارِئٍ‏.‏ فَأَخَذَنِي فَغَطَّنِي الثَّالِثَةَ، ثُمَّ أَرْسَلَنِي فَقَالَ ‏‏{‏اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ * خَلَقَ الإِنْسَانَ مِنْ عَلَقٍ * اقْرَأْ وَرَبُّكَ الأَكْرَمُ‏}‏ ‏\"‏‏.‏ فَرَجَعَ بِهَا رَسُولُ اللَّهِ صلى الله عليه وسلم يَرْجُفُ فُؤَادُهُ، فَدَخَلَ عَلَى خَدِيجَةَ بِنْتِ خُوَيْلِدٍ رضى الله عنها فَقَالَ ‏\"‏ زَمِّلُونِي زَمِّلُونِي ‏\"‏‏.‏ فَزَمَّلُوهُ حَتَّى ذَهَبَ عَنْهُ الرَّوْعُ، فَقَالَ لِخَدِيجَةَ وَأَخْبَرَهَا الْخَبَرَ ‏\"‏ لَقَدْ خَشِيتُ عَلَى نَفْسِي ‏\"‏‏.‏ فَقَالَتْ خَدِيجَةُ كَلاَّ وَاللَّهِ مَا يُخْزِيكَ اللَّهُ أَبَدًا، إِنَّكَ لَتَصِلُ الرَّحِمَ، وَتَحْمِلُ الْكَلَّ، وَتَكْسِبُ الْمَعْدُومَ، وَتَقْرِي الضَّيْفَ، وَتُعِينُ عَلَى نَوَائِبِ الْحَقِّ‏.‏ فَانْطَلَقَتْ بِهِ خَدِيجَةُ حَتَّى أَتَتْ بِهِ وَرَقَةَ بْنَ نَوْفَلِ بْنِ أَسَدِ بْنِ عَبْدِ الْعُزَّى ابْنَ عَمِّ خَدِيجَةَ ـ وَكَانَ امْرَأً تَنَصَّرَ فِي الْجَاهِلِيَّةِ، وَكَانَ يَكْتُبُ الْكِتَابَ الْعِبْرَانِيَّ، فَيَكْتُبُ مِنَ الإِنْجِيلِ بِالْعِبْرَانِيَّةِ مَا شَاءَ اللَّهُ أَنْ يَكْتُبَ، وَكَانَ شَيْخًا كَبِيرًا قَدْ عَمِيَ ـ فَقَالَتْ لَهُ خَدِيجَةُ يَا ابْنَ عَمِّ اسْمَعْ مِنَ ابْنِ أَخِيكَ‏.‏ فَقَالَ لَهُ وَرَقَةُ يَا ابْنَ أَخِي مَاذَا تَرَى فَأَخْبَرَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم خَبَرَ مَا رَأَى‏.‏ فَقَالَ لَهُ وَرَقَةُ هَذَا النَّامُوسُ الَّذِي نَزَّلَ اللَّهُ عَلَى مُوسَى صلى الله عليه وسلم يَا لَيْتَنِي فِيهَا جَذَعًا، لَيْتَنِي أَكُونُ حَيًّا إِذْ يُخْرِجُكَ قَوْمُكَ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَوَمُخْرِجِيَّ هُمْ ‏\"‏‏.‏ قَالَ نَعَمْ، لَمْ يَأْتِ رَجُلٌ قَطُّ بِمِثْلِ مَا جِئْتَ بِهِ إِلاَّ عُودِيَ، وَإِنْ يُدْرِكْنِي يَوْمُكَ أَنْصُرْكَ نَصْرًا مُؤَزَّرًا‏.‏ ثُمَّ لَمْ يَنْشَبْ وَرَقَةُ أَنْ تُوُفِّيَ وَفَتَرَ الْوَحْىُ‏.‏"
         }
       ],
       "primarySources": [
@@ -54,12 +62,14 @@
         "Waraqah ibn Nawfal"
       ],
       "location": "Cave of Hira, Jabal an-Nur",
-      "locationArabic": "غار حراء – جبل النور"
+      "locationArabic": "غار حراء – جبل النور",
+      "locationFrench": "La grotte de Hirâ, Jabal an-Noûr"
     },
     {
       "id": "mec-002",
       "title": "Khadijah Consults Waraqah ibn Nawfal",
       "titleArabic": "خديجة تستشير ورقة بن نوفل",
+      "titleFrench": "Khadîja consulte Waraqa ibn Nawfal",
       "year": "12 BH",
       "yearCE": "610 CE",
       "month": "Ramadan",
@@ -76,7 +86,11 @@
           "source": "Sahih al-Bukhari",
           "hadithNumber": "3",
           "narrator": "Aisha",
-          "textEnglish": "Waraqah said: 'This is the same Namus (i.e., the angel who brought divine revelations) that Allah sent to Musa. I wish I were young and could live until the time when your people will drive you out.' The Messenger of Allah ﷺ asked: 'Will they drive me out?' Waraqah said: 'Yes, no man has ever come with what you have come with except that he was treated with enmity.'"
+          "textEnglish": "Waraqah said: 'This is the same Namus (i.e., the angel who brought divine revelations) that Allah sent to Musa. I wish I were young and could live until the time when your people will drive you out.' The Messenger of Allah ﷺ asked: 'Will they drive me out?' Waraqah said: 'Yes, no man has ever come with what you have come with except that he was treated with enmity.'",
+          "grade": "sahih",
+          "textFrench": "Waraqa dit : « C'est le même Nâmoûs (l'ange porteur de la révélation divine) qu'Allah envoya à Moûsâ. Si seulement j'étais jeune et pouvais vivre jusqu'au jour où ton peuple te chassera. » Le Messager d'Allah ﷺ demanda : « Me chasseront-ils ? » Waraqa répondit : « Oui. Nul n'est venu avec ce que tu apportes sans avoir été traité en ennemi. »",
+          "translationProvenance": "project",
+          "textArabic": "أَوَّلُ مَا بُدِئَ بِهِ رَسُولُ اللَّهِ صلى الله عليه وسلم مِنَ الْوَحْىِ الرُّؤْيَا الصَّالِحَةُ فِي النَّوْمِ، فَكَانَ لاَ يَرَى رُؤْيَا إِلاَّ جَاءَتْ مِثْلَ فَلَقِ الصُّبْحِ، ثُمَّ حُبِّبَ إِلَيْهِ الْخَلاَءُ، وَكَانَ يَخْلُو بِغَارِ حِرَاءٍ فَيَتَحَنَّثُ فِيهِ ـ وَهُوَ التَّعَبُّدُ ـ اللَّيَالِيَ ذَوَاتِ الْعَدَدِ قَبْلَ أَنْ يَنْزِعَ إِلَى أَهْلِهِ، وَيَتَزَوَّدُ لِذَلِكَ، ثُمَّ يَرْجِعُ إِلَى خَدِيجَةَ، فَيَتَزَوَّدُ لِمِثْلِهَا، حَتَّى جَاءَهُ الْحَقُّ وَهُوَ فِي غَارِ حِرَاءٍ، فَجَاءَهُ الْمَلَكُ فَقَالَ اقْرَأْ‏.‏ قَالَ ‏\"‏ مَا أَنَا بِقَارِئٍ ‏\"‏‏.‏ قَالَ ‏\"‏ فَأَخَذَنِي فَغَطَّنِي حَتَّى بَلَغَ مِنِّي الْجَهْدَ، ثُمَّ أَرْسَلَنِي فَقَالَ اقْرَأْ‏.‏ قُلْتُ مَا أَنَا بِقَارِئٍ‏.‏ فَأَخَذَنِي فَغَطَّنِي الثَّانِيَةَ حَتَّى بَلَغَ مِنِّي الْجَهْدَ، ثُمَّ أَرْسَلَنِي فَقَالَ اقْرَأْ‏.‏ فَقُلْتُ مَا أَنَا بِقَارِئٍ‏.‏ فَأَخَذَنِي فَغَطَّنِي الثَّالِثَةَ، ثُمَّ أَرْسَلَنِي فَقَالَ ‏‏{‏اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ * خَلَقَ الإِنْسَانَ مِنْ عَلَقٍ * اقْرَأْ وَرَبُّكَ الأَكْرَمُ‏}‏ ‏\"‏‏.‏ فَرَجَعَ بِهَا رَسُولُ اللَّهِ صلى الله عليه وسلم يَرْجُفُ فُؤَادُهُ، فَدَخَلَ عَلَى خَدِيجَةَ بِنْتِ خُوَيْلِدٍ رضى الله عنها فَقَالَ ‏\"‏ زَمِّلُونِي زَمِّلُونِي ‏\"‏‏.‏ فَزَمَّلُوهُ حَتَّى ذَهَبَ عَنْهُ الرَّوْعُ، فَقَالَ لِخَدِيجَةَ وَأَخْبَرَهَا الْخَبَرَ ‏\"‏ لَقَدْ خَشِيتُ عَلَى نَفْسِي ‏\"‏‏.‏ فَقَالَتْ خَدِيجَةُ كَلاَّ وَاللَّهِ مَا يُخْزِيكَ اللَّهُ أَبَدًا، إِنَّكَ لَتَصِلُ الرَّحِمَ، وَتَحْمِلُ الْكَلَّ، وَتَكْسِبُ الْمَعْدُومَ، وَتَقْرِي الضَّيْفَ، وَتُعِينُ عَلَى نَوَائِبِ الْحَقِّ‏.‏ فَانْطَلَقَتْ بِهِ خَدِيجَةُ حَتَّى أَتَتْ بِهِ وَرَقَةَ بْنَ نَوْفَلِ بْنِ أَسَدِ بْنِ عَبْدِ الْعُزَّى ابْنَ عَمِّ خَدِيجَةَ ـ وَكَانَ امْرَأً تَنَصَّرَ فِي الْجَاهِلِيَّةِ، وَكَانَ يَكْتُبُ الْكِتَابَ الْعِبْرَانِيَّ، فَيَكْتُبُ مِنَ الإِنْجِيلِ بِالْعِبْرَانِيَّةِ مَا شَاءَ اللَّهُ أَنْ يَكْتُبَ، وَكَانَ شَيْخًا كَبِيرًا قَدْ عَمِيَ ـ فَقَالَتْ لَهُ خَدِيجَةُ يَا ابْنَ عَمِّ اسْمَعْ مِنَ ابْنِ أَخِيكَ‏.‏ فَقَالَ لَهُ وَرَقَةُ يَا ابْنَ أَخِي مَاذَا تَرَى فَأَخْبَرَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم خَبَرَ مَا رَأَى‏.‏ فَقَالَ لَهُ وَرَقَةُ هَذَا النَّامُوسُ الَّذِي نَزَّلَ اللَّهُ عَلَى مُوسَى صلى الله عليه وسلم يَا لَيْتَنِي فِيهَا جَذَعًا، لَيْتَنِي أَكُونُ حَيًّا إِذْ يُخْرِجُكَ قَوْمُكَ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَوَمُخْرِجِيَّ هُمْ ‏\"‏‏.‏ قَالَ نَعَمْ، لَمْ يَأْتِ رَجُلٌ قَطُّ بِمِثْلِ مَا جِئْتَ بِهِ إِلاَّ عُودِيَ، وَإِنْ يُدْرِكْنِي يَوْمُكَ أَنْصُرْكَ نَصْرًا مُؤَزَّرًا‏.‏ ثُمَّ لَمْ يَنْشَبْ وَرَقَةُ أَنْ تُوُفِّيَ وَفَتَرَ الْوَحْىُ‏.‏"
         }
       ],
       "primarySources": [
@@ -88,12 +102,14 @@
         "Waraqah ibn Nawfal"
       ],
       "location": "Makkah",
-      "locationArabic": "مكة المكرمة"
+      "locationArabic": "مكة المكرمة",
+      "locationFrench": "La Mecque"
     },
     {
       "id": "mec-003",
       "title": "The Pause in Revelation (Fatrah)",
       "titleArabic": "فترة انقطاع الوحي",
+      "titleFrench": "L'interruption de la révélation (al-Fatra)",
       "year": "12 BH",
       "yearCE": "610 CE",
       "month": "",
@@ -109,8 +125,10 @@
           "surah": 74,
           "surahName": "Al-Muddaththir",
           "ayahRange": "1-7",
-          "textArabic": "يَـٰٓأَيُّهَا ٱلْمُدَّثِّرُ ۝ قُمْ فَأَنذِرْ ۝ وَرَبَّكَ فَكَبِّرْ ۝ وَثِيَابَكَ فَطَهِّرْ ۝ وَٱلرُّجْزَ فَٱهْجُرْ ۝ وَلَا تَمْنُن تَسْتَكْثِرُ ۝ وَلِرَبِّكَ فَٱصْبِرْ",
-          "textEnglish": "O you wrapped in garments! Arise and warn! And magnify your Lord! And purify your garments! And keep away from all impurity! And do not give to get more. And for the sake of your Lord, be patient."
+          "textArabic": "يَٰٓأَيُّهَا ٱلْمُدَّثِّرُ ۝ قُمْ فَأَنذِرْ ۝ وَرَبَّكَ فَكَبِّرْ ۝ وَثِيَابَكَ فَطَهِّرْ ۝ وَٱلرُّجْزَ فَٱهْجُرْ ۝ وَلَا تَمْنُن تَسْتَكْثِرُ ۝ وَلِرَبِّكَ فَٱصْبِرْ",
+          "textEnglish": "O you who covers himself [with a garment], Arise and warn And your Lord glorify And your clothing purify And uncleanliness avoid And do not confer favor to acquire more But for your Lord be patient.",
+          "textFrench": "O, toi (Muhammad)! Le revêtu d'un manteau! Lève-toi et avertis. Et de ton Seigneur, célèbre la grandeur. Et tes vêtements, purifie-les. Et de tout péché, écarte-toi. Et ne donne pas dans le but de recevoir davantage. Et pour ton Seigneur, endure.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [
@@ -118,7 +136,11 @@
           "source": "Sahih al-Bukhari",
           "hadithNumber": "4",
           "narrator": "Jabir ibn Abdullah",
-          "textEnglish": "The Prophet ﷺ said while speaking about the pause of revelation: 'While I was walking, I heard a voice from the sky. I looked up and saw the same angel who had come to me in the Cave of Hira sitting on a chair between the sky and the earth. I was terrified and went home saying: Wrap me! Wrap me! Then Allah revealed: O you wrapped in garments, arise and warn...'"
+          "textEnglish": "The Prophet ﷺ said while speaking about the pause of revelation: 'While I was walking, I heard a voice from the sky. I looked up and saw the same angel who had come to me in the Cave of Hira sitting on a chair between the sky and the earth. I was terrified and went home saying: Wrap me! Wrap me! Then Allah revealed: O you wrapped in garments, arise and warn...'",
+          "grade": "sahih",
+          "textFrench": "Le Prophète ﷺ dit, évoquant l'interruption de la révélation : « Alors que je marchais, j'entendis une voix venant du ciel. Je levai les yeux et vis le même ange qui était venu à moi dans la grotte de Hirâ, assis sur un siège entre le ciel et la terre. Saisi d'effroi, je rentrai chez moi en disant : Enveloppez-moi ! Enveloppez-moi ! Puis Allah révéla : Ô toi qui te couvres d'un manteau, lève-toi et avertis... »",
+          "translationProvenance": "project",
+          "textArabic": "قَالَ ابْنُ شِهَابٍ وَأَخْبَرَنِي أَبُو سَلَمَةَ بْنُ عَبْدِ الرَّحْمَنِ، أَنَّ جَابِرَ بْنَ عَبْدِ اللَّهِ الأَنْصَارِيَّ، قَالَ ـ وَهُوَ يُحَدِّثُ عَنْ فَتْرَةِ الْوَحْىِ، فَقَالَ ـ فِي حَدِيثِهِ ‏\"‏ بَيْنَا أَنَا أَمْشِي، إِذْ سَمِعْتُ صَوْتًا، مِنَ السَّمَاءِ، فَرَفَعْتُ بَصَرِي فَإِذَا الْمَلَكُ الَّذِي جَاءَنِي بِحِرَاءٍ جَالِسٌ عَلَى كُرْسِيٍّ بَيْنَ السَّمَاءِ وَالأَرْضِ، فَرُعِبْتُ مِنْهُ، فَرَجَعْتُ فَقُلْتُ زَمِّلُونِي‏.‏ فَأَنْزَلَ اللَّهُ تَعَالَى ‏‏{‏يَا أَيُّهَا الْمُدَّثِّرُ * قُمْ فَأَنْذِرْ‏}‏ إِلَى قَوْلِهِ ‏‏{‏وَالرُّجْزَ فَاهْجُرْ‏}‏ فَحَمِيَ الْوَحْىُ وَتَتَابَعَ ‏\"‏‏.‏ تَابَعَهُ عَبْدُ اللَّهِ بْنُ يُوسُفَ وَأَبُو صَالِحٍ‏.‏ وَتَابَعَهُ هِلاَلُ بْنُ رَدَّادٍ عَنِ الزُّهْرِيِّ‏.‏ وَقَالَ يُونُسُ وَمَعْمَرٌ ‏\"‏ بَوَادِرُهُ ‏\"‏‏.‏"
         }
       ],
       "primarySources": [
@@ -129,12 +151,14 @@
         "Jibril (Angel Gabriel)"
       ],
       "location": "Makkah",
-      "locationArabic": "مكة المكرمة"
+      "locationArabic": "مكة المكرمة",
+      "locationFrench": "La Mecque"
     },
     {
       "id": "mec-004",
       "title": "The Secret Call to Islam",
       "titleArabic": "الدعوة السرية",
+      "titleFrench": "L'appel discret à l'islam",
       "year": "12-9 BH",
       "yearCE": "610-613 CE",
       "month": "",
@@ -163,12 +187,14 @@
         "Talhah ibn Ubaydillah"
       ],
       "location": "Makkah",
-      "locationArabic": "مكة المكرمة"
+      "locationArabic": "مكة المكرمة",
+      "locationFrench": "La Mecque"
     },
     {
       "id": "mec-005",
       "title": "Dar al-Arqam: The First School of Islam",
       "titleArabic": "دار الأرقم",
+      "titleFrench": "Dâr al-Arqam : la première école de l'islam",
       "year": "10-9 BH",
       "yearCE": "~612-613 CE",
       "month": "",
@@ -190,12 +216,14 @@
         "Al-Arqam ibn Abi al-Arqam"
       ],
       "location": "Dar al-Arqam, near Mount Safa, Makkah",
-      "locationArabic": "دار الأرقم عند الصفا – مكة"
+      "locationArabic": "دار الأرقم عند الصفا – مكة",
+      "locationFrench": "Dâr al-Arqam, près du mont Safâ, à La Mecque"
     },
     {
       "id": "mec-006",
       "title": "The Public Call from Mount Safa",
       "titleArabic": "الجهر بالدعوة على الصفا",
+      "titleFrench": "L'appel public depuis le mont Safâ",
       "year": "9 BH",
       "yearCE": "~613 CE",
       "month": "",
@@ -211,15 +239,19 @@
           "surah": 111,
           "surahName": "Al-Masad",
           "ayahRange": "1-5",
-          "textArabic": "تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ ۝ مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
-          "textEnglish": "May the hands of Abu Lahab perish, and may he perish! His wealth and gains will not benefit him."
+          "textArabic": "تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ ۝ مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ ۝ سَيَصْلَىٰ نَارًۭا ذَاتَ لَهَبٍۢ ۝ وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ ۝ فِى جِيدِهَا حَبْلٌۭ مِّن مَّسَدٍۭ",
+          "textEnglish": "May the hands of Abu Lahab be ruined, and ruined is he. His wealth will not avail him or that which he gained. He will [enter to] burn in a Fire of [blazing] flame And his wife [as well] - the carrier of firewood. Around her neck is a rope of [twisted] fiber.",
+          "textFrench": "Que périssent les deux mains d'Abû-Lahab et que lui-même périsse. Sa fortune ne lui sert à rien, ni ce qu'il a acquis. Il sera brûlé dans un Feu plein de flammes, de même sa femme, la porteuse de bois, à son cou, une corde de fibres.",
+          "translationProvenance": "fetched"
         },
         {
           "surah": 26,
           "surahName": "Ash-Shu'ara",
           "ayahRange": "214",
           "textArabic": "وَأَنذِرْ عَشِيرَتَكَ ٱلْأَقْرَبِينَ",
-          "textEnglish": "And warn your closest kindred."
+          "textEnglish": "And warn, [O Muhammad], your closest kindred.",
+          "textFrench": "Et avertis les gens qui te sont les plus proches.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [
@@ -227,7 +259,11 @@
           "source": "Sahih al-Bukhari",
           "hadithNumber": "4770",
           "narrator": "Ibn Abbas",
-          "textEnglish": "When the verse 'And warn your closest kindred' was revealed, the Prophet ﷺ ascended Mount Safa and called: 'O Banu Fihr! O Banu Adi!' addressing the sub-tribes of Quraysh until they gathered."
+          "textEnglish": "When the verse 'And warn your closest kindred' was revealed, the Prophet ﷺ ascended Mount Safa and called: 'O Banu Fihr! O Banu Adi!' addressing the sub-tribes of Quraysh until they gathered.",
+          "grade": "sahih",
+          "textFrench": "Lorsque fut révélé le verset « Et avertis les gens qui te sont les plus proches », le Prophète ﷺ monta sur le mont Safâ et appela : « Ô Banoû Fihr ! Ô Banoû Adî ! », s'adressant aux clans de Qouraych jusqu'à ce qu'ils se rassemblent.",
+          "translationProvenance": "project",
+          "textArabic": "أَرَأَيْتَكُمْ لَوْ أَخْبَرْتُكُمْ أَنَّ خَيْلاً بِالْوَادِي تُرِيدُ أَنْ تُغِيرَ عَلَيْكُمْ، أَكُنْتُمْ مُصَدِّقِيَّ ‏\"‏‏.‏ قَالُوا نَعَمْ، مَا جَرَّبْنَا عَلَيْكَ إِلاَّ صِدْقًا‏.‏ قَالَ ‏\"‏ فَإِنِّي نَذِيرٌ لَكُمْ بَيْنَ يَدَىْ عَذَابٍ شَدِيدٍ ‏\"‏‏.‏ فَقَالَ أَبُو لَهَبٍ تَبًّا لَكَ سَائِرَ الْيَوْمِ، أَلِهَذَا جَمَعْتَنَا فَنَزَلَتْ ‏‏{‏تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ * مَا أَغْنَى عَنْهُ مَالُهُ وَمَا كَسَبَ‏}‏"
         }
       ],
       "primarySources": [
@@ -239,12 +275,14 @@
         "Abu Lahab"
       ],
       "location": "Mount Safa, Makkah",
-      "locationArabic": "جبل الصفا – مكة"
+      "locationArabic": "جبل الصفا – مكة",
+      "locationFrench": "Le mont Safâ, à La Mecque"
     },
     {
       "id": "mec-007",
       "title": "Intensification of Persecution",
       "titleArabic": "اشتداد الاضطهاد",
+      "titleFrench": "L'intensification des persécutions",
       "year": "9-7 BH",
       "yearCE": "613-615 CE",
       "month": "",
@@ -260,8 +298,10 @@
           "surah": 16,
           "surahName": "An-Nahl",
           "ayahRange": "110",
-          "textArabic": "ثُمَّ إِنَّ رَبَّكَ لِلَّذِينَ هَاجَرُوا۟ مِنۢ بَعْدِ مَا فُتِنُوا۟ ثُمَّ جَـٰهَدُوا۟ وَصَبَرُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌۭ رَّحِيمٌۭ",
-          "textEnglish": "Then your Lord — for those who emigrated after being put to trial, then strove and were patient — your Lord after that is indeed Forgiving, Merciful."
+          "textArabic": "ثُمَّ إِنَّ رَبَّكَ لِلَّذِينَ هَاجَرُوا۟ مِنۢ بَعْدِ مَا فُتِنُوا۟ ثُمَّ جَٰهَدُوا۟ وَصَبَرُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌۭ رَّحِيمٌۭ",
+          "textEnglish": "Then, indeed your Lord, to those who emigrated after they had been compelled [to renounce their religion] and thereafter fought [for the cause of Allah] and were patient - indeed, your Lord, after that, is Forgiving and Merciful",
+          "textFrench": "Quant à ceux qui ont émigré après avoir subi des épreuves, puis ont lutté et ont enduré, ton Seigneur après cela, est certes Pardonneur et Miséricordieux.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [
@@ -269,7 +309,9 @@
           "source": "Reported in various sources",
           "hadithNumber": "",
           "narrator": "Multiple narrators",
-          "textEnglish": "The Prophet ﷺ passed by the family of Yasir while they were being tortured and said: 'Be patient, O family of Yasir, for your appointment is Paradise.'"
+          "textEnglish": "The Prophet ﷺ passed by the family of Yasir while they were being tortured and said: 'Be patient, O family of Yasir, for your appointment is Paradise.'",
+          "textFrench": "Le Prophète ﷺ passa près de la famille de Yâsir alors qu'elle était torturée et dit : « Patience, ô famille de Yâsir, car votre rendez-vous est le Paradis. »",
+          "translationProvenance": "project"
         }
       ],
       "primarySources": [
@@ -287,12 +329,14 @@
         "Abu Jahl"
       ],
       "location": "Makkah",
-      "locationArabic": "مكة المكرمة"
+      "locationArabic": "مكة المكرمة",
+      "locationFrench": "La Mecque"
     },
     {
       "id": "mec-008",
       "title": "The First Migration to Abyssinia",
       "titleArabic": "الهجرة الأولى إلى الحبشة",
+      "titleFrench": "La première émigration vers l'Abyssinie",
       "year": "7 BH",
       "yearCE": "615 CE",
       "month": "Rajab",
@@ -315,12 +359,14 @@
         "An-Najashi (Negus)"
       ],
       "location": "From Makkah to Abyssinia (Ethiopia)",
-      "locationArabic": "من مكة إلى الحبشة"
+      "locationArabic": "من مكة إلى الحبشة",
+      "locationFrench": "De La Mecque vers l'Abyssinie (Éthiopie)"
     },
     {
       "id": "mec-009",
       "title": "The Second Migration to Abyssinia",
       "titleArabic": "الهجرة الثانية إلى الحبشة",
+      "titleFrench": "La seconde émigration vers l'Abyssinie",
       "year": "7 BH",
       "yearCE": "615 CE",
       "month": "Shawwal",
@@ -336,8 +382,10 @@
           "surah": 19,
           "surahName": "Maryam",
           "ayahRange": "16-36",
-          "textArabic": "وَٱذْكُرْ فِى ٱلْكِتَـٰبِ مَرْيَمَ",
-          "textEnglish": "And mention in the Book [the story of] Maryam... (the passage Ja'far recited before An-Najashi)"
+          "textArabic": "وَٱذْكُرْ فِى ٱلْكِتَٰبِ مَرْيَمَ إِذِ ٱنتَبَذَتْ مِنْ أَهْلِهَا مَكَانًۭا شَرْقِيًّۭا ۝ فَٱتَّخَذَتْ مِن دُونِهِمْ حِجَابًۭا فَأَرْسَلْنَآ إِلَيْهَا رُوحَنَا فَتَمَثَّلَ لَهَا بَشَرًۭا سَوِيًّۭا ۝ قَالَتْ إِنِّىٓ أَعُوذُ بِٱلرَّحْمَٰنِ مِنكَ إِن كُنتَ تَقِيًّۭا ۝ قَالَ إِنَّمَآ أَنَا۠ رَسُولُ رَبِّكِ لِأَهَبَ لَكِ غُلَٰمًۭا زَكِيًّۭا ۝ قَالَتْ أَنَّىٰ يَكُونُ لِى غُلَٰمٌۭ وَلَمْ يَمْسَسْنِى بَشَرٌۭ وَلَمْ أَكُ بَغِيًّۭا ۝ قَالَ كَذَٰلِكِ قَالَ رَبُّكِ هُوَ عَلَىَّ هَيِّنٌۭ ۖ وَلِنَجْعَلَهُۥٓ ءَايَةًۭ لِّلنَّاسِ وَرَحْمَةًۭ مِّنَّا ۚ وَكَانَ أَمْرًۭا مَّقْضِيًّۭا ۝ ۞ فَحَمَلَتْهُ فَٱنتَبَذَتْ بِهِۦ مَكَانًۭا قَصِيًّۭا ۝ فَأَجَآءَهَا ٱلْمَخَاضُ إِلَىٰ جِذْعِ ٱلنَّخْلَةِ قَالَتْ يَٰلَيْتَنِى مِتُّ قَبْلَ هَٰذَا وَكُنتُ نَسْيًۭا مَّنسِيًّۭا ۝ فَنَادَىٰهَا مِن تَحْتِهَآ أَلَّا تَحْزَنِى قَدْ جَعَلَ رَبُّكِ تَحْتَكِ سَرِيًّۭا ۝ وَهُزِّىٓ إِلَيْكِ بِجِذْعِ ٱلنَّخْلَةِ تُسَٰقِطْ عَلَيْكِ رُطَبًۭا جَنِيًّۭا ۝ فَكُلِى وَٱشْرَبِى وَقَرِّى عَيْنًۭا ۖ فَإِمَّا تَرَيِنَّ مِنَ ٱلْبَشَرِ أَحَدًۭا فَقُولِىٓ إِنِّى نَذَرْتُ لِلرَّحْمَٰنِ صَوْمًۭا فَلَنْ أُكَلِّمَ ٱلْيَوْمَ إِنسِيًّۭا ۝ فَأَتَتْ بِهِۦ قَوْمَهَا تَحْمِلُهُۥ ۖ قَالُوا۟ يَٰمَرْيَمُ لَقَدْ جِئْتِ شَيْـًۭٔا فَرِيًّۭا ۝ يَٰٓأُخْتَ هَٰرُونَ مَا كَانَ أَبُوكِ ٱمْرَأَ سَوْءٍۢ وَمَا كَانَتْ أُمُّكِ بَغِيًّۭا ۝ فَأَشَارَتْ إِلَيْهِ ۖ قَالُوا۟ كَيْفَ نُكَلِّمُ مَن كَانَ فِى ٱلْمَهْدِ صَبِيًّۭا ۝ قَالَ إِنِّى عَبْدُ ٱللَّهِ ءَاتَىٰنِىَ ٱلْكِتَٰبَ وَجَعَلَنِى نَبِيًّۭا ۝ وَجَعَلَنِى مُبَارَكًا أَيْنَ مَا كُنتُ وَأَوْصَٰنِى بِٱلصَّلَوٰةِ وَٱلزَّكَوٰةِ مَا دُمْتُ حَيًّۭا ۝ وَبَرًّۢا بِوَٰلِدَتِى وَلَمْ يَجْعَلْنِى جَبَّارًۭا شَقِيًّۭا ۝ وَٱلسَّلَٰمُ عَلَىَّ يَوْمَ وُلِدتُّ وَيَوْمَ أَمُوتُ وَيَوْمَ أُبْعَثُ حَيًّۭا ۝ ذَٰلِكَ عِيسَى ٱبْنُ مَرْيَمَ ۚ قَوْلَ ٱلْحَقِّ ٱلَّذِى فِيهِ يَمْتَرُونَ ۝ مَا كَانَ لِلَّهِ أَن يَتَّخِذَ مِن وَلَدٍۢ ۖ سُبْحَٰنَهُۥٓ ۚ إِذَا قَضَىٰٓ أَمْرًۭا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ ۝ وَإِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۚ هَٰذَا صِرَٰطٌۭ مُّسْتَقِيمٌۭ",
+          "textEnglish": "And mention, [O Muhammad], in the Book [the story of] Mary, when she withdrew from her family to a place toward the east. And she took, in seclusion from them, a screen. Then We sent to her Our Angel, and he represented himself to her as a well-proportioned man. She said, \"Indeed, I seek refuge in the Most Merciful from you, [so leave me], if you should be fearing of Allah.\" He said, \"I am only the messenger of your Lord to give you [news of] a pure boy.\" She said, \"How can I have a boy while no man has touched me and I have not been unchaste?\" He said, \"Thus [it will be]; your Lord says, 'It is easy for Me, and We will make him a sign to the people and a mercy from Us. And it is a matter [already] decreed.' \" So she conceived him, and she withdrew with him to a remote place. And the pains of childbirth drove her to the trunk of a palm tree. She said, \"Oh, I wish I had died before this and was in oblivion, forgotten.\" But he called her from below her, \"Do not grieve; your Lord has provided beneath you a stream. And shake toward you the trunk of the palm tree; it will drop upon you ripe, fresh dates. So eat and drink and be contented. And if you see from among humanity anyone, say, 'Indeed, I have vowed to the Most Merciful abstention, so I will not speak today to [any] man.' \" Then she brought him to her people, carrying him. They said, \"O Mary, you have certainly done a thing unprecedented. O sister of Aaron, your father was not a man of evil, nor was your mother unchaste.\" So she pointed to him. They said, \"How can we speak to one who is in the cradle a child?\" [Jesus] said, \"Indeed, I am the servant of Allah. He has given me the Scripture and made me a prophet. And He has made me blessed wherever I am and has enjoined upon me prayer and zakah as long as I remain alive And [made me] dutiful to my mother, and He has not made me a wretched tyrant. And peace is on me the day I was born and the day I will die and the day I am raised alive.\" That is Jesus, the son of Mary - the word of truth about which they are in dispute. It is not [befitting] for Allah to take a son; exalted is He! When He decrees an affair, He only says to it, \"Be,\" and it is. [Jesus said], \"And indeed, Allah is my Lord and your Lord, so worship Him. That is a straight path.\"",
+          "textFrench": "Mentionne, dans le Livre (le Coran), Marie, quand elle se retira de sa famille en un lieu vers l'Orient. Elle mit entre elle et eux un voile. Nous lui envoyâmes Notre Esprit (Gabriel), qui se présenta à elle sous la forme d'un homme parfait. Elle dit: «Je me réfugie contre toi auprès du Tout Miséricordieux. Si tu es pieux, [ne m'approche point].» Il dit: «Je suis en fait un Messager de ton Seigneur pour te faire don d'un fils pur». Elle dit: «Comment aurais-je un fils, quand aucun homme ne m'a touchée, et que je ne suis pas prostituée?» Il dit: «Ainsi sera-t-il! Cela M'est facile, a dit ton Seigneur! Et Nous ferons de lui un signe pour les gens, et une miséricorde de Notre part. C'est une affaire déjà décidée». Elle devint donc enceinte [de l'enfant], et elle se retira avec lui en un lieu éloigné. Puis les douleurs de l'enfantement l'amenèrent au tronc du palmier, et elle dit: «Malheur à moi! Que je fusse morte avant cet instant! Et que je fusse totalement oubliée!» Alors, il l'appela d'au-dessous d'elle, [lui disant:] «Ne t'afflige pas. Ton Seigneur a placé à tes pieds une source. Secoue vers toi le tronc du palmier: il fera tomber sur toi des dattes fraîches et mûres. Mange donc et bois et que ton œil se réjouisse! Si tu vois quelqu'un d'entre les humains, dis [lui:] «Assurément, j'ai voué un jeûne au Tout Miséricordieux: je ne parlerai donc aujourd'hui à aucun être humain». Puis elle vint auprès des siens en le portant [le bébé]. Ils dirent: «O Marie, tu as fait une chose monstrueuse! «Sœur de Hârûn, ton père n'était pas un homme de mal et ta mère n'était pas une prostituée». Elle fit alors un signe vers lui [le bébé]. Ils dirent: «Comment parlerions-nous à un bébé au berceau?» Mais (le bébé) dit: «Je suis vraiment le serviteur d'Allah. Il m'a donné le Livre et m'a désigné Prophète. Où que je sois, Il m'a rendu béni; et Il m'a recommandé, tant que je vivrai, la prière et la Zakât; et la bonté envers ma mère. Il ne m'a fait ni violent ni malheureux. Et que la paix soit sur moi le jour où je naquis, le jour où je mourrai, et le jour où je serai ressuscité vivant.» Tel est Issa (Jésus), fils de Marie: parole de vérité, dont ils doutent. Il ne convient pas à Allah de S'attribuer un fils. Gloire et Pureté à Lui! Quand Il décide d'une chose, Il dit seulement: «Sois!» et elle est. Certes, Allah est mon Seigneur tout comme votre Seigneur. Adorez-le donc. Voilà un droit chemin».",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [],
@@ -352,12 +400,14 @@
         "Amr ibn al-As"
       ],
       "location": "Abyssinia (Ethiopia)",
-      "locationArabic": "الحبشة"
+      "locationArabic": "الحبشة",
+      "locationFrench": "L'Abyssinie (Éthiopie)"
     },
     {
       "id": "mec-010",
       "title": "The Islam of Hamza and Umar",
       "titleArabic": "إسلام حمزة وعمر",
+      "titleFrench": "L'islam de Hamza et d'Omar",
       "year": "6 BH",
       "yearCE": "~616 CE",
       "month": "Dhul Hijjah",
@@ -373,8 +423,10 @@
           "surah": 20,
           "surahName": "Ta-Ha",
           "ayahRange": "1-8",
-          "textArabic": "طه ۝ مَآ أَنزَلْنَا عَلَيْكَ ٱلْقُرْءَانَ لِتَشْقَىٰٓ",
-          "textEnglish": "Ta-Ha. We have not sent down the Quran to you to cause you distress. (The surah Umar heard being recited)"
+          "textArabic": "طه ۝ مَآ أَنزَلْنَا عَلَيْكَ ٱلْقُرْءَانَ لِتَشْقَىٰٓ ۝ إِلَّا تَذْكِرَةًۭ لِّمَن يَخْشَىٰ ۝ تَنزِيلًۭا مِّمَّنْ خَلَقَ ٱلْأَرْضَ وَٱلسَّمَٰوَٰتِ ٱلْعُلَى ۝ ٱلرَّحْمَٰنُ عَلَى ٱلْعَرْشِ ٱسْتَوَىٰ ۝ لَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ وَمَا بَيْنَهُمَا وَمَا تَحْتَ ٱلثَّرَىٰ ۝ وَإِن تَجْهَرْ بِٱلْقَوْلِ فَإِنَّهُۥ يَعْلَمُ ٱلسِّرَّ وَأَخْفَى ۝ ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ۖ لَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ",
+          "textEnglish": "Ta, Ha. We have not sent down to you the Qur'an that you be distressed But only as a reminder for those who fear [Allah] - A revelation from He who created the earth and highest heavens, The Most Merciful [who is] above the Throne established. To Him belongs what is in the heavens and what is on the earth and what is between them and what is under the soil. And if you speak aloud - then indeed, He knows the secret and what is [even] more hidden. Allah - there is no deity except Him. To Him belong the best names.",
+          "textFrench": "Tâ-Hâ. Nous n'avons point fait descendre sur toi le Coran pour que tu sois malheureux, si ce n'est qu'un Rappel pour celui qui redoute (Allah), (et comme) une révélation émanant de Celui qui a créé la terre et les cieux sublimes. Le Tout Miséricordieux S'est établi «Istawâ» sur le Trône. A Lui appartient ce qui est dans les cieux, sur la terre, ce qui est entre eux et ce qui est sous le sol humide. Et si tu élèves la voix, Il connaît certes les secrets, même les plus cachés. Allah! Point de divinité que Lui! Il possède les noms les plus beaux.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [
@@ -382,7 +434,11 @@
           "source": "Jami' at-Tirmidhi",
           "hadithNumber": "3681",
           "narrator": "Ibn Umar",
-          "textEnglish": "The Prophet ﷺ said: 'O Allah, strengthen Islam with the dearer to You of these two men: Umar ibn al-Khattab or Abu Jahl ibn Hisham.' And the dearer of them to Allah was Umar."
+          "textEnglish": "The Prophet ﷺ said: 'O Allah, strengthen Islam with the dearer to You of these two men: Umar ibn al-Khattab or Abu Jahl ibn Hisham.' And the dearer of them to Allah was Umar.",
+          "grade": "hasan",
+          "textFrench": "Le Prophète ﷺ dit : « Ô Allah, fortifie l'islam par le plus aimé de Toi de ces deux hommes : Omar ibn al-Khattâb ou Abou Jahl ibn Hichâm. » Et le plus aimé de Lui des deux fut Omar.",
+          "translationProvenance": "project",
+          "textArabic": "\"‏ اللَّهُمَّ أَعِزَّ الإِسْلاَمَ بِأَحَبِّ هَذَيْنِ الرَّجُلَيْنِ إِلَيْكَ بِأَبِي جَهْلٍ أَوْ بِعُمَرَ بْنِ الْخَطَّابِ ‏\""
         }
       ],
       "primarySources": [
@@ -396,12 +452,14 @@
         "Fatimah bint al-Khattab"
       ],
       "location": "Makkah",
-      "locationArabic": "مكة المكرمة"
+      "locationArabic": "مكة المكرمة",
+      "locationFrench": "La Mecque"
     },
     {
       "id": "mec-011",
       "title": "The Boycott of Banu Hashim",
       "titleArabic": "مقاطعة بني هاشم",
+      "titleFrench": "Le boycott des Banoû Hâchim",
       "year": "5-3 BH",
       "yearCE": "617-619 CE",
       "month": "",
@@ -424,12 +482,14 @@
         "The clans of Banu Hashim and Banu Muttalib"
       ],
       "location": "Shi'b Abi Talib (Valley of Abu Talib), Makkah",
-      "locationArabic": "شعب أبي طالب – مكة"
+      "locationArabic": "شعب أبي طالب – مكة",
+      "locationFrench": "Chi'b Abî Tâlib (le vallon d'Abou Tâlib), à La Mecque"
     },
     {
       "id": "mec-012",
       "title": "The Year of Sorrow ('Am al-Huzn)",
       "titleArabic": "عام الحزن",
+      "titleFrench": "L'année de la tristesse (Âm al-Houzn)",
       "year": "3 BH",
       "yearCE": "619 CE",
       "month": "Sha'ban/Ramadan",
@@ -445,8 +505,10 @@
           "surah": 28,
           "surahName": "Al-Qasas",
           "ayahRange": "56",
-          "textArabic": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَـٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ",
-          "textEnglish": "Indeed, you do not guide whom you love, but Allah guides whom He wills. (Revealed regarding Abu Talib)"
+          "textArabic": "إِنَّكَ لَا تَهْدِى مَنْ أَحْبَبْتَ وَلَٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۚ وَهُوَ أَعْلَمُ بِٱلْمُهْتَدِينَ",
+          "textEnglish": "Indeed, [O Muhammad], you do not guide whom you like, but Allah guides whom He wills. And He is most knowing of the [rightly] guided.",
+          "textFrench": "Tu [Muhammad] ne diriges pas celui que tu aimes: mais c'est Allah qui guide qui Il veut. Il connaît mieux cependant les bien-guidés.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [
@@ -454,7 +516,11 @@
           "source": "Sahih al-Bukhari",
           "hadithNumber": "3816",
           "narrator": "Aisha",
-          "textEnglish": "The Prophet ﷺ said: 'Allah did not grant me anyone better than her (Khadijah). She believed in me when people rejected me, she supported me with her wealth when people deprived me, and Allah granted me children through her when He did not through other women.'"
+          "textEnglish": "The Prophet ﷺ said: 'Allah did not grant me anyone better than her (Khadijah). She believed in me when people rejected me, she supported me with her wealth when people deprived me, and Allah granted me children through her when He did not through other women.'",
+          "grade": "sahih",
+          "textFrench": "Le Prophète ﷺ dit : « Allah ne m'a rien accordé de meilleur qu'elle (Khadîja). Elle a cru en moi quand les gens me rejetaient, elle m'a soutenu de ses biens quand les gens me privaient, et Allah m'a donné des enfants par elle alors qu'Il ne m'en a pas donné par d'autres femmes. »",
+          "translationProvenance": "project",
+          "textArabic": "مَا غِرْتُ عَلَى امْرَأَةٍ لِلنَّبِيِّ صلى الله عليه وسلم مَا غِرْتُ عَلَى خَدِيجَةَ، هَلَكَتْ قَبْلَ أَنْ يَتَزَوَّجَنِي، لِمَا كُنْتُ أَسْمَعُهُ يَذْكُرُهَا، وَأَمَرَهُ اللَّهُ أَنْ يُبَشِّرَهَا بِبَيْتٍ مِنْ قَصَبٍ، وَإِنْ كَانَ لَيَذْبَحُ الشَّاةَ فَيُهْدِي فِي خَلاَئِلِهَا مِنْهَا مَا يَسَعُهُنَّ‏.‏"
         }
       ],
       "primarySources": [
@@ -467,12 +533,14 @@
         "Khadijah bint Khuwaylid"
       ],
       "location": "Makkah",
-      "locationArabic": "مكة المكرمة"
+      "locationArabic": "مكة المكرمة",
+      "locationFrench": "La Mecque"
     },
     {
       "id": "mec-013",
       "title": "The Journey to Ta'if",
       "titleArabic": "الرحلة إلى الطائف",
+      "titleFrench": "Le voyage à Tâ'if",
       "year": "3 BH",
       "yearCE": "619 CE",
       "month": "Shawwal",
@@ -489,7 +557,11 @@
           "source": "Sahih al-Bukhari",
           "hadithNumber": "3231",
           "narrator": "Aisha",
-          "textEnglish": "The Prophet ﷺ said: 'The angel of the mountains called me, greeted me, and said: O Muhammad, Allah has heard what your people said to you. I am the Angel of the Mountains, and your Lord has sent me so that you may command me. If you wish, I can bring together the two mountains that stand opposite each other at the extremities of Makkah to crush them.' The Prophet ﷺ said: 'Rather, I hope that Allah will bring out from their descendants people who worship Allah alone, without associating anything with Him.'"
+          "textEnglish": "The Prophet ﷺ said: 'The angel of the mountains called me, greeted me, and said: O Muhammad, Allah has heard what your people said to you. I am the Angel of the Mountains, and your Lord has sent me so that you may command me. If you wish, I can bring together the two mountains that stand opposite each other at the extremities of Makkah to crush them.' The Prophet ﷺ said: 'Rather, I hope that Allah will bring out from their descendants people who worship Allah alone, without associating anything with Him.'",
+          "grade": "sahih",
+          "textFrench": "Le Prophète ﷺ dit : « L'ange des montagnes m'appela, me salua et dit : Ô Mouhammad, Allah a entendu ce que ton peuple t'a dit. Je suis l'ange des montagnes, et ton Seigneur m'a envoyé pour que tu m'ordonnes. Si tu le veux, je referme sur eux les deux montagnes qui bordent La Mecque. » Le Prophète ﷺ répondit : « J'espère plutôt qu'Allah fera sortir de leur descendance des gens qui L'adoreront seul, sans rien Lui associer. »",
+          "translationProvenance": "project",
+          "textArabic": "لَقَدْ لَقِيتُ مِنْ قَوْمِكِ مَا لَقِيتُ، وَكَانَ أَشَدُّ مَا لَقِيتُ مِنْهُمْ يَوْمَ الْعَقَبَةِ، إِذْ عَرَضْتُ نَفْسِي عَلَى ابْنِ عَبْدِ يَالِيلَ بْنِ عَبْدِ كُلاَلٍ، فَلَمْ يُجِبْنِي إِلَى مَا أَرَدْتُ، فَانْطَلَقْتُ وَأَنَا مَهْمُومٌ عَلَى وَجْهِي، فَلَمْ أَسْتَفِقْ إِلاَّ وَأَنَا بِقَرْنِ الثَّعَالِبِ، فَرَفَعْتُ رَأْسِي، فَإِذَا أَنَا بِسَحَابَةٍ قَدْ أَظَلَّتْنِي، فَنَظَرْتُ فَإِذَا فِيهَا جِبْرِيلُ فَنَادَانِي فَقَالَ إِنَّ اللَّهَ قَدْ سَمِعَ قَوْلَ قَوْمِكَ لَكَ وَمَا رَدُّوا عَلَيْكَ، وَقَدْ بَعَثَ إِلَيْكَ مَلَكَ الْجِبَالِ لِتَأْمُرَهُ بِمَا شِئْتَ فِيهِمْ، فَنَادَانِي مَلَكُ الْجِبَالِ، فَسَلَّمَ عَلَىَّ ثُمَّ قَالَ يَا مُحَمَّدُ، فَقَالَ ذَلِكَ فِيمَا شِئْتَ، إِنْ شِئْتَ أَنْ أُطْبِقَ عَلَيْهِمِ الأَخْشَبَيْنِ، فَقَالَ النَّبِيُّ صلى الله عليه وسلم بَلْ أَرْجُو أَنْ يُخْرِجَ اللَّهُ مِنْ أَصْلاَبِهِمْ مَنْ يَعْبُدُ اللَّهَ وَحْدَهُ لاَ يُشْرِكُ بِهِ شَيْئًا ‏\""
         }
       ],
       "primarySources": [
@@ -503,12 +575,14 @@
         "The chiefs of Thaqif"
       ],
       "location": "Ta'if",
-      "locationArabic": "الطائف"
+      "locationArabic": "الطائف",
+      "locationFrench": "Tâ'if"
     },
     {
       "id": "mec-014",
       "title": "The Night Journey and Ascension (Isra wal Mi'raj)",
       "titleArabic": "الإسراء والمعراج",
+      "titleFrench": "Le voyage nocturne et l'ascension (al-Isrâ wa al-Mi'râj)",
       "year": "1.5-2 BH",
       "yearCE": "~620-621 CE",
       "month": "Rajab (according to many scholars)",
@@ -524,23 +598,31 @@
           "surah": 17,
           "surahName": "Al-Isra",
           "ayahRange": "1",
-          "textArabic": "سُبْحَـٰنَ ٱلَّذِىٓ أَسْرَىٰ بِعَبْدِهِۦ لَيْلًۭا مِّنَ ٱلْمَسْجِدِ ٱلْحَرَامِ إِلَى ٱلْمَسْجِدِ ٱلْأَقْصَا",
-          "textEnglish": "Glory be to the One Who took His servant by night from the Sacred Mosque to the Farthest Mosque."
+          "textArabic": "سُبْحَٰنَ ٱلَّذِىٓ أَسْرَىٰ بِعَبْدِهِۦ لَيْلًۭا مِّنَ ٱلْمَسْجِدِ ٱلْحَرَامِ إِلَى ٱلْمَسْجِدِ ٱلْأَقْصَا ٱلَّذِى بَٰرَكْنَا حَوْلَهُۥ لِنُرِيَهُۥ مِنْ ءَايَٰتِنَآ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْبَصِيرُ",
+          "textEnglish": "Exalted is He who took His Servant by night from al-Masjid al-Haram to al-Masjid al-Aqsa, whose surroundings We have blessed, to show him of Our signs. Indeed, He is the Hearing, the Seeing.",
+          "textFrench": "Gloire et Pureté à Celui qui de nuit, fit voyager Son serviteur [Muhammad], de la Mosquée Al-Harâm à la Mosquée Al-Aqsâ dont Nous avons béni l'alentour, afin de lui faire voir certaines de Nos merveilles. C'est Lui, vraiment, qui est l'Audient, le Clairvoyant.",
+          "translationProvenance": "fetched"
         },
         {
           "surah": 53,
           "surahName": "An-Najm",
           "ayahRange": "13-18",
-          "textArabic": "وَلَقَدْ رَءَاهُ نَزْلَةً أُخْرَىٰ ۝ عِندَ سِدْرَةِ ٱلْمُنتَهَىٰ",
-          "textEnglish": "And he certainly saw him in another descent, at the Lote Tree of the Utmost Boundary."
+          "textArabic": "وَلَقَدْ رَءَاهُ نَزْلَةً أُخْرَىٰ ۝ عِندَ سِدْرَةِ ٱلْمُنتَهَىٰ ۝ عِندَهَا جَنَّةُ ٱلْمَأْوَىٰٓ ۝ إِذْ يَغْشَى ٱلسِّدْرَةَ مَا يَغْشَىٰ ۝ مَا زَاغَ ٱلْبَصَرُ وَمَا طَغَىٰ ۝ لَقَدْ رَأَىٰ مِنْ ءَايَٰتِ رَبِّهِ ٱلْكُبْرَىٰٓ",
+          "textEnglish": "And he certainly saw him in another descent At the Lote Tree of the Utmost Boundary - Near it is the Garden of Refuge - When there covered the Lote Tree that which covered [it]. The sight [of the Prophet] did not swerve, nor did it transgress [its limit]. He certainly saw of the greatest signs of his Lord.",
+          "textFrench": "Il l'a pourtant vu, lors d'une autre descente, près de la Sidrat-ul-Muntahâ, près d'elle se trouve le jardin de Ma'w?: au moment où le lotus était couvert de ce qui le couvrait. la vue n'a nullement dévié ni outrepassé la mesure. Il a bien vu certaines des grandes merveilles de son Seigneur.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [
         {
-          "source": "Sahih al-Bukhari",
-          "hadithNumber": "349",
+          "source": "Sahih Muslim",
+          "hadithNumber": "162a",
           "narrator": "Anas ibn Malik",
-          "textEnglish": "The Prophet ﷺ was brought the Buraq and he rode it until he arrived at Bayt al-Maqdis (Jerusalem). He tied the Buraq to the ring used by the prophets. Then he entered the Mosque and prayed two rak'at, then he was taken to the heavens..."
+          "textEnglish": "The Prophet ﷺ was brought the Buraq and he rode it until he arrived at Bayt al-Maqdis (Jerusalem). He tied the Buraq to the ring used by the prophets. Then he entered the Mosque and prayed two rak'at, then he was taken to the heavens...",
+          "grade": "sahih",
+          "textFrench": "On amena au Prophète ﷺ al-Bourâq et il le monta jusqu'à arriver à Bayt al-Maqdis (Jérusalem). Il attacha al-Bourâq à l'anneau qu'utilisaient les prophètes. Puis il entra dans la mosquée et pria deux rak'ât, après quoi il fut élevé vers les cieux...",
+          "translationProvenance": "project",
+          "textArabic": "أُتِيتُ بِالْبُرَاقِ - وَهُوَ دَابَّةٌ أَبْيَضُ طَوِيلٌ فَوْقَ الْحِمَارِ وَدُونَ الْبَغْلِ يَضَعُ حَافِرَهُ عِنْدَ مُنْتَهَى طَرْفِهِ - قَالَ فَرَكِبْتُهُ حَتَّى أَتَيْتُ بَيْتَ الْمَقْدِسِ - قَالَ - فَرَبَطْتُهُ بِالْحَلْقَةِ الَّتِي يَرْبِطُ بِهِ الأَنْبِيَاءُ - قَالَ - ثُمَّ دَخَلْتُ الْمَسْجِدَ فَصَلَّيْتُ فِيهِ رَكْعَتَيْنِ ثُمَّ خَرَجْتُ فَجَاءَنِي جِبْرِيلُ - عَلَيْهِ السَّلاَمُ - بِإِنَاءٍ مِنْ خَمْرٍ وَإِنَاءٍ مِنْ لَبَنٍ فَاخْتَرْتُ اللَّبَنَ فَقَالَ جِبْرِيلُ صلى الله عليه وسلم اخْتَرْتَ الْفِطْرَةَ ‏.‏ ثُمَّ عَرَجَ بِنَا إِلَى السَّمَاءِ فَاسْتَفْتَحَ جِبْرِيلُ فَقِيلَ مَنْ أَنْتَ قَالَ جِبْرِيلُ ‏.‏ قِيلَ وَمَنْ مَعَكَ قَالَ مُحَمَّدٌ ‏.‏ قِيلَ وَقَدْ بُعِثَ إِلَيْهِ قَالَ قَدْ بُعِثَ إِلَيْهِ ‏.‏ فَفُتِحَ لَنَا فَإِذَا أَنَا بِآدَمَ فَرَحَّبَ بِي وَدَعَا لِي بِخَيْرٍ ‏.‏ ثُمَّ عَرَجَ بِنَا إِلَى السَّمَاءِ الثَّانِيَةِ فَاسْتَفْتَحَ جِبْرِيلُ عَلَيْهِ السَّلاَمُ ‏.‏ فَقِيلَ مَنْ أَنْتَ قَالَ جِبْرِيلُ ‏.‏ قِيلَ وَمَنْ مَعَكَ قَالَ مُحَمَّدٌ ‏.‏ قِيلَ وَقَدْ بُعِثَ إِلَيْهِ قَالَ قَدْ بُعِثَ إِلَيْهِ ‏.‏ فَفُتِحَ لَنَا فَإِذَا أَنَا بِابْنَىِ الْخَالَةِ عِيسَى ابْنِ مَرْيَمَ وَيَحْيَى بْنِ زَكَرِيَّاءَ صَلَوَاتُ اللَّهِ عَلَيْهِمَا فَرَحَّبَا وَدَعَوَا لِي بِخَيْرٍ ‏.‏ ثُمَّ عَرَجَ بِي إِلَى السَّمَاءِ الثَّالِثَةِ فَاسْتَفْتَحَ جِبْرِيلُ ‏.‏ فَقِيلَ مَنْ أَنْتَ قَالَ جِبْرِيلُ ‏.‏ قِيلَ وَمَنْ مَعَكَ قَالَ مُحَمَّدٌ صلى الله عليه وسلم ‏.‏ قِيلَ وَقَدْ بُعِثَ إِلَيْهِ قَالَ قَدْ بُعِثَ إِلَيْهِ ‏.‏ فَفُتِحَ لَنَا فَإِذَا أَنَا بِيُوسُفَ صلى الله عليه وسلم إِذَا هُوَ قَدْ أُعْطِيَ شَطْرَ الْحُسْنِ فَرَحَّبَ وَدَعَا لِي بِخَيْرٍ ‏.‏ ثُمَّ عَرَجَ بِنَا إِلَى السَّمَاءِ الرَّابِعَةِ فَاسْتَفْتَحَ جِبْرِيلُ - عَلَيْهِ السَّلاَمُ - قِيلَ مَنْ هَذَا قَالَ جِبْرِيلُ ‏.‏ قِيلَ وَمَنْ مَعَكَ قَالَ مُحَمَّدٌ ‏.‏ قَالَ وَقَدْ بُعِثَ إِلَيْهِ قَالَ قَدْ بُعِثَ إِلَيْهِ ‏.‏ فَفُتِحَ لَنَا فَإِذَا أَنَا بِإِدْرِيسَ فَرَحَّبَ وَدَعَا لِي بِخَيْرٍ قَالَ اللَّهُ عَزَّ وَجَلَّ ‏‏{‏ وَرَفَعْنَاهُ مَكَانًا عَلِيًّا‏}‏ ثُمَّ عَرَجَ بِنَا إِلَى السَّمَاءِ الْخَامِسَةِ فَاسْتَفْتَحَ جِبْرِيلُ ‏.‏ قِيلَ مَنْ هَذَا قَالَ جِبْرِيلُ ‏.‏ قِيلَ وَمَنْ مَعَكَ قَالَ مُحَمَّدٌ ‏.‏ قِيلَ وَقَدْ بُعِثَ إِلَيْهِ قَالَ قَدْ بُعِثَ إِلَيْهِ ‏.‏ فَفُتِحَ لَنَا فَإِذَا أَنَا بِهَارُونَ صلى الله عليه وسلم فَرَحَّبَ وَدَعَا لِي بِخَيْرٍ ‏.‏ ثُمَّ عَرَجَ بِنَا إِلَى السَّمَاءِ السَّادِسَةِ فَاسْتَفْتَحَ جِبْرِيلُ عَلَيْهِ السَّلاَمُ ‏.‏ قِيلَ مَنْ هَذَا قَالَ جِبْرِيلُ ‏.‏ قِيلَ وَمَنْ مَعَكَ قَالَ مُحَمَّدٌ ‏.‏ قِيلَ وَقَدْ بُعِثَ إِلَيْهِ قَالَ قَدْ بُعِثَ إِلَيْهِ ‏.‏ فَفُتِحَ لَنَا فَإِذَا أَنَا بِمُوسَى صلى الله عليه وسلم فَرَحَّبَ وَدَعَا لِي بِخَيْرٍ ‏.‏ ثُمَّ عَرَجَ بِنَا إِلَى السَّمَاءِ السَّابِعَةِ فَاسْتَفْتَحَ جِبْرِيلُ فَقِيلَ مَنْ هَذَا قَالَ جِبْرِيلُ ‏.‏ قِيلَ وَمَنْ مَعَكَ قَالَ مُحَمَّدٌ صلى الله عليه وسلم ‏.‏ قِيلَ وَقَدْ بُعِثَ إِلَيْهِ قَالَ قَدْ بُعِثَ إِلَيْهِ ‏.‏ فَفُتِحَ لَنَا فَإِذَا أَنَا بِإِبْرَاهِيمَ صلى الله عليه وسلم مُسْنِدًا ظَهْرَهُ إِلَى الْبَيْتِ الْمَعْمُورِ وَإِذَا هُوَ يَدْخُلُهُ كُلَّ يَوْمٍ سَبْعُونَ أَلْفَ مَلَكٍ لاَ يَعُودُونَ إِلَيْهِ ثُمَّ ذَهَبَ بِي إِلَى السِّدْرَةِ الْمُنْتَهَى وَإِذَا وَرَقُهَا كَآذَانِ الْفِيَلَةِ وَإِذَا ثَمَرُهَا كَالْقِلاَلِ - قَالَ - فَلَمَّا غَشِيَهَا مِنْ أَمْرِ اللَّهِ مَا غَشِيَ تَغَيَّرَتْ فَمَا أَحَدٌ مِنْ خَلْقِ اللَّهِ يَسْتَطِيعُ أَنْ يَنْعَتَهَا مِنْ حُسْنِهَا ‏.‏ فَأَوْحَى اللَّهُ إِلَىَّ مَا أَوْحَى فَفَرَضَ عَلَىَّ خَمْسِينَ صَلاَةً فِي كُلِّ يَوْمٍ وَلَيْلَةٍ فَنَزَلْتُ إِلَى مُوسَى صلى الله عليه وسلم فَقَالَ مَا فَرَضَ رَبُّكَ عَلَى أُمَّتِكَ قُلْتُ خَمْسِينَ صَلاَةً ‏.‏ قَالَ ارْجِعْ إِلَى رَبِّكَ فَاسْأَلْهُ التَّخْفِيفَ فَإِنَّ أُمَّتَكَ لاَ يُطِيقُونَ ذَلِكَ فَإِنِّي قَدْ بَلَوْتُ بَنِي إِسْرَائِيلَ وَخَبَرْتُهُمْ ‏.‏ قَالَ فَرَجَعْتُ إِلَى رَبِّي فَقُلْتُ يَا رَبِّ خَفِّفْ عَلَى أُمَّتِي ‏.‏ فَحَطَّ عَنِّي خَمْسًا فَرَجَعْتُ إِلَى مُوسَى فَقُلْتُ حَطَّ عَنِّي خَمْسًا ‏.‏ قَالَ إِنَّ أُمَّتَكَ لاَ يُطِيقُونَ ذَلِكَ فَارْجِعْ إِلَى رَبِّكَ فَاسْأَلْهُ التَّخْفِيفَ ‏.‏ - قَالَ - فَلَمْ أَزَلْ أَرْجِعُ بَيْنَ رَبِّي تَبَارَكَ وَتَعَالَى وَبَيْنَ مُوسَى - عَلَيْهِ السَّلاَمُ - حَتَّى قَالَ يَا مُحَمَّدُ إِنَّهُنَّ خَمْسُ صَلَوَاتٍ كُلَّ يَوْمٍ وَلَيْلَةٍ لِكُلِّ صَلاَةٍ عَشْرٌ فَذَلِكَ خَمْسُونَ صَلاَةً ‏.‏ وَمَنْ هَمَّ بِحَسَنَةٍ فَلَمْ يَعْمَلْهَا كُتِبَتْ لَهُ حَسَنَةً فَإِنْ عَمِلَهَا كُتِبَتْ لَهُ عَشْرًا وَمَنْ هَمَّ بِسَيِّئَةٍ فَلَمْ يَعْمَلْهَا لَمْ تُكْتَبْ شَيْئًا فَإِنْ عَمِلَهَا كُتِبَتْ سَيِّئَةً وَاحِدَةً - قَالَ - فَنَزَلْتُ حَتَّى انْتَهَيْتُ إِلَى مُوسَى صلى الله عليه وسلم فَأَخْبَرْتُهُ فَقَالَ ارْجِعْ إِلَى رَبِّكَ فَاسْأَلْهُ التَّخْفِيفَ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم فَقُلْتُ قَدْ رَجَعْتُ إِلَى رَبِّي حَتَّى اسْتَحْيَيْتُ مِنْهُ ‏\""
         }
       ],
       "primarySources": [
@@ -554,12 +636,14 @@
         "Previous Prophets (Ibrahim, Musa, Isa, and others)"
       ],
       "location": "From Makkah to Jerusalem to the Heavens",
-      "locationArabic": "من مكة إلى بيت المقدس إلى السماوات"
+      "locationArabic": "من مكة إلى بيت المقدس إلى السماوات",
+      "locationFrench": "De La Mecque à Jérusalem, puis vers les cieux"
     },
     {
       "id": "mec-015",
       "title": "The First Pledge of Aqaba",
       "titleArabic": "بيعة العقبة الأولى",
+      "titleFrench": "Le premier serment d'al-Aqaba",
       "year": "1 BH",
       "yearCE": "621 CE",
       "month": "Dhul Hijjah",
@@ -574,9 +658,13 @@
       "hadithReferences": [
         {
           "source": "Sahih al-Bukhari",
-          "hadithNumber": "4",
+          "hadithNumber": "18",
           "narrator": "Ubadah ibn as-Samit",
-          "textEnglish": "We pledged allegiance to the Messenger of Allah ﷺ on the basis that we would not associate anything with Allah, would not steal, would not commit adultery, would not kill our children, would not bring any slander we had fabricated, and would not disobey him in any good deed."
+          "textEnglish": "We pledged allegiance to the Messenger of Allah ﷺ on the basis that we would not associate anything with Allah, would not steal, would not commit adultery, would not kill our children, would not bring any slander we had fabricated, and would not disobey him in any good deed.",
+          "grade": "sahih",
+          "textFrench": "Nous avons prêté allégeance au Messager d'Allah ﷺ en nous engageant à ne rien associer à Allah, à ne pas voler, à ne pas commettre l'adultère, à ne pas tuer nos enfants, à ne pas proférer de calomnie forgée de toutes pièces, et à ne pas lui désobéir en ce qui est convenable.",
+          "translationProvenance": "project",
+          "textArabic": "بَايِعُونِي عَلَى أَنْ لاَ تُشْرِكُوا بِاللَّهِ شَيْئًا، وَلاَ تَسْرِقُوا، وَلاَ تَزْنُوا، وَلاَ تَقْتُلُوا أَوْلاَدَكُمْ، وَلاَ تَأْتُوا بِبُهْتَانٍ تَفْتَرُونَهُ بَيْنَ أَيْدِيكُمْ وَأَرْجُلِكُمْ، وَلاَ تَعْصُوا فِي مَعْرُوفٍ، فَمَنْ وَفَى مِنْكُمْ فَأَجْرُهُ عَلَى اللَّهِ، وَمَنْ أَصَابَ مِنْ ذَلِكَ شَيْئًا فَعُوقِبَ فِي الدُّنْيَا فَهُوَ كَفَّارَةٌ لَهُ، وَمَنْ أَصَابَ مِنْ ذَلِكَ شَيْئًا ثُمَّ سَتَرَهُ اللَّهُ، فَهُوَ إِلَى اللَّهِ إِنْ شَاءَ عَفَا عَنْهُ، وَإِنْ شَاءَ عَاقَبَهُ ‏\""
         }
       ],
       "primarySources": [
@@ -589,12 +677,14 @@
         "Mus'ab ibn Umayr"
       ],
       "location": "Aqaba, near Mina",
-      "locationArabic": "العقبة – منى"
+      "locationArabic": "العقبة – منى",
+      "locationFrench": "Al-Aqaba, près de Minâ"
     },
     {
       "id": "mec-016",
       "title": "The Second Pledge of Aqaba",
       "titleArabic": "بيعة العقبة الثانية",
+      "titleFrench": "Le second serment d'al-Aqaba",
       "year": "13th year of Prophethood",
       "yearCE": "622 CE",
       "month": "Dhul Hijjah",
@@ -620,12 +710,14 @@
         "As'ad ibn Zurarah"
       ],
       "location": "Aqaba, near Mina",
-      "locationArabic": "العقبة – منى"
+      "locationArabic": "العقبة – منى",
+      "locationFrench": "Al-Aqaba, près de Minâ"
     },
     {
       "id": "mec-017",
       "title": "The Conspiracy at Dar al-Nadwa",
       "titleArabic": "مؤامرة دار الندوة",
+      "titleFrench": "Le complot de Dâr an-Nadwa",
       "year": "1 AH",
       "yearCE": "622 CE",
       "month": "Safar",
@@ -641,15 +733,19 @@
           "surah": 8,
           "surahName": "Al-Anfal",
           "ayahRange": "30",
-          "textArabic": "وَإِذْ يَمْكُرُ بِكَ ٱلَّذِينَ كَفَرُوا۟ لِيُثْبِتُوكَ أَوْ يَقْتُلُوكَ أَوْ يُخْرِجُوكَ ۚ وَيَمْكُرُونَ وَيَمْكُرُ ٱللَّهُ ۖ وَٱللَّهُ خَيْرُ ٱلْمَـٰكِرِينَ",
-          "textEnglish": "And when those who disbelieved plotted against you to restrain you, or kill you, or expel you. They planned, but Allah also planned. And Allah is the best of planners."
+          "textArabic": "وَإِذْ يَمْكُرُ بِكَ ٱلَّذِينَ كَفَرُوا۟ لِيُثْبِتُوكَ أَوْ يَقْتُلُوكَ أَوْ يُخْرِجُوكَ ۚ وَيَمْكُرُونَ وَيَمْكُرُ ٱللَّهُ ۖ وَٱللَّهُ خَيْرُ ٱلْمَٰكِرِينَ",
+          "textEnglish": "And [remember, O Muhammad], when those who disbelieved plotted against you to restrain you or kill you or evict you [from Makkah]. But they plan, and Allah plans. And Allah is the best of planners.",
+          "textFrench": "(Et rappelle-toi) le moment où les mécréants complotaient contre toi pour t'emprisonner ou t'assassiner ou te bannir. Ils complotèrent. mais Allah a fait échouer leur complot, et Allah est le meilleur en stratagèmes.",
+          "translationProvenance": "fetched"
         },
         {
           "surah": 36,
           "surahName": "Ya-Sin",
           "ayahRange": "9",
-          "textArabic": "وَجَعَلْنَا مِنۢ بَيْنِ أَيْدِيهِمْ سَدًّۭا وَمِنْ خَلْفِهِمْ سَدًّۭا فَأَغْشَيْنَـٰهُمْ فَهُمْ لَا يُبْصِرُونَ",
-          "textEnglish": "And We have put a barrier before them and a barrier behind them and covered them, so they do not see."
+          "textArabic": "وَجَعَلْنَا مِنۢ بَيْنِ أَيْدِيهِمْ سَدًّۭا وَمِنْ خَلْفِهِمْ سَدًّۭا فَأَغْشَيْنَٰهُمْ فَهُمْ لَا يُبْصِرُونَ",
+          "textEnglish": "And We have put before them a barrier and behind them a barrier and covered them, so they do not see.",
+          "textFrench": "et Nous mettrons une barrière devant eux et une barrière derrière eux; Nous les recouvrirons d'un voile: et voilà qu'ils ne pourront rien voir.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [],
@@ -664,12 +760,14 @@
         "The chiefs of Quraysh"
       ],
       "location": "Dar al-Nadwa, Makkah",
-      "locationArabic": "دار الندوة – مكة"
+      "locationArabic": "دار الندوة – مكة",
+      "locationFrench": "Dâr an-Nadwa, à La Mecque"
     },
     {
       "id": "mec-018",
       "title": "The Hijrah — Migration to Madinah",
       "titleArabic": "الهجرة إلى المدينة",
+      "titleFrench": "L'Hégire : l'émigration vers Médine",
       "year": "1 AH",
       "yearCE": "622 CE",
       "month": "Rabi' al-Awwal",
@@ -685,8 +783,10 @@
           "surah": 9,
           "surahName": "At-Tawbah",
           "ayahRange": "40",
-          "textArabic": "إِلَّا تَنصُرُوهُ فَقَدْ نَصَرَهُ ٱللَّهُ إِذْ أَخْرَجَهُ ٱلَّذِينَ كَفَرُوا۟ ثَانِىَ ٱثْنَيْنِ إِذْ هُمَا فِى ٱلْغَارِ إِذْ يَقُولُ لِصَـٰحِبِهِۦ لَا تَحْزَنْ إِنَّ ٱللَّهَ مَعَنَا",
-          "textEnglish": "If you do not help him, Allah has already helped him when the disbelievers drove him out — the second of two, when they were in the cave, and he said to his companion: 'Do not grieve, indeed Allah is with us.'"
+          "textArabic": "إِلَّا تَنصُرُوهُ فَقَدْ نَصَرَهُ ٱللَّهُ إِذْ أَخْرَجَهُ ٱلَّذِينَ كَفَرُوا۟ ثَانِىَ ٱثْنَيْنِ إِذْ هُمَا فِى ٱلْغَارِ إِذْ يَقُولُ لِصَٰحِبِهِۦ لَا تَحْزَنْ إِنَّ ٱللَّهَ مَعَنَا ۖ فَأَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَيْهِ وَأَيَّدَهُۥ بِجُنُودٍۢ لَّمْ تَرَوْهَا وَجَعَلَ كَلِمَةَ ٱلَّذِينَ كَفَرُوا۟ ٱلسُّفْلَىٰ ۗ وَكَلِمَةُ ٱللَّهِ هِىَ ٱلْعُلْيَا ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+          "textEnglish": "If you do not aid the Prophet - Allah has already aided him when those who disbelieved had driven him out [of Makkah] as one of two, when they were in the cave and he said to his companion, \"Do not grieve; indeed Allah is with us.\" And Allah sent down his tranquillity upon him and supported him with angels you did not see and made the word of those who disbelieved the lowest, while the word of Allah - that is the highest. And Allah is Exalted in Might and Wise.",
+          "textFrench": "Si vous ne lui portez pas secours... Allah l'a déjà secouru, lorsque ceux qui avaient mécru l'avaient banni, deuxième de deux. Quand ils étaient dans la grotte et qu'il disait à son compagnon: «Ne t'afflige pas, car Allah est avec nous.» Allah fit alors descendre sur Lui Sa sérénité «Sa sakîna» et le soutint de soldats (Anges) que vous ne voyiez pas, et Il abaissa ainsi la parole des mécréants, tandis que la parole d'Allah eut le dessus. Et Allah est Puissant et Sage.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [
@@ -694,7 +794,11 @@
           "source": "Sahih al-Bukhari",
           "hadithNumber": "3905",
           "narrator": "Aisha",
-          "textEnglish": "Abu Bakr said: 'O Messenger of Allah, if one of them were to look down at his feet, he would see us!' The Prophet ﷺ said: 'O Abu Bakr, what do you think about two when Allah is the third?'"
+          "textEnglish": "Abu Bakr said: 'O Messenger of Allah, if one of them were to look down at his feet, he would see us!' The Prophet ﷺ said: 'O Abu Bakr, what do you think about two when Allah is the third?'",
+          "grade": "sahih",
+          "textFrench": "Abou Bakr dit : « Ô Messager d'Allah, si l'un d'eux baissait les yeux vers ses pieds, il nous verrait ! » Le Prophète ﷺ répondit : « Ô Abou Bakr, que penses-tu de deux dont Allah est le troisième ? »",
+          "translationProvenance": "project",
+          "textArabic": "\"‏ إِنِّي أُرِيتُ دَارَ هِجْرَتِكُمْ ذَاتَ نَخْلٍ بَيْنَ لاَبَتَيْنِ ‏\"‏‏.‏ وَهُمَا الْحَرَّتَانِ، فَهَاجَرَ مَنْ هَاجَرَ قِبَلَ الْمَدِينَةِ، وَرَجَعَ عَامَّةُ مَنْ كَانَ هَاجَرَ بِأَرْضِ الْحَبَشَةِ إِلَى الْمَدِينَةِ، وَتَجَهَّزَ أَبُو بَكْرٍ قِبَلَ الْمَدِينَةِ، فَقَالَ لَهُ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ عَلَى رِسْلِكَ، فَإِنِّي أَرْجُو أَنْ يُؤْذَنَ لِي ‏\"‏‏.‏ فَقَالَ أَبُو بَكْرٍ وَهَلْ تَرْجُو ذَلِكَ بِأَبِي أَنْتَ قَالَ ‏\"‏ نَعَمْ ‏\"‏‏.‏ فَحَبَسَ أَبُو بَكْرٍ نَفْسَهُ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم لِيَصْحَبَهُ، وَعَلَفَ رَاحِلَتَيْنِ كَانَتَا عِنْدَهُ وَرَقَ السَّمُرِ وَهْوَ الْخَبَطُ أَرْبَعَةَ أَشْهُرٍ‏"
         }
       ],
       "primarySources": [
@@ -712,7 +816,8 @@
         "Suraqah ibn Malik"
       ],
       "location": "From Makkah to Cave Thawr to Quba to Madinah",
-      "locationArabic": "من مكة إلى غار ثور إلى قباء إلى المدينة"
+      "locationArabic": "من مكة إلى غار ثور إلى قباء إلى المدينة",
+      "locationFrench": "De La Mecque à la grotte de Thawr, puis à Qoubâ et à Médine"
     }
   ]
 }
