@@ -3,8 +3,14 @@ import { getTranslations } from 'next-intl/server';
 import type { SeerahEvent, EraMetadata } from '@/types/seerah';
 import type { Locale } from '@/i18n/routing';
 
+const OG_LOCALES: Record<Locale, string> = {
+  en: 'en_US',
+  ar: 'ar_SA',
+  fr: 'fr_FR',
+};
+
 function ogLocale(locale: Locale) {
-  return locale === 'ar' ? 'ar_SA' : 'en_US';
+  return OG_LOCALES[locale];
 }
 
 export async function generateEventMetadata(
