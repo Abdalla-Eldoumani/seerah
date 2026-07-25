@@ -180,7 +180,8 @@
       "narrator": "Aishah",
       "checkedAgainst": "sunnah.com",
       "confirmedWording": "the revelation began with true dreams, then seclusion in the cave of Hira, then the angel saying Read",
-      "grade": "the collection carries no grading line"
+      "grade": "the collection carries no grading line",
+      "note": "One long narration. Three events quote different parts of it: the beginning of revelation (pre-014), the angel in the cave (mec-001), and Waraqah's answer (mec-002)."
     },
     "Sahih al-Bukhari 3231": {
       "usedIn": [
@@ -210,8 +211,9 @@
       "status": "verified",
       "narrator": "Aishah",
       "checkedAgainst": "sunnah.com",
-      "confirmedWording": "Allah had told him to give her the good tidings, and he mentioned her often",
-      "grade": "the collection carries no grading line"
+      "confirmedWording": "I was never as jealous of any wife as of Khadijah, for he mentioned her often, and Allah commanded him to give her good tidings of a palace in Paradise",
+      "grade": "the collection carries no grading line",
+      "note": "The event quoted \"she believed in me when people rejected me\" under this number. That wording is not Bukhari's; it is Musnad Ahmad 24864, and its grading is disputed (al-Haythami: chain hasan; al-Albani: weak in that complete form, Silsilah Da'ifah 6224). The event now quotes the matn of the narration it cites."
     },
     "Sahih al-Bukhari 3905": {
       "usedIn": [
@@ -221,7 +223,8 @@
       "narrator": "Aishah",
       "checkedAgainst": "sunnah.com",
       "confirmedWording": "the hijrah, the cave, and Abu Bakr's fear that they would be seen",
-      "grade": "the collection carries no grading line"
+      "grade": "the collection carries no grading line",
+      "note": "One long narration of the hijrah. The event quotes the exchange at the cave."
     },
     "Sahih al-Bukhari 4": {
       "usedIn": [
