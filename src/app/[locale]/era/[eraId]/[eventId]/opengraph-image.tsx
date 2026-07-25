@@ -1,4 +1,5 @@
 import { ImageResponse } from 'next/og';
+import { localizedField } from '@/lib/localized';
 import { getEventById, getEraMetadata } from '@/lib/data';
 import { formatEventDate } from '@/lib/dates';
 import type { Locale } from '@/i18n/routing';
@@ -18,8 +19,8 @@ export default async function Image({
   const era = getEraMetadata(eraId as EraId);
 
   const isAr = locale === 'ar';
-  const title = event ? (isAr ? event.titleArabic : event.title) : '';
-  const eraTitle = isAr ? era.titleArabic : era.title;
+  const title = event ? localizedField(event, 'title', locale as Locale).text : '';
+  const eraTitle = era ? (isAr ? era.titleArabic : era.title) : '';
   const dateLine = event ? formatEventDate(event, locale as Locale) : '';
 
   return new ImageResponse(

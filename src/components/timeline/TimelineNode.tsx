@@ -1,4 +1,5 @@
 import { useLocale, useTranslations } from 'next-intl';
+import { localizedField } from '@/lib/localized';
 import { cn } from '@/lib/utils';
 import { getCategoryColor } from '@/config/categories';
 import { CategoryGlyph } from '@/components/icons/CategoryGlyph';
@@ -80,7 +81,7 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
 
         {!isAr && (
           <h3 className="font-display text-lg md:text-xl text-ink leading-snug group-hover:text-gold-dark transition-colors">
-            {event.title}
+            {localizedField(event, 'title', locale).text}
           </h3>
         )}
 
@@ -117,7 +118,7 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
             dir={isArabicLocation ? 'rtl' : 'ltr'}
             lang={isArabicLocation ? 'ar' : 'en'}
           >
-            {isArabicLocation ? event.locationArabic : event.location}
+            {localizedField(event, 'location', locale).text}
           </p>
         )}
       </Link>

@@ -29,9 +29,10 @@ export function getEventsByEra(eraId: EraId): SeerahEvent[] {
   return eraData ? eraData.events : [];
 }
 
-export function getEraMetadata(eraId: EraId): EraMetadata {
-  const eraData = ERA_ID_MAP[eraId];
-  return eraData.era;
+// Returns undefined for an era id that is not one of the three, so a mistyped
+// URL becomes a 404 at the page rather than a crash inside the loader.
+export function getEraMetadata(eraId: EraId): EraMetadata | undefined {
+  return ERA_ID_MAP[eraId]?.era;
 }
 
 export function getAllEras(): EraMetadata[] {

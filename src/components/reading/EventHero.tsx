@@ -1,4 +1,5 @@
 import { useLocale, useTranslations } from 'next-intl';
+import { localizedField } from '@/lib/localized';
 import { cn } from '@/lib/utils';
 import { getCategoryColor } from '@/config/categories';
 import { CategoryGlyph } from '@/components/icons/CategoryGlyph';
@@ -34,7 +35,7 @@ export default function EventHero({ event }: EventHeroProps) {
 
       {!isAr && (
         <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-ink leading-tight text-balance">
-          {event.title}
+          {localizedField(event, 'title', locale).text}
         </h1>
       )}
 
@@ -48,7 +49,7 @@ export default function EventHero({ event }: EventHeroProps) {
           lang={showArabicLocation ? 'ar' : 'en'}
           className={showArabicLocation ? 'font-arabic' : undefined}
         >
-          {showArabicLocation ? event.locationArabic : event.location}
+          {localizedField(event, 'location', locale).text}
         </span>
       </p>
 

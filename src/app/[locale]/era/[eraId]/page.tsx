@@ -35,6 +35,7 @@ export async function generateMetadata({
   const { locale, eraId } = await params;
   if (!hasLocale(routing.locales, locale)) return {};
   const era = getEraMetadata(eraId as EraId);
+  if (!era) return {};
   return generateEraMetadata(era, locale as Locale);
 }
 
@@ -48,6 +49,7 @@ export default async function EraPage({
   setRequestLocale(locale);
 
   const era = getEraMetadata(eraId as EraId);
+  if (!era) notFound();
   const events = getEventsByEra(eraId as EraId);
   const tEra = await getTranslations({ locale, namespace: 'era' });
   const tCategories = await getTranslations({ locale, namespace: 'categories' });
@@ -159,7 +161,7 @@ export default async function EraPage({
 
                 {!isAr && (
                   <h3 className="font-display text-xl font-semibold text-ink group-hover:text-gold-dark transition-colors duration-200 mb-2">
-                    {event.title}
+                    {localizedField(event, 'title', locale as Locale).text}
                   </h3>
                 )}
 

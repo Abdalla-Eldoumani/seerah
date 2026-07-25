@@ -16,12 +16,16 @@ export default function HadithBlock({ reference }: HadithBlockProps) {
     ? `${collection}, #${reference.hadithNumber}`
     : collection;
 
-  // Prefer the verified Arabic text when available, otherwise fall back to
-  // the existing English translation with explicit lang/dir markup so screen
-  // readers and bidi resolution behave correctly.
+  // Prefer the verified Arabic text when available. Otherwise render the
+  // rendering for the reader's own language, with explicit lang and dir so
+  // screen readers and bidi resolution behave correctly.
   const useArabic = isAr && Boolean(reference.textArabic);
-  const bodyText = useArabic ? reference.textArabic! : reference.textEnglish;
-  const bodyLang = useArabic ? 'ar' : 'en';
+  const bodyText = useArabic
+    ? reference.textArabic!
+    : locale === 'fr'
+      ? reference.textFrench
+      : reference.textEnglish;
+  const bodyLang = useArabic ? 'ar' : locale === 'fr' ? 'fr' : 'en';
   const bodyDir = useArabic ? 'rtl' : 'ltr';
   const bodyFont = useArabic ? 'font-arabic' : 'font-body';
 
@@ -31,6 +35,11 @@ export default function HadithBlock({ reference }: HadithBlockProps) {
       <p className="narrator">
         {t('narratedBy')}: {localizeFigure(reference.narrator, locale)}
       </p>
+      {reference.grade && (
+        <p className="narrator">
+          {t('gradeLabel')}: {t(`grades.${reference.grade}`)}
+        </p>
+      )}
       <p
         lang={bodyLang}
         dir={bodyDir}

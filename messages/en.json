@@ -44,7 +44,14 @@
     "navPrev": "Previous",
     "navNext": "Next",
     "surah": "Surah",
-    "translationLabel": "Translation"
+    "translationLabel": "Translation",
+    "gradeLabel": "Grading",
+    "grades": {
+      "sahih": "Sahih",
+      "hasan": "Hasan",
+      "hasan-sahih": "Hasan sahih",
+      "daif": "Da'if (weak)"
+    }
   },
   "breadcrumb": {
     "home": "Home"

@@ -44,7 +44,14 @@
     "navPrev": "Précédent",
     "navNext": "Suivant",
     "surah": "Sourate",
-    "translationLabel": "Traduction"
+    "translationLabel": "Traduction",
+    "gradeLabel": "Authentification",
+    "grades": {
+      "sahih": "Sahîh (authentique)",
+      "hasan": "Hasan (bon)",
+      "hasan-sahih": "Hasan sahîh",
+      "daif": "Da'îf (faible)"
+    }
   },
   "breadcrumb": {
     "home": "Accueil"

@@ -75,6 +75,7 @@ export default async function EventPage({
   if (!event) notFound();
 
   const era = getEraMetadata(eraId as EraId);
+  if (!era) notFound();
   const { prev, next, prevEra, nextEra } = getAdjacentEvents(eventId);
   const isAr = locale === 'ar';
 
@@ -85,7 +86,7 @@ export default async function EventPage({
   const prevNav = prev
     ? {
         id: prev.id,
-        title: isAr ? prev.titleArabic : prev.title,
+        title: localizedField(prev, 'title', locale as Locale).text,
         eraId: prevEra?.id ?? eraId,
       }
     : null;
@@ -93,12 +94,12 @@ export default async function EventPage({
   const nextNav = next
     ? {
         id: next.id,
-        title: isAr ? next.titleArabic : next.title,
+        title: localizedField(next, 'title', locale as Locale).text,
         eraId: nextEra?.id ?? eraId,
       }
     : null;
 
-  const eventTitle = isAr ? event.titleArabic : event.title;
+  const eventTitle = localizedField(event, 'title', locale as Locale).text;
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',

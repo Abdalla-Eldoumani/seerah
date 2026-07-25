@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { localizedField } from '@/lib/localized';
 import { getTranslations } from 'next-intl/server';
 import type { SeerahEvent, EraMetadata } from '@/types/seerah';
 import type { Locale } from '@/i18n/routing';
@@ -18,7 +19,7 @@ export async function generateEventMetadata(
   locale: Locale
 ): Promise<Metadata> {
   const tSite = await getTranslations({ locale, namespace: 'site' });
-  const title = locale === 'ar' ? event.titleArabic : event.title;
+  const title = localizedField(event, 'title', locale).text;
   const description = event.summary.slice(0, 160);
 
   return {
