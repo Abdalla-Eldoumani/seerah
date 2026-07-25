@@ -4,6 +4,8 @@
     "title": "The Dawn of a Civilization",
     "titleArabic": "العهد المدني",
     "description": "Ten years that transformed the world. From the establishment of the first Islamic state to the farewell pilgrimage, the Medinan period saw the completion of Islamic law, decisive battles, the conquest of Makkah, and the perfection of the religion. A community persecuted for thirteen years emerged as a beacon of justice, mercy, and civilization.",
+    "descriptionArabic": "عشر سنوات غيّرت وجه العالم. من قيام الدولة الإسلامية الأولى إلى حجة الوداع، شهد العهد المدني تمام التشريع، والمعارك الفاصلة، وفتح مكة، وكمال الدين. فخرجت أمة اضطُهدت ثلاث عشرة سنة منارةً للعدل والرحمة والعمران.",
+    "descriptionFrench": "Dix années qui transformèrent le monde. De la fondation du premier État islamique au pèlerinage d'adieu, la période médinoise vit l'achèvement de la loi islamique, des batailles décisives, la conquête de La Mecque et le parachèvement de la religion. Une communauté persécutée treize ans durant émergea comme un phare de justice, de miséricorde et de civilisation.",
     "timespan": "622 CE – 632 CE",
     "timespanHijri": "1 AH – 11 AH",
     "themeColor": "#0d1b2a",
@@ -19,7 +21,11 @@
       "month": "Rabi' al-Awwal",
       "category": "establishment",
       "summary": "Upon arriving in the area of Quba on the outskirts of Madinah, the Prophet ﷺ stayed with the Banu Amr ibn Awf and participated in laying the foundations of Masjid Quba — the first mosque built in Islam. He spent four days there before proceeding to Madinah.",
+      "summaryArabic": "لما قدم النبي صلى الله عليه وسلم قباء على مشارف المدينة نزل على بني عمرو بن عوف وشارك في وضع أساس مسجد قباء، وهو أول مسجد بُني في الإسلام. وأقام فيه أربعة أيام ثم مضى إلى المدينة.",
+      "summaryFrench": "À son arrivée dans la région de Qubâ, aux abords de Médine, le Prophète ﷺ séjourna chez les Banoû Amr ibn Awf et participa à la pose des fondations de la mosquée de Qubâ, la première mosquée construite en islam. Il y demeura quatre jours avant de poursuivre vers Médine.",
       "significance": "Masjid Quba holds a special status as the first mosque in Islam. Allah described it as a mosque 'founded on righteousness from the first day.' The Prophet ﷺ later said that praying in Masjid Quba is equivalent to performing Umrah.",
+      "significanceArabic": "لمسجد قباء منزلة خاصة بكونه أول مسجد في الإسلام، وقد وصفه الله بأنه مسجد أُسّس على التقوى من أول يوم. وقال النبي صلى الله عليه وسلم بعد ذلك إن الصلاة فيه تعدل عمرة.",
+      "significanceFrench": "La mosquée de Qubâ occupe un statut particulier comme première mosquée de l'islam. Allah l'a décrite comme une mosquée « fondée sur la piété dès le premier jour ». Le Prophète ﷺ dit plus tard que prier à la mosquée de Qubâ équivaut à accomplir une 'omra.",
       "quranReferences": [
         {
           "surah": 9,
@@ -37,8 +43,13 @@
           "textEnglish": "The Prophet ﷺ said: 'Prayer in Masjid Quba is like performing Umrah.'"
         }
       ],
-      "primarySources": ["Jami' at-Tirmidhi", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Banu Amr ibn Awf"],
+      "primarySources": [
+        "Jami' at-Tirmidhi",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Banu Amr ibn Awf"
+      ],
       "location": "Quba, outskirts of Madinah",
       "locationArabic": "قباء – المدينة المنورة"
     },
@@ -51,7 +62,11 @@
       "month": "Rabi' al-Awwal",
       "category": "establishment",
       "summary": "The Prophet ﷺ entered Madinah and his camel knelt at a plot of land belonging to two orphan boys. He purchased the land and built the Prophet's Mosque (Masjid al-Nabawi) there, participating personally in the construction alongside the Companions. Adjacent to the mosque, he built rooms for his family and a covered area (the Suffah) for poor Muslims who had no homes.",
+      "summaryArabic": "دخل النبي صلى الله عليه وسلم المدينة فبركت ناقته في أرض لغلامين يتيمين، فاشترى الأرض وبنى فيها المسجد النبوي، وشارك بنفسه في البناء مع الصحابة. وبنى إلى جانب المسجد حجرات لأهله، ومظلة هي الصفة لفقراء المسلمين الذين لا مأوى لهم.",
+      "summaryFrench": "Le Prophète ﷺ entra dans Médine et sa chamelle s'agenouilla sur un terrain appartenant à deux orphelins. Il acheta le terrain et y bâtit la Mosquée du Prophète (al-Masjid an-Nabawî), participant personnellement à la construction aux côtés des Compagnons. Attenant à la mosquée, il édifia des chambres pour sa famille et un espace couvert (la Souffa) pour les musulmans pauvres sans domicile.",
       "significance": "Masjid al-Nabawi became the center of the new Islamic civilization — serving simultaneously as a mosque, school, parliament, court, and social welfare center. The Ahl as-Suffah (People of the Bench) were devoted students of knowledge who lived in the mosque, and from them came many of the greatest hadith narrators. Prayer in this mosque carries a reward of one thousand prayers elsewhere.",
+      "significanceArabic": "صار المسجد النبوي مركز الحضارة الإسلامية الناشئة، فكان مسجدًا ومدرسة ومجلسًا للشورى ومحكمة ودار رعاية اجتماعية في آن واحد. وكان أهل الصفة طلاب علم متفرغين يسكنون المسجد، وخرج منهم كبار رواة الحديث. والصلاة في هذا المسجد بألف صلاة فيما سواه.",
+      "significanceFrench": "Al-Masjid an-Nabawî devint le centre de la nouvelle civilisation islamique, servant à la fois de mosquée, d'école, d'assemblée, de tribunal et de centre d'entraide. Les Ahl as-Souffa (les gens du Banc) étaient des étudiants dévoués au savoir qui vivaient dans la mosquée, et d'eux vinrent nombre des plus grands rapporteurs de hadîths. La prière dans cette mosquée vaut mille prières ailleurs.",
       "quranReferences": [],
       "hadithReferences": [
         {
@@ -61,8 +76,15 @@
           "textEnglish": "The Prophet ﷺ said: 'A prayer in this mosque of mine is better than one thousand prayers in any other mosque, except Masjid al-Haram.'"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["Sahl and Suhayl (the orphan boys)", "The Muhajirun and Ansar"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "Sahl and Suhayl (the orphan boys)",
+        "The Muhajirun and Ansar"
+      ],
       "location": "Madinah",
       "locationArabic": "المدينة المنورة"
     },
@@ -75,7 +97,11 @@
       "month": "",
       "category": "community",
       "summary": "The Prophet ﷺ established a unique bond of brotherhood (mu'akhah) between the Muhajirun (the emigrants from Makkah) and the Ansar (the helpers of Madinah). Each Ansari was paired with a Muhajir, and the Ansar shared their wealth, homes, and even offered to divide their properties equally. The generosity of the Ansar was so extraordinary that the Muhajirun prayed for Allah to reward them.",
+      "summaryArabic": "آخى النبي صلى الله عليه وسلم بين المهاجرين من أهل مكة والأنصار من أهل المدينة، فجعل كل أنصاري أخًا لمهاجر، فقاسمهم الأنصار أموالهم ودورهم، بل عرضوا أن يشاطروهم أملاكهم مناصفة. وبلغ من كرم الأنصار أن دعا لهم المهاجرون أن يجزيهم الله عنهم خيرًا.",
+      "summaryFrench": "Le Prophète ﷺ instaura un lien unique de fraternité (mou'âkhât) entre les Mouhâjiroûn (les émigrés de La Mecque) et les Ansâr (les secoureurs de Médine). Chaque Ansârî fut jumelé à un Mouhâjir, et les Ansâr partagèrent leurs biens, leurs maisons, offrant même de diviser leurs propriétés à parts égales. La générosité des Ansâr fut si extraordinaire que les Mouhâjiroûn invoquèrent Allah de les en récompenser.",
       "significance": "This was a revolutionary social innovation — creating bonds stronger than blood-ties based on shared faith. The Ansar's selflessness was unprecedented; some offered half their wealth and even offered to divorce one of their wives so their Muhajir brother could marry her (which was refused). Allah praised the Ansar in the Quran for their selfless devotion.",
+      "significanceArabic": "كان هذا صنيعًا اجتماعيًّا غير مسبوق، إذ أنشأ روابط أقوى من رابطة الدم قائمة على وحدة الإيمان. وكان إيثار الأنصار لا نظير له، فعرض بعضهم نصف ماله، بل عرض أن يطلق إحدى زوجيه ليتزوجها أخوه المهاجر، فأبى ذلك. وقد أثنى الله على الأنصار في القرآن بإيثارهم.",
+      "significanceFrench": "Ce fut une innovation sociale révolutionnaire, créant des liens plus forts que ceux du sang, fondés sur une foi partagée. Le désintéressement des Ansâr fut sans précédent : certains offrirent la moitié de leurs biens et proposèrent même de divorcer d'une de leurs épouses pour que leur frère mouhâjir puisse l'épouser, ce qui fut refusé. Allah loua les Ansâr dans le Coran pour leur dévouement désintéressé.",
       "quranReferences": [
         {
           "surah": 59,
@@ -86,8 +112,17 @@
         }
       ],
       "hadithReferences": [],
-      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["Abdur-Rahman ibn Awf", "Sa'd ibn ar-Rabi'", "The Muhajirun", "The Ansar"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "Abdur-Rahman ibn Awf",
+        "Sa'd ibn ar-Rabi'",
+        "The Muhajirun",
+        "The Ansar"
+      ],
       "location": "Madinah",
       "locationArabic": "المدينة المنورة"
     },
@@ -100,11 +135,23 @@
       "month": "",
       "category": "legislation",
       "summary": "The Prophet ﷺ drafted the Constitution of Madinah (Sahifat al-Madinah), a formal agreement between the Muslims, the Jewish tribes, and other inhabitants of Madinah. It established the rights and duties of all citizens, guaranteed religious freedom, established mutual defense obligations, and declared Madinah a sanctuary. It declared all signatories as one Ummah (community) united in defense.",
+      "summaryArabic": "كتب النبي صلى الله عليه وسلم صحيفة المدينة، وهي عهد رسمي بين المسلمين ويهود المدينة وسائر سكانها. حدّدت حقوق كل طرف وواجباته، وكفلت حرية الدين، وأوجبت التناصر في الدفاع، وجعلت المدينة حرمًا آمنًا، وأعلنت أن الموقّعين عليها أمة واحدة في الدفاع.",
+      "summaryFrench": "Le Prophète ﷺ rédigea la Constitution de Médine (Sahîfat al-Madîna), un accord formel entre les musulmans, les tribus juives et les autres habitants de Médine. Elle établissait les droits et devoirs de tous les citoyens, garantissait la liberté religieuse, instaurait des obligations de défense mutuelle et déclarait Médine sanctuaire. Elle déclarait tous les signataires une seule Oumma unie dans la défense.",
       "significance": "This document is considered one of the earliest written constitutions in history. It established a pluralistic society under the rule of law where different religious communities coexisted with defined rights and responsibilities. The Prophet ﷺ was recognized as the supreme authority for dispute resolution. It was a remarkable document of statecraft.",
+      "significanceArabic": "تُعد هذه الوثيقة من أقدم الدساتير المكتوبة في التاريخ. أقامت مجتمعًا متعدد الأديان يحكمه القانون، تتعايش فيه الطوائف بحقوق وواجبات محددة. وجُعل النبي صلى الله عليه وسلم المرجع الأعلى في فصل النزاع. وهي وثيقة بالغة النضج في فن إدارة الدولة.",
+      "significanceFrench": "Ce document est considéré comme l'une des plus anciennes constitutions écrites de l'histoire. Il établissait une société pluraliste soumise à l'état de droit, où différentes communautés religieuses coexistaient avec des droits et responsabilités définis. Le Prophète ﷺ était reconnu comme l'autorité suprême pour le règlement des différends. C'était un document remarquable d'art de gouverner.",
       "quranReferences": [],
       "hadithReferences": [],
-      "primarySources": ["Ibn Ishaq's Sirah", "Ar-Raheeq Al-Makhtum", "Abu Ubayd's Kitab al-Amwal"],
-      "keyFigures": ["The Jewish tribes of Madinah (Banu Qaynuqa, Banu Nadir, Banu Qurayza)", "The Muhajirun", "The Ansar"],
+      "primarySources": [
+        "Ibn Ishaq's Sirah",
+        "Ar-Raheeq Al-Makhtum",
+        "Abu Ubayd's Kitab al-Amwal"
+      ],
+      "keyFigures": [
+        "The Jewish tribes of Madinah (Banu Qaynuqa, Banu Nadir, Banu Qurayza)",
+        "The Muhajirun",
+        "The Ansar"
+      ],
       "location": "Madinah",
       "locationArabic": "المدينة المنورة"
     },
@@ -117,7 +164,11 @@
       "month": "",
       "category": "legislation",
       "summary": "The Muslims needed a way to call people to prayer. Abdullah ibn Zayd saw a vision in his dream of a man calling to prayer with specific words. When he informed the Prophet ﷺ, the Prophet ﷺ said it was a true vision and instructed Bilal ibn Rabah to call the Adhan, as his voice was more beautiful. Umar ibn al-Khattab confirmed he had seen the same vision.",
+      "summaryArabic": "احتاج المسلمون إلى وسيلة ينادى بها للصلاة. فرأى عبد الله بن زيد في المنام رجلًا يؤذن بألفاظ مخصوصة، فأخبر النبي صلى الله عليه وسلم فقال: «إنها لرؤيا حق»، وأمر بلال بن رباح أن يؤذن لأنه أندى صوتًا. وأخبر عمر بن الخطاب أنه رأى مثل تلك الرؤيا.",
+      "summaryFrench": "Les musulmans avaient besoin d'un moyen d'appeler à la prière. Abdallah ibn Zayd vit en songe un homme appelant à la prière avec des paroles précises. Lorsqu'il en informa le Prophète ﷺ, celui-ci dit que c'était un songe véridique et ordonna à Bilâl ibn Rabâh de lancer l'adhân, car sa voix était plus belle. Omar ibn al-Khattâb confirma avoir vu le même songe.",
       "significance": "The Adhan became one of the most distinctive symbols of Islam — five times a day, the call to prayer rises over Muslim lands. Bilal, the formerly enslaved Abyssinian who had been tortured for his faith, became the first muezzin, elevated by Islam from the lowest rung of Makkan society to one of the most honored positions in the new community.",
+      "significanceArabic": "صار الأذان من أظهر شعائر الإسلام، يرتفع خمس مرات في اليوم في ديار المسلمين. وكان بلال، وهو الحبشي الذي كان مملوكًا وعُذّب في دينه، أول مؤذن، رفعه الإسلام من أدنى منازل مجتمع مكة إلى أشرف المواضع في المجتمع الجديد.",
+      "significanceFrench": "L'adhân devint l'un des symboles les plus distinctifs de l'islam : cinq fois par jour, l'appel à la prière s'élève sur les terres musulmanes. Bilâl, l'Abyssin autrefois réduit en esclavage et torturé pour sa foi, devint le premier muezzin, élevé par l'islam du plus bas échelon de la société mecquoise à l'une des positions les plus honorées de la nouvelle communauté.",
       "quranReferences": [],
       "hadithReferences": [
         {
@@ -127,8 +178,15 @@
           "textEnglish": "Abdullah ibn Zayd said: 'When the Messenger of Allah ﷺ ordered a bell to be made to summon people to prayer, a man came to me while I was sleeping and showed me a bell. I said: O servant of Allah, will you sell this bell? He said: What will you do with it? I said: We will call people to prayer. He said: Shall I not show you something better? He then taught me the words of the Adhan.'"
         }
       ],
-      "primarySources": ["Sunan Abu Dawud", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Bilal ibn Rabah", "Abdullah ibn Zayd", "Umar ibn al-Khattab"],
+      "primarySources": [
+        "Sunan Abu Dawud",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Bilal ibn Rabah",
+        "Abdullah ibn Zayd",
+        "Umar ibn al-Khattab"
+      ],
       "location": "Madinah",
       "locationArabic": "المدينة المنورة"
     },
@@ -141,7 +199,11 @@
       "month": "Rajab or Sha'ban",
       "category": "legislation",
       "summary": "Approximately sixteen or seventeen months after the Hijrah, the direction of prayer (Qiblah) was changed from Masjid al-Aqsa in Jerusalem to the Ka'bah in Makkah. This occurred while the Prophet ﷺ was leading the Dhuhr (or Asr) prayer in the mosque of Banu Salamah. Midway through the prayer, the revelation came commanding the change, and the Prophet ﷺ and the congregation turned from facing Jerusalem to facing Makkah.",
+      "summaryArabic": "بعد الهجرة بنحو ستة عشر أو سبعة عشر شهرًا حُوّلت القبلة من المسجد الأقصى ببيت المقدس إلى الكعبة بمكة. وكان ذلك والنبي صلى الله عليه وسلم يصلي الظهر أو العصر في مسجد بني سلمة، فنزل الوحي بالتحويل في أثناء الصلاة، فاستدار النبي صلى الله عليه وسلم ومن معه من جهة بيت المقدس إلى جهة مكة.",
+      "summaryFrench": "Environ seize ou dix-sept mois après l'Hégire, la direction de la prière (qibla) fut changée de la mosquée al-Aqsâ à Jérusalem vers la Ka'ba à La Mecque. Cela se produisit alors que le Prophète ﷺ dirigeait la prière de Dhuhr (ou de 'Asr) dans la mosquée des Banoû Salama. Au milieu de la prière, la révélation vint ordonner le changement, et le Prophète ﷺ ainsi que l'assemblée se détournèrent de Jérusalem pour faire face à La Mecque.",
       "significance": "The change of Qiblah was a test of faith — those who truly followed the Prophet ﷺ obeyed immediately, while hypocrites and doubters used it as a point of criticism. The mosque where this occurred became known as Masjid al-Qiblatayn (the Mosque of the Two Qiblahs). The Ka'bah, built by Ibrahim, was restored as the center of Muslim worship.",
+      "significanceArabic": "كان تحويل القبلة اختبارًا للإيمان، فبادر إلى الطاعة من صدق في اتباع النبي صلى الله عليه وسلم، واتخذها المنافقون والمرتابون مطعنًا. وسُمي المسجد الذي وقع فيه ذلك مسجد القبلتين. وعادت الكعبة التي بناها إبراهيم عليه السلام مركزًا لعبادة المسلمين.",
+      "significanceFrench": "Le changement de qibla fut une épreuve de foi : ceux qui suivaient véritablement le Prophète ﷺ obéirent immédiatement, tandis que les hypocrites et les sceptiques en firent un motif de critique. La mosquée où cela se produisit devint connue sous le nom de Masjid al-Qiblatayn (la mosquée des deux qiblas). La Ka'ba, bâtie par Ibrâhîm, fut rétablie comme centre de l'adoration des musulmans.",
       "quranReferences": [
         {
           "surah": 2,
@@ -159,7 +221,11 @@
           "textEnglish": "We prayed with the Prophet ﷺ toward Bayt al-Maqdis (Jerusalem) for sixteen or seventeen months. Then he was turned toward the Ka'bah."
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
       "keyFigures": [],
       "location": "Masjid al-Qiblatayn, Madinah",
       "locationArabic": "مسجد القبلتين – المدينة"
@@ -173,7 +239,11 @@
       "month": "17 Ramadan",
       "category": "battle",
       "summary": "The first major military engagement in Islam. 313 Muslims faced approximately 1,000 well-armed Qurayshi warriors at the wells of Badr. Despite being outnumbered and under-equipped, the Muslims won a decisive victory. Allah sent angels to fight alongside the believers. Seventy of the Quraysh were killed including Abu Jahl, and seventy were captured as prisoners of war.",
+      "summaryArabic": "أول مواجهة عسكرية كبرى في الإسلام. التقى ثلاثمائة وثلاثة عشر من المسلمين نحو ألف مقاتل من قريش كاملي العدة عند آبار بدر. ومع قلة العدد وضعف العدة انتصر المسلمون نصرًا حاسمًا، وأمدهم الله بالملائكة تقاتل معهم. فقُتل من قريش سبعون فيهم أبو جهل، وأُسر سبعون.",
+      "summaryFrench": "Le premier engagement militaire majeur de l'islam. Trois cent treize musulmans affrontèrent environ mille guerriers de Qouraych bien armés près des puits de Badr. Malgré leur infériorité numérique et matérielle, les musulmans remportèrent une victoire décisive. Allah envoya des anges combattre aux côtés des croyants. Soixante-dix Qouraychites furent tués, dont Abou Jahl, et soixante-dix furent faits prisonniers.",
       "significance": "Badr is called 'Yawm al-Furqan' (the Day of Criterion) — the day that distinguished truth from falsehood. It was the turning point that established Islam as a political and military force. The Prophet ﷺ consulted his Companions before the battle (shura), treated prisoners humanely (a revolutionary concept), and some were freed in exchange for teaching Muslim children to read. Surah Al-Anfal was revealed regarding this battle.",
+      "significanceArabic": "وتسمى بدر يوم الفرقان، وهو اليوم الذي فرّق بين الحق والباطل. وكانت نقطة التحول التي أثبتت الإسلام قوة سياسية وعسكرية. وقد شاور النبي صلى الله عليه وسلم أصحابه قبلها، وأحسن معاملة الأسرى وهو أمر غير مسبوق، وأُطلق بعضهم في مقابل تعليم صبيان المسلمين الكتابة. ونزلت سورة الأنفال في شأن هذه الغزوة.",
+      "significanceFrench": "Badr est appelée « Yawm al-Fourqân » (le Jour du Discernement), le jour qui distingua la vérité du mensonge. Ce fut le tournant qui établit l'islam comme force politique et militaire. Le Prophète ﷺ consulta ses Compagnons avant la bataille (choûrâ), traita les prisonniers avec humanité, ce qui était révolutionnaire, et certains furent libérés en échange de l'enseignement de la lecture aux enfants musulmans. La sourate Al-Anfâl fut révélée au sujet de cette bataille.",
       "quranReferences": [
         {
           "surah": 8,
@@ -198,8 +268,18 @@
           "textEnglish": "The Prophet ﷺ looked at the disbelievers — they were one thousand — and his companions were three hundred and nineteen. The Prophet ﷺ turned toward the Qiblah, stretched out his hands and began to cry out to his Lord: 'O Allah, accomplish for me what You have promised. O Allah, if this small band of Muslims is destroyed, You will not be worshipped on this earth.'"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Abu Jahl (killed)", "Umayyah ibn Khalaf (killed)", "Utbah ibn Rabi'ah (killed)", "Ali ibn Abi Talib", "Hamza ibn Abdul Muttalib"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Abu Jahl (killed)",
+        "Umayyah ibn Khalaf (killed)",
+        "Utbah ibn Rabi'ah (killed)",
+        "Ali ibn Abi Talib",
+        "Hamza ibn Abdul Muttalib"
+      ],
       "location": "Badr, southwest of Madinah",
       "locationArabic": "بدر"
     },
@@ -212,7 +292,11 @@
       "month": "Shawwal",
       "category": "battle",
       "summary": "The Quraysh marched on Madinah with 3,000 warriors seeking revenge for Badr. The battle took place at Mount Uhud. The Muslims initially had the upper hand, but when the archers stationed on the hill disobeyed the Prophet's ﷺ order and left their positions to collect spoils, Khalid ibn al-Walid (then fighting for the Quraysh) led a cavalry charge from behind. The Prophet ﷺ was wounded in the face, his tooth was broken, and the Muslims suffered seventy casualties, including Hamza ibn Abdul Muttalib, the Prophet's ﷺ beloved uncle, who was martyred and mutilated.",
+      "summaryArabic": "زحفت قريش على المدينة بثلاثة آلاف مقاتل طلبًا للثأر من بدر. وكانت المعركة عند جبل أحد. وكانت الغلبة للمسلمين أولًا، فلما خالف الرماة أمر النبي صلى الله عليه وسلم وتركوا مواقعهم على الجبل طلبًا للغنيمة، التفّ خالد بن الوليد، وكان يومئذ مع قريش، بالخيل من خلفهم. فجُرح النبي صلى الله عليه وسلم في وجهه وكُسرت رباعيته، واستُشهد من المسلمين سبعون، منهم حمزة بن عبد المطلب عم النبي صلى الله عليه وسلم وقد مُثّل به.",
+      "summaryFrench": "Qouraych marcha sur Médine avec trois mille guerriers pour venger Badr. La bataille eut lieu au mont Ouhoud. Les musulmans eurent d'abord l'avantage, mais lorsque les archers postés sur la colline désobéirent à l'ordre du Prophète ﷺ et quittèrent leurs positions pour ramasser le butin, Khâlid ibn al-Walîd, alors du côté de Qouraych, mena une charge de cavalerie par l'arrière. Le Prophète ﷺ fut blessé au visage, une de ses dents fut brisée, et les musulmans comptèrent soixante-dix morts, dont Hamza ibn Abd al-Mouttalib, l'oncle bien-aimé du Prophète ﷺ, tombé en martyr et mutilé.",
       "significance": "Uhud was a deeply painful lesson about the consequences of disobedience and the love of worldly gain. But it also revealed the Prophet's ﷺ incredible courage — he stood firm when most had fled. When the false rumor spread that the Prophet ﷺ had been killed, some lost heart, but others like Anas ibn al-Nadr charged forward saying: 'What is the use of living after the Messenger of Allah?' Sixty verses of Surah Aal-Imran address this battle.",
+      "significanceArabic": "كانت أحد درسًا موجعًا في عاقبة المخالفة وحب الدنيا، وأظهرت في الوقت نفسه شجاعة النبي صلى الله عليه وسلم إذ ثبت حين انكشف أكثر الناس. ولما شاع الخبر الكاذب بمقتله وهن بعضهم، وأقدم آخرون كأنس بن النضر يقول: «ما أصنع بالحياة بعد رسول الله؟». وقد نزل في هذه الغزوة نحو ستين آية من سورة آل عمران.",
+      "significanceFrench": "Ouhoud fut une leçon profondément douloureuse sur les conséquences de la désobéissance et de l'attachement au gain terrestre. Mais elle révéla aussi l'incroyable courage du Prophète ﷺ, qui tint bon quand la plupart avaient fui. Lorsque la fausse rumeur de sa mort se répandit, certains perdirent courage, mais d'autres comme Anas ibn an-Nadr s'élancèrent en disant : « À quoi bon vivre après le Messager d'Allah ? » Une soixantaine de versets de la sourate Âl-'Imrân traitent de cette bataille.",
       "quranReferences": [
         {
           "surah": 3,
@@ -230,8 +314,17 @@
         }
       ],
       "hadithReferences": [],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Hamza ibn Abdul Muttalib (martyred)", "Mus'ab ibn Umayr (martyred)", "Khalid ibn al-Walid (Quraysh cavalry)", "Hind bint Utbah"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Hamza ibn Abdul Muttalib (martyred)",
+        "Mus'ab ibn Umayr (martyred)",
+        "Khalid ibn al-Walid (Quraysh cavalry)",
+        "Hind bint Utbah"
+      ],
       "location": "Mount Uhud, north of Madinah",
       "locationArabic": "جبل أحد – المدينة"
     },
@@ -244,7 +337,11 @@
       "month": "Shawwal",
       "category": "battle",
       "summary": "A massive coalition of 10,000 warriors from the Quraysh, Ghatafan, and other tribes marched on Madinah. On the advice of Salman al-Farisi, the Muslims dug a trench around the vulnerable northern approach to the city — a tactic unknown to the Arabs. The 3,000 Muslim defenders held the trench while the coalition laid siege for approximately one month. Allah sent a fierce wind and unseen forces that scattered the enemy camp, and they retreated in disarray.",
+      "summaryArabic": "تجمّع حلف ضخم من عشرة آلاف مقاتل من قريش وغطفان وغيرهما وزحفوا على المدينة. فأشار سلمان الفارسي بحفر خندق في الجهة الشمالية المكشوفة من المدينة، وهي حيلة لم تعرفها العرب. فرابط ثلاثة آلاف من المسلمين على الخندق، وحاصرهم الأحزاب نحو شهر. ثم أرسل الله ريحًا شديدة وجنودًا لم يروها فشتّتت معسكرهم فانصرفوا مندحرين.",
+      "summaryFrench": "Une immense coalition de dix mille guerriers de Qouraych, de Ghatafân et d'autres tribus marcha sur Médine. Sur le conseil de Salmân al-Fârisî, les musulmans creusèrent une tranchée le long de l'approche nord vulnérable de la cité, une tactique inconnue des Arabes. Les trois mille défenseurs musulmans tinrent la tranchée tandis que la coalition assiégea la ville environ un mois. Allah envoya un vent violent et des forces invisibles qui dispersèrent le camp ennemi, et celui-ci se retira en désordre.",
       "significance": "This was the last major offensive by the Quraysh against Madinah. The Prophet ﷺ himself dug the trench alongside the Companions, sharing their hunger and hardship. During the digging, a massive rock was struck by the Prophet ﷺ and sparks flew, and he prophesied the conquest of Persia, Rome, and Yemen. After this battle, the Prophet ﷺ declared: 'Now we will march to them, and they will not march to us.'",
+      "significanceArabic": "كانت هذه آخر حملة كبرى لقريش على المدينة. وقد حفر النبي صلى الله عليه وسلم بيده مع أصحابه وشاركهم الجوع والشدة. وفي أثناء الحفر ضرب صخرة عظيمة فتطاير الشرر فبشّر بفتح فارس والروم واليمن. وقال بعد هذه الغزوة: «الآن نغزوهم ولا يغزوننا».",
+      "significanceFrench": "Ce fut la dernière offensive majeure de Qouraych contre Médine. Le Prophète ﷺ creusa lui-même la tranchée aux côtés des Compagnons, partageant leur faim et leur épreuve. Pendant le creusement, il frappa un rocher massif d'où jaillirent des étincelles, et il annonça la conquête de la Perse, de Rome et du Yémen. Après cette bataille, le Prophète ﷺ déclara : « Désormais c'est nous qui marcherons sur eux, et ils ne marcheront plus sur nous. »",
       "quranReferences": [
         {
           "surah": 33,
@@ -262,8 +359,15 @@
           "textEnglish": "We were with the Messenger of Allah ﷺ in the Trench, and they were digging while we were carrying the soil on our shoulders. The Messenger of Allah ﷺ said: 'O Allah, there is no life except the life of the Hereafter, so forgive the Ansar and the Muhajirun.'"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Salman al-Farisi", "Nu'aym ibn Mas'ud (who secretly embraced Islam and divided the coalition)"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Salman al-Farisi",
+        "Nu'aym ibn Mas'ud (who secretly embraced Islam and divided the coalition)"
+      ],
       "location": "Northern approach to Madinah",
       "locationArabic": "شمال المدينة"
     },
@@ -276,7 +380,11 @@
       "month": "Dhul Qa'dah",
       "category": "treaty",
       "summary": "The Prophet ﷺ set out with 1,400 Muslims for Umrah, not for war. The Quraysh blocked them at Hudaybiyah near Makkah. After negotiations, a ten-year truce was agreed upon. Its terms seemed unfavorable to the Muslims: they would return that year without performing Umrah, any Qurayshi who fled to Madinah must be returned, but any Muslim who went to Makkah would not be returned. Many Companions, especially Umar, found these terms difficult to accept.",
+      "summaryArabic": "خرج النبي صلى الله عليه وسلم ومعه ألف وأربعمائة من المسلمين معتمرين لا مقاتلين، فصدّتهم قريش عند الحديبية قرب مكة. وبعد مفاوضات عُقد صلح مدته عشر سنين، وكانت شروطه في ظاهرها على غير صالح المسلمين: يرجعون عامهم ذاك ولا يعتمرون، ومن جاء من قريش إلى المدينة رُدّ إليهم، ومن ذهب من المسلمين إلى مكة لم يُردّ. فشقّ ذلك على كثير من الصحابة وفي مقدمتهم عمر.",
+      "summaryFrench": "Le Prophète ﷺ partit avec mille quatre cents musulmans pour accomplir la 'omra, non pour la guerre. Qouraych leur barra la route à Houdaybiya, près de La Mecque. Après négociations, une trêve de dix ans fut conclue. Ses conditions semblaient défavorables aux musulmans : ils repartiraient cette année-là sans accomplir la 'omra, tout Qouraychite fuyant vers Médine devrait être rendu, mais tout musulman rejoignant La Mecque ne serait pas rendu. Beaucoup de Compagnons, en particulier Omar, eurent du mal à accepter ces termes.",
       "significance": "Though it appeared to be a setback, the Quran called it 'a manifest victory' (Fath Mubin). The treaty gave Muslims the legitimacy to operate openly, allowed them to make alliances, and led to a massive wave of conversions during the peace. Within two years, more people entered Islam than in the previous nineteen years combined. It proved the Prophet's ﷺ superior strategic vision.",
+      "significanceArabic": "ومع أنه بدا تراجعًا فقد سماه القرآن فتحًا مبينًا. فقد أعطى الصلح المسلمين شرعية العمل في العلن، وأتاح لهم عقد الأحلاف، وأدى في مدة السلم إلى دخول الناس في الدين أفواجًا. فأسلم في سنتين أكثر ممن أسلم في تسع عشرة سنة قبلها. وفي ذلك بيان لبعد نظر النبي صلى الله عليه وسلم.",
+      "significanceFrench": "Bien que cela parût un revers, le Coran l'appela « une victoire éclatante » (Fath Moubîn). Le traité donna aux musulmans la légitimité d'agir ouvertement, leur permit de conclure des alliances et entraîna une vague massive de conversions durant la paix. En deux ans, plus de personnes entrèrent en islam qu'au cours des dix-neuf années précédentes réunies. Cela démontra la vision stratégique supérieure du Prophète ﷺ.",
       "quranReferences": [
         {
           "surah": 48,
@@ -294,8 +402,16 @@
         }
       ],
       "hadithReferences": [],
-      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["Suhayl ibn Amr (Quraysh negotiator)", "Umar ibn al-Khattab", "Uthman ibn Affan (sent as envoy to Makkah)"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "Suhayl ibn Amr (Quraysh negotiator)",
+        "Umar ibn al-Khattab",
+        "Uthman ibn Affan (sent as envoy to Makkah)"
+      ],
       "location": "Hudaybiyah, near Makkah",
       "locationArabic": "الحديبية"
     },
@@ -308,7 +424,11 @@
       "month": "Muharram and after",
       "category": "dawah",
       "summary": "The Prophet ﷺ sent letters to the rulers of the known world inviting them to Islam, including: Heraclius (the Roman Emperor), Khosrau II (the Persian Emperor), the Muqawqis (ruler of Egypt), An-Najashi (King of Abyssinia), and others. Approximately 22-25 letters were sent. Heraclius recognized the truth of the message but did not accept. Khosrau tore up the letter, and the Prophet ﷺ said: 'His kingdom will be torn apart.'",
+      "summaryArabic": "بعث النبي صلى الله عليه وسلم بالكتب إلى ملوك الأرض المعروفين يدعوهم إلى الإسلام، منهم هرقل عظيم الروم، وكسرى الثاني ملك الفرس، والمقوقس عظيم مصر، والنجاشي ملك الحبشة وغيرهم، فبلغت الكتب نحو اثنين وعشرين إلى خمسة وعشرين كتابًا. فعرف هرقل صدق الرسالة ولم يُسلم، ومزّق كسرى الكتاب فقال النبي صلى الله عليه وسلم: «مُزّق مُلكه».",
+      "summaryFrench": "Le Prophète ﷺ envoya des lettres aux souverains du monde connu pour les inviter à l'islam, notamment Héraclius (l'empereur romain), Khosro II (l'empereur perse), le Mouqawqis (gouverneur d'Égypte), An-Najâchî (roi d'Abyssinie) et d'autres. Environ vingt-deux à vingt-cinq lettres furent envoyées. Héraclius reconnut la véracité du message mais ne l'accepta pas. Khosro déchira la lettre, et le Prophète ﷺ dit : « Son royaume sera déchiré. »",
       "significance": "This demonstrated the universal nature of the Prophet's ﷺ message — Islam was not an Arab religion but a call to all of humanity. The period of peace after Hudaybiyah made this diplomatic outreach possible. Khosrau's kingdom was indeed destroyed within a decade. Heraclius's recognition of the Prophet's ﷺ truthfulness is recorded in detail in Sahih al-Bukhari.",
+      "significanceArabic": "دلّ ذلك على عالمية رسالة النبي صلى الله عليه وسلم، فليس الإسلام دينًا للعرب بل دعوة للناس كافة. وقد أتاحت مدة السلم بعد الحديبية هذا التواصل الدبلوماسي. وقد زال ملك كسرى فعلًا في نحو عشر سنين. وخبر إقرار هرقل بصدق النبي صلى الله عليه وسلم مروي بتفصيله في صحيح البخاري.",
+      "significanceFrench": "Cela démontra le caractère universel du message du Prophète ﷺ : l'islam n'était pas une religion arabe mais un appel à toute l'humanité. La période de paix après Houdaybiya rendit possible cette ouverture diplomatique. Le royaume de Khosro fut effectivement détruit en une décennie. La reconnaissance par Héraclius de la véracité du Prophète ﷺ est rapportée en détail dans Sahîh al-Boukhârî.",
       "quranReferences": [],
       "hadithReferences": [
         {
@@ -318,8 +438,16 @@
           "textEnglish": "The Prophet ﷺ wrote to Caesar... Abu Sufyan [before his Islam] was summoned and Heraclius asked him about the Prophet ﷺ. After the questioning, Heraclius said: 'If what you say is true, then he will rule over what is beneath these two feet of mine.'"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Heraclius (Roman Emperor)", "Khosrau II (Persian Emperor)", "Al-Muqawqis (Egypt)", "An-Najashi (Abyssinia)"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Heraclius (Roman Emperor)",
+        "Khosrau II (Persian Emperor)",
+        "Al-Muqawqis (Egypt)",
+        "An-Najashi (Abyssinia)"
+      ],
       "location": "Letters sent from Madinah to various kingdoms",
       "locationArabic": "المدينة المنورة"
     },
@@ -332,7 +460,11 @@
       "month": "Muharram/Rabi' al-Awwal",
       "category": "battle",
       "summary": "The Prophet ﷺ marched with 1,420 warriors against the Jewish fortress complex of Khaybar, whose inhabitants had been plotting with the Quraysh and other tribes against the Muslims. After a prolonged siege, Ali ibn Abi Talib was given the banner and led the assault that conquered the main fortress. The inhabitants were allowed to remain and farm their land in exchange for half the produce.",
+      "summaryArabic": "سار النبي صلى الله عليه وسلم بألف وأربعمائة وعشرين مقاتلًا إلى حصون خيبر اليهودية، وقد كان أهلها يكيدون مع قريش وغيرها من القبائل للمسلمين. وبعد حصار طويل أُعطي علي بن أبي طالب الراية ففتح الحصن الأعظم. وأُقرّ أهلها على أرضهم يعملون فيها على أن يكون للمسلمين شطر ما يخرج منها.",
+      "summaryFrench": "Le Prophète ﷺ marcha avec mille quatre cent vingt combattants contre le complexe fortifié juif de Khaybar, dont les habitants complotaient avec Qouraych et d'autres tribus contre les musulmans. Après un siège prolongé, Alî ibn Abî Tâlib reçut l'étendard et mena l'assaut qui emporta la forteresse principale. Les habitants furent autorisés à demeurer et à cultiver leur terre en échange de la moitié de la récolte.",
       "significance": "Khaybar was the largest Jewish settlement in Arabia and a center of opposition to Islam. Its conquest secured Madinah's northern frontier and demonstrated the military capability of the Muslim state. The Prophet ﷺ was poisoned by a Jewish woman of Khaybar who placed poison in a roasted lamb; the effects of this poisoning would contribute to his final illness years later.",
+      "significanceArabic": "كانت خيبر أكبر تجمع يهودي في جزيرة العرب ومركزًا لمناوأة الإسلام، ففتحها أمّن الحدّ الشمالي للمدينة وأظهر قدرة الدولة المسلمة العسكرية. وقد سُمّ النبي صلى الله عليه وسلم في شاة مصلية دسّتها امرأة من يهود خيبر، وكان لأثر ذلك السم أثر في مرض موته بعد سنين.",
+      "significanceFrench": "Khaybar était la plus grande implantation juive d'Arabie et un centre d'opposition à l'islam. Sa conquête sécurisa la frontière nord de Médine et démontra la capacité militaire de l'État musulman. Le Prophète ﷺ fut empoisonné par une femme juive de Khaybar qui plaça du poison dans un agneau rôti ; les effets de cet empoisonnement contribueraient à sa maladie finale des années plus tard.",
       "quranReferences": [
         {
           "surah": 48,
@@ -350,8 +482,15 @@
           "textEnglish": "The Prophet ﷺ said on the day of Khaybar: 'I will give the banner tomorrow to a man through whose hands Allah will bring about victory; he loves Allah and His Messenger, and Allah and His Messenger love him.' The next morning, he gave the banner to Ali ibn Abi Talib."
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Ali ibn Abi Talib", "Marhab (Jewish warrior killed by Ali)"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Ali ibn Abi Talib",
+        "Marhab (Jewish warrior killed by Ali)"
+      ],
       "location": "Khaybar, north of Madinah",
       "locationArabic": "خيبر"
     },
@@ -364,7 +503,11 @@
       "month": "Ramadan (20th)",
       "category": "conquest",
       "summary": "After the Quraysh violated the Treaty of Hudaybiyah by supporting an attack on the Prophet's ﷺ allies (Banu Khuza'ah), the Prophet ﷺ marched on Makkah with 10,000 Muslims. The city surrendered almost without resistance. The Prophet ﷺ entered Makkah on his camel with his head bowed in humility, reciting Surah Al-Fath. He went directly to the Ka'bah, circled it, and destroyed the 360 idols inside and around it, reciting: 'Truth has come and falsehood has perished. Indeed, falsehood is ever bound to perish.' He then declared a general amnesty for the people of Makkah.",
+      "summaryArabic": "لما نقضت قريش صلح الحديبية بإعانتها على حلفاء النبي صلى الله عليه وسلم من بني خزاعة، سار إلى مكة في عشرة آلاف من المسلمين، فاستسلمت المدينة من غير قتال يُذكر. ودخل النبي صلى الله عليه وسلم مكة على راحلته مطأطئ الرأس تواضعًا يقرأ سورة الفتح. ثم قصد الكعبة فطاف بها وكسر ما حولها وفيها من الأصنام وهي ثلاثمائة وستون صنمًا وهو يتلو: «وقل جاء الحق وزهق الباطل إن الباطل كان زهوقًا». ثم أعلن العفو العام عن أهل مكة.",
+      "summaryFrench": "Après que Qouraych eut violé le traité de Houdaybiya en soutenant une attaque contre les alliés du Prophète ﷺ (les Banoû Khouzâ'a), le Prophète ﷺ marcha sur La Mecque avec dix mille musulmans. La ville se rendit presque sans résistance. Le Prophète ﷺ entra à La Mecque sur sa chamelle, la tête inclinée par humilité, récitant la sourate Al-Fath. Il se rendit directement à la Ka'ba, en fit le tour, et détruisit les trois cent soixante idoles qui s'y trouvaient et l'entouraient, en récitant : « La vérité est venue et le faux a disparu. Certes le faux est voué à disparaître. » Il proclama ensuite une amnistie générale pour les gens de La Mecque.",
       "significance": "The conquest of Makkah is one of the most extraordinary events in history. The Prophet ﷺ, who had been driven out as a persecuted refugee eight years earlier, returned as a victor but displayed unparalleled mercy. He forgave even his worst enemies, including those who had tortured, killed, and persecuted Muslims for decades. When asked what he would do with the Quraysh, he said: 'Go, for you are free.' This act of mercy led to the mass acceptance of Islam across Arabia.",
+      "significanceArabic": "فتح مكة من أعظم أحداث التاريخ. فقد عاد النبي صلى الله عليه وسلم الذي أُخرج منها قبل ثماني سنين مضطهدًا، عاد فاتحًا فأظهر من الرحمة ما لا نظير له، فعفا عن أشد أعدائه، وفيهم من عذّب المسلمين وقتلهم واضطهدهم عقودًا. ولما سُئل ما هو صانع بقريش قال: «اذهبوا فأنتم الطلقاء». فكان هذا العفو سببًا في دخول العرب في الإسلام أفواجًا.",
+      "significanceFrench": "La conquête de La Mecque est l'un des événements les plus extraordinaires de l'histoire. Le Prophète ﷺ, chassé huit ans plus tôt en réfugié persécuté, revint en vainqueur mais fit preuve d'une miséricorde sans égale. Il pardonna même à ses pires ennemis, y compris ceux qui avaient torturé, tué et persécuté les musulmans pendant des décennies. Quand on lui demanda ce qu'il ferait de Qouraych, il répondit : « Allez, vous êtes libres. » Cet acte de miséricorde entraîna l'adhésion massive à l'islam dans toute l'Arabie.",
       "quranReferences": [
         {
           "surah": 17,
@@ -389,8 +532,16 @@
           "textEnglish": "The Prophet ﷺ entered Makkah on the Day of the Conquest, and there were 360 idols around the Ka'bah. He started poking them with a stick he had in his hand, saying: 'Truth has come and falsehood has perished. Indeed, falsehood is ever bound to perish.'"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Abu Sufyan (accepted Islam)", "Khalid ibn al-Walid (now Muslim)", "Hind bint Utbah (accepted Islam)"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Abu Sufyan (accepted Islam)",
+        "Khalid ibn al-Walid (now Muslim)",
+        "Hind bint Utbah (accepted Islam)"
+      ],
       "location": "Makkah",
       "locationArabic": "مكة المكرمة"
     },
@@ -403,7 +554,11 @@
       "month": "Shawwal",
       "category": "battle",
       "summary": "Shortly after the conquest of Makkah, the tribes of Hawazin and Thaqif gathered 20,000 warriors to fight the Muslims. The Prophet ﷺ marched with 12,000 — the largest Muslim army ever assembled. Initially, the Muslims were ambushed in the Hunayn valley and many fled in confusion. The Prophet ﷺ stood firm on his mule, calling the Companions back, until the tide turned and the Muslims won a decisive victory.",
+      "summaryArabic": "بعد فتح مكة بقليل جمعت هوازن وثقيف عشرين ألف مقاتل لقتال المسلمين. فخرج النبي صلى الله عليه وسلم في اثني عشر ألفًا، وهو أكبر جيش اجتمع للمسلمين. فبوغتوا في وادي حنين فانكشف كثير منهم، وثبت النبي صلى الله عليه وسلم على بغلته ينادي أصحابه حتى رجعوا فكانت الغلبة للمسلمين.",
+      "summaryFrench": "Peu après la conquête de La Mecque, les tribus de Hawâzin et de Thaqîf rassemblèrent vingt mille guerriers pour combattre les musulmans. Le Prophète ﷺ marcha avec douze mille hommes, la plus grande armée musulmane jamais réunie. Au début, les musulmans tombèrent dans une embuscade dans la vallée de Hounayn et beaucoup s'enfuirent dans la confusion. Le Prophète ﷺ tint bon sur sa mule, rappelant les Compagnons, jusqu'à ce que la situation se renverse et que les musulmans remportent une victoire décisive.",
       "significance": "Hunayn demonstrated that numbers alone do not guarantee victory — only reliance on Allah does. Some Muslims had felt invincible due to their large numbers, and the initial rout was a divine reminder. The Prophet's ﷺ personal courage in standing firm while arrows flew around him, calling 'I am the Prophet, there is no lie! I am the son of Abdul Muttalib!' was extraordinary.",
+      "significanceArabic": "أظهرت حنين أن الكثرة وحدها لا تصنع نصرًا، وإنما النصر بالاعتماد على الله. فقد أعجب بعض المسلمين بكثرتهم فكانت الهزيمة الأولى تذكيرًا ربانيًّا. وكان ثبات النبي صلى الله عليه وسلم بنفسه والسهام تتطاير حوله وهو ينادي: «أنا النبي لا كذب، أنا ابن عبد المطلب» أمرًا عظيمًا.",
+      "significanceFrench": "Hounayn démontra que le nombre seul ne garantit pas la victoire : seule la confiance en Allah le fait. Certains musulmans s'étaient sentis invincibles du fait de leur nombre, et la déroute initiale fut un rappel divin. Le courage personnel du Prophète ﷺ, tenant bon sous les flèches en criant « Je suis le Prophète, sans mensonge ! Je suis le fils d'Abd al-Mouttalib ! », fut extraordinaire.",
       "quranReferences": [
         {
           "surah": 9,
@@ -421,8 +576,14 @@
           "textEnglish": "I was with the Prophet ﷺ on the Day of Hunayn. Abu Sufyan ibn al-Harith and I clung to the Messenger of Allah ﷺ and did not leave him. The Prophet ﷺ was riding his white mule... He said: 'I am the Prophet, there is no lie. I am the son of Abdul Muttalib.'"
         }
       ],
-      "primarySources": ["Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Al-Abbas ibn Abdul Muttalib", "Abu Sufyan ibn al-Harith"],
+      "primarySources": [
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Al-Abbas ibn Abdul Muttalib",
+        "Abu Sufyan ibn al-Harith"
+      ],
       "location": "Valley of Hunayn, between Makkah and Ta'if",
       "locationArabic": "وادي حنين"
     },
@@ -435,7 +596,11 @@
       "month": "Rajab",
       "category": "battle",
       "summary": "Learning that the Byzantine Empire was gathering forces near the northern border, the Prophet ﷺ mobilized the largest army in Islamic history — 30,000 warriors — and marched to Tabuk in extreme heat and drought. The expedition was called 'Jaysh al-Usrah' (the Army of Hardship). Uthman ibn Affan single-handedly funded a large portion of the expedition. When they reached Tabuk, the Byzantine forces had withdrawn, and the Prophet ﷺ secured the northern frontier through treaties with local tribes.",
+      "summaryArabic": "لما بلغ النبي صلى الله عليه وسلم أن الروم يحشدون قرب الحدود الشمالية، جهّز أعظم جيش في تاريخ الإسلام يومئذ، ثلاثين ألف مقاتل، وسار إلى تبوك في حر شديد وجدب، فسُمّي جيش العسرة. وجهّز عثمان بن عفان قسمًا كبيرًا منه بماله. فلما بلغوا تبوك كانت الروم قد انسحبت، فأمّن النبي صلى الله عليه وسلم الحدّ الشمالي بمعاهدات مع القبائل هناك.",
+      "summaryFrench": "Apprenant que l'Empire byzantin rassemblait des forces près de la frontière nord, le Prophète ﷺ mobilisa la plus grande armée de l'histoire islamique d'alors, trente mille combattants, et marcha vers Tabouk sous une chaleur extrême et la sécheresse. L'expédition fut appelée « Jaych al-'Ousra » (l'armée de la difficulté). Othmân ibn Affân en finança à lui seul une large part. Lorsqu'ils atteignirent Tabouk, les forces byzantines s'étaient retirées, et le Prophète ﷺ sécurisa la frontière nord par des traités avec les tribus locales.",
       "significance": "Tabuk was the final major military expedition of the Prophet ﷺ. It exposed the hypocrites who made excuses not to participate, and Surah At-Tawbah was largely revealed in this context. The story of Ka'b ibn Malik, who truthfully confessed his failure to join and was boycotted for fifty days before Allah accepted his repentance, is one of the most powerful narratives in the hadith literature.",
+      "significanceArabic": "كانت تبوك آخر غزوة كبرى للنبي صلى الله عليه وسلم، وقد كشفت المنافقين الذين تخلّفوا بالمعاذير، ونزل في ذلك جلّ سورة التوبة. وقصة كعب بن مالك الذي صدق فاعترف بتخلّفه فهُجر خمسين ليلة حتى تاب الله عليه من أبلغ ما في كتب الحديث من القصص.",
+      "significanceFrench": "Tabouk fut la dernière expédition militaire majeure du Prophète ﷺ. Elle démasqua les hypocrites qui s'inventèrent des excuses pour ne pas participer, et la sourate At-Tawba fut en grande partie révélée dans ce contexte. L'histoire de Ka'b ibn Mâlik, qui avoua sincèrement son absence et fut boycotté cinquante jours avant qu'Allah n'accepte son repentir, est l'un des récits les plus puissants de la littérature du hadîth.",
       "quranReferences": [
         {
           "surah": 9,
@@ -460,8 +625,16 @@
           "textEnglish": "Ka'b narrated his story of not joining the expedition of Tabuk: '...Then Allah revealed His forgiveness for us in the last part of the night, and the Prophet ﷺ announced it after the Fajr prayer...'"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Uthman ibn Affan (major funder)", "Ka'b ibn Malik", "Abu Bakr as-Siddiq"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Uthman ibn Affan (major funder)",
+        "Ka'b ibn Malik",
+        "Abu Bakr as-Siddiq"
+      ],
       "location": "Tabuk, northern Arabia",
       "locationArabic": "تبوك"
     },
@@ -474,7 +647,11 @@
       "month": "Dhul Hijjah",
       "category": "pilgrimage",
       "summary": "In the tenth year after Hijrah, the Prophet ﷺ performed Hajj — the only Hajj of his life — with approximately 100,000 or more Muslims. On the 9th of Dhul Hijjah, standing at Arafat, he delivered his Farewell Sermon (Khutbat al-Wada'), addressing all of humanity with principles of equality, justice, women's rights, the prohibition of usury, and the sanctity of life and property. He asked the people: 'Have I conveyed the message?' and they responded: 'Yes!' He said: 'O Allah, bear witness.'",
+      "summaryArabic": "حج النبي صلى الله عليه وسلم في السنة العاشرة من الهجرة، وهي حجته الوحيدة، ومعه نحو مائة ألف من المسلمين أو يزيدون. وفي التاسع من ذي الحجة وقف بعرفة فخطب خطبة الوداع، وخاطب الناس جميعًا بأصول المساواة والعدل وحقوق النساء وتحريم الربا وحرمة الدماء والأموال. ثم قال: «ألا هل بلّغت؟» قالوا: نعم. قال: «اللهم فاشهد».",
+      "summaryFrench": "La dixième année après l'Hégire, le Prophète ﷺ accomplit le pèlerinage, le seul de sa vie, avec environ cent mille musulmans ou davantage. Le 9 Dhoû al-Hijja, debout à Arafat, il prononça son Sermon d'adieu (Khoutbat al-Wadâ'), s'adressant à toute l'humanité avec les principes d'égalité, de justice, des droits des femmes, de l'interdiction de l'usure et du caractère sacré de la vie et des biens. Il demanda aux gens : « Ai-je transmis le message ? » et ils répondirent : « Oui ! » Il dit alors : « Ô Allah, sois-en témoin. »",
       "significance": "This was the culmination of the Prophet's ﷺ 23-year mission. The Farewell Sermon is one of the greatest speeches in human history, establishing principles of human rights, racial equality, and social justice that were centuries ahead of their time. On this occasion, the final verse of legislation was revealed, declaring the perfection of the religion. The Prophet ﷺ hinted at his impending departure.",
+      "significanceArabic": "كانت هذه ثمرة ثلاث وعشرين سنة من رسالته صلى الله عليه وسلم. وخطبة الوداع من أعظم الخطب في تاريخ البشر، أرست من قواعد حقوق الإنسان والمساواة بين الأجناس والعدل الاجتماعي ما سبقت به عصورًا. وفي هذا الموقف نزلت آية إكمال الدين. وقد ألمح النبي صلى الله عليه وسلم إلى قرب أجله.",
+      "significanceFrench": "Ce fut l'aboutissement de vingt-trois années de mission du Prophète ﷺ. Le Sermon d'adieu est l'un des plus grands discours de l'histoire humaine, établissant des principes de droits humains, d'égalité raciale et de justice sociale en avance de plusieurs siècles sur son temps. À cette occasion fut révélé le verset final de la législation, proclamant le parachèvement de la religion. Le Prophète ﷺ laissa entendre son départ imminent.",
       "quranReferences": [
         {
           "surah": 5,
@@ -492,8 +669,14 @@
           "textEnglish": "The Prophet ﷺ said in his sermon at Arafat: 'O people, your blood, your property, and your honor are sacred to you, like the sanctity of this day, in this month, in this city. All the practices of Jahiliyyah are under my feet. The usury of Jahiliyyah is abolished... Fear Allah regarding women, for you have taken them as a trust from Allah...'"
         }
       ],
-      "primarySources": ["Sahih Muslim", "Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Approximately 100,000+ Muslims"],
+      "primarySources": [
+        "Sahih Muslim",
+        "Sahih al-Bukhari",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Approximately 100,000+ Muslims"
+      ],
       "location": "Arafat, Mina, and Makkah",
       "locationArabic": "عرفة ومنى ومكة"
     },
@@ -506,7 +689,11 @@
       "month": "12 Rabi' al-Awwal (Monday)",
       "category": "death",
       "summary": "The Prophet ﷺ fell ill and his condition worsened over several days. During his illness, he continued to lead prayers until he became too weak, at which point he instructed Abu Bakr to lead the prayers. He spent his final days in the room of Aisha. On Monday, 12th Rabi' al-Awwal, he passed away with his head resting on Aisha's chest, having chosen to be with 'the Highest Companion' (Ar-Rafiq al-A'la). He was 63 years old.",
+      "summaryArabic": "مرض النبي صلى الله عليه وسلم واشتد به المرض أيامًا. وظل في مرضه يصلي بالناس حتى ضعف فأمر أبا بكر أن يصلي بهم. وقضى أيامه الأخيرة في حجرة عائشة. وتوفي يوم الاثنين الثاني عشر من ربيع الأول ورأسه في حجر عائشة، وقد اختار الرفيق الأعلى، وهو ابن ثلاث وستين سنة.",
+      "summaryFrench": "Le Prophète ﷺ tomba malade et son état s'aggrava sur plusieurs jours. Durant sa maladie, il continua de diriger les prières jusqu'à devenir trop faible, moment où il chargea Abou Bakr de les conduire. Il passa ses derniers jours dans la chambre d'Aïcha. Le lundi 12 Rabî' al-Awwal, il rendit l'âme, la tête reposant sur la poitrine d'Aïcha, ayant choisi d'être avec « le Compagnon suprême » (ar-Rafîq al-A'lâ). Il avait soixante-trois ans.",
       "significance": "The death of the Prophet ﷺ was the most devastating event for the Muslim community. Umar initially refused to believe it, threatening anyone who said the Prophet ﷺ had died. Abu Bakr entered, kissed the Prophet's ﷺ forehead, and addressed the people with the verse: 'Muhammad is no more than a messenger; other messengers have passed before him.' This confirmed the truth and Umar collapsed. The Prophet ﷺ was buried in the room where he died — now part of Masjid al-Nabawi.",
+      "significanceArabic": "كانت وفاته صلى الله عليه وسلم أشد ما نزل بالمسلمين. فأنكر عمر الخبر أول الأمر وتوعّد من قال إنه مات. فدخل أبو بكر فقبّل جبينه ثم خاطب الناس بقوله تعالى: «وما محمد إلا رسول قد خلت من قبله الرسل». فتقرر الحق وسقط عمر إلى الأرض. ودُفن النبي صلى الله عليه وسلم في الحجرة التي توفي فيها، وهي اليوم من المسجد النبوي.",
+      "significanceFrench": "La mort du Prophète ﷺ fut l'événement le plus bouleversant pour la communauté musulmane. Omar refusa d'abord d'y croire, menaçant quiconque dirait que le Prophète ﷺ était mort. Abou Bakr entra, embrassa le front du Prophète ﷺ, et s'adressa aux gens par le verset : « Mouhammad n'est qu'un messager ; d'autres messagers sont passés avant lui. » Cela confirma la vérité et Omar s'effondra. Le Prophète ﷺ fut enterré dans la chambre où il mourut, aujourd'hui partie de la Mosquée du Prophète.",
       "quranReferences": [
         {
           "surah": 3,
@@ -537,8 +724,17 @@
           "textEnglish": "Abu Bakr came, uncovered the Prophet's ﷺ face, bent over him and kissed him, and wept, saying: 'You are dearer to me than my father and mother. By Allah, Allah will not cause you to die twice.' Then he went out and said: 'Whoever worshipped Muhammad, then Muhammad has died. And whoever worshipped Allah, then Allah is alive and will never die.' Then he recited the verse: 'Muhammad is no more than a messenger...'"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Aisha bint Abi Bakr", "Abu Bakr as-Siddiq", "Umar ibn al-Khattab", "Ali ibn Abi Talib (who washed the body)"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Aisha bint Abi Bakr",
+        "Abu Bakr as-Siddiq",
+        "Umar ibn al-Khattab",
+        "Ali ibn Abi Talib (who washed the body)"
+      ],
       "location": "The room of Aisha, adjacent to Masjid al-Nabawi, Madinah",
       "locationArabic": "حجرة عائشة – المسجد النبوي – المدينة"
     }
