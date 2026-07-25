@@ -124,3 +124,47 @@ export const localizeSurah = (value: string, locale: string) =>
   lookup(SURAH_NAMES, value, locale);
 
 export const isUnregisteredSurah = (value: string) => !(value in SURAH_NAMES);
+
+// Authors as they appear on the about page. The death year is kept in the
+// reader's own era marker rather than a bare "d. 870 CE".
+export const AUTHOR_NAMES: Record<string, LocalizedName> = {
+  'Imam Muhammad ibn Ismail al-Bukhari (d. 870 CE)': {
+    ar: 'الإمام محمد بن إسماعيل البخاري (ت ٢٥٦ هـ)',
+    fr: "L'imâm Mouhammad ibn Ismâ'îl al-Boukhârî (m. 870 ap. J.-C.)",
+  },
+  'Imam Muslim ibn al-Hajjaj (d. 875 CE)': {
+    ar: 'الإمام مسلم بن الحجاج (ت ٢٦١ هـ)',
+    fr: "L'imâm Mouslim ibn al-Hajjâj (m. 875 ap. J.-C.)",
+  },
+  'Imam Abu Isa at-Tirmidhi (d. 892 CE)': {
+    ar: 'الإمام أبو عيسى الترمذي (ت ٢٧٩ هـ)',
+    fr: "L'imâm Abou 'Îsâ at-Tirmidhî (m. 892 ap. J.-C.)",
+  },
+  'Imam Abu Dawud as-Sijistani (d. 889 CE)': {
+    ar: 'الإمام أبو داود السجستاني (ت ٢٧٥ هـ)',
+    fr: "L'imâm Abou Dâwoud as-Sijistânî (m. 889 ap. J.-C.)",
+  },
+  'Sheikh Safiur Rahman al-Mubarakpuri': {
+    ar: 'الشيخ صفي الرحمن المباركفوري',
+    fr: 'Le cheikh Safiy ar-Rahmân al-Moubârakfoûrî',
+  },
+  'Ibn Ishaq (d. 767 CE), edited by Ibn Hisham (d. 833 CE)': {
+    ar: 'ابن إسحاق (ت ١٥٠ هـ)، تهذيب ابن هشام (ت ٢١٨ هـ)',
+    fr: 'Ibn Ishâq (m. 767 ap. J.-C.), édité par Ibn Hichâm (m. 833 ap. J.-C.)',
+  },
+  'Imam Ibn Kathir (d. 1373 CE)': {
+    ar: 'الإمام ابن كثير (ت ٧٧٤ هـ)',
+    fr: "L'imâm Ibn Kathîr (m. 1373 ap. J.-C.)",
+  },
+  'Ali ibn Ahmad al-Wahidi (d. 1075 CE)': {
+    ar: 'علي بن أحمد الواحدي (ت ٤٦٨ هـ)',
+    fr: 'Alî ibn Ahmad al-Wâhidî (m. 1075 ap. J.-C.)',
+  },
+  'Imam al-Bayhaqi': { ar: 'الإمام البيهقي', fr: "L'imâm al-Bayhaqî" },
+  'Imam Ahmad ibn Hanbal': { ar: 'الإمام أحمد بن حنبل', fr: "L'imâm Ahmad ibn Hanbal" },
+};
+
+export const localizeAuthor = (value: string, locale: string) =>
+  lookup(AUTHOR_NAMES, value, locale);
+
+export const isUnregisteredAuthor = (value: string) => !(value in AUTHOR_NAMES);
