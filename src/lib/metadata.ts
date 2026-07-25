@@ -20,7 +20,7 @@ export async function generateEventMetadata(
 ): Promise<Metadata> {
   const tSite = await getTranslations({ locale, namespace: 'site' });
   const title = localizedField(event, 'title', locale).text;
-  const description = event.summary.slice(0, 160);
+  const description = localizedField(event, 'summary', locale).text.slice(0, 160);
 
   return {
     title,
@@ -41,7 +41,7 @@ export async function generateEraMetadata(
   const tSite = await getTranslations({ locale, namespace: 'site' });
   const tEra = await getTranslations({ locale, namespace: 'era.names' });
   const title = tEra(era.id);
-  const description = era.description.slice(0, 160);
+  const description = localizedField(era, 'description', locale).text.slice(0, 160);
 
   return {
     title,
