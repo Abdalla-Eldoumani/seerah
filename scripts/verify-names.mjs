@@ -26,8 +26,13 @@ function registryKeys(file, ...constants) {
     const start = source.indexOf(constant);
     if (start === -1) continue;
     const body = source.slice(start);
-    for (const match of body.matchAll(/^\s{2}(?:'((?:[^'\\]|\\.)*)'|"((?:[^"\\]|\\.)*)")\s*:/gm)) {
-      keys.add((match[1] ?? match[2]).replace(/\\'/g, "'").replace(/\\"/g, '"'));
+    // Keys come in three shapes: 'quoted', "quoted", and bare identifiers such
+    // as `Muharram:`. Matching only the quoted ones under-collected the
+    // registry and reported five months as missing that were there all along.
+    const pattern = /^\s{2}(?:'((?:[^'\\]|\\.)*)'|"((?:[^"\\]|\\.)*)"|([A-Za-z_$][\w$]*))\s*:/gm;
+    for (const match of body.matchAll(pattern)) {
+      const key = match[1] ?? match[2] ?? match[3];
+      keys.add(key.replace(/\\'/g, "'").replace(/\\"/g, '"'));
     }
   }
   return keys;
@@ -65,6 +70,13 @@ const FIELDS = [
   { collect: (e) => [e.year], registry: names, label: "year" },
 ];
 
+// Era markers and ordinal suffixes are stripped by the date formatter, so a
+// value made only of digits and those tokens needs no registry entry.
+const FORMATTER_TOKENS = /\b(BH|AH|CE|AD|onwards|st|nd|rd|th)\b/gi;
+function hasLookupWord(value) {
+  return /[A-Za-z]/.test(value.replace(FORMATTER_TOKENS, ""));
+}
+
 const missing = new Map();
 const seen = new Set();
 
@@ -76,8 +88,12 @@ for (const file of readdirSync(EVENTS).filter((f) => f.endsWith(".json"))) {
         if (typeof value !== "string" || !value.trim()) continue;
         seen.add(value);
         if (registry.has(value)) continue;
-        // Numeric year and month values are formatted, not looked up.
-        if (label === "year" || label === "month") continue;
+        // Months and years are mostly formatted rather than looked up: "9 AH",
+        // "613-615 CE". But some are prose ("Ramadan (17th or 21st)", "13th
+        // year of Prophethood"), and those resolve through the registries, so
+        // skipping the whole field wholesale would hide a real gap. Skip only
+        // the values that carry no word for a registry to match.
+        if ((label === "year" || label === "month") && !hasLookupWord(value)) continue;
         const key = `${label}: ${value}`;
         if (!missing.has(key)) missing.set(key, new Set());
         missing.get(key).add(event.id);
