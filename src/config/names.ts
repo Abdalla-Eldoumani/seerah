@@ -71,6 +71,36 @@ export const MONTH_NAMES: Record<string, LocalizedName> = {
   },
 };
 
+
+// Works whose keys in `src/config/sources.ts` differ from the citation strings
+// used inside the event data, so both spellings resolve.
+Object.assign(SOURCE_NAMES, {
+  'Ar-Raheeq Al-Makhtum (The Sealed Nectar)': {
+    ar: 'Ø§ÙØ±Ø­ÙÙ Ø§ÙÙØ®ØªÙÙ',
+    fr: 'Ar-RahÃ®q al-MakhtoÃ»m (Le Nectar cachetÃ©)',
+  },
+  'Sirat Rasul Allah': {
+    ar: 'Ø³ÙØ±Ø© Ø±Ø³ÙÙ Ø§ÙÙÙ',
+    fr: 'SÃ®rat RasÃ»l AllÃ¢h',
+  },
+  'Al-Bidaya wan-Nihaya': {
+    ar: 'Ø§ÙØ¨Ø¯Ø§ÙØ© ÙØ§ÙÙÙØ§ÙØ©',
+    fr: 'Al-BidÃ¢ya wa an-NihÃ¢ya',
+  },
+  'Asbab al-Nuzul': {
+    ar: 'Ø£Ø³Ø¨Ø§Ø¨ Ø§ÙÙØ²ÙÙ',
+    fr: 'AsbÃ¢b an-NouzoÃ»l',
+  },
+  "Tabaqat Ibn Sa'd": {
+    ar: 'Ø§ÙØ·Ø¨ÙØ§Øª Ø§ÙÙØ¨Ø±Ù ÙØ§Ø¨Ù Ø³Ø¹Ø¯',
+    fr: "At-TabaqÃ¢t d'Ibn Sa'd",
+  },
+  'Al-Sunan al-Kubra': {
+    ar: 'Ø§ÙØ³ÙÙ Ø§ÙÙØ¨Ø±Ù',
+    fr: 'As-Sounan al-KoubrÃ¢',
+  },
+});
+
 function lookup(
   registry: Record<string, LocalizedName>,
   value: string,
@@ -81,6 +111,20 @@ function lookup(
   if (!entry) return value;
   return locale === 'ar' ? entry.ar : entry.fr;
 }
+
+
+// A few events store the year as a phrase rather than a BH or AH figure.
+export const YEAR_PHRASES: Record<string, LocalizedName> = {
+  '13th year of Prophethood': {
+    ar: 'السنة الثالثة عشرة من البعثة',
+    fr: "La treizième année de la prophétie",
+  },
+};
+
+export const localizeYearPhrase = (value: string, locale: string) =>
+  lookup(YEAR_PHRASES, value, locale);
+
+export const isYearPhrase = (value: string) => value in YEAR_PHRASES;
 
 export const localizeSource = (value: string, locale: string) =>
   lookup(SOURCE_NAMES, value, locale);
