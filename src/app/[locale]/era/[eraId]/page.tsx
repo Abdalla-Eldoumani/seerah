@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { localizedField } from '@/lib/localized';
 import { notFound } from 'next/navigation';
 import { hasLocale } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
@@ -95,13 +96,14 @@ export default async function EraPage({
             <span dir="ltr">{timespan.secondary}</span>
           </p>
 
-          {/* Era description: prefer Arabic when authored, otherwise English with explicit LTR markup. */}
+          {/* Era description in the active locale, falling back to English with
+              explicit markup so bidi and screen readers stay correct. */}
           {(() => {
-            const useArabic = isAr && Boolean(era.descriptionArabic);
-            const text = useArabic ? era.descriptionArabic! : era.description;
-            const lang = useArabic ? 'ar' : 'en';
-            const dir = useArabic ? 'rtl' : 'ltr';
-            const fontClass = useArabic ? '' : 'font-body';
+            const described = localizedField(era, 'description', locale as Locale);
+            const text = described.text;
+            const lang = described.lang;
+            const dir = lang === 'ar' ? 'rtl' : 'ltr';
+            const fontClass = lang === 'ar' ? '' : 'font-body';
             return (
               <p
                 lang={lang}
@@ -130,9 +132,9 @@ export default async function EraPage({
           {events.map((event) => {
             const categoryLabel = tCategories(event.category);
             const categoryColor = getCategoryColor(event.category);
-            const summarySource =
-              isAr && event.summaryArabic ? event.summaryArabic : event.summary;
-            const summaryLang = isAr && event.summaryArabic ? 'ar' : 'en';
+            const localizedSummary = localizedField(event, 'summary', locale as Locale);
+            const summarySource = localizedSummary.text;
+            const summaryLang = localizedSummary.lang;
             const summaryDir = summaryLang === 'ar' ? 'rtl' : 'ltr';
             const truncatedSummary =
               summarySource.length > 80

@@ -66,8 +66,10 @@ export interface SeerahEvent {
   // The Arabic site renders this when present, otherwise falls back to
   // the English summary with explicit lang/dir markup.
   summaryArabic?: string;
+  summaryFrench?: string;
   significance: string;
   significanceArabic?: string;
+  significanceFrench?: string;
   quranReferences: QuranReference[];
   hadithReferences: HadithReference[];
   primarySources: string[];
@@ -84,6 +86,7 @@ export interface EraMetadata {
   // Optional Arabic version of the era description, populated by humans
   // from a verified seerah source.
   descriptionArabic?: string;
+  descriptionFrench?: string;
   timespan: string;
   timespanHijri: string;
   themeColor: string;

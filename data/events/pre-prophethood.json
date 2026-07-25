@@ -4,6 +4,8 @@
     "title": "Before the Light",
     "titleArabic": "قبل البعثة",
     "description": "The years leading up to Prophethood — from the birth of Muhammad ﷺ to the age of forty. A period of preparation, in which Allah shaped His final Messenger through loss, honesty, contemplation, and an upbringing unlike any other.",
+    "descriptionArabic": "السنوات السابقة للبعثة، من مولد محمد صلى الله عليه وسلم إلى بلوغه الأربعين. مرحلة إعداد صاغ الله فيها رسوله الخاتم بالفقد والصدق والتأمل ونشأة لا تشبه غيرها.",
+    "descriptionFrench": "Les années qui précèdent la prophétie, de la naissance de Mouhammad ﷺ à ses quarante ans. Une période de préparation durant laquelle Allah façonna Son Messager final par la perte, l'honnêteté, la contemplation et une éducation sans pareille.",
     "timespan": "571 CE – 610 CE",
     "timespanHijri": "52 BH – 12 BH",
     "themeColor": "#1a3a2a",
@@ -19,7 +21,11 @@
       "month": "Muharram",
       "category": "historical-context",
       "summary": "Abraha, the Abyssinian ruler of Yemen, marched upon Makkah with an army including war elephants to destroy the Ka'bah. Allah sent flocks of birds (Ababil) carrying stones of baked clay, destroying the army completely. This event is recorded in Surah Al-Fil.",
+      "summaryArabic": "زحف أبرهة الحبشي والي اليمن على مكة بجيش فيه الفيلة ليهدم الكعبة، فأرسل الله طيرًا أبابيل ترميهم بحجارة من سجيل فأهلكت الجيش عن آخره. وقد ذُكر هذا الحدث في سورة الفيل.",
+      "summaryFrench": "Abraha, le souverain abyssin du Yémen, marcha sur La Mecque avec une armée comprenant des éléphants de guerre pour détruire la Ka'ba. Allah envoya des nuées d'oiseaux (Abâbîl) portant des pierres d'argile cuite, qui anéantirent l'armée tout entière. Cet événement est rapporté dans la sourate Al-Fîl.",
       "significance": "This miraculous event, occurring in the same year as the Prophet's ﷺ birth, demonstrated Allah's protection of the Sacred House and set the stage for the arrival of the final Messenger. The Arabs dated events from this year, calling it 'The Year of the Elephant.'",
+      "significanceArabic": "هذا الحدث المعجز، الواقع في العام نفسه الذي وُلد فيه النبي صلى الله عليه وسلم، أظهر حفظ الله لبيته الحرام ومهّد لقدوم الرسول الخاتم. وقد أرّخ العرب بهذا العام وسمّوه عام الفيل.",
+      "significanceFrench": "Cet événement miraculeux, survenu l'année même de la naissance du Prophète ﷺ, manifesta la protection d'Allah sur la Maison sacrée et prépara la venue du Messager final. Les Arabes datèrent les événements à partir de cette année, qu'ils appelèrent l'année de l'Éléphant.",
       "quranReferences": [
         {
           "surah": 105,
@@ -30,8 +36,15 @@
         }
       ],
       "hadithReferences": [],
-      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah", "Ibn Kathir's Al-Bidaya wan-Nihaya"],
-      "keyFigures": ["Abraha al-Ashram", "Abdul Muttalib ibn Hashim"],
+      "primarySources": [
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah",
+        "Ibn Kathir's Al-Bidaya wan-Nihaya"
+      ],
+      "keyFigures": [
+        "Abraha al-Ashram",
+        "Abdul Muttalib ibn Hashim"
+      ],
       "location": "Makkah",
       "locationArabic": "مكة المكرمة"
     },
@@ -44,7 +57,11 @@
       "month": "Rabi' al-Awwal",
       "category": "birth",
       "summary": "Muhammad ﷺ was born on a Monday in Rabi' al-Awwal, approximately 50-55 days after the Incident of the Elephant, in the house of his mother Aminah in Makkah. His father Abdullah had passed away before his birth. He was born into the Banu Hashim clan of the Quraysh tribe.",
+      "summaryArabic": "وُلد محمد صلى الله عليه وسلم يوم الاثنين في شهر ربيع الأول، بعد حادثة الفيل بنحو خمسين إلى خمسة وخمسين يومًا، في بيت أمه آمنة بمكة. وكان أبوه عبد الله قد توفي قبل مولده. ووُلد في بني هاشم من قبيلة قريش.",
+      "summaryFrench": "Mouhammad ﷺ naquit un lundi du mois de Rabî' al-Awwal, environ cinquante à cinquante-cinq jours après l'événement de l'Éléphant, dans la maison de sa mère Âmina à La Mecque. Son père Abdallah était mort avant sa naissance. Il naquit dans le clan des Banoû Hâchim, de la tribu de Qouraych.",
       "significance": "The birth of the final Messenger of Allah, the Seal of the Prophets. His father had already passed away, and he would be raised as an orphan — a deliberate preparation by Allah so that no one could claim any human had shaped his character or mission.",
+      "significanceArabic": "مولد رسول الله الخاتم وخاتم النبيين. وقد توفي أبوه قبل ذلك، ونشأ يتيمًا، وكان ذلك إعدادًا مقصودًا من الله حتى لا يدّعي أحد أن بشرًا صاغ خلقه أو رسالته.",
+      "significanceFrench": "La naissance du Messager final d'Allah, le Sceau des prophètes. Son père était déjà mort et il serait élevé orphelin, préparation voulue par Allah afin que nul ne puisse prétendre qu'un être humain avait façonné son caractère ou sa mission.",
       "quranReferences": [
         {
           "surah": 93,
@@ -62,8 +79,16 @@
           "textEnglish": "The Prophet ﷺ was asked about fasting on Monday. He said: 'That is the day on which I was born and the day on which I received Revelation.'"
         }
       ],
-      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah", "Sahih Muslim"],
-      "keyFigures": ["Aminah bint Wahb", "Abdullah ibn Abdul Muttalib", "Abdul Muttalib ibn Hashim"],
+      "primarySources": [
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah",
+        "Sahih Muslim"
+      ],
+      "keyFigures": [
+        "Aminah bint Wahb",
+        "Abdullah ibn Abdul Muttalib",
+        "Abdul Muttalib ibn Hashim"
+      ],
       "location": "Makkah",
       "locationArabic": "مكة المكرمة"
     },
@@ -76,11 +101,22 @@
       "month": "",
       "category": "childhood",
       "summary": "Following Arab custom, the infant Muhammad ﷺ was entrusted to Halimah bint Abi Dhu'ayb of the Banu Sa'd tribe to be nursed and raised in the desert. The presence of the child brought remarkable blessings (barakah) to Halimah's household — her previously barren land became fertile, her animals gave abundant milk, and her family's fortunes changed.",
+      "summaryArabic": "جريًا على عادة العرب، دُفع محمد صلى الله عليه وسلم رضيعًا إلى حليمة بنت أبي ذؤيب من بني سعد لترضعه وتربّيه في البادية. وقد حلّت ببيت حليمة بركة ظاهرة بمقدمه، فأخصبت أرضها بعد جدب، وأدرّت مواشيها اللبن، وتبدّل حال أهلها.",
+      "summaryFrench": "Selon la coutume arabe, l'enfant Mouhammad ﷺ fut confié à Halîma bint Abî Dhou'ayb, de la tribu des Banoû Sa'd, pour être allaité et élevé dans le désert. La présence de l'enfant apporta une bénédiction remarquable (baraka) au foyer de Halîma : sa terre jusque-là stérile devint fertile, ses bêtes donnèrent du lait en abondance, et la situation de sa famille changea.",
       "significance": "The desert upbringing served a profound purpose: it gave the Prophet ﷺ physical strength, pure Arabic eloquence, and exposure to the open, uncorrupted nature of Bedouin life. This practice was common among the noble families of Quraysh, and it would shape the character of the future Messenger.",
+      "significanceArabic": "كان في نشأته في البادية مقصد عظيم: فقد أكسبته قوة في البدن، وفصاحة في اللسان العربي، ومخالطة لفطرة أهل البادية الصافية. وكانت هذه عادة أشراف قريش، وقد أسهمت في تشكيل خُلق الرسول الكريم.",
+      "significanceFrench": "Cette éducation dans le désert avait un but profond : elle donna au Prophète ﷺ une vigueur physique, une éloquence arabe pure et le contact avec la nature ouverte et intacte de la vie bédouine. Cette pratique était courante chez les familles nobles de Qouraych, et elle allait forger le caractère du futur Messager.",
       "quranReferences": [],
       "hadithReferences": [],
-      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah", "Ibn Kathir's Al-Bidaya wan-Nihaya"],
-      "keyFigures": ["Halimah bint Abi Dhu'ayb al-Sa'diyyah", "Al-Harith ibn Abdul Uzza (Halimah's husband)"],
+      "primarySources": [
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah",
+        "Ibn Kathir's Al-Bidaya wan-Nihaya"
+      ],
+      "keyFigures": [
+        "Halimah bint Abi Dhu'ayb al-Sa'diyyah",
+        "Al-Harith ibn Abdul Uzza (Halimah's husband)"
+      ],
       "location": "Desert of Banu Sa'd",
       "locationArabic": "بادية بني سعد"
     },
@@ -93,7 +129,11 @@
       "month": "",
       "category": "miracle",
       "summary": "When Muhammad ﷺ was approximately four years old, while playing with other children, two men in white garments (angels) came to him, laid him down, opened his chest, extracted a blood clot from his heart, and washed his heart with Zamzam water in a golden basin before replacing it.",
+      "summaryArabic": "لما بلغ محمد صلى الله عليه وسلم نحو أربع سنين، وهو يلعب مع الصبيان، أتاه رجلان عليهما ثياب بيض، وهما ملكان، فأضجعاه وشقّا صدره واستخرجا من قلبه علقة، وغسلا قلبه بماء زمزم في طست من ذهب ثم أعاداه.",
+      "summaryFrench": "Alors que Mouhammad ﷺ avait environ quatre ans et jouait avec d'autres enfants, deux hommes vêtus de blanc, deux anges, vinrent à lui, l'étendirent, lui ouvrirent la poitrine, extrayirent un caillot de sang de son cœur, puis lavèrent son cœur avec de l'eau de Zamzam dans un bassin d'or avant de le remettre en place.",
       "significance": "This event — the purification of the Prophet's ﷺ heart — was a divine preparation, cleansing him of any inclination toward sin. It occurred at least twice in his life: once in childhood and once before the Night Journey (Isra wal Mi'raj). It was this event that alarmed Halimah, leading her to return the child to his mother Aminah.",
+      "significanceArabic": "كان هذا الحدث، وهو تطهير قلب النبي صلى الله عليه وسلم، إعدادًا إلهيًّا طهّره من كل ميل إلى المعصية. وقد وقع مرتين على الأقل في حياته: مرة في صغره ومرة قبل الإسراء والمعراج. وهو الذي أفزع حليمة فردّت الغلام إلى أمه آمنة.",
+      "significanceFrench": "Cet événement, la purification du cœur du Prophète ﷺ, fut une préparation divine qui le lava de tout penchant au péché. Il se produisit au moins deux fois dans sa vie : une fois dans l'enfance et une fois avant le Voyage nocturne (al-Isrâ wa al-Mi'râj). C'est cet événement qui alarma Halîma et la conduisit à ramener l'enfant à sa mère Âmina.",
       "quranReferences": [
         {
           "surah": 94,
@@ -111,8 +151,13 @@
           "textEnglish": "The Messenger of Allah ﷺ was visited by Jibril while he was playing with other boys. Jibril took hold of him and laid him down, then he opened his chest, took out his heart, and extracted a blood-clot from it, then said: 'This is the share of Shaytan in you.' Then he washed it in a golden vessel with Zamzam water, then put it back together and returned it to its place."
         }
       ],
-      "primarySources": ["Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Jibril (Angel Gabriel)"],
+      "primarySources": [
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Jibril (Angel Gabriel)"
+      ],
       "location": "Desert of Banu Sa'd",
       "locationArabic": "بادية بني سعد"
     },
@@ -125,7 +170,11 @@
       "month": "",
       "category": "loss",
       "summary": "When Muhammad ﷺ was approximately six years old, his mother Aminah bint Wahb passed away at al-Abwa' (a place between Makkah and Madinah) while returning from a visit to the grave of his father Abdullah and to relatives in Madinah. The young Muhammad ﷺ became a full orphan.",
+      "summaryArabic": "لما بلغ محمد صلى الله عليه وسلم نحو ست سنين، توفيت أمه آمنة بنت وهب بالأبواء، وهو موضع بين مكة والمدينة، وهي راجعة من زيارة قبر أبيه عبد الله وأقارب لها بالمدينة. فصار الغلام يتيم الأبوين.",
+      "summaryFrench": "Lorsque Mouhammad ﷺ eut environ six ans, sa mère Âmina bint Wahb mourut à al-Abwâ, un lieu situé entre La Mecque et Médine, alors qu'elle revenait d'une visite à la tombe de son père Abdallah et à des proches à Médine. Le jeune Mouhammad ﷺ devint alors totalement orphelin.",
       "significance": "Having already lost his father before birth, the loss of his mother at such a young age deepened the Prophet's ﷺ experience of vulnerability and loss. This shaped his profound compassion for orphans and the weak, and Allah's care for him through this period is referenced in the Quran.",
+      "significanceArabic": "وقد كان فقد أمه في هذه السن المبكرة، بعد أن فقد أباه قبل مولده، تعميقًا لتجربته في الضعف والفقد. وقد صاغ ذلك رحمته البالغة باليتامى والضعفاء، وقد أشار القرآن إلى رعاية الله له في تلك المرحلة.",
+      "significanceFrench": "Ayant déjà perdu son père avant sa naissance, la perte de sa mère à un âge si tendre approfondit chez le Prophète ﷺ l'expérience de la vulnérabilité et du deuil. Cela forgea sa profonde compassion pour les orphelins et les faibles, et la sollicitude d'Allah envers lui durant cette période est évoquée dans le Coran.",
       "quranReferences": [
         {
           "surah": 93,
@@ -136,8 +185,14 @@
         }
       ],
       "hadithReferences": [],
-      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["Aminah bint Wahb", "Umm Ayman (Barakah)"],
+      "primarySources": [
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "Aminah bint Wahb",
+        "Umm Ayman (Barakah)"
+      ],
       "location": "Al-Abwa'",
       "locationArabic": "الأبواء"
     },
@@ -150,11 +205,20 @@
       "month": "",
       "category": "childhood",
       "summary": "After the death of his mother, Muhammad ﷺ was taken into the care of his grandfather Abdul Muttalib, the chief of the Banu Hashim and the custodian of the Ka'bah. Abdul Muttalib loved him deeply and treated him with exceptional tenderness, allowing him to sit on his own mat near the Ka'bah — a privilege given to no other child.",
+      "summaryArabic": "بعد وفاة أمه، كفله جدّه عبد المطلب سيد بني هاشم وسادن الكعبة. وكان يحبه حبًّا شديدًا ويعامله بلطف بالغ، حتى كان يُجلسه على فراشه عند الكعبة، وهو ما لم يكن لغيره من الصبيان.",
+      "summaryFrench": "Après la mort de sa mère, Mouhammad ﷺ fut recueilli par son grand-père Abd al-Mouttalib, chef des Banoû Hâchim et gardien de la Ka'ba. Celui-ci l'aimait profondément et le traitait avec une tendresse exceptionnelle, le laissant s'asseoir sur sa propre natte près de la Ka'ba, privilège accordé à nul autre enfant.",
       "significance": "Abdul Muttalib's deep love and special treatment of Muhammad ﷺ reflected an intuitive recognition of his grandson's exceptional nature. His grandfather's elevated status in Makkan society also ensured Muhammad ﷺ was exposed to leadership, diplomacy, and the affairs of the Quraysh from a young age.",
+      "significanceArabic": "وقد دلّ حب عبد المطلب له وتخصيصه بالمعاملة على إدراك فطري لعظيم شأن حفيده. كما أن مكانة جدّه الرفيعة في مجتمع مكة أتاحت لمحمد صلى الله عليه وسلم أن يخالط الرئاسة والسياسة وشؤون قريش منذ صغره.",
+      "significanceFrench": "L'amour profond d'Abd al-Mouttalib et le traitement particulier qu'il réservait à Mouhammad ﷺ traduisaient une reconnaissance instinctive du caractère exceptionnel de son petit-fils. Le rang élevé de son grand-père dans la société mecquoise fit aussi que Mouhammad ﷺ côtoya très jeune le commandement, la diplomatie et les affaires de Qouraych.",
       "quranReferences": [],
       "hadithReferences": [],
-      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["Abdul Muttalib ibn Hashim"],
+      "primarySources": [
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "Abdul Muttalib ibn Hashim"
+      ],
       "location": "Makkah",
       "locationArabic": "مكة المكرمة"
     },
@@ -167,11 +231,21 @@
       "month": "",
       "category": "loss",
       "summary": "Abdul Muttalib passed away when Muhammad ﷺ was approximately eight years old. Before his death, he entrusted the care of his grandson to his son Abu Talib, the full brother of Muhammad's ﷺ father Abdullah.",
+      "summaryArabic": "توفي عبد المطلب ومحمد صلى الله عليه وسلم في نحو الثامنة من عمره. وقد أوصى قبل موته بكفالة حفيده إلى ابنه أبي طالب، شقيق عبد الله والد النبي صلى الله عليه وسلم.",
+      "summaryFrench": "Abd al-Mouttalib mourut alors que Mouhammad ﷺ avait environ huit ans. Avant sa mort, il confia la garde de son petit-fils à son fils Abou Tâlib, frère germain d'Abdallah, le père de Mouhammad ﷺ.",
       "significance": "Another profound loss in the young Muhammad's ﷺ life. Yet each loss drew him closer to complete reliance upon Allah alone. Abu Talib would become his guardian, protector, and one of his greatest supporters — though he never accepted Islam.",
+      "significanceArabic": "فقد آخر عظيم في حياة محمد صلى الله عليه وسلم وهو صغير، غير أن كل فقد كان يزيده تعلقًا بالله وحده. وقد صار أبو طالب كافله وحاميه ومن أعظم أنصاره، وإن لم يدخل في الإسلام.",
+      "significanceFrench": "Une autre perte profonde dans la jeune vie de Mouhammad ﷺ. Pourtant, chaque perte le rapprochait d'une confiance totale en Allah seul. Abou Tâlib allait devenir son tuteur, son protecteur et l'un de ses plus grands soutiens, bien qu'il n'ait jamais embrassé l'islam.",
       "quranReferences": [],
       "hadithReferences": [],
-      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["Abdul Muttalib ibn Hashim", "Abu Talib ibn Abdul Muttalib"],
+      "primarySources": [
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "Abdul Muttalib ibn Hashim",
+        "Abu Talib ibn Abdul Muttalib"
+      ],
       "location": "Makkah",
       "locationArabic": "مكة المكرمة"
     },
@@ -184,11 +258,20 @@
       "month": "",
       "category": "childhood",
       "summary": "Abu Talib took Muhammad ﷺ into his household and raised him alongside his own children. Despite being one of the less wealthy among the sons of Abdul Muttalib, Abu Talib loved Muhammad ﷺ dearly — even more than his own children — and never left him alone during his youth.",
+      "summaryArabic": "ضمّ أبو طالب محمدًا صلى الله عليه وسلم إلى بيته وربّاه مع أولاده. ومع أنه كان من أقل أبناء عبد المطلب مالًا، فقد أحبّه حبًّا شديدًا حتى قدّمه على ولده، ولم يفارقه في صباه.",
+      "summaryFrench": "Abou Tâlib accueillit Mouhammad ﷺ dans son foyer et l'éleva aux côtés de ses propres enfants. Bien qu'il fût l'un des moins fortunés parmi les fils d'Abd al-Mouttalib, il aimait Mouhammad ﷺ tendrement, plus encore que ses propres enfants, et ne le laissa jamais seul durant sa jeunesse.",
       "significance": "Abu Talib's guardianship would prove pivotal. He would protect the Prophet ﷺ throughout the entire Makkan period of his mission, shielding him from the wrath of the Quraysh through the power of tribal bonds and his personal authority as chief of Banu Hashim.",
+      "significanceArabic": "وقد كانت كفالة أبي طالب ذات أثر حاسم، إذ حمى النبي صلى الله عليه وسلم طوال العهد المكي من دعوته، ودفع عنه أذى قريش بقوة الرابطة القبلية وبمكانته سيدًا لبني هاشم.",
+      "significanceFrench": "La tutelle d'Abou Tâlib se révéla décisive. Il protégea le Prophète ﷺ durant toute la période mecquoise de sa mission, le mettant à l'abri de la colère de Qouraych par la force des liens tribaux et par son autorité personnelle de chef des Banoû Hâchim.",
       "quranReferences": [],
       "hadithReferences": [],
-      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["Abu Talib ibn Abdul Muttalib"],
+      "primarySources": [
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "Abu Talib ibn Abdul Muttalib"
+      ],
       "location": "Makkah",
       "locationArabic": "مكة المكرمة"
     },
@@ -201,7 +284,11 @@
       "month": "",
       "category": "journey",
       "summary": "At the age of twelve, Muhammad ﷺ accompanied Abu Talib on a trade caravan to Syria. During the journey, they encountered a Christian monk named Bahira (also known as Sergius) near Busra. Bahira recognized signs of prophethood in the young Muhammad ﷺ and advised Abu Talib to take him back to Makkah and guard him carefully.",
+      "summaryArabic": "لما بلغ الثانية عشرة خرج محمد صلى الله عليه وسلم مع أبي طالب في قافلة تجارية إلى الشام. وفي الطريق لقيا راهبًا نصرانيًّا يقال له بحيرا، ويُعرف أيضًا بسرجيوس، قرب بصرى. فعرف بحيرا في الغلام علامات النبوة وأوصى أبا طالب أن يرجع به إلى مكة وأن يحفظه.",
+      "summaryFrench": "À l'âge de douze ans, Mouhammad ﷺ accompagna Abou Tâlib dans une caravane commerciale vers la Syrie. En chemin, ils rencontrèrent près de Bousra un moine chrétien nommé Bahîrâ, également appelé Sergius. Bahîrâ reconnut chez le jeune Mouhammad ﷺ les signes de la prophétie et conseilla à Abou Tâlib de le ramener à La Mecque et de veiller sur lui.",
       "significance": "This event demonstrated that even before prophethood, the signs of Muhammad's ﷺ special status were recognizable to people of knowledge from earlier scriptures. The encounter with Bahira is one of the earliest recorded acknowledgments of Muhammad's ﷺ future mission.",
+      "significanceArabic": "دلّ هذا الحدث على أن علامات اختصاص محمد صلى الله عليه وسلم كانت ظاهرة لأهل العلم بالكتب السابقة حتى قبل البعثة. ولقاء بحيرا من أقدم ما سُجّل من الإقرار برسالته المقبلة.",
+      "significanceFrench": "Cet événement montre que, même avant la prophétie, les signes du statut particulier de Mouhammad ﷺ étaient reconnaissables par ceux qui connaissaient les Écritures antérieures. La rencontre avec Bahîrâ est l'une des plus anciennes reconnaissances rapportées de sa mission à venir.",
       "quranReferences": [],
       "hadithReferences": [
         {
@@ -211,8 +298,15 @@
           "textEnglish": "Abu Talib went to Ash-Sham (Syria) and the Prophet ﷺ went with him along with some elders of the Quraysh. When they came near the monk Bahira, he came out to them... He said: 'Go back with him and guard him against the Jews, for by Allah, if they see him and recognise in him what I recognise, they will plot evil against him.'"
         }
       ],
-      "primarySources": ["Jami' at-Tirmidhi", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["Abu Talib ibn Abdul Muttalib", "Bahira (the monk)"],
+      "primarySources": [
+        "Jami' at-Tirmidhi",
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "Abu Talib ibn Abdul Muttalib",
+        "Bahira (the monk)"
+      ],
       "location": "Busra, Syria",
       "locationArabic": "بصرى الشام"
     },
@@ -225,7 +319,11 @@
       "month": "",
       "category": "society",
       "summary": "Muhammad ﷺ participated in the Hilf al-Fudul, a pact formed in the house of Abdullah ibn Jud'an among several Qurayshi clans. The alliance pledged to support the oppressed, return rights to their rightful owners, and stand together against injustice — regardless of tribal affiliations.",
+      "summaryArabic": "شهد محمد صلى الله عليه وسلم حلف الفضول، وهو حلف عُقد في دار عبد الله بن جدعان بين عدة بطون من قريش، تعاهدوا فيه على نصرة المظلوم وردّ الحقوق إلى أهلها والوقوف صفًّا واحدًا في وجه الظلم، من غير نظر إلى الانتماء القبلي.",
+      "summaryFrench": "Mouhammad ﷺ prit part au Hilf al-Foudoûl, un pacte conclu dans la maison d'Abdallah ibn Jou'dân entre plusieurs clans de Qouraych. L'alliance s'engageait à soutenir l'opprimé, à restituer les droits à leurs ayants droit et à s'unir contre l'injustice, sans considération d'appartenance tribale.",
       "significance": "The Prophet ﷺ later said about this pact: 'I witnessed a pact in the house of Abdullah ibn Jud'an that was more beloved to me than a herd of red camels. If I were called to it in Islam, I would respond.' This shows his ﷺ commitment to justice even before his prophetic mission, and that Islam endorses alliances for justice even with non-Muslims.",
+      "significanceArabic": "قال النبي صلى الله عليه وسلم بعد ذلك في هذا الحلف: «لقد شهدت في دار عبد الله بن جدعان حلفًا ما أحب أن لي به حمر النعم، ولو أُدعى به في الإسلام لأجبت». وفي هذا بيان لالتزامه بالعدل قبل البعثة، وأن الإسلام يقرّ الأحلاف على العدل ولو مع غير المسلمين.",
+      "significanceFrench": "Le Prophète ﷺ dit plus tard de ce pacte : « J'ai assisté, dans la maison d'Abdallah ibn Jou'dân, à un pacte qui m'est plus cher qu'un troupeau de chameaux roux. Si j'y étais appelé en islam, je répondrais. » Cela montre son attachement à la justice avant même sa mission prophétique, et que l'islam approuve les alliances pour la justice, y compris avec des non-musulmans.",
       "quranReferences": [],
       "hadithReferences": [
         {
@@ -235,8 +333,14 @@
           "textEnglish": "The Prophet ﷺ said: 'I witnessed in the house of Abdullah ibn Jud'an a pact that, if I were called to it in Islam, I would respond. They pledged to return rights to their rightful owners and that no oppressor would overpower the oppressed.'"
         }
       ],
-      "primarySources": ["Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah", "Al-Bayhaqi"],
-      "keyFigures": ["Abdullah ibn Jud'an"],
+      "primarySources": [
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah",
+        "Al-Bayhaqi"
+      ],
+      "keyFigures": [
+        "Abdullah ibn Jud'an"
+      ],
       "location": "Makkah",
       "locationArabic": "مكة المكرمة"
     },
@@ -249,7 +353,11 @@
       "month": "",
       "category": "livelihood",
       "summary": "Muhammad ﷺ worked as a shepherd in Makkah, tending sheep for the people of Makkah in return for wages. This was a profession shared by all the Prophets of Allah.",
+      "summaryArabic": "عمل محمد صلى الله عليه وسلم برعي الغنم بمكة، يرعى لأهل مكة بأجر. وهي مهنة شاركه فيها أنبياء الله جميعًا.",
+      "summaryFrench": "Mouhammad ﷺ travailla comme berger à La Mecque, gardant les moutons des Mecquois contre un salaire. C'est un métier qu'ont partagé tous les prophètes d'Allah.",
       "significance": "The Prophet ﷺ himself confirmed that every prophet was a shepherd. Shepherding develops patience, vigilance, humility, and the ability to care for a flock — qualities essential for the one who would guide all of humanity. It also kept him connected to the simple, contemplative life.",
+      "significanceArabic": "أخبر النبي صلى الله عليه وسلم أن كل نبي رعى الغنم. والرعي يورث الصبر واليقظة والتواضع والقدرة على رعاية القطيع، وهي خصال لا غنى عنها لمن سيهدي البشرية جمعاء. كما أبقاه ذلك على صلة بالعيش البسيط والتأمل.",
+      "significanceFrench": "Le Prophète ﷺ lui-même a confirmé que chaque prophète avait été berger. Le pastoralisme développe la patience, la vigilance, l'humilité et la capacité de veiller sur un troupeau, qualités essentielles pour celui qui allait guider toute l'humanité. Cela le maintint aussi en lien avec une vie simple et contemplative.",
       "quranReferences": [],
       "hadithReferences": [
         {
@@ -259,7 +367,10 @@
           "textEnglish": "The Prophet ﷺ said: 'Allah did not send any prophet who was not a shepherd.' The Companions asked: 'Were you a shepherd too?' He said: 'Yes, I used to tend the sheep of the people of Makkah for some qirats.'"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Ar-Raheeq Al-Makhtum"
+      ],
       "keyFigures": [],
       "location": "Makkah and its surroundings",
       "locationArabic": "مكة وما حولها"
@@ -273,7 +384,11 @@
       "month": "Safar",
       "category": "marriage",
       "summary": "At the age of twenty-five, Muhammad ﷺ married Khadijah bint Khuwaylid, a noble and wealthy businesswoman of Quraysh who was approximately forty years old. She had been impressed by his honesty, integrity, and excellent character after he managed her trade caravan to Syria. She proposed to him through a female intermediary.",
+      "summaryArabic": "تزوج محمد صلى الله عليه وسلم وهو ابن خمس وعشرين سنة خديجة بنت خويلد، وكانت امرأة شريفة غنية من قريش تعمل بالتجارة، وعمرها نحو أربعين سنة. وقد أعجبها صدقه وأمانته وحسن خلقه بعدما تولى قافلتها إلى الشام، فعرضت عليه الزواج عن طريق امرأة وسيطة.",
+      "summaryFrench": "À l'âge de vingt-cinq ans, Mouhammad ﷺ épousa Khadîja bint Khouwaylid, une commerçante noble et fortunée de Qouraych, âgée d'environ quarante ans. Elle avait été impressionnée par son honnêteté, son intégrité et son excellent caractère après qu'il eut dirigé sa caravane commerciale vers la Syrie. Elle lui fit la demande par l'intermédiaire d'une femme.",
       "significance": "Khadijah was the first wife of the Prophet ﷺ, and their marriage lasted twenty-five years until her death. She was the first person to believe in his message, his greatest supporter during the most difficult years, and the mother of all his surviving children except Ibrahim. The Prophet ﷺ never married another woman during her lifetime.",
+      "significanceArabic": "كانت خديجة أول زوجات النبي صلى الله عليه وسلم، ودام زواجهما خمسًا وعشرين سنة إلى أن توفيت. وكانت أول من آمن برسالته، وأعظم من ساندها في أشد السنين، وأم أولاده كلهم إلا إبراهيم. ولم يتزوج عليها غيرها ما دامت حية.",
+      "significanceFrench": "Khadîja fut la première épouse du Prophète ﷺ, et leur mariage dura vingt-cinq ans jusqu'à sa mort. Elle fut la première à croire en son message, son plus grand soutien durant les années les plus difficiles, et la mère de tous ses enfants survivants à l'exception d'Ibrâhîm. Le Prophète ﷺ n'épousa aucune autre femme de son vivant.",
       "quranReferences": [],
       "hadithReferences": [
         {
@@ -283,8 +398,14 @@
           "textEnglish": "The Prophet ﷺ said: 'The best of its women was Maryam (daughter of Imran), and the best of its women was Khadijah (bint Khuwaylid).'"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["Khadijah bint Khuwaylid"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "Khadijah bint Khuwaylid"
+      ],
       "location": "Makkah",
       "locationArabic": "مكة المكرمة"
     },
@@ -297,7 +418,11 @@
       "month": "",
       "category": "historical-context",
       "summary": "When Muhammad ﷺ was thirty-five years old, the Quraysh undertook the rebuilding of the Ka'bah after it was damaged by floods. A dispute arose over who would have the honor of placing the Black Stone (al-Hajar al-Aswad) back in its corner. The tribes were on the verge of conflict when they agreed to let the next person to enter the Ka'bah precinct decide. Muhammad ﷺ entered, and they exclaimed 'Al-Amin!' (The Trustworthy One). He placed the Black Stone on a cloth and had representatives of each tribe hold a corner and lift it together, then he placed the stone with his own hands.",
+      "summaryArabic": "لما بلغ محمد صلى الله عليه وسلم خمسًا وثلاثين سنة أعادت قريش بناء الكعبة بعدما تصدّعت من السيل. فاختلفوا فيمن يكون له شرف وضع الحجر الأسود في ركنه، وكادوا يقتتلون، ثم اتفقوا أن يحكّموا أول داخل عليهم من باب المسجد. فدخل محمد صلى الله عليه وسلم فقالوا: هذا الأمين. فوضع الحجر في ثوب وأمر من كل قبيلة رجلًا أن يأخذ بطرف من الثوب فرفعوه جميعًا، ثم وضعه بيده الشريفة في موضعه.",
+      "summaryFrench": "Lorsque Mouhammad ﷺ eut trente-cinq ans, Qouraych entreprit de rebâtir la Ka'ba après qu'elle eut été endommagée par les crues. Une dispute éclata sur l'honneur de replacer la Pierre noire (al-Hajar al-Aswad) dans son angle. Les tribus étaient au bord du conflit lorsqu'elles convinrent de s'en remettre à la première personne qui entrerait dans l'enceinte. Mouhammad ﷺ entra, et elles s'écrièrent : « Al-Amîn ! » (le Digne de confiance). Il posa la Pierre noire sur une étoffe, fit tenir un coin par un représentant de chaque tribu pour la soulever ensemble, puis plaça la pierre de ses propres mains.",
       "significance": "This event demonstrates two things: Muhammad ﷺ was already known as 'Al-Amin' (The Trustworthy) and 'As-Sadiq' (The Truthful) before prophethood, and his wisdom in resolving disputes was already recognized. His solution satisfied all parties — a hallmark of prophetic wisdom.",
+      "significanceArabic": "يدل هذا الحدث على أمرين: أن محمدًا صلى الله عليه وسلم كان يُعرف بالأمين والصادق قبل البعثة، وأن حكمته في فض النزاع كانت معروفة. وقد أرضى حلّه جميع الأطراف، وتلك سمة من سمات الحكمة النبوية.",
+      "significanceFrench": "Cet événement démontre deux choses : Mouhammad ﷺ était déjà connu comme al-Amîn (le Digne de confiance) et as-Sâdiq (le Véridique) avant la prophétie, et sa sagesse dans la résolution des différends était déjà reconnue. Sa solution satisfit toutes les parties, marque de la sagesse prophétique.",
       "quranReferences": [],
       "hadithReferences": [
         {
@@ -307,8 +432,14 @@
           "textEnglish": "The Prophet ﷺ said: 'Were your people not close to the pre-Islamic period of ignorance, I would have demolished the Ka'bah and rebuilt it on the foundation of Ibrahim, for the Quraysh curtailed its construction.'"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["The tribes of Quraysh"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "The tribes of Quraysh"
+      ],
       "location": "Makkah – The Ka'bah",
       "locationArabic": "مكة المكرمة – الكعبة"
     },
@@ -321,7 +452,11 @@
       "month": "",
       "category": "spiritual",
       "summary": "In the years preceding his prophethood, Muhammad ﷺ began retreating to the Cave of Hira on Jabal an-Nur (the Mountain of Light) on the outskirts of Makkah. He would spend days and nights in solitary contemplation and worship, taking provisions with him. Khadijah would send food for him. He was drawn to reflection and solitude, away from the idolatry and moral corruption of Makkan society.",
+      "summaryArabic": "في السنوات السابقة لبعثته، صار محمد صلى الله عليه وسلم يخلو بغار حراء في جبل النور على مشارف مكة، فيمكث الليالي ذوات العدد في تعبد وتأمل، ويتزود لذلك، وكانت خديجة تبعث إليه بالطعام. وقد حُبّب إليه التفكر والخلوة بعيدًا عن وثنية مجتمع مكة وفساده.",
+      "summaryFrench": "Dans les années qui précédèrent sa prophétie, Mouhammad ﷺ prit l'habitude de se retirer dans la grotte de Hirâ, sur le Jabal an-Noûr (la montagne de la Lumière), aux abords de La Mecque. Il y passait des jours et des nuits en méditation et en adoration solitaires, emportant des provisions. Khadîja lui envoyait de la nourriture. Il était porté vers la réflexion et la solitude, loin de l'idolâtrie et de la corruption morale de la société mecquoise.",
       "significance": "This period of seclusion was the final stage of divine preparation before revelation. The Prophet ﷺ was already rejecting the idol worship of his people and seeking truth. The practice of 'Tahannuth' (devout seclusion) was also practiced by Ibrahim. Six months before the first revelation, he began seeing true dreams that would come true the very next day like the breaking of dawn.",
+      "significanceArabic": "كانت هذه الخلوة آخر مراحل الإعداد الإلهي قبل الوحي، وقد كان النبي صلى الله عليه وسلم رافضًا لعبادة قومه الأصنام طالبًا للحق. والتحنّث، وهو التعبد بالخلوة، كان مما تعبّد به إبراهيم عليه السلام. وقبل الوحي بستة أشهر بدأ يرى الرؤيا الصادقة فتأتي مثل فلق الصبح.",
+      "significanceFrench": "Cette période de retraite fut l'ultime étape de la préparation divine avant la révélation. Le Prophète ﷺ rejetait déjà le culte des idoles de son peuple et cherchait la vérité. La pratique du tahannouth, la retraite pieuse, avait aussi été celle d'Ibrâhîm. Six mois avant la première révélation, il commença à voir des songes véridiques qui se réalisaient le lendemain même, comme point le jour.",
       "quranReferences": [],
       "hadithReferences": [
         {
@@ -331,8 +466,14 @@
           "textEnglish": "The commencement of divine inspiration to the Messenger of Allah ﷺ was in the form of true dreams in his sleep. He never saw a dream except that it came true like bright daylight. Then seclusion was made beloved to him, and he used to seclude himself in the Cave of Hira, engaging in Tahannuth (devotional worship) for several nights."
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Khadijah bint Khuwaylid"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Khadijah bint Khuwaylid"
+      ],
       "location": "Cave of Hira, Jabal an-Nur",
       "locationArabic": "غار حراء – جبل النور"
     }

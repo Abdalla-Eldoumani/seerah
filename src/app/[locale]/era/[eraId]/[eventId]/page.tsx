@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { localizedField } from '@/lib/localized';
 import { hasLocale } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import {
@@ -127,6 +128,8 @@ export default async function EventPage({
   const articleJson = JSON.stringify(articleSchema).replace(/</g, '\\u003c');
   const breadcrumbJson = JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c');
 
+  const summaryText = localizedField(event, 'summary', locale as Locale);
+  const significanceText = localizedField(event, 'significance', locale as Locale);
   return (
     <main className="min-h-screen bg-parchment pb-24">
       <script type="application/ld+json">{articleJson}</script>
@@ -144,21 +147,16 @@ export default async function EventPage({
 
         <Divider />
 
-        {/* Prefer the Arabic version when an authored translation has been added
-            to the JSON; otherwise show the English text and tell the component
-            via the `lang` prop so it applies the right dir/font and bidi works. */}
-        <EventSummary
-          summary={isAr && event.summaryArabic ? event.summaryArabic : event.summary}
-          lang={isAr && event.summaryArabic ? 'ar' : 'en'}
-        />
+        {/* Resolve the narrative for the active locale. The helper reports
+            which language it actually returned so the component can set dir and
+            font correctly when it falls back to English. */}
+        <EventSummary summary={summaryText.text} lang={summaryText.lang} />
 
         <Divider />
 
         <EventSignificance
-          significance={
-            isAr && event.significanceArabic ? event.significanceArabic : event.significance
-          }
-          lang={isAr && event.significanceArabic ? 'ar' : 'en'}
+          significance={significanceText.text}
+          lang={significanceText.lang}
         />
 
         {event.quranReferences.length > 0 && (
