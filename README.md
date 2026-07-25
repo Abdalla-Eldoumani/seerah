@@ -1,6 +1,6 @@
 # Noor al-Seerah
 
-An interactive bilingual reader for the life of Prophet Muhammad ﷺ. Forty-nine events drawn from authenticated Islamic sources, presented across three eras with English and Arabic UIs side by side. Content lives in JSON and is never modified by the application; the code is UI around verified data.
+An interactive reader for the life of Prophet Muhammad ﷺ, in English, Arabic, and French. Forty-nine events drawn from authenticated Islamic sources, presented across three eras. Every event carries its summary and significance in all three languages, with the English as the source of record. Content lives in JSON and is never modified by the application; the code is UI around verified data.
 
 ## Screenshots
 
@@ -21,7 +21,16 @@ npm install
 npm run dev
 ```
 
-The app runs at `http://localhost:3000`. English is at `/`, Arabic at `/ar`.
+The app runs at `http://localhost:3000`. English is at `/`, Arabic at `/ar`, French at `/fr`.
+
+To check that no language leaks into another, build and scan:
+
+```bash
+npm run build && npx next start -p 3000
+LOCALES=ar,fr node scripts/verify-locales.mjs http://localhost:3000 / /timeline /about
+```
+
+See `docs/I18N.md` for how the three locales fit together, including one known date formatting issue on the era header.
 
 ## Build
 
