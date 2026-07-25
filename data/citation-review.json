@@ -1,0 +1,321 @@
+{
+  "_readme": "Verification record for every hadith cited in data/events. Each entry was read at sunnah.com under the number the event cites, and names the narrator, the wording confirmed, and the grading the collection carries. Nine references were pointing at a different narration and are corrected; each of those entries says what it replaced. npm run verify:citations gates on every citation having an entry and every entry still being cited.",
+  "citations": {
+    "As-Sunan al-Kubra, al-Bayhaqi": {
+      "usedIn": [
+        "pre-010"
+      ],
+      "status": "unresolved",
+      "note": "Al-Bayhaqi's Sunan al-Kubra is not carried by sunnah.com, so the wording of the Hilf al-Fudul report could not be read at the collection and no Arabic was taken."
+    },
+    "Jami' at-Tirmidhi 324": {
+      "usedIn": [
+        "med-001"
+      ],
+      "status": "verified",
+      "narrator": "Usaid ibn Zuhair al-Ansari",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "prayer in the mosque of Quba is like an Umrah",
+      "grade": "Hasan (Darussalam)",
+      "note": "The number was right; the narrator was recorded as Usaid ibn Hudair, a different companion."
+    },
+    "Jami' at-Tirmidhi 3620": {
+      "usedIn": [
+        "pre-009"
+      ],
+      "status": "verified",
+      "narrator": "Abu Musa al-Ash'ari",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "the journey to Syria and the monk Bahira: take him back and guard him from the Jews",
+      "grade": "Da'if (Darussalam)",
+      "note": "Weak by the collection's own grading. The event now shows that grading to the reader."
+    },
+    "Jami' at-Tirmidhi 3681": {
+      "usedIn": [
+        "mec-010"
+      ],
+      "status": "verified",
+      "narrator": "Ibn Umar",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "O Allah, honour Islam with the dearer to You of these two men, Abu Jahl or Umar ibn al-Khattab",
+      "grade": "Hasan (Darussalam)"
+    },
+    "Reported in various sources": {
+      "usedIn": [
+        "mec-007"
+      ],
+      "status": "unresolved",
+      "note": "The wording about the family of Yasir is carried by the seerah literature rather than by one of the nine collections, so there is no number to read and no Arabic was taken."
+    },
+    "Sahih Muslim 1162": {
+      "usedIn": [
+        "pre-002"
+      ],
+      "status": "verified",
+      "narrator": "Abu Qatadah al-Ansari",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "asked about fasting on Monday, he said that is the day I was born and the day revelation came to me",
+      "grade": "the collection carries no grading line",
+      "note": "Replaced Sahih Muslim 2606, which is Ibn Mas'ud on tale-carrying."
+    },
+    "Sahih Muslim 1218": {
+      "usedIn": [
+        "med-016"
+      ],
+      "status": "verified",
+      "narrator": "Jabir ibn Abdullah, reported by Ja'far ibn Muhammad from his father",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "the sermon at Arafat: your blood and your property are sacred to you, and the usury of the Jahiliyyah is abolished",
+      "grade": "the collection carries no grading line"
+    },
+    "Sahih Muslim 162a": {
+      "usedIn": [
+        "mec-014"
+      ],
+      "status": "verified",
+      "narrator": "Anas ibn Malik",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "I was brought al-Buraq, I mounted it and came to Bayt al-Maqdis and tied it to the ring the prophets use",
+      "grade": "the collection carries no grading line",
+      "note": "Replaced Sahih al-Bukhari 349, which is Abu Dharr on the opening of the chest and has no Buraq."
+    },
+    "Sahih Muslim 162c": {
+      "usedIn": [
+        "pre-004"
+      ],
+      "status": "verified",
+      "narrator": "Anas ibn Malik",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "Jibril came to him while he played with his playmates, opened his breast and took out the blood clot",
+      "grade": "the collection carries no grading line",
+      "note": "Narrowed from Sahih Muslim 162 to the sub-narration that carries this wording."
+    },
+    "Sahih Muslim 1763": {
+      "usedIn": [
+        "med-007"
+      ],
+      "status": "verified",
+      "narrator": "Umar ibn al-Khattab",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "at Badr: O Allah, if this band of Muslims perishes You will not be worshipped on earth",
+      "grade": "the collection carries no grading line"
+    },
+    "Sahih Muslim 1775": {
+      "usedIn": [
+        "med-014"
+      ],
+      "status": "verified",
+      "narrator": "Al-Abbas ibn Abd al-Muttalib",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "at Hunayn on the white mule: I am the Prophet, no lie; I am the son of Abd al-Muttalib",
+      "grade": "the collection carries no grading line",
+      "note": "Replaced Sahih Muslim 1776, which is al-Bara ibn Azib's account of the same day."
+    },
+    "Sahih al-Bukhari 1190": {
+      "usedIn": [
+        "med-002"
+      ],
+      "status": "verified",
+      "narrator": "Abu Hurayrah",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "one prayer in my mosque is better than a thousand prayers elsewhere, except al-Masjid al-Haram",
+      "grade": "the collection carries no grading line"
+    },
+    "Sahih al-Bukhari 1241": {
+      "usedIn": [
+        "med-017"
+      ],
+      "status": "verified",
+      "narrator": "Aishah",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "Abu Bakr uncovered his face and kissed him, then said whoever worshipped Muhammad, Muhammad has died",
+      "grade": "the collection carries no grading line"
+    },
+    "Sahih al-Bukhari 1586": {
+      "usedIn": [
+        "pre-013"
+      ],
+      "status": "verified",
+      "narrator": "Aishah, reported by Yazid ibn Ruman from Urwah",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "were your people not close to the Days of Ignorance I would have demolished the Kaaba and rebuilt it on the foundation of Ibrahim",
+      "grade": "the collection carries no grading line"
+    },
+    "Sahih al-Bukhari 18": {
+      "usedIn": [
+        "mec-015"
+      ],
+      "status": "verified",
+      "narrator": "Ubadah ibn as-Samit",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "on the night of the Aqaba pledge: swear allegiance to me for not joining anything in worship with Allah, not stealing, not committing adultery",
+      "grade": "the collection carries no grading line",
+      "note": "Replaced Sahih al-Bukhari 4, which is Jabir on the pause in revelation and carries none of this."
+    },
+    "Sahih al-Bukhari 2262": {
+      "usedIn": [
+        "pre-011"
+      ],
+      "status": "verified",
+      "narrator": "Abu Hurayrah",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "Allah sent no prophet but he shepherded sheep, and I used to shepherd the sheep of the people of Mecca",
+      "grade": "the collection carries no grading line"
+    },
+    "Sahih al-Bukhari 3": {
+      "usedIn": [
+        "mec-001",
+        "mec-002",
+        "pre-014"
+      ],
+      "status": "verified",
+      "narrator": "Aishah",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "the revelation began with true dreams, then seclusion in the cave of Hira, then the angel saying Read",
+      "grade": "the collection carries no grading line"
+    },
+    "Sahih al-Bukhari 3231": {
+      "usedIn": [
+        "mec-013"
+      ],
+      "status": "verified",
+      "narrator": "Aishah",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "the angel of the mountains offering to close the two mountains of Mecca upon them, and his refusal",
+      "grade": "the collection carries no grading line"
+    },
+    "Sahih al-Bukhari 3815": {
+      "usedIn": [
+        "pre-012"
+      ],
+      "status": "verified",
+      "narrator": "Ali ibn Abi Talib",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "the best of the world's women is Mary, and the best of the world's women is Khadijah",
+      "grade": "the collection carries no grading line",
+      "note": "Replaced Sahih al-Bukhari 3818, which is Aishah's narration about Khadijah rather than Ali's."
+    },
+    "Sahih al-Bukhari 3816": {
+      "usedIn": [
+        "mec-012"
+      ],
+      "status": "verified",
+      "narrator": "Aishah",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "Allah had told him to give her the good tidings, and he mentioned her often",
+      "grade": "the collection carries no grading line"
+    },
+    "Sahih al-Bukhari 3905": {
+      "usedIn": [
+        "mec-018"
+      ],
+      "status": "verified",
+      "narrator": "Aishah",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "the hijrah, the cave, and Abu Bakr's fear that they would be seen",
+      "grade": "the collection carries no grading line"
+    },
+    "Sahih al-Bukhari 4": {
+      "usedIn": [
+        "mec-003"
+      ],
+      "status": "verified",
+      "narrator": "Jabir ibn Abdullah",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "on the pause in revelation: I saw the angel who came to me in Hira seated between the sky and the earth",
+      "grade": "the collection carries no grading line"
+    },
+    "Sahih al-Bukhari 4098": {
+      "usedIn": [
+        "med-009"
+      ],
+      "status": "verified",
+      "narrator": "Sahl ibn Sa'd",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "we were with him at the Trench carrying earth on our shoulders, and he said there is no life but the life of the Hereafter",
+      "grade": "the collection carries no grading line",
+      "note": "Replaced Sahih al-Bukhari 4109, which is Sulayman ibn Surad and carries different wording."
+    },
+    "Sahih al-Bukhari 4210": {
+      "usedIn": [
+        "med-012"
+      ],
+      "status": "verified",
+      "narrator": "Sahl ibn Sa'd",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "tomorrow I will give this flag to a man through whose hands Allah will give victory",
+      "grade": "the collection carries no grading line"
+    },
+    "Sahih al-Bukhari 4287": {
+      "usedIn": [
+        "med-013"
+      ],
+      "status": "verified",
+      "narrator": "Abdullah ibn Mas'ud",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "three hundred and sixty idols around the Kaaba, and truth has come and falsehood has vanished",
+      "grade": "the collection carries no grading line"
+    },
+    "Sahih al-Bukhari 4418": {
+      "usedIn": [
+        "med-015"
+      ],
+      "status": "verified",
+      "narrator": "Ka'b ibn Malik, reported by his son Abdullah",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "Ka'b's account of staying behind from Tabuk and the announcement of his forgiveness",
+      "grade": "the collection carries no grading line"
+    },
+    "Sahih al-Bukhari 4449": {
+      "usedIn": [
+        "med-017"
+      ],
+      "status": "verified",
+      "narrator": "Aishah",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "he died in my house, on my day, against my chest, and Allah joined my saliva with his",
+      "grade": "the collection carries no grading line"
+    },
+    "Sahih al-Bukhari 4486": {
+      "usedIn": [
+        "med-006"
+      ],
+      "status": "verified",
+      "narrator": "Al-Bara ibn Azib",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "he prayed toward Bayt al-Maqdis for sixteen or seventeen months, and wished for the Kaaba",
+      "grade": "the collection carries no grading line"
+    },
+    "Sahih al-Bukhari 4770": {
+      "usedIn": [
+        "mec-006"
+      ],
+      "status": "verified",
+      "narrator": "Abdullah ibn Abbas",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "when warn your closest kindred was revealed he ascended Safa and called O Bani Fihr, O Bani Adi",
+      "grade": "the collection carries no grading line"
+    },
+    "Sahih al-Bukhari 7": {
+      "usedIn": [
+        "med-011"
+      ],
+      "status": "verified",
+      "narrator": "Abdullah ibn Abbas",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "Heraclius questioning Abu Sufyan, and his conclusion that the Prophet would rule what is beneath his feet",
+      "grade": "the collection carries no grading line"
+    },
+    "Sunan Abu Dawud 499": {
+      "usedIn": [
+        "med-005"
+      ],
+      "status": "verified",
+      "narrator": "Abdullah ibn Zayd",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "the dream of the man carrying a bell, and the words of the adhan he was taught",
+      "grade": "Hasan Sahih (Al-Albani)",
+      "note": "Replaced Sunan Abi Dawud 498, which is Abu Umayr ibn Anas on how the people were gathered."
+    }
+  }
+}
