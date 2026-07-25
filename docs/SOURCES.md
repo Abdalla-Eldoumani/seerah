@@ -31,8 +31,34 @@ the following authenticated Islamic sources:
 2. Each event was cross-referenced with the hadith collections for supporting narrations
 3. Quran references were verified against Asbab al-Nuzul literature and Tafsir Ibn Kathir
 4. Dates follow the majority scholarly opinion; where scholars differ, this is noted
-5. Only sahih (authentic) and hasan (good) hadith are cited
-6. Arabic text was verified for accuracy
+5. Arabic text was verified for accuracy
+
+## Citation verification
+
+Every hadith cited in `data/events` was opened at sunnah.com under the number the event
+cites, and the narrator and wording were compared against what the event stores.
+`data/citation-review.json` records the result for each one, and
+`npm run verify:citations` fails the build if a citation has no entry or an entry is no
+longer cited.
+
+**31 hadith citations. 29 read at the collection. 2 with no collection to read.**
+
+Checking them found nine references pointing at a different narration. All are corrected,
+and each entry in the record says what it replaced. The pattern was mostly a right story
+with a wrong number: `Sahih al-Bukhari 4` carried the Aqaba pledge (it is Jabir on the
+pause in revelation, and the pledge is Bukhari 18), and `Sahih al-Bukhari 349` carried the
+Buraq (it is Abu Dharr on the opening of the chest, and the Buraq is Sahih Muslim 162a).
+
+Every citation now carries the grading the collection itself gives, and the event page
+shows it. One narration is graded weak: the meeting with the monk Bahira,
+`Jami' at-Tirmidhi 3620`, is Da'if by Darussalam's grading. It is kept because the episode
+is standard in the seerah literature, and the page says the grading so a reader can weigh
+it. Earlier wording here claimed only sahih and hasan hadith are cited; that was not true,
+and saying the grading is more useful than a claim that has to be maintained.
+
+The two unresolved entries are reports the nine collections do not carry: the words to the
+family of Yasir, and the Hilf al-Fudul report in al-Bayhaqi's Sunan al-Kubra. Both are
+named as such in the record rather than dressed up with a number.
 
 ## Scholarly Differences on Dates
 

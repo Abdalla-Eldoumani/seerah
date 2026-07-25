@@ -1,12 +1,12 @@
 # Architecture
 
-The project is a Next.js App Router site that reads pre-verified seerah content from JSON files and renders it bilingually. Most of the interesting decisions are about boundaries: what the code is allowed to do, and what it is not.
+The project is a Next.js App Router site that reads pre-verified seerah content from JSON files and renders it in three languages. Most of the interesting decisions are about boundaries: what the code is allowed to do, and what it is not.
 
 ## Data layer
 
-Three JSON files live in `data/events/`, one per era. Each file contains an `era` block (id, title in English, title in Arabic, timespan, theme colour) and an `events` array of forty-nine events total. An event has an English title and an Arabic title, a Hijri year and a Gregorian year, an optional month, a category, a summary, a significance paragraph, an array of Quran references with both Arabic verse text and an existing English translation, an array of hadith references with source and narrator and existing English translation, a list of primary sources, a list of key figures, and a location in both scripts.
+Three JSON files live in `data/events/`, one per era. Each file contains an `era` block (id, title in three languages, timespan, theme colour) and an `events` array of forty-nine events total. An event has a title in three languages, a Hijri year and a Gregorian year, an optional month, a category, a summary and a significance paragraph in three languages, an array of Quran references carrying the Uthmani text with the Saheeh International and Hamidullah translations, an array of hadith references carrying the Arabic matn with English and French renderings and the collection's grading, a list of primary sources, a list of key figures, and a location in three languages.
 
-These files are the project's source of truth. The application never generates, paraphrases, summarises, retranslates, or rewrites their contents. If a typo or scholarly error is spotted, it is flagged for human review. The rule applies in both locales: the Arabic site reads `titleArabic`, `locationArabic`, and the Arabic verse text directly from the same files.
+These files are the project's source of truth. The application never generates, paraphrases, summarises, retranslates, or rewrites their contents. If a typo or scholarly error is spotted, it is flagged for human review. The rule applies in every locale: each reads its own suffixed field from the same files through `localizedField`.
 
 `src/lib/data.ts` exposes synchronous helpers (`getAllEvents`, `getEventById`, `getEventsByEra`, `getEraMetadata`, `getAllEras`, `getAdjacentEvents`, `getTimelineNodes`). All three JSON files are imported at module level so every page is statically renderable.
 
