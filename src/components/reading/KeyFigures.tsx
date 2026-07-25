@@ -1,4 +1,5 @@
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
+import { localizeFigure } from '@/config/figures';
 
 interface KeyFiguresProps {
   figures: string[];
@@ -6,6 +7,7 @@ interface KeyFiguresProps {
 
 export default function KeyFigures({ figures }: KeyFiguresProps) {
   const t = useTranslations('event');
+  const locale = useLocale();
 
   if (figures.length === 0) return null;
 
@@ -20,7 +22,7 @@ export default function KeyFigures({ figures }: KeyFiguresProps) {
             key={figure}
             className="inline-block px-4 py-1.5 rounded-full text-sm font-medium bg-parchment-dark text-gold-dark border border-gold/30"
           >
-            {figure}
+            {localizeFigure(figure, locale)}
           </span>
         ))}
       </div>
