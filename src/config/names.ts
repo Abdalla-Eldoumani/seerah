@@ -99,15 +99,13 @@ Object.assign(SOURCE_NAMES, {
     ar: 'السنن الكبرى',
     fr: 'As-Sounan al-Koubrâ',
   },
-  // Two events cite a report that carries no collection number, so the label
-  // itself has to be localized.
   'As-Sunan al-Kubra, al-Bayhaqi': {
     ar: 'السنن الكبرى للبيهقي',
     fr: "As-Sounan al-Koubrâ d'al-Bayhaqî",
   },
-  'Reported in various sources': {
-    ar: 'مروي في مصادر متعددة',
-    fr: 'Rapporté par plusieurs sources',
+  'Al-Mustadrak, al-Hakim': {
+    ar: 'المستدرك على الصحيحين للحاكم',
+    fr: "Al-Moustadrak d'al-Hâkim",
   },
 });
 

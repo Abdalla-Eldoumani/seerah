@@ -368,10 +368,12 @@
       "hadithReferences": [
         {
           "source": "As-Sunan al-Kubra, al-Bayhaqi",
-          "hadithNumber": "",
-          "narrator": "Reported traditions",
-          "textEnglish": "The Prophet ﷺ said: 'I witnessed in the house of Abdullah ibn Jud'an a pact that, if I were called to it in Islam, I would respond. They pledged to return rights to their rightful owners and that no oppressor would overpower the oppressed.'",
-          "textFrench": "Le Prophète ﷺ dit : « J'ai assisté, dans la maison d'Abdallah ibn Joud'ân, à un pacte auquel, si j'y étais appelé en islam, je répondrais. » Ils s'engagèrent à restituer les droits à leurs ayants droit et à ce qu'aucun oppresseur ne l'emporte sur l'opprimé.",
+          "hadithNumber": "13211",
+          "narrator": "Talha ibn Abdullah ibn Awf",
+          "grade": "hasan",
+          "textEnglish": "The Prophet ﷺ said: 'I witnessed in the house of Abdullah ibn Jud'an a pact I would not exchange for red camels, and were I called to it in Islam I would answer.'",
+          "textFrench": "Le Prophète ﷺ dit : « J'ai assisté, dans la maison d'Abdallah ibn Joud'ân, à un pacte que je n'échangerais pas contre les chameaux les plus précieux, et si j'y étais appelé en islam, j'y répondrais. »",
+          "textArabic": "لَقَدْ شَهِدْتُ فِي دَارِ عَبْدِ اللَّهِ بْنِ جُدْعَانَ حِلْفًا مَا أُحِبُّ أَنَّ لِي بِهِ حُمْرَ النَّعَمِ، وَلَوْ أُدْعَى بِهِ فِي الْإِسْلَامِ لَأَجَبْتُ",
           "translationProvenance": "project"
         }
       ],

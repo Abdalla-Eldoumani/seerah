@@ -33,8 +33,9 @@ LOCALES=ar,fr node scripts/verify-locales.mjs http://localhost:3000 / /timeline 
 ```
 
 Every hadith citation must have an entry in `data/citation-review.json` saying what was
-read at the collection under that number. `npm run verify:citations` enforces it and runs
-before every build.
+read at the collection under that number, and every proper noun in the data must have an
+Arabic and a French form. `npm run verify:citations` and `npm run verify:names` enforce
+both and run before every build.
 
 See `docs/I18N.md` for how the three locales fit together and `docs/SOURCES.md` for what
 checking every citation found.

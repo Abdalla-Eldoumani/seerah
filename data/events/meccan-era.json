@@ -306,11 +306,13 @@
       ],
       "hadithReferences": [
         {
-          "source": "Reported in various sources",
-          "hadithNumber": "",
-          "narrator": "Multiple narrators",
-          "textEnglish": "The Prophet ﷺ passed by the family of Yasir while they were being tortured and said: 'Be patient, O family of Yasir, for your appointment is Paradise.'",
-          "textFrench": "Le Prophète ﷺ passa près de la famille de Yâsir alors qu'elle était torturée et dit : « Patience, ô famille de Yâsir, car votre rendez-vous est le Paradis. »",
+          "source": "Al-Mustadrak, al-Hakim",
+          "hadithNumber": "5777",
+          "narrator": "Jabir ibn Abdullah",
+          "grade": "sahih",
+          "textEnglish": "The Messenger of Allah ﷺ passed by Ammar and his family while they were being tortured and said: 'Glad tidings, O family of Ammar and family of Yasir, for your appointed place is Paradise.'",
+          "textFrench": "Le Messager d'Allah ﷺ passa près d'Ammâr et de sa famille alors qu'ils étaient torturés et dit : « Bonne nouvelle, ô famille d'Ammâr et famille de Yâsir : votre rendez-vous est le Paradis. »",
+          "textArabic": "أَنَّ رَسُولَ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ مَرَّ بِعَمَّارٍ وَأَهْلِهِ وَهُمْ يُعَذَّبُونَ، فَقَالَ: أَبْشِرُوا آلَ عَمَّارٍ وَآلَ يَاسِرٍ، فَإِنَّ مَوْعِدَكُمُ الْجَنَّةُ",
           "translationProvenance": "project"
         }
       ],

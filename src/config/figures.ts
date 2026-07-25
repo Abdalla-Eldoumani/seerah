@@ -189,8 +189,7 @@ export const NARRATOR_NAMES: Record<string, LocalizedName> = {
   'Ubadah ibn as-Samit': { ar: 'عبادة بن الصامت', fr: 'Oubâda ibn as-Sâmit' },
   'Usaid ibn Hudair': { ar: 'أسيد بن حضير', fr: 'Ousayd ibn Houdayr' },
   'Usaid ibn Zuhair': { ar: 'أسيد بن ظهير', fr: 'Ousayd ibn Zouhayr' },
-  'Multiple narrators': { ar: 'رواة متعددون', fr: 'Plusieurs rapporteurs' },
-  'Reported traditions': { ar: 'آثار مروية', fr: 'Traditions rapportées' },
+  'Talha ibn Abdullah ibn Awf': { ar: 'طلحة بن عبد الله بن عوف', fr: 'Talha ibn Abdallah ibn Awf' },
 };
 
 export const localizeFigure = (value: string, locale: string): string => {

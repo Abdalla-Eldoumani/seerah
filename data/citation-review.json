@@ -1,12 +1,27 @@
 {
-  "_readme": "Verification record for every hadith cited in data/events. Each entry was read at sunnah.com under the number the event cites, and names the narrator, the wording confirmed, and the grading the collection carries. Nine references were pointing at a different narration and are corrected; each of those entries says what it replaced. npm run verify:citations gates on every citation having an entry and every entry still being cited.",
+  "_readme": "Verification record for every hadith cited in data/events. Each entry was read at the collection under the number the event cites, and names the narrator, the wording confirmed, and the grading. Twenty-nine were read at sunnah.com; the two that no sunnah.com collection carries were traced through dorar.net to al-Hakim's Mustadrak and al-Bayhaqi's Sunan al-Kubra. Ten references were pointing at a different narration and are corrected; each of those entries says what it replaced. npm run verify:citations gates on every citation having an entry and every entry still being cited.",
   "citations": {
-    "As-Sunan al-Kubra, al-Bayhaqi": {
+    "Al-Mustadrak, al-Hakim 5777": {
+      "usedIn": [
+        "mec-007"
+      ],
+      "status": "verified",
+      "narrator": "Jabir ibn Abdullah",
+      "checkedAgainst": "dorar.net",
+      "confirmedWording": "he passed by Ammar and his family while they were being tortured and said, glad tidings, O family of Ammar and family of Yasir, your appointed place is Paradise",
+      "grade": "Sahih on the condition of Muslim (al-Hakim, agreed by adh-Dhahabi)",
+      "note": "Was cited as \"Reported in various sources\" with no number and the wording \"be patient, O family of Yasir\". That wording is the popular one; the authenticated wording is \"glad tidings\". Read at dorar.net (Mustadrak 5777) and hadithanswers.com (Mustadrak 3/388-389). Also in at-Tabarani's al-Awsat 1508, Abu Nu'aym's Ma'rifat as-Sahabah 6664, and al-Bayhaqi's Dala'il an-Nubuwwah 2/282."
+    },
+    "As-Sunan al-Kubra, al-Bayhaqi 13211": {
       "usedIn": [
         "pre-010"
       ],
-      "status": "unresolved",
-      "note": "Al-Bayhaqi's Sunan al-Kubra is not carried by sunnah.com, so the wording of the Hilf al-Fudul report could not be read at the collection and no Arabic was taken."
+      "status": "verified",
+      "narrator": "Talha ibn Abdullah ibn Awf",
+      "checkedAgainst": "dorar.net",
+      "confirmedWording": "I witnessed in the house of Abdullah ibn Jud'an a pact I would not exchange for red camels, and were I called to it in Islam I would answer",
+      "grade": "Chain sahih but mursal, strengthened by corroborating narrations (al-Albani, Fiqh as-Sirah p. 72)",
+      "note": "The collection the event named was right; the narrator and the number were missing. Read at dorar.net, which places it at al-Bayhaqi 13211 and cross-references Ibn Kathir's al-Bidaya 2/293. The clause about returning rights to their owners belongs to al-Humaydi's wording (sahih per Ibn al-Mulaqqin, al-Badr al-Munir 7/325), not to al-Bayhaqi's, so it stays in the event summary rather than inside the quotation."
     },
     "Jami' at-Tirmidhi 324": {
       "usedIn": [
@@ -39,13 +54,6 @@
       "checkedAgainst": "sunnah.com",
       "confirmedWording": "O Allah, honour Islam with the dearer to You of these two men, Abu Jahl or Umar ibn al-Khattab",
       "grade": "Hasan (Darussalam)"
-    },
-    "Reported in various sources": {
-      "usedIn": [
-        "mec-007"
-      ],
-      "status": "unresolved",
-      "note": "The wording about the family of Yasir is carried by the seerah literature rather than by one of the nine collections, so there is no number to read and no Arabic was taken."
     },
     "Sahih Muslim 1162": {
       "usedIn": [
