@@ -38,7 +38,11 @@ export default async function HomePage({
         </p>
 
         {isAr ? (
-          <p className="font-display text-lg sm:text-xl md:text-2xl text-ink-light font-medium tracking-wide mb-8 mx-auto">
+          <p
+            lang="en"
+            dir="ltr"
+            className="font-display text-lg sm:text-xl md:text-2xl text-ink-light font-medium tracking-wide mb-8 mx-auto"
+          >
             {tEnglish('name')}
           </p>
         ) : (
