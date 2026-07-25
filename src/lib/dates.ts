@@ -123,25 +123,29 @@ export function formatEventDate(event: SeerahEvent, locale: Locale): string {
 
 // Format an era timespan: Hijri timespan paired with Gregorian timespan.
 export function formatEraTimespan(era: EraMetadata, locale: Locale) {
-  if (locale !== 'ar') {
-    return {
-      primary: era.timespan,
-      secondary: era.timespanHijri,
-    };
-  }
   return {
-    primary: localizeHijriRange(era.timespanHijri),
-    secondary: localizeGregorianRange(era.timespan),
+    primary: localizeHijriRange(era.timespanHijri, locale),
+    secondary: localizeGregorianRange(era.timespan, locale),
   };
 }
 
-function localizeHijriRange(range: string): string {
-  // Examples: "52 BH – 12 BH", "1 AH – 11 AH"
-  const isBeforeHijra = /BH/i.test(range) && !/AH/i.test(range);
-  const cleaned = stripEraTokens(range);
-  return `${toEasternDigits(cleaned)} ${isBeforeHijra ? 'ق.هـ' : 'هـ'}`;
+// Each endpoint keeps its own era marker. Collapsing the range to one marker
+// turned the Meccan era's "12 BH – 1 AH" into "12 – 1 AH" on Arabic, which
+// says the era began twelve years after the Hijrah rather than twelve before.
+function localizeHijriRange(range: string, locale: Locale): string {
+  if (locale === 'en') return range;
+  const [separator] = range.match(/\s*[–-]\s*/) ?? [' – '];
+  const endpoints = range.split(/\s*[–-]\s*/).map((part) => localizeHijriYear(part, locale));
+  return endpoints.join(separator.includes('–') ? ' – ' : separator);
 }
 
-function localizeGregorianRange(range: string): string {
-  return `${stripEraTokens(range)} م`;
+function localizeGregorianRange(range: string, locale: Locale): string {
+  if (locale === 'en') return range;
+  // The marker belongs on the range, not on each endpoint: "610 - 622 CE".
+  const continues = /onwards/i.test(range);
+  const numeric = stripEraTokens(range);
+  if (locale === 'ar') {
+    return `${numeric} م${continues ? ' فما بعدها' : ''}`;
+  }
+  return `${numeric} ap. J.-C.${continues ? ' et après' : ''}`;
 }
