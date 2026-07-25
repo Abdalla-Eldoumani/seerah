@@ -11,7 +11,8 @@
     "openMenu": "Ouvrir le menu de navigation",
     "closeMenu": "Fermer le menu de navigation",
     "switchToArabic": "العربية",
-    "switchToEnglish": "English"
+    "switchToEnglish": "English",
+    "language": "Langue"
   },
   "home": {
     "ctaPrimary": "Commencer le parcours",

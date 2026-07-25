@@ -11,7 +11,8 @@
     "openMenu": "فتح قائمة التنقّل",
     "closeMenu": "إغلاق قائمة التنقّل",
     "switchToArabic": "العربية",
-    "switchToEnglish": "English"
+    "switchToEnglish": "English",
+    "language": "اللغة"
   },
   "home": {
     "ctaPrimary": "ابدأ الرحلة",
