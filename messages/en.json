@@ -11,7 +11,9 @@
     "openMenu": "Open navigation menu",
     "closeMenu": "Close navigation menu",
     "switchToArabic": "العربية",
-    "switchToEnglish": "English"
+    "switchToEnglish": "English",
+    "language": "Language",
+    "skipToContent": "Skip to content"
   },
   "home": {
     "ctaPrimary": "Begin the journey",
@@ -43,7 +45,14 @@
     "navPrev": "Previous",
     "navNext": "Next",
     "surah": "Surah",
-    "translationLabel": "Translation"
+    "translationLabel": "Translation",
+    "gradeLabel": "Grading",
+    "grades": {
+      "sahih": "Sahih",
+      "hasan": "Hasan",
+      "hasan-sahih": "Hasan sahih",
+      "daif": "Da'if (weak)"
+    }
   },
   "breadcrumb": {
     "home": "Home"

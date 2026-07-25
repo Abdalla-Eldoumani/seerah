@@ -1,4 +1,5 @@
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
+import { localizeSurah } from '@/config/names';
 import type { QuranReference } from '@/types/seerah';
 
 interface QuranVerseProps {
@@ -6,7 +7,18 @@ interface QuranVerseProps {
 }
 
 export default function QuranVerse({ reference }: QuranVerseProps) {
+  const locale = useLocale();
   const t = useTranslations('event');
+
+  // An Arabic reader has the verse itself and does not need it rendered back
+  // in another language. Everyone else reads the published edition for their
+  // locale: Saheeh International in English, Hamidullah in French.
+  const translation =
+    locale === 'ar'
+      ? null
+      : locale === 'fr'
+        ? reference.textFrench
+        : reference.textEnglish;
 
   return (
     <blockquote className="quran-verse">
@@ -15,14 +27,15 @@ export default function QuranVerse({ reference }: QuranVerseProps) {
       </p>
 
       <p className="citation">
-        {t('surah')} {reference.surahName}, {reference.ayahRange}
+        {t('surah')} {localizeSurah(reference.surahName, locale)},{' '}
+        <span dir="ltr">{reference.ayahRange}</span>
       </p>
 
-      {/* English translation rendered on both locales so the meaning is
-          accessible. On Arabic, the explicit lang/dir keeps bidi correct. */}
-      <p lang="en" dir="ltr" className="translation italic">
-        {reference.textEnglish}
-      </p>
+      {translation && (
+        <p lang={locale} dir="ltr" className="translation italic">
+          {translation}
+        </p>
+      )}
     </blockquote>
   );
 }

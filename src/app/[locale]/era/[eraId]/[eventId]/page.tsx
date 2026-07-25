@@ -1,5 +1,14 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import { localizedField } from '@/lib/localized';
+
+// schema.org wants BCP 47. A French page declaring en-US tells a search engine
+// and a screen reader the wrong thing about its own contents.
+const BCP47: Record<string, string> = {
+  en: 'en-US',
+  ar: 'ar-SA',
+  fr: 'fr-FR',
+};
 import { hasLocale } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import {
@@ -74,6 +83,7 @@ export default async function EventPage({
   if (!event) notFound();
 
   const era = getEraMetadata(eraId as EraId);
+  if (!era) notFound();
   const { prev, next, prevEra, nextEra } = getAdjacentEvents(eventId);
   const isAr = locale === 'ar';
 
@@ -84,7 +94,7 @@ export default async function EventPage({
   const prevNav = prev
     ? {
         id: prev.id,
-        title: isAr ? prev.titleArabic : prev.title,
+        title: localizedField(prev, 'title', locale as Locale).text,
         eraId: prevEra?.id ?? eraId,
       }
     : null;
@@ -92,18 +102,18 @@ export default async function EventPage({
   const nextNav = next
     ? {
         id: next.id,
-        title: isAr ? next.titleArabic : next.title,
+        title: localizedField(next, 'title', locale as Locale).text,
         eraId: nextEra?.id ?? eraId,
       }
     : null;
 
-  const eventTitle = isAr ? event.titleArabic : event.title;
+  const eventTitle = localizedField(event, 'title', locale as Locale).text;
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: eventTitle,
-    description: event.summary.slice(0, 200),
-    inLanguage: locale === 'ar' ? 'ar-SA' : 'en-US',
+    description: localizedField(event, 'summary', locale as Locale).text.slice(0, 200),
+    inLanguage: BCP47[locale as Locale] ?? BCP47.en,
     author: { '@type': 'Organization', name: 'Noor al-Seerah Project' },
     publisher: { '@type': 'Organization', name: 'Noor al-Seerah Project' },
     mainEntityOfPage: pageUrl(locale, `/era/${era.id}/${event.id}`),
@@ -127,6 +137,8 @@ export default async function EventPage({
   const articleJson = JSON.stringify(articleSchema).replace(/</g, '\\u003c');
   const breadcrumbJson = JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c');
 
+  const summaryText = localizedField(event, 'summary', locale as Locale);
+  const significanceText = localizedField(event, 'significance', locale as Locale);
   return (
     <main className="min-h-screen bg-parchment pb-24">
       <script type="application/ld+json">{articleJson}</script>
@@ -144,21 +156,16 @@ export default async function EventPage({
 
         <Divider />
 
-        {/* Prefer the Arabic version when an authored translation has been added
-            to the JSON; otherwise show the English text and tell the component
-            via the `lang` prop so it applies the right dir/font and bidi works. */}
-        <EventSummary
-          summary={isAr && event.summaryArabic ? event.summaryArabic : event.summary}
-          lang={isAr && event.summaryArabic ? 'ar' : 'en'}
-        />
+        {/* Resolve the narrative for the active locale. The helper reports
+            which language it actually returned so the component can set dir and
+            font correctly when it falls back to English. */}
+        <EventSummary summary={summaryText.text} lang={summaryText.lang} />
 
         <Divider />
 
         <EventSignificance
-          significance={
-            isAr && event.significanceArabic ? event.significanceArabic : event.significance
-          }
-          lang={isAr && event.significanceArabic ? 'ar' : 'en'}
+          significance={significanceText.text}
+          lang={significanceText.lang}
         />
 
         {event.quranReferences.length > 0 && (

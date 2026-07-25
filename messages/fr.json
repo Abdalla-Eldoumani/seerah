@@ -1,0 +1,115 @@
+{
+  "site": {
+    "name": "Noor al-Sîra",
+    "subtitle": "La lumière de la biographie",
+    "tagline": "Un parcours interactif à travers la vie du Prophète Mouhammad ﷺ",
+    "description": "Quarante-neuf événements clés de la vie du Prophète Mouhammad ﷺ, tirés de sources islamiques authentifiées."
+  },
+  "nav": {
+    "timeline": "Chronologie",
+    "about": "À propos",
+    "openMenu": "Ouvrir le menu de navigation",
+    "closeMenu": "Fermer le menu de navigation",
+    "switchToArabic": "العربية",
+    "switchToEnglish": "English",
+    "language": "Langue",
+    "skipToContent": "Aller au contenu principal"
+  },
+  "home": {
+    "ctaPrimary": "Commencer le parcours",
+    "ctaSecondary": "À propos du projet"
+  },
+  "timeline": {
+    "title": "La chronologie",
+    "subtitle": "Quarante-neuf événements répartis sur trois époques, de 571 à 632 ap. J.-C.",
+    "metaTitle": "Chronologie",
+    "metaDescription": "Parcours la chronologie complète de la vie du Prophète Mouhammad ﷺ à travers trois époques."
+  },
+  "era": {
+    "eventsCountSingular": "{count} événement dans cette époque",
+    "eventsCountPlural": "{count} événements dans cette époque",
+    "names": {
+      "pre-prophethood": "Avant la lumière",
+      "meccan": "La lumière dans les ténèbres",
+      "medinan": "L'aube d'une civilisation"
+    }
+  },
+  "event": {
+    "summaryHeading": "Résumé",
+    "significanceHeading": "Pourquoi cela compte",
+    "quranHeading": "Références coraniques",
+    "hadithHeading": "Références des hadîths",
+    "keyFiguresHeading": "Figures principales",
+    "primarySourcesHeading": "Sources primaires",
+    "narratedBy": "Rapporté par",
+    "navPrev": "Précédent",
+    "navNext": "Suivant",
+    "surah": "Sourate",
+    "translationLabel": "Traduction",
+    "gradeLabel": "Authentification",
+    "grades": {
+      "sahih": "Sahîh (authentique)",
+      "hasan": "Hasan (bon)",
+      "hasan-sahih": "Hasan sahîh",
+      "daif": "Da'îf (faible)"
+    }
+  },
+  "breadcrumb": {
+    "home": "Accueil"
+  },
+  "about": {
+    "title": "À propos de Noor al-Sîra",
+    "purposeHeading": "Objectif",
+    "purposeBody": "Noor al-Sîra est une expérience web interactive pour apprendre la vie du Prophète Mouhammad ﷺ. Elle présente quarante-neuf événements clés répartis sur trois époques historiques, tirés entièrement de contenus vérifiés issus de sources islamiques authentifiées.",
+    "sourcesHeading": "Sources",
+    "hadithCollectionsHeading": "Recueils de hadîths",
+    "seerahWorksHeading": "Ouvrages de sîra",
+    "additionalSourcesHeading": "Sources complémentaires",
+    "methodologyHeading": "Méthodologie",
+    "methodologyBody": "Les événements ont été identifiés à partir d'Ar-Rahîq al-Makhtoûm comme cadre chronologique principal, recoupés avec les grands recueils de hadîths et vérifiés au regard de la littérature du tafsîr. Seules les narrations sahîh et hasan sont citées. Les dates suivent l'avis majoritaire des savants.",
+    "differencesHeading": "Divergences entre les savants",
+    "differencesBody": "Certaines dates diffèrent selon les savants. Ce projet suit les avis les plus couramment cités dans les sources énumérées ci-dessus. Nous encourageons les lecteurs à étudier auprès de savants qualifiés et à consulter les sources originales pour une compréhension approfondie.",
+    "sadaqahHeading": "Sadaqa jâriya",
+    "sadaqahBody": "Ce projet est conçu comme une sadaqa jâriya, une aumône continue. Nous demandons à Allah d'accepter cet effort et d'en faire une source de bienfait."
+  },
+  "footer": {
+    "copyright": "© {year} Noor al-Sîra",
+    "verifiedNote": "Contenu vérifié à partir de sources islamiques authentifiées",
+    "sourcesLink": "Sources et à propos"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "body": "La page que tu cherches n'existe pas. Elle a peut-être été déplacée, ou le chemin est incorrect.",
+    "ctaHome": "Retour à l'accueil",
+    "ctaTimeline": "Voir la chronologie"
+  },
+  "categories": {
+    "historical-context": "Contexte historique",
+    "birth": "Naissance",
+    "childhood": "Enfance",
+    "miracle": "Miracle",
+    "loss": "Deuil",
+    "journey": "Voyage",
+    "society": "Société",
+    "livelihood": "Subsistance",
+    "marriage": "Mariage",
+    "spiritual": "Dévotion",
+    "revelation": "Révélation",
+    "confirmation": "Confirmation",
+    "dawah": "Da'wa",
+    "education": "Enseignement",
+    "persecution": "Persécution",
+    "migration": "Émigration",
+    "conversion": "Entrée en islam",
+    "plot": "Complot contre l'islam",
+    "pledge": "Serment d'allégeance",
+    "establishment": "Fondation",
+    "community": "Construction de la communauté",
+    "legislation": "Législation",
+    "battle": "Expédition",
+    "treaty": "Traité",
+    "conquest": "Conquête",
+    "pilgrimage": "Pèlerinage",
+    "death": "Décès"
+  }
+}

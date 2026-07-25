@@ -79,7 +79,11 @@ export function Header({ locale }: HeaderProps) {
           </button>
         </div>
 
+        {/* Collapsing by height alone leaves the links and the second language
+            select in the tab order, so a keyboard user tabs through a menu they
+            cannot see. `inert` takes the whole subtree out. */}
         <div
+          inert={!mobileMenuOpen}
           className={cn(
             'sm:hidden overflow-hidden transition-all duration-200 ease-in-out',
             mobileMenuOpen ? 'max-h-48 pb-4' : 'max-h-0'

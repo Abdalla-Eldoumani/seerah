@@ -1,0 +1,14 @@
+{
+  "ar": [
+    "English",
+    "Français"
+  ],
+  "fr": [
+    "العربية"
+  ],
+  "sameAsEnglish": [
+    "nav.switchToEnglish",
+    "nav.switchToArabic"
+  ],
+  "contentExempt": []
+}

@@ -1,4 +1,5 @@
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
+import { localizeSource } from '@/config/names';
 
 interface PrimarySourcesProps {
   sources: string[];
@@ -6,6 +7,7 @@ interface PrimarySourcesProps {
 
 export default function PrimarySources({ sources }: PrimarySourcesProps) {
   const t = useTranslations('event');
+  const locale = useLocale();
 
   if (sources.length === 0) return null;
 
@@ -20,7 +22,7 @@ export default function PrimarySources({ sources }: PrimarySourcesProps) {
             key={source}
             className="inline-block px-3 py-1 rounded text-xs font-medium bg-parchment-dark/70 text-ink-light/70 border border-ink-light/10"
           >
-            {source}
+            {localizeSource(source, locale)}
           </span>
         ))}
       </div>

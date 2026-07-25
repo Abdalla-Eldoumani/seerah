@@ -1,6 +1,8 @@
 # Noor al-Seerah
 
-An interactive bilingual reader for the life of Prophet Muhammad ﷺ. Forty-nine events drawn from authenticated Islamic sources, presented across three eras with English and Arabic UIs side by side. Content lives in JSON and is never modified by the application; the code is UI around verified data.
+An interactive reader for the life of Prophet Muhammad ﷺ, in English, Arabic, and French. Forty-nine events drawn from authenticated Islamic sources, presented across three eras. Every event carries its title, location, summary, and significance in all three languages, with the English as the source of record. Content lives in JSON and is never modified by the application; the code is UI around verified data.
+
+Quran text is a published edition in each language (Uthmani, Saheeh International, Hamidullah) fetched by `npm run fetch:scripture`, never translated here. Hadith shows the Arabic matn read from the collection, with English and French renderings marked as the project's own. Each hadith carries the grading its collection gives, including the one narration graded weak.
 
 ## Screenshots
 
@@ -21,7 +23,22 @@ npm install
 npm run dev
 ```
 
-The app runs at `http://localhost:3000`. English is at `/`, Arabic at `/ar`.
+The app runs at `http://localhost:3000`. English is at `/`, Arabic at `/ar`, French at `/fr`.
+
+To check that no language leaks into another, build and scan:
+
+```bash
+npm run build && npx next start -p 3000
+LOCALES=ar,fr node scripts/verify-locales.mjs http://localhost:3000 / /timeline /about
+```
+
+Every hadith citation must have an entry in `data/citation-review.json` saying what was
+read at the collection under that number, and every proper noun in the data must have an
+Arabic and a French form. `npm run verify:citations` and `npm run verify:names` enforce
+both and run before every build.
+
+See `docs/I18N.md` for how the three locales fit together and `docs/SOURCES.md` for what
+checking every citation found.
 
 ## Build
 

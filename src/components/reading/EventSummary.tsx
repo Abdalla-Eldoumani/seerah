@@ -4,7 +4,7 @@ interface EventSummaryProps {
   // to apply the correct dir, lang, and font family. Pages choose the right
   // text (Arabic when populated, otherwise English) and tell the component
   // which one it is.
-  lang?: 'en' | 'ar';
+  lang?: 'en' | 'ar' | 'fr';
 }
 
 export default function EventSummary({ summary, lang = 'en' }: EventSummaryProps) {

@@ -3,7 +3,10 @@
     "id": "medinan",
     "title": "The Dawn of a Civilization",
     "titleArabic": "العهد المدني",
+    "titleFrench": "L'aube d'une civilisation",
     "description": "Ten years that transformed the world. From the establishment of the first Islamic state to the farewell pilgrimage, the Medinan period saw the completion of Islamic law, decisive battles, the conquest of Makkah, and the perfection of the religion. A community persecuted for thirteen years emerged as a beacon of justice, mercy, and civilization.",
+    "descriptionArabic": "عشر سنوات غيّرت وجه العالم. من قيام الدولة الإسلامية الأولى إلى حجة الوداع، شهد العهد المدني تمام التشريع، والمعارك الفاصلة، وفتح مكة، وكمال الدين. فخرجت أمة اضطُهدت ثلاث عشرة سنة منارةً للعدل والرحمة والعمران.",
+    "descriptionFrench": "Dix années qui transformèrent le monde. De la fondation du premier État islamique au pèlerinage d'adieu, la période médinoise vit l'achèvement de la loi islamique, des batailles décisives, la conquête de La Mecque et le parachèvement de la religion. Une communauté persécutée treize ans durant émergea comme un phare de justice, de miséricorde et de civilisation.",
     "timespan": "622 CE – 632 CE",
     "timespanHijri": "1 AH – 11 AH",
     "themeColor": "#0d1b2a",
@@ -14,141 +17,230 @@
       "id": "med-001",
       "title": "Building of Masjid Quba",
       "titleArabic": "بناء مسجد قباء",
+      "titleFrench": "La construction de la mosquée de Qoubâ",
       "year": "1 AH",
       "yearCE": "622 CE",
       "month": "Rabi' al-Awwal",
       "category": "establishment",
       "summary": "Upon arriving in the area of Quba on the outskirts of Madinah, the Prophet ﷺ stayed with the Banu Amr ibn Awf and participated in laying the foundations of Masjid Quba — the first mosque built in Islam. He spent four days there before proceeding to Madinah.",
+      "summaryArabic": "لما قدم النبي صلى الله عليه وسلم قباء على مشارف المدينة نزل على بني عمرو بن عوف وشارك في وضع أساس مسجد قباء، وهو أول مسجد بُني في الإسلام. وأقام فيه أربعة أيام ثم مضى إلى المدينة.",
+      "summaryFrench": "À son arrivée dans la région de Qubâ, aux abords de Médine, le Prophète ﷺ séjourna chez les Banoû Amr ibn Awf et participa à la pose des fondations de la mosquée de Qubâ, la première mosquée construite en islam. Il y demeura quatre jours avant de poursuivre vers Médine.",
       "significance": "Masjid Quba holds a special status as the first mosque in Islam. Allah described it as a mosque 'founded on righteousness from the first day.' The Prophet ﷺ later said that praying in Masjid Quba is equivalent to performing Umrah.",
+      "significanceArabic": "لمسجد قباء منزلة خاصة بكونه أول مسجد في الإسلام، وقد وصفه الله بأنه مسجد أُسّس على التقوى من أول يوم. وقال النبي صلى الله عليه وسلم بعد ذلك إن الصلاة فيه تعدل عمرة.",
+      "significanceFrench": "La mosquée de Qubâ occupe un statut particulier comme première mosquée de l'islam. Allah l'a décrite comme une mosquée « fondée sur la piété dès le premier jour ». Le Prophète ﷺ dit plus tard que prier à la mosquée de Qubâ équivaut à accomplir une 'omra.",
       "quranReferences": [
         {
           "surah": 9,
           "surahName": "At-Tawbah",
           "ayahRange": "108",
-          "textArabic": "لَّمَسْجِدٌ أُسِّسَ عَلَى ٱلتَّقْوَىٰ مِنْ أَوَّلِ يَوْمٍ أَحَقُّ أَن تَقُومَ فِيهِ",
-          "textEnglish": "A mosque founded on righteousness from the first day is more worthy for you to stand in."
+          "textArabic": "لَا تَقُمْ فِيهِ أَبَدًۭا ۚ لَّمَسْجِدٌ أُسِّسَ عَلَى ٱلتَّقْوَىٰ مِنْ أَوَّلِ يَوْمٍ أَحَقُّ أَن تَقُومَ فِيهِ ۚ فِيهِ رِجَالٌۭ يُحِبُّونَ أَن يَتَطَهَّرُوا۟ ۚ وَٱللَّهُ يُحِبُّ ٱلْمُطَّهِّرِينَ",
+          "textEnglish": "Do not stand [for prayer] within it - ever. A mosque founded on righteousness from the first day is more worthy for you to stand in. Within it are men who love to purify themselves; and Allah loves those who purify themselves.",
+          "textFrench": "Ne te tiens jamais dans (cette mosquée). Car une Mosquée fondée dès le premier jour, sur la piété, est plus digne que tu t'y tiennes debout [pour y prier]. On y trouve des gens qui aiment bien se purifier, et Allah aime ceux qui se purifient.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [
         {
           "source": "Jami' at-Tirmidhi",
           "hadithNumber": "324",
-          "narrator": "Usaid ibn Hudair",
-          "textEnglish": "The Prophet ﷺ said: 'Prayer in Masjid Quba is like performing Umrah.'"
+          "narrator": "Usaid ibn Zuhair",
+          "textEnglish": "The Prophet ﷺ said: 'Prayer in Masjid Quba is like performing Umrah.'",
+          "grade": "hasan",
+          "textFrench": "Le Prophète ﷺ dit : « Prier à la mosquée de Qoubâ équivaut à accomplir une Omra. »",
+          "translationProvenance": "project",
+          "textArabic": "حَدَّثَنَا مُحَمَّدُ بْنُ الْعَلاَءِ أَبُو كُرَيْبٍ، وَسُفْيَانُ بْنُ وَكِيعٍ، قَالاَ حَدَّثَنَا أَبُو أُسَامَةَ، عَنْ عَبْدِ الْحَمِيدِ بْنِ جَعْفَرٍ، قَالَ حَدَّثَنَا أَبُو الأَبْرَدِ، مَوْلَى بَنِي خَطْمَةَ أَنَّهُ سَمِعَ أُسَيْدَ بْنَ ظُهَيْرٍ الأَنْصَارِيَّ، وَكَانَ، مِنْ أَصْحَابِ النَّبِيِّ صلى الله عليه وسلم يُحَدِّثُ عَنِ النَّبِيِّ صلى الله عليه وسلم قَالَ ‏ \"‏ الصَّلاَةُ فِي مَسْجِدِ قُبَاءٍ كَعُمْرَةٍ ‏\" ‏ ‏.‏ قَالَ وَفِي الْبَابِ عَنْ سَهْلِ بْنِ حُنَيْفٍ ‏.‏ قَالَ أَبُو عِيسَى حَدِيثُ أُسَيْدٍ حَدِيثٌ حَسَنٌ غَرِيبٌ ‏.‏ وَلاَ نَعْرِفُ لأُسَيْدِ بْنِ ظُهَيْرٍ شَيْئًا يَصِحُّ غَيْرَ هَذَا الْحَدِيثِ وَلاَ نَعْرِفُهُ إِلاَّ مِنْ حَدِيثِ أَبِي أُسَامَةَ عَنْ عَبْدِ الْحَمِيدِ بْنِ جَعْفَرٍ ‏.‏ وَأَبُو الأَبْرَدِ اسْمُهُ زِيَادٌ مَدِينِيٌّ ‏.‏"
         }
       ],
-      "primarySources": ["Jami' at-Tirmidhi", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Banu Amr ibn Awf"],
+      "primarySources": [
+        "Jami' at-Tirmidhi",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Banu Amr ibn Awf"
+      ],
       "location": "Quba, outskirts of Madinah",
-      "locationArabic": "قباء – المدينة المنورة"
+      "locationArabic": "قباء – المدينة المنورة",
+      "locationFrench": "Qoubâ, aux abords de Médine"
     },
     {
       "id": "med-002",
       "title": "Building of Masjid al-Nabawi",
       "titleArabic": "بناء المسجد النبوي",
+      "titleFrench": "La construction de la mosquée du Prophète",
       "year": "1 AH",
       "yearCE": "622 CE",
       "month": "Rabi' al-Awwal",
       "category": "establishment",
       "summary": "The Prophet ﷺ entered Madinah and his camel knelt at a plot of land belonging to two orphan boys. He purchased the land and built the Prophet's Mosque (Masjid al-Nabawi) there, participating personally in the construction alongside the Companions. Adjacent to the mosque, he built rooms for his family and a covered area (the Suffah) for poor Muslims who had no homes.",
+      "summaryArabic": "دخل النبي صلى الله عليه وسلم المدينة فبركت ناقته في أرض لغلامين يتيمين، فاشترى الأرض وبنى فيها المسجد النبوي، وشارك بنفسه في البناء مع الصحابة. وبنى إلى جانب المسجد حجرات لأهله، ومظلة هي الصفة لفقراء المسلمين الذين لا مأوى لهم.",
+      "summaryFrench": "Le Prophète ﷺ entra dans Médine et sa chamelle s'agenouilla sur un terrain appartenant à deux orphelins. Il acheta le terrain et y bâtit la Mosquée du Prophète (al-Masjid an-Nabawî), participant personnellement à la construction aux côtés des Compagnons. Attenant à la mosquée, il édifia des chambres pour sa famille et un espace couvert (la Souffa) pour les musulmans pauvres sans domicile.",
       "significance": "Masjid al-Nabawi became the center of the new Islamic civilization — serving simultaneously as a mosque, school, parliament, court, and social welfare center. The Ahl as-Suffah (People of the Bench) were devoted students of knowledge who lived in the mosque, and from them came many of the greatest hadith narrators. Prayer in this mosque carries a reward of one thousand prayers elsewhere.",
+      "significanceArabic": "صار المسجد النبوي مركز الحضارة الإسلامية الناشئة، فكان مسجدًا ومدرسة ومجلسًا للشورى ومحكمة ودار رعاية اجتماعية في آن واحد. وكان أهل الصفة طلاب علم متفرغين يسكنون المسجد، وخرج منهم كبار رواة الحديث. والصلاة في هذا المسجد بألف صلاة فيما سواه.",
+      "significanceFrench": "Al-Masjid an-Nabawî devint le centre de la nouvelle civilisation islamique, servant à la fois de mosquée, d'école, d'assemblée, de tribunal et de centre d'entraide. Les Ahl as-Souffa (les gens du Banc) étaient des étudiants dévoués au savoir qui vivaient dans la mosquée, et d'eux vinrent nombre des plus grands rapporteurs de hadîths. La prière dans cette mosquée vaut mille prières ailleurs.",
       "quranReferences": [],
       "hadithReferences": [
         {
           "source": "Sahih al-Bukhari",
           "hadithNumber": "1190",
           "narrator": "Abu Hurairah",
-          "textEnglish": "The Prophet ﷺ said: 'A prayer in this mosque of mine is better than one thousand prayers in any other mosque, except Masjid al-Haram.'"
+          "textEnglish": "The Prophet ﷺ said: 'A prayer in this mosque of mine is better than one thousand prayers in any other mosque, except Masjid al-Haram.'",
+          "grade": "sahih",
+          "textFrench": "Le Prophète ﷺ dit : « Une prière dans cette mosquée qui est la mienne vaut mieux que mille prières dans toute autre mosquée, hormis la Mosquée sacrée. »",
+          "translationProvenance": "project",
+          "textArabic": "صَلاَةٌ فِي مَسْجِدِي هَذَا خَيْرٌ مِنْ أَلْفِ صَلاَةٍ فِيمَا سِوَاهُ إِلاَّ الْمَسْجِدَ الْحَرَامَ ‏\""
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["Sahl and Suhayl (the orphan boys)", "The Muhajirun and Ansar"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "Sahl and Suhayl (the orphan boys)",
+        "The Muhajirun and Ansar"
+      ],
       "location": "Madinah",
-      "locationArabic": "المدينة المنورة"
+      "locationArabic": "المدينة المنورة",
+      "locationFrench": "Médine"
     },
     {
       "id": "med-003",
       "title": "Brotherhood Between Muhajirun and Ansar",
       "titleArabic": "المؤاخاة بين المهاجرين والأنصار",
+      "titleFrench": "La fraternité entre Mouhâjiroûn et Ansâr",
       "year": "1 AH",
       "yearCE": "622 CE",
       "month": "",
       "category": "community",
       "summary": "The Prophet ﷺ established a unique bond of brotherhood (mu'akhah) between the Muhajirun (the emigrants from Makkah) and the Ansar (the helpers of Madinah). Each Ansari was paired with a Muhajir, and the Ansar shared their wealth, homes, and even offered to divide their properties equally. The generosity of the Ansar was so extraordinary that the Muhajirun prayed for Allah to reward them.",
+      "summaryArabic": "آخى النبي صلى الله عليه وسلم بين المهاجرين من أهل مكة والأنصار من أهل المدينة، فجعل كل أنصاري أخًا لمهاجر، فقاسمهم الأنصار أموالهم ودورهم، بل عرضوا أن يشاطروهم أملاكهم مناصفة. وبلغ من كرم الأنصار أن دعا لهم المهاجرون أن يجزيهم الله عنهم خيرًا.",
+      "summaryFrench": "Le Prophète ﷺ instaura un lien unique de fraternité (mou'âkhât) entre les Mouhâjiroûn (les émigrés de La Mecque) et les Ansâr (les secoureurs de Médine). Chaque Ansârî fut jumelé à un Mouhâjir, et les Ansâr partagèrent leurs biens, leurs maisons, offrant même de diviser leurs propriétés à parts égales. La générosité des Ansâr fut si extraordinaire que les Mouhâjiroûn invoquèrent Allah de les en récompenser.",
       "significance": "This was a revolutionary social innovation — creating bonds stronger than blood-ties based on shared faith. The Ansar's selflessness was unprecedented; some offered half their wealth and even offered to divorce one of their wives so their Muhajir brother could marry her (which was refused). Allah praised the Ansar in the Quran for their selfless devotion.",
+      "significanceArabic": "كان هذا صنيعًا اجتماعيًّا غير مسبوق، إذ أنشأ روابط أقوى من رابطة الدم قائمة على وحدة الإيمان. وكان إيثار الأنصار لا نظير له، فعرض بعضهم نصف ماله، بل عرض أن يطلق إحدى زوجيه ليتزوجها أخوه المهاجر، فأبى ذلك. وقد أثنى الله على الأنصار في القرآن بإيثارهم.",
+      "significanceFrench": "Ce fut une innovation sociale révolutionnaire, créant des liens plus forts que ceux du sang, fondés sur une foi partagée. Le désintéressement des Ansâr fut sans précédent : certains offrirent la moitié de leurs biens et proposèrent même de divorcer d'une de leurs épouses pour que leur frère mouhâjir puisse l'épouser, ce qui fut refusé. Allah loua les Ansâr dans le Coran pour leur dévouement désintéressé.",
       "quranReferences": [
         {
           "surah": 59,
           "surahName": "Al-Hashr",
           "ayahRange": "9",
-          "textArabic": "وَٱلَّذِينَ تَبَوَّءُو ٱلدَّارَ وَٱلْإِيمَـٰنَ مِن قَبْلِهِمْ يُحِبُّونَ مَنْ هَاجَرَ إِلَيْهِمْ وَلَا يَجِدُونَ فِىٓ صُدُورِهِمْ حَاجَةًۭ مِّمَّآ أُوتُوا۟ وَيُؤْثِرُونَ عَلَىٰٓ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌۭ",
-          "textEnglish": "And those who settled in the Home and embraced the faith before them love those who emigrated to them and find no need in their hearts for what was given to them, and give preference over themselves even though poverty be their lot."
+          "textArabic": "وَٱلَّذِينَ تَبَوَّءُو ٱلدَّارَ وَٱلْإِيمَٰنَ مِن قَبْلِهِمْ يُحِبُّونَ مَنْ هَاجَرَ إِلَيْهِمْ وَلَا يَجِدُونَ فِى صُدُورِهِمْ حَاجَةًۭ مِّمَّآ أُوتُوا۟ وَيُؤْثِرُونَ عَلَىٰٓ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌۭ ۚ وَمَن يُوقَ شُحَّ نَفْسِهِۦ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+          "textEnglish": "And [also for] those who were settled in al-Madinah and [adopted] the faith before them. They love those who emigrated to them and find not any want in their breasts of what the emigrants were given but give [them] preference over themselves, even though they are in privation. And whoever is protected from the stinginess of his soul - it is those who will be the successful.",
+          "textFrench": "Il [appartient également] à ceux qui, avant eux, se sont installés dans le pays et dans la foi, qui aiment ceux qui émigrent vers eux, et ne ressentent dans leurs cœurs aucune envie pour ce que [ces immigrés] ont reçu, et qui [les] préfèrent à eux-mêmes, même s'il y a pénurie chez eux. Quiconque se prémunit contre sa propre avarice, ceux-là sont ceux qui réussissent.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [],
-      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["Abdur-Rahman ibn Awf", "Sa'd ibn ar-Rabi'", "The Muhajirun", "The Ansar"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "Abdur-Rahman ibn Awf",
+        "Sa'd ibn ar-Rabi'",
+        "The Muhajirun",
+        "The Ansar"
+      ],
       "location": "Madinah",
-      "locationArabic": "المدينة المنورة"
+      "locationArabic": "المدينة المنورة",
+      "locationFrench": "Médine"
     },
     {
       "id": "med-004",
       "title": "The Constitution of Madinah",
       "titleArabic": "صحيفة المدينة",
+      "titleFrench": "La Constitution de Médine",
       "year": "1 AH",
       "yearCE": "622 CE",
       "month": "",
       "category": "legislation",
       "summary": "The Prophet ﷺ drafted the Constitution of Madinah (Sahifat al-Madinah), a formal agreement between the Muslims, the Jewish tribes, and other inhabitants of Madinah. It established the rights and duties of all citizens, guaranteed religious freedom, established mutual defense obligations, and declared Madinah a sanctuary. It declared all signatories as one Ummah (community) united in defense.",
+      "summaryArabic": "كتب النبي صلى الله عليه وسلم صحيفة المدينة، وهي عهد رسمي بين المسلمين ويهود المدينة وسائر سكانها. حدّدت حقوق كل طرف وواجباته، وكفلت حرية الدين، وأوجبت التناصر في الدفاع، وجعلت المدينة حرمًا آمنًا، وأعلنت أن الموقّعين عليها أمة واحدة في الدفاع.",
+      "summaryFrench": "Le Prophète ﷺ rédigea la Constitution de Médine (Sahîfat al-Madîna), un accord formel entre les musulmans, les tribus juives et les autres habitants de Médine. Elle établissait les droits et devoirs de tous les citoyens, garantissait la liberté religieuse, instaurait des obligations de défense mutuelle et déclarait Médine sanctuaire. Elle déclarait tous les signataires une seule Oumma unie dans la défense.",
       "significance": "This document is considered one of the earliest written constitutions in history. It established a pluralistic society under the rule of law where different religious communities coexisted with defined rights and responsibilities. The Prophet ﷺ was recognized as the supreme authority for dispute resolution. It was a remarkable document of statecraft.",
+      "significanceArabic": "تُعد هذه الوثيقة من أقدم الدساتير المكتوبة في التاريخ. أقامت مجتمعًا متعدد الأديان يحكمه القانون، تتعايش فيه الطوائف بحقوق وواجبات محددة. وجُعل النبي صلى الله عليه وسلم المرجع الأعلى في فصل النزاع. وهي وثيقة بالغة النضج في فن إدارة الدولة.",
+      "significanceFrench": "Ce document est considéré comme l'une des plus anciennes constitutions écrites de l'histoire. Il établissait une société pluraliste soumise à l'état de droit, où différentes communautés religieuses coexistaient avec des droits et responsabilités définis. Le Prophète ﷺ était reconnu comme l'autorité suprême pour le règlement des différends. C'était un document remarquable d'art de gouverner.",
       "quranReferences": [],
       "hadithReferences": [],
-      "primarySources": ["Ibn Ishaq's Sirah", "Ar-Raheeq Al-Makhtum", "Abu Ubayd's Kitab al-Amwal"],
-      "keyFigures": ["The Jewish tribes of Madinah (Banu Qaynuqa, Banu Nadir, Banu Qurayza)", "The Muhajirun", "The Ansar"],
+      "primarySources": [
+        "Ibn Ishaq's Sirah",
+        "Ar-Raheeq Al-Makhtum",
+        "Abu Ubayd's Kitab al-Amwal"
+      ],
+      "keyFigures": [
+        "The Jewish tribes of Madinah (Banu Qaynuqa, Banu Nadir, Banu Qurayza)",
+        "The Muhajirun",
+        "The Ansar"
+      ],
       "location": "Madinah",
-      "locationArabic": "المدينة المنورة"
+      "locationArabic": "المدينة المنورة",
+      "locationFrench": "Médine"
     },
     {
       "id": "med-005",
       "title": "The Legislation of Adhan",
       "titleArabic": "تشريع الأذان",
+      "titleFrench": "L'institution de l'appel à la prière",
       "year": "1 AH",
       "yearCE": "622 CE",
       "month": "",
       "category": "legislation",
       "summary": "The Muslims needed a way to call people to prayer. Abdullah ibn Zayd saw a vision in his dream of a man calling to prayer with specific words. When he informed the Prophet ﷺ, the Prophet ﷺ said it was a true vision and instructed Bilal ibn Rabah to call the Adhan, as his voice was more beautiful. Umar ibn al-Khattab confirmed he had seen the same vision.",
+      "summaryArabic": "احتاج المسلمون إلى وسيلة ينادى بها للصلاة. فرأى عبد الله بن زيد في المنام رجلًا يؤذن بألفاظ مخصوصة، فأخبر النبي صلى الله عليه وسلم فقال: «إنها لرؤيا حق»، وأمر بلال بن رباح أن يؤذن لأنه أندى صوتًا. وأخبر عمر بن الخطاب أنه رأى مثل تلك الرؤيا.",
+      "summaryFrench": "Les musulmans avaient besoin d'un moyen d'appeler à la prière. Abdallah ibn Zayd vit en songe un homme appelant à la prière avec des paroles précises. Lorsqu'il en informa le Prophète ﷺ, celui-ci dit que c'était un songe véridique et ordonna à Bilâl ibn Rabâh de lancer l'adhân, car sa voix était plus belle. Omar ibn al-Khattâb confirma avoir vu le même songe.",
       "significance": "The Adhan became one of the most distinctive symbols of Islam — five times a day, the call to prayer rises over Muslim lands. Bilal, the formerly enslaved Abyssinian who had been tortured for his faith, became the first muezzin, elevated by Islam from the lowest rung of Makkan society to one of the most honored positions in the new community.",
+      "significanceArabic": "صار الأذان من أظهر شعائر الإسلام، يرتفع خمس مرات في اليوم في ديار المسلمين. وكان بلال، وهو الحبشي الذي كان مملوكًا وعُذّب في دينه، أول مؤذن، رفعه الإسلام من أدنى منازل مجتمع مكة إلى أشرف المواضع في المجتمع الجديد.",
+      "significanceFrench": "L'adhân devint l'un des symboles les plus distinctifs de l'islam : cinq fois par jour, l'appel à la prière s'élève sur les terres musulmanes. Bilâl, l'Abyssin autrefois réduit en esclavage et torturé pour sa foi, devint le premier muezzin, élevé par l'islam du plus bas échelon de la société mecquoise à l'une des positions les plus honorées de la nouvelle communauté.",
       "quranReferences": [],
       "hadithReferences": [
         {
           "source": "Sunan Abu Dawud",
-          "hadithNumber": "498",
+          "hadithNumber": "499",
           "narrator": "Abdullah ibn Zayd",
-          "textEnglish": "Abdullah ibn Zayd said: 'When the Messenger of Allah ﷺ ordered a bell to be made to summon people to prayer, a man came to me while I was sleeping and showed me a bell. I said: O servant of Allah, will you sell this bell? He said: What will you do with it? I said: We will call people to prayer. He said: Shall I not show you something better? He then taught me the words of the Adhan.'"
+          "textEnglish": "Abdullah ibn Zayd said: 'When the Messenger of Allah ﷺ ordered a bell to be made to summon people to prayer, a man came to me while I was sleeping and showed me a bell. I said: O servant of Allah, will you sell this bell? He said: What will you do with it? I said: We will call people to prayer. He said: Shall I not show you something better? He then taught me the words of the Adhan.'",
+          "grade": "hasan-sahih",
+          "textFrench": "Abdallah ibn Zayd dit : « Lorsque le Messager d'Allah ﷺ ordonna que l'on fabrique une cloche pour appeler les gens à la prière, un homme m'apparut pendant mon sommeil, portant une cloche. Je lui dis : Ô serviteur d'Allah, me vends-tu cette cloche ? Il dit : Qu'en feras-tu ? Je dis : Nous appellerons les gens à la prière. Il dit : Ne veux-tu pas que je t'indique mieux que cela ? Puis il m'enseigna les paroles de l'adhân. »",
+          "translationProvenance": "project",
+          "textArabic": "اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ حَىَّ عَلَى الصَّلاَةِ حَىَّ عَلَى الصَّلاَةِ حَىَّ عَلَى الْفَلاَحِ حَىَّ عَلَى الْفَلاَحِ اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ لاَ إِلَهَ إِلاَّ اللَّهُ قَالَ ثُمَّ اسْتَأْخَرَ عَنِّي غَيْرَ بَعِيدٍ ثُمَّ قَالَ وَتَقُولُ إِذَا أَقَمْتَ الصَّلاَةَ اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ أَشْهَدُ أَنْ لاَ إِلَهَ إِلاَّ اللَّهُ أَشْهَدُ أَنَّ مُحَمَّدًا رَسُولُ اللَّهِ حَىَّ عَلَى الصَّلاَةِ حَىَّ عَلَى الْفَلاَحِ قَدْ قَامَتِ الصَّلاَةُ قَدْ قَامَتِ الصَّلاَةُ اللَّهُ أَكْبَرُ اللَّهُ أَكْبَرُ لاَ إِلَهَ إِلاَّ اللَّهُ فَلَمَّا أَصْبَحْتُ أَتَيْتُ رَسُولَ اللَّهِ صلى الله عليه وسلم فَأَخْبَرْتُهُ بِمَا رَأَيْتُ فَقَالَ ‏\"‏ إِنَّهَا لَرُؤْيَا حَقٌّ إِنْ شَاءَ اللَّهُ فَقُمْ مَعَ بِلاَلٍ فَأَلْقِ عَلَيْهِ مَا رَأَيْتَ فَلْيُؤَذِّنْ بِهِ فَإِنَّهُ أَنْدَى صَوْتًا مِنْكَ ‏\"‏ ‏.‏ فَقُمْتُ مَعَ بِلاَلٍ فَجَعَلْتُ أُلْقِيهِ عَلَيْهِ وَيُؤَذِّنُ بِهِ - قَالَ - فَسَمِعَ ذَلِكَ عُمَرُ بْنُ الْخَطَّابِ وَهُوَ فِي بَيْتِهِ فَخَرَجَ يَجُرُّ رِدَاءَهُ وَيَقُولُ وَالَّذِي بَعَثَكَ بِالْحَقِّ يَا رَسُولَ اللَّهِ لَقَدْ رَأَيْتُ مِثْلَ مَا رَأَى ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ فَلِلَّهِ الْحَمْدُ ‏\""
         }
       ],
-      "primarySources": ["Sunan Abu Dawud", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Bilal ibn Rabah", "Abdullah ibn Zayd", "Umar ibn al-Khattab"],
+      "primarySources": [
+        "Sunan Abu Dawud",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Bilal ibn Rabah",
+        "Abdullah ibn Zayd",
+        "Umar ibn al-Khattab"
+      ],
       "location": "Madinah",
-      "locationArabic": "المدينة المنورة"
+      "locationArabic": "المدينة المنورة",
+      "locationFrench": "Médine"
     },
     {
       "id": "med-006",
       "title": "The Change of Qiblah",
       "titleArabic": "تحويل القبلة",
+      "titleFrench": "Le changement de qibla",
       "year": "2 AH",
       "yearCE": "624 CE",
       "month": "Rajab or Sha'ban",
       "category": "legislation",
       "summary": "Approximately sixteen or seventeen months after the Hijrah, the direction of prayer (Qiblah) was changed from Masjid al-Aqsa in Jerusalem to the Ka'bah in Makkah. This occurred while the Prophet ﷺ was leading the Dhuhr (or Asr) prayer in the mosque of Banu Salamah. Midway through the prayer, the revelation came commanding the change, and the Prophet ﷺ and the congregation turned from facing Jerusalem to facing Makkah.",
+      "summaryArabic": "بعد الهجرة بنحو ستة عشر أو سبعة عشر شهرًا حُوّلت القبلة من المسجد الأقصى ببيت المقدس إلى الكعبة بمكة. وكان ذلك والنبي صلى الله عليه وسلم يصلي الظهر أو العصر في مسجد بني سلمة، فنزل الوحي بالتحويل في أثناء الصلاة، فاستدار النبي صلى الله عليه وسلم ومن معه من جهة بيت المقدس إلى جهة مكة.",
+      "summaryFrench": "Environ seize ou dix-sept mois après l'Hégire, la direction de la prière (qibla) fut changée de la mosquée al-Aqsâ à Jérusalem vers la Ka'ba à La Mecque. Cela se produisit alors que le Prophète ﷺ dirigeait la prière de Dhuhr (ou de 'Asr) dans la mosquée des Banoû Salama. Au milieu de la prière, la révélation vint ordonner le changement, et le Prophète ﷺ ainsi que l'assemblée se détournèrent de Jérusalem pour faire face à La Mecque.",
       "significance": "The change of Qiblah was a test of faith — those who truly followed the Prophet ﷺ obeyed immediately, while hypocrites and doubters used it as a point of criticism. The mosque where this occurred became known as Masjid al-Qiblatayn (the Mosque of the Two Qiblahs). The Ka'bah, built by Ibrahim, was restored as the center of Muslim worship.",
+      "significanceArabic": "كان تحويل القبلة اختبارًا للإيمان، فبادر إلى الطاعة من صدق في اتباع النبي صلى الله عليه وسلم، واتخذها المنافقون والمرتابون مطعنًا. وسُمي المسجد الذي وقع فيه ذلك مسجد القبلتين. وعادت الكعبة التي بناها إبراهيم عليه السلام مركزًا لعبادة المسلمين.",
+      "significanceFrench": "Le changement de qibla fut une épreuve de foi : ceux qui suivaient véritablement le Prophète ﷺ obéirent immédiatement, tandis que les hypocrites et les sceptiques en firent un motif de critique. La mosquée où cela se produisit devint connue sous le nom de Masjid al-Qiblatayn (la mosquée des deux qiblas). La Ka'ba, bâtie par Ibrâhîm, fut rétablie comme centre de l'adoration des musulmans.",
       "quranReferences": [
         {
           "surah": 2,
           "surahName": "Al-Baqarah",
           "ayahRange": "144",
-          "textArabic": "قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِى ٱلسَّمَآءِ ۖ فَلَنُوَلِّيَنَّكَ قِبْلَةًۭ تَرْضَىٰهَا ۚ فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدِ ٱلْحَرَامِ",
-          "textEnglish": "We have certainly seen the turning of your face toward the heaven. So We will surely turn you to a Qiblah with which you will be pleased. So turn your face toward al-Masjid al-Haram."
+          "textArabic": "قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِى ٱلسَّمَآءِ ۖ فَلَنُوَلِّيَنَّكَ قِبْلَةًۭ تَرْضَىٰهَا ۚ فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَحَيْثُ مَا كُنتُمْ فَوَلُّوا۟ وُجُوهَكُمْ شَطْرَهُۥ ۗ وَإِنَّ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ لَيَعْلَمُونَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّهِمْ ۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا يَعْمَلُونَ",
+          "textEnglish": "We have certainly seen the turning of your face, [O Muhammad], toward the heaven, and We will surely turn you to a qiblah with which you will be pleased. So turn your face toward al-Masjid al-Haram. And wherever you [believers] are, turn your faces toward it [in prayer]. Indeed, those who have been given the Scripture well know that it is the truth from their Lord. And Allah is not unaware of what they do.",
+          "textFrench": "Certes nous te voyons tourner le visage en tous sens dans le ciel. Nous te faisons donc orienter vers une direction qui te plaît. Tourne donc ton visage vers la Mosquée sacrée. Où que vous soyez, tournez-y vos visages. Certes, ceux à qui le Livre a été donné savent bien que c'est la vérité venue de leur Seigneur. Et Allah n'est pas inattentif à ce qu'ils font.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [
@@ -156,38 +248,56 @@
           "source": "Sahih al-Bukhari",
           "hadithNumber": "4486",
           "narrator": "Al-Bara' ibn Azib",
-          "textEnglish": "We prayed with the Prophet ﷺ toward Bayt al-Maqdis (Jerusalem) for sixteen or seventeen months. Then he was turned toward the Ka'bah."
+          "textEnglish": "We prayed with the Prophet ﷺ toward Bayt al-Maqdis (Jerusalem) for sixteen or seventeen months. Then he was turned toward the Ka'bah.",
+          "grade": "sahih",
+          "textFrench": "Nous avons prié avec le Prophète ﷺ en direction de Bayt al-Maqdis (Jérusalem) pendant seize ou dix-sept mois. Puis il fut tourné vers la Ka'ba.",
+          "translationProvenance": "project",
+          "textArabic": "صَلَّى إِلَى بَيْتِ الْمَقْدِسِ سِتَّةَ عَشَرَ شَهْرًا أَوْ سَبْعَةَ عَشَرَ شَهْرًا، وَكَانَ يُعْجِبُهُ أَنْ تَكُونَ قِبْلَتُهُ قِبَلَ الْبَيْتِ، وَإِنَّهُ صَلَّى ـ أَوْ صَلاَّهَا ـ صَلاَةَ الْعَصْرِ، وَصَلَّى مَعَهُ قَوْمٌ، فَخَرَجَ رَجُلٌ مِمَّنْ كَانَ صَلَّى مَعَهُ، فَمَرَّ عَلَى أَهْلِ الْمَسْجِدِ وَهُمْ رَاكِعُونَ قَالَ أَشْهَدُ بِاللَّهِ لَقَدْ صَلَّيْتُ مَعَ النَّبِيِّ صلى الله عليه وسلم قِبَلَ مَكَّةَ، فَدَارُوا كَمَا هُمْ قِبَلَ الْبَيْتِ، وَكَانَ الَّذِي مَاتَ عَلَى الْقِبْلَةِ قَبْلَ أَنْ تُحَوَّلَ قِبَلَ الْبَيْتِ رِجَالٌ قُتِلُوا لَمْ نَدْرِ مَا نَقُولُ فِيهِمْ، فَأَنْزَلَ اللَّهُ ‏‏{‏وَمَا كَانَ اللَّهُ لِيُضِيعَ إِيمَانَكُمْ إِنَّ اللَّهَ بِالنَّاسِ لَرَءُوفٌ رَحِيمٌ ‏}‏"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
       "keyFigures": [],
       "location": "Masjid al-Qiblatayn, Madinah",
-      "locationArabic": "مسجد القبلتين – المدينة"
+      "locationArabic": "مسجد القبلتين – المدينة",
+      "locationFrench": "La mosquée des deux qiblas, à Médine"
     },
     {
       "id": "med-007",
       "title": "The Battle of Badr",
       "titleArabic": "غزوة بدر الكبرى",
+      "titleFrench": "La bataille de Badr",
       "year": "2 AH",
       "yearCE": "624 CE",
       "month": "17 Ramadan",
       "category": "battle",
       "summary": "The first major military engagement in Islam. 313 Muslims faced approximately 1,000 well-armed Qurayshi warriors at the wells of Badr. Despite being outnumbered and under-equipped, the Muslims won a decisive victory. Allah sent angels to fight alongside the believers. Seventy of the Quraysh were killed including Abu Jahl, and seventy were captured as prisoners of war.",
+      "summaryArabic": "أول مواجهة عسكرية كبرى في الإسلام. التقى ثلاثمائة وثلاثة عشر من المسلمين نحو ألف مقاتل من قريش كاملي العدة عند آبار بدر. ومع قلة العدد وضعف العدة انتصر المسلمون نصرًا حاسمًا، وأمدهم الله بالملائكة تقاتل معهم. فقُتل من قريش سبعون فيهم أبو جهل، وأُسر سبعون.",
+      "summaryFrench": "Le premier engagement militaire majeur de l'islam. Trois cent treize musulmans affrontèrent environ mille guerriers de Qouraych bien armés près des puits de Badr. Malgré leur infériorité numérique et matérielle, les musulmans remportèrent une victoire décisive. Allah envoya des anges combattre aux côtés des croyants. Soixante-dix Qouraychites furent tués, dont Abou Jahl, et soixante-dix furent faits prisonniers.",
       "significance": "Badr is called 'Yawm al-Furqan' (the Day of Criterion) — the day that distinguished truth from falsehood. It was the turning point that established Islam as a political and military force. The Prophet ﷺ consulted his Companions before the battle (shura), treated prisoners humanely (a revolutionary concept), and some were freed in exchange for teaching Muslim children to read. Surah Al-Anfal was revealed regarding this battle.",
+      "significanceArabic": "وتسمى بدر يوم الفرقان، وهو اليوم الذي فرّق بين الحق والباطل. وكانت نقطة التحول التي أثبتت الإسلام قوة سياسية وعسكرية. وقد شاور النبي صلى الله عليه وسلم أصحابه قبلها، وأحسن معاملة الأسرى وهو أمر غير مسبوق، وأُطلق بعضهم في مقابل تعليم صبيان المسلمين الكتابة. ونزلت سورة الأنفال في شأن هذه الغزوة.",
+      "significanceFrench": "Badr est appelée « Yawm al-Fourqân » (le Jour du Discernement), le jour qui distingua la vérité du mensonge. Ce fut le tournant qui établit l'islam comme force politique et militaire. Le Prophète ﷺ consulta ses Compagnons avant la bataille (choûrâ), traita les prisonniers avec humanité, ce qui était révolutionnaire, et certains furent libérés en échange de l'enseignement de la lecture aux enfants musulmans. La sourate Al-Anfâl fut révélée au sujet de cette bataille.",
       "quranReferences": [
         {
           "surah": 8,
           "surahName": "Al-Anfal",
           "ayahRange": "9-10",
-          "textArabic": "إِذْ تَسْتَغِيثُونَ رَبَّكُمْ فَٱسْتَجَابَ لَكُمْ أَنِّى مُمِدُّكُم بِأَلْفٍۢ مِّنَ ٱلْمَلَـٰٓئِكَةِ مُرْدِفِينَ",
-          "textEnglish": "When you called upon your Lord for help, He answered you: 'I will reinforce you with a thousand angels, following one another.'"
+          "textArabic": "إِذْ تَسْتَغِيثُونَ رَبَّكُمْ فَٱسْتَجَابَ لَكُمْ أَنِّى مُمِدُّكُم بِأَلْفٍۢ مِّنَ ٱلْمَلَٰٓئِكَةِ مُرْدِفِينَ ۝ وَمَا جَعَلَهُ ٱللَّهُ إِلَّا بُشْرَىٰ وَلِتَطْمَئِنَّ بِهِۦ قُلُوبُكُمْ ۚ وَمَا ٱلنَّصْرُ إِلَّا مِنْ عِندِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+          "textEnglish": "[Remember] when you asked help of your Lord, and He answered you, \"Indeed, I will reinforce you with a thousand from the angels, following one another.\" And Allah made it not but good tidings and so that your hearts would be assured thereby. And victory is not but from Allah. Indeed, Allah is Exalted in Might and Wise.",
+          "textFrench": "(Et rappelez-vous) le moment où vous imploriez le secours de votre Seigneur et qu'Il vous exauça aussitôt: «Je vais vous aider d'un millier d'Anges déferlant les uns à la suite des autres.» Allah ne fit cela que pour (vous) apporter une bonne nouvelle et pour qu'avec cela vos cœurs se tranquillisent. Il n'y a de victoire que de la part d'Allah. Allah est Puissant et Sage.",
+          "translationProvenance": "fetched"
         },
         {
           "surah": 3,
           "surahName": "Aal-Imran",
           "ayahRange": "123",
-          "textArabic": "وَلَقَدْ نَصَرَكُمُ ٱللَّهُ بِبَدْرٍۢ وَأَنتُمْ أَذِلَّةٌۭ",
-          "textEnglish": "And Allah had already given you victory at Badr while you were few in number."
+          "textArabic": "وَلَقَدْ نَصَرَكُمُ ٱللَّهُ بِبَدْرٍۢ وَأَنتُمْ أَذِلَّةٌۭ ۖ فَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تَشْكُرُونَ",
+          "textEnglish": "And already had Allah given you victory at [the battle of] Badr while you were few in number. Then fear Allah; perhaps you will be grateful.",
+          "textFrench": "Allah vous a donné la victoire, à Badr, alors que vous étiez humiliés. Craignez Allah donc. Afin que vous soyez reconnaissants!",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [
@@ -195,151 +305,247 @@
           "source": "Sahih Muslim",
           "hadithNumber": "1763",
           "narrator": "Umar ibn al-Khattab",
-          "textEnglish": "The Prophet ﷺ looked at the disbelievers — they were one thousand — and his companions were three hundred and nineteen. The Prophet ﷺ turned toward the Qiblah, stretched out his hands and began to cry out to his Lord: 'O Allah, accomplish for me what You have promised. O Allah, if this small band of Muslims is destroyed, You will not be worshipped on this earth.'"
+          "textEnglish": "The Prophet ﷺ looked at the disbelievers — they were one thousand — and his companions were three hundred and nineteen. The Prophet ﷺ turned toward the Qiblah, stretched out his hands and began to cry out to his Lord: 'O Allah, accomplish for me what You have promised. O Allah, if this small band of Muslims is destroyed, You will not be worshipped on this earth.'",
+          "grade": "sahih",
+          "textFrench": "Le Prophète ﷺ regarda les mécréants, qui étaient un millier, alors que ses compagnons étaient trois cent dix-neuf. Le Prophète ﷺ se tourna vers la qibla, tendit les mains et se mit à implorer son Seigneur : « Ô Allah, accomplis pour moi ce que Tu m'as promis. Ô Allah, si ce petit groupe de musulmans périt, Tu ne seras plus adoré sur cette terre. »",
+          "translationProvenance": "project",
+          "textArabic": "فَاسْتَقْبَلَ نَبِيُّ اللَّهِ صلى الله عليه وسلم الْقِبْلَةَ ثُمَّ مَدَّ يَدَيْهِ فَجَعَلَ يَهْتِفُ بِرَبِّهِ ‏\"‏ اللَّهُمَّ أَنْجِزْ لِي مَا وَعَدْتَنِي اللَّهُمَّ آتِ مَا وَعَدْتَنِي اللَّهُمَّ إِنْ تَهْلِكْ هَذِهِ الْعِصَابَةُ مِنْ أَهْلِ الإِسْلاَمِ لاَ تُعْبَدْ فِي الأَرْضِ ‏\"‏ ‏.‏ فَمَازَالَ يَهْتِفُ بِرَبِّهِ مَادًّا يَدَيْهِ مُسْتَقْبِلَ الْقِبْلَةِ حَتَّى سَقَطَ رِدَاؤُهُ عَنْ مَنْكِبَيْهِ فَأَتَاهُ أَبُو بَكْرٍ فَأَخَذَ رِدَاءَهُ فَأَلْقَاهُ عَلَى مَنْكِبَيْهِ ثُمَّ الْتَزَمَهُ مِنْ وَرَائِهِ ‏.‏ وَقَالَ يَا نَبِيَّ اللَّهِ كَذَاكَ مُنَاشَدَتُكَ رَبَّكَ فَإِنَّهُ سَيُنْجِزُ لَكَ مَا وَعَدَكَ فَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ ‏‏{‏ إِذْ تَسْتَغِيثُونَ رَبَّكُمْ فَاسْتَجَابَ لَكُمْ أَنِّي مُمِدُّكُمْ بِأَلْفٍ مِنَ الْمَلاَئِكَةِ مُرْدِفِينَ‏}‏ فَأَمَدَّهُ اللَّهُ بِالْمَلاَئِكَةِ ‏.‏ قَالَ أَبُو زُمَيْلٍ فَحَدَّثَنِي ابْنُ عَبَّاسٍ قَالَ بَيْنَمَا رَجُلٌ مِنَ الْمُسْلِمِينَ يَوْمَئِذٍ يَشْتَدُّ فِي أَثَرِ رَجُلٍ مِنَ الْمُشْرِكِينَ أَمَامَهُ إِذْ سَمِعَ ضَرْبَةً بِالسَّوْطِ فَوْقَهُ وَصَوْتَ الْفَارِسِ يَقُولُ أَقْدِمْ حَيْزُومُ ‏.‏ فَنَظَرَ إِلَى الْمُشْرِكِ أَمَامَهُ فَخَرَّ مُسْتَلْقِيًا فَنَظَرَ إِلَيْهِ فَإِذَا هُوَ قَدْ خُطِمَ أَنْفُهُ وَشُقَّ وَجْهُهُ كَضَرْبَةِ السَّوْطِ فَاخْضَرَّ ذَلِكَ أَجْمَعُ ‏.‏ فَجَاءَ الأَنْصَارِيُّ فَحَدَّثَ بِذَلِكَ رَسُولَ اللَّهِ صلى الله عليه وسلم فَقَالَ ‏\"‏ صَدَقْتَ ذَلِكَ مِنْ مَدَدِ السَّمَاءِ الثَّالِثَةِ ‏\"‏ ‏.‏ فَقَتَلُوا يَوْمَئِذٍ سَبْعِينَ وَأَسَرُوا سَبْعِينَ ‏.‏ قَالَ أَبُو زُمَيْلٍ قَالَ ابْنُ عَبَّاسٍ فَلَمَّا أَسَرُوا الأُسَارَى قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم لأَبِي بَكْرٍ وَعُمَرَ ‏\"‏ مَا تَرَوْنَ فِي هَؤُلاَءِ الأُسَارَى ‏\"‏ ‏.‏ فَقَالَ أَبُو بَكْرٍ يَا نَبِيَّ اللَّهِ هُمْ بَنُو الْعَمِّ وَالْعَشِيرَةِ أَرَى أَنْ تَأْخُذَ مِنْهُمْ فِدْيَةً فَتَكُونُ لَنَا قُوَّةً عَلَى الْكُفَّارِ فَعَسَى اللَّهُ أَنْ يَهْدِيَهُمْ لِلإِسْلاَمِ ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ مَا تَرَى يَا ابْنَ الْخَطَّابِ ‏\"‏ ‏.‏ قُلْتُ لاَ وَاللَّهِ يَا رَسُولَ اللَّهِ مَا أَرَى الَّذِي رَأَى أَبُو بَكْرٍ وَلَكِنِّي أَرَى أَنْ تُمَكِّنَّا فَنَضْرِبَ أَعْنَاقَهُمْ فَتُمَكِّنَ عَلِيًّا مِنْ عَقِيلٍ فَيَضْرِبَ عُنُقَهُ وَتُمَكِّنِّي مِنْ فُلاَنٍ - نَسِيبًا لِعُمَرَ - فَأَضْرِبَ عُنُقَهُ فَإِنَّ هَؤُلاَءِ أَئِمَّةُ الْكُفْرِ وَصَنَادِيدُهَا فَهَوِيَ رَسُولُ اللَّهِ صلى الله عليه وسلم مَا قَالَ أَبُو بَكْرٍ وَلَمْ يَهْوَ مَا قُلْتُ فَلَمَّا كَانَ مِنَ الْغَدِ جِئْتُ فَإِذَا رَسُولُ اللَّهِ صلى الله عليه وسلم وَأَبُو بَكْرٍ قَاعِدَيْنِ يَبْكِيَانِ قُلْتُ يَا رَسُولَ اللَّهِ أَخْبِرْنِي مِنْ أَىِّ شَىْءٍ تَبْكِي أَنْتَ وَصَاحِبُكَ فَإِنْ وَجَدْتُ بُكَاءً بَكَيْتُ وَإِنْ لَمْ أَجِدْ بُكَاءً تَبَاكَيْتُ لِبُكَائِكُمَا ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَبْكِي لِلَّذِي عَرَضَ عَلَىَّ أَصْحَابُكَ مِنْ أَخْذِهِمُ الْفِدَاءَ لَقَدْ عُرِضَ عَلَىَّ عَذَابُهُمْ أَدْنَى مِنْ هَذِهِ الشَّجَرَةِ ‏\"‏ ‏.‏ شَجَرَةٍ قَرِيبَةٍ مِنْ نَبِيِّ اللَّهِ صلى الله عليه وسلم ‏.‏ وَأَنْزَلَ اللَّهُ عَزَّ وَجَلَّ ‏‏{‏ مَا كَانَ لِنَبِيٍّ أَنْ يَكُونَ لَهُ أَسْرَى حَتَّى يُثْخِنَ فِي الأَرْضِ‏}‏ إِلَى قَوْلِهِ ‏‏{‏ فَكُلُوا مِمَّا غَنِمْتُمْ حَلاَلاً طَيِّبًا‏}‏ فَأَحَلَّ اللَّهُ الْغَنِيمَةَ لَهُمْ ‏.‏"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Abu Jahl (killed)", "Umayyah ibn Khalaf (killed)", "Utbah ibn Rabi'ah (killed)", "Ali ibn Abi Talib", "Hamza ibn Abdul Muttalib"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Abu Jahl (killed)",
+        "Umayyah ibn Khalaf (killed)",
+        "Utbah ibn Rabi'ah (killed)",
+        "Ali ibn Abi Talib",
+        "Hamza ibn Abdul Muttalib"
+      ],
       "location": "Badr, southwest of Madinah",
-      "locationArabic": "بدر"
+      "locationArabic": "بدر",
+      "locationFrench": "Badr, au sud-ouest de Médine"
     },
     {
       "id": "med-008",
       "title": "The Battle of Uhud",
       "titleArabic": "غزوة أحد",
+      "titleFrench": "La bataille d'Ouhoud",
       "year": "3 AH",
       "yearCE": "625 CE",
       "month": "Shawwal",
       "category": "battle",
       "summary": "The Quraysh marched on Madinah with 3,000 warriors seeking revenge for Badr. The battle took place at Mount Uhud. The Muslims initially had the upper hand, but when the archers stationed on the hill disobeyed the Prophet's ﷺ order and left their positions to collect spoils, Khalid ibn al-Walid (then fighting for the Quraysh) led a cavalry charge from behind. The Prophet ﷺ was wounded in the face, his tooth was broken, and the Muslims suffered seventy casualties, including Hamza ibn Abdul Muttalib, the Prophet's ﷺ beloved uncle, who was martyred and mutilated.",
+      "summaryArabic": "زحفت قريش على المدينة بثلاثة آلاف مقاتل طلبًا للثأر من بدر. وكانت المعركة عند جبل أحد. وكانت الغلبة للمسلمين أولًا، فلما خالف الرماة أمر النبي صلى الله عليه وسلم وتركوا مواقعهم على الجبل طلبًا للغنيمة، التفّ خالد بن الوليد، وكان يومئذ مع قريش، بالخيل من خلفهم. فجُرح النبي صلى الله عليه وسلم في وجهه وكُسرت رباعيته، واستُشهد من المسلمين سبعون، منهم حمزة بن عبد المطلب عم النبي صلى الله عليه وسلم وقد مُثّل به.",
+      "summaryFrench": "Qouraych marcha sur Médine avec trois mille guerriers pour venger Badr. La bataille eut lieu au mont Ouhoud. Les musulmans eurent d'abord l'avantage, mais lorsque les archers postés sur la colline désobéirent à l'ordre du Prophète ﷺ et quittèrent leurs positions pour ramasser le butin, Khâlid ibn al-Walîd, alors du côté de Qouraych, mena une charge de cavalerie par l'arrière. Le Prophète ﷺ fut blessé au visage, une de ses dents fut brisée, et les musulmans comptèrent soixante-dix morts, dont Hamza ibn Abd al-Mouttalib, l'oncle bien-aimé du Prophète ﷺ, tombé en martyr et mutilé.",
       "significance": "Uhud was a deeply painful lesson about the consequences of disobedience and the love of worldly gain. But it also revealed the Prophet's ﷺ incredible courage — he stood firm when most had fled. When the false rumor spread that the Prophet ﷺ had been killed, some lost heart, but others like Anas ibn al-Nadr charged forward saying: 'What is the use of living after the Messenger of Allah?' Sixty verses of Surah Aal-Imran address this battle.",
+      "significanceArabic": "كانت أحد درسًا موجعًا في عاقبة المخالفة وحب الدنيا، وأظهرت في الوقت نفسه شجاعة النبي صلى الله عليه وسلم إذ ثبت حين انكشف أكثر الناس. ولما شاع الخبر الكاذب بمقتله وهن بعضهم، وأقدم آخرون كأنس بن النضر يقول: «ما أصنع بالحياة بعد رسول الله؟». وقد نزل في هذه الغزوة نحو ستين آية من سورة آل عمران.",
+      "significanceFrench": "Ouhoud fut une leçon profondément douloureuse sur les conséquences de la désobéissance et de l'attachement au gain terrestre. Mais elle révéla aussi l'incroyable courage du Prophète ﷺ, qui tint bon quand la plupart avaient fui. Lorsque la fausse rumeur de sa mort se répandit, certains perdirent courage, mais d'autres comme Anas ibn an-Nadr s'élancèrent en disant : « À quoi bon vivre après le Messager d'Allah ? » Une soixantaine de versets de la sourate Âl-'Imrân traitent de cette bataille.",
       "quranReferences": [
         {
           "surah": 3,
           "surahName": "Aal-Imran",
           "ayahRange": "140-142",
-          "textArabic": "إِن يَمْسَسْكُمْ قَرْحٌۭ فَقَدْ مَسَّ ٱلْقَوْمَ قَرْحٌۭ مِّثْلُهُۥ ۚ وَتِلْكَ ٱلْأَيَّامُ نُدَاوِلُهَا بَيْنَ ٱلنَّاسِ",
-          "textEnglish": "If a wound has touched you, a similar wound has already touched the other people. We alternate these days among the people."
+          "textArabic": "إِن يَمْسَسْكُمْ قَرْحٌۭ فَقَدْ مَسَّ ٱلْقَوْمَ قَرْحٌۭ مِّثْلُهُۥ ۚ وَتِلْكَ ٱلْأَيَّامُ نُدَاوِلُهَا بَيْنَ ٱلنَّاسِ وَلِيَعْلَمَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَيَتَّخِذَ مِنكُمْ شُهَدَآءَ ۗ وَٱللَّهُ لَا يُحِبُّ ٱلظَّٰلِمِينَ ۝ وَلِيُمَحِّصَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَيَمْحَقَ ٱلْكَٰفِرِينَ ۝ أَمْ حَسِبْتُمْ أَن تَدْخُلُوا۟ ٱلْجَنَّةَ وَلَمَّا يَعْلَمِ ٱللَّهُ ٱلَّذِينَ جَٰهَدُوا۟ مِنكُمْ وَيَعْلَمَ ٱلصَّٰبِرِينَ",
+          "textEnglish": "If a wound should touch you - there has already touched the [opposing] people a wound similar to it. And these days [of varying conditions] We alternate among the people so that Allah may make evident those who believe and [may] take to Himself from among you martyrs - and Allah does not like the wrongdoers - And that Allah may purify the believers [through trials] and destroy the disbelievers. Or do you think that you will enter Paradise while Allah has not yet made evident those of you who fight in His cause and made evident those who are steadfast?",
+          "textFrench": "Si une blessure vous atteint, pareille blessure atteint aussi l'ennemi. Ainsi faisons-Nous alterner les jours (bons et mauvais) parmi les gens, afin qu'Allah reconnaisse ceux qui ont cru, et qu'Il choisisse parmi vous des martyrs - et Allah n'aime pas les injustes, et afin qu'Allah purifie ceux qui ont cru, et anéantisse les mécréants. Comptez-vous entrer au Paradis sans qu'Allah ne distingue parmi vous ceux qui luttent et qui sont endurants?",
+          "translationProvenance": "fetched"
         },
         {
           "surah": 3,
           "surahName": "Aal-Imran",
           "ayahRange": "144",
-          "textArabic": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌۭ قَدْ خَلَتْ مِن قَبْلِهِ ٱلرُّسُلُ",
-          "textEnglish": "Muhammad is no more than a messenger; other messengers have passed before him."
+          "textArabic": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌۭ قَدْ خَلَتْ مِن قَبْلِهِ ٱلرُّسُلُ ۚ أَفَإِي۟ن مَّاتَ أَوْ قُتِلَ ٱنقَلَبْتُمْ عَلَىٰٓ أَعْقَٰبِكُمْ ۚ وَمَن يَنقَلِبْ عَلَىٰ عَقِبَيْهِ فَلَن يَضُرَّ ٱللَّهَ شَيْـًۭٔا ۗ وَسَيَجْزِى ٱللَّهُ ٱلشَّٰكِرِينَ",
+          "textEnglish": "Muhammad is not but a messenger. [Other] messengers have passed on before him. So if he was to die or be killed, would you turn back on your heels [to unbelief]? And he who turns back on his heels will never harm Allah at all; but Allah will reward the grateful.",
+          "textFrench": "Muhammad n'est qu'un messager - des messagers avant lui sont passés -. S'il mourait, donc, ou s'il était tué, retourneriez-vous sur vos talons? Quiconque retourne sur ses talons ne nuira en rien à Allah; et Allah récompensera bientôt les reconnaissants.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Hamza ibn Abdul Muttalib (martyred)", "Mus'ab ibn Umayr (martyred)", "Khalid ibn al-Walid (Quraysh cavalry)", "Hind bint Utbah"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Hamza ibn Abdul Muttalib (martyred)",
+        "Mus'ab ibn Umayr (martyred)",
+        "Khalid ibn al-Walid (Quraysh cavalry)",
+        "Hind bint Utbah"
+      ],
       "location": "Mount Uhud, north of Madinah",
-      "locationArabic": "جبل أحد – المدينة"
+      "locationArabic": "جبل أحد – المدينة",
+      "locationFrench": "Le mont Ouhoud, au nord de Médine"
     },
     {
       "id": "med-009",
       "title": "The Battle of the Trench (Al-Khandaq / Al-Ahzab)",
       "titleArabic": "غزوة الخندق / الأحزاب",
+      "titleFrench": "La bataille du Fossé (al-Khandaq / al-Ahzâb)",
       "year": "5 AH",
       "yearCE": "627 CE",
       "month": "Shawwal",
       "category": "battle",
       "summary": "A massive coalition of 10,000 warriors from the Quraysh, Ghatafan, and other tribes marched on Madinah. On the advice of Salman al-Farisi, the Muslims dug a trench around the vulnerable northern approach to the city — a tactic unknown to the Arabs. The 3,000 Muslim defenders held the trench while the coalition laid siege for approximately one month. Allah sent a fierce wind and unseen forces that scattered the enemy camp, and they retreated in disarray.",
+      "summaryArabic": "تجمّع حلف ضخم من عشرة آلاف مقاتل من قريش وغطفان وغيرهما وزحفوا على المدينة. فأشار سلمان الفارسي بحفر خندق في الجهة الشمالية المكشوفة من المدينة، وهي حيلة لم تعرفها العرب. فرابط ثلاثة آلاف من المسلمين على الخندق، وحاصرهم الأحزاب نحو شهر. ثم أرسل الله ريحًا شديدة وجنودًا لم يروها فشتّتت معسكرهم فانصرفوا مندحرين.",
+      "summaryFrench": "Une immense coalition de dix mille guerriers de Qouraych, de Ghatafân et d'autres tribus marcha sur Médine. Sur le conseil de Salmân al-Fârisî, les musulmans creusèrent une tranchée le long de l'approche nord vulnérable de la cité, une tactique inconnue des Arabes. Les trois mille défenseurs musulmans tinrent la tranchée tandis que la coalition assiégea la ville environ un mois. Allah envoya un vent violent et des forces invisibles qui dispersèrent le camp ennemi, et celui-ci se retira en désordre.",
       "significance": "This was the last major offensive by the Quraysh against Madinah. The Prophet ﷺ himself dug the trench alongside the Companions, sharing their hunger and hardship. During the digging, a massive rock was struck by the Prophet ﷺ and sparks flew, and he prophesied the conquest of Persia, Rome, and Yemen. After this battle, the Prophet ﷺ declared: 'Now we will march to them, and they will not march to us.'",
+      "significanceArabic": "كانت هذه آخر حملة كبرى لقريش على المدينة. وقد حفر النبي صلى الله عليه وسلم بيده مع أصحابه وشاركهم الجوع والشدة. وفي أثناء الحفر ضرب صخرة عظيمة فتطاير الشرر فبشّر بفتح فارس والروم واليمن. وقال بعد هذه الغزوة: «الآن نغزوهم ولا يغزوننا».",
+      "significanceFrench": "Ce fut la dernière offensive majeure de Qouraych contre Médine. Le Prophète ﷺ creusa lui-même la tranchée aux côtés des Compagnons, partageant leur faim et leur épreuve. Pendant le creusement, il frappa un rocher massif d'où jaillirent des étincelles, et il annonça la conquête de la Perse, de Rome et du Yémen. Après cette bataille, le Prophète ﷺ déclara : « Désormais c'est nous qui marcherons sur eux, et ils ne marcheront plus sur nous. »",
       "quranReferences": [
         {
           "surah": 33,
           "surahName": "Al-Ahzab",
           "ayahRange": "9-11",
-          "textArabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ جَآءَتْكُمْ جُنُودٌۭ فَأَرْسَلْنَا عَلَيْهِمْ رِيحًۭا وَجُنُودًۭا لَّمْ تَرَوْهَا",
-          "textEnglish": "O you who believe, remember the favor of Allah upon you when armies came to you, and We sent upon them a wind and forces you did not see."
+          "textArabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ جَآءَتْكُمْ جُنُودٌۭ فَأَرْسَلْنَا عَلَيْهِمْ رِيحًۭا وَجُنُودًۭا لَّمْ تَرَوْهَا ۚ وَكَانَ ٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرًا ۝ إِذْ جَآءُوكُم مِّن فَوْقِكُمْ وَمِنْ أَسْفَلَ مِنكُمْ وَإِذْ زَاغَتِ ٱلْأَبْصَٰرُ وَبَلَغَتِ ٱلْقُلُوبُ ٱلْحَنَاجِرَ وَتَظُنُّونَ بِٱللَّهِ ٱلظُّنُونَا۠ ۝ هُنَالِكَ ٱبْتُلِىَ ٱلْمُؤْمِنُونَ وَزُلْزِلُوا۟ زِلْزَالًۭا شَدِيدًۭا",
+          "textEnglish": "O you who have believed, remember the favor of Allah upon you when armies came to [attack] you and We sent upon them a wind and armies [of angels] you did not see. And ever is Allah, of what you do, Seeing. [Remember] when they came at you from above you and from below you, and when eyes shifted [in fear], and hearts reached the throats and you assumed about Allah [various] assumptions. There the believers were tested and shaken with a severe shaking.",
+          "textFrench": "O vous qui croyez! Rappelez-vous le bienfait d'Allah sur vous, quand des troupes vous sont venues et que Nous avons envoyé contre elles un vent et des troupes que vous n'avez pas vues. Allah demeure Clairvoyant sur ce que vous faites. Quand ils vous vinrent d'en haut et d'en bas [de toutes parts], et que les regards étaient troublés, et les cœurs remontaient aux gorges, et vous faisiez sur Allah toutes sortes de suppositions... Les croyants furent alors éprouvés et secoués d'une dure secousse.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [
         {
           "source": "Sahih al-Bukhari",
-          "hadithNumber": "4109",
+          "hadithNumber": "4098",
           "narrator": "Sahl ibn Sa'd",
-          "textEnglish": "We were with the Messenger of Allah ﷺ in the Trench, and they were digging while we were carrying the soil on our shoulders. The Messenger of Allah ﷺ said: 'O Allah, there is no life except the life of the Hereafter, so forgive the Ansar and the Muhajirun.'"
+          "textEnglish": "We were with the Messenger of Allah ﷺ in the Trench, and they were digging while we were carrying the soil on our shoulders. The Messenger of Allah ﷺ said: 'O Allah, there is no life except the life of the Hereafter, so forgive the Ansar and the Muhajirun.'",
+          "grade": "sahih",
+          "textFrench": "Nous étions avec le Messager d'Allah ﷺ au Fossé ; ils creusaient tandis que nous portions la terre sur nos épaules. Le Messager d'Allah ﷺ dit : « Ô Allah, il n'y a de vie que celle de l'au-delà, pardonne donc aux Ansâr et aux Mouhâjiroûn. »",
+          "translationProvenance": "project",
+          "textArabic": "\"‏ اللَّهُمَّ لاَ عَيْشَ إِلاَّ عَيْشُ الآخِرَهْ، فَاغْفِرْ لِلْمُهَاجِرِينَ وَالأَنْصَارِ ‏\""
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Salman al-Farisi", "Nu'aym ibn Mas'ud (who secretly embraced Islam and divided the coalition)"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Salman al-Farisi",
+        "Nu'aym ibn Mas'ud (who secretly embraced Islam and divided the coalition)"
+      ],
       "location": "Northern approach to Madinah",
-      "locationArabic": "شمال المدينة"
+      "locationArabic": "شمال المدينة",
+      "locationFrench": "L'approche nord de Médine"
     },
     {
       "id": "med-010",
       "title": "The Treaty of Hudaybiyah",
       "titleArabic": "صلح الحديبية",
+      "titleFrench": "Le traité de Houdaybiyya",
       "year": "6 AH",
       "yearCE": "628 CE",
       "month": "Dhul Qa'dah",
       "category": "treaty",
       "summary": "The Prophet ﷺ set out with 1,400 Muslims for Umrah, not for war. The Quraysh blocked them at Hudaybiyah near Makkah. After negotiations, a ten-year truce was agreed upon. Its terms seemed unfavorable to the Muslims: they would return that year without performing Umrah, any Qurayshi who fled to Madinah must be returned, but any Muslim who went to Makkah would not be returned. Many Companions, especially Umar, found these terms difficult to accept.",
+      "summaryArabic": "خرج النبي صلى الله عليه وسلم ومعه ألف وأربعمائة من المسلمين معتمرين لا مقاتلين، فصدّتهم قريش عند الحديبية قرب مكة. وبعد مفاوضات عُقد صلح مدته عشر سنين، وكانت شروطه في ظاهرها على غير صالح المسلمين: يرجعون عامهم ذاك ولا يعتمرون، ومن جاء من قريش إلى المدينة رُدّ إليهم، ومن ذهب من المسلمين إلى مكة لم يُردّ. فشقّ ذلك على كثير من الصحابة وفي مقدمتهم عمر.",
+      "summaryFrench": "Le Prophète ﷺ partit avec mille quatre cents musulmans pour accomplir la 'omra, non pour la guerre. Qouraych leur barra la route à Houdaybiya, près de La Mecque. Après négociations, une trêve de dix ans fut conclue. Ses conditions semblaient défavorables aux musulmans : ils repartiraient cette année-là sans accomplir la 'omra, tout Qouraychite fuyant vers Médine devrait être rendu, mais tout musulman rejoignant La Mecque ne serait pas rendu. Beaucoup de Compagnons, en particulier Omar, eurent du mal à accepter ces termes.",
       "significance": "Though it appeared to be a setback, the Quran called it 'a manifest victory' (Fath Mubin). The treaty gave Muslims the legitimacy to operate openly, allowed them to make alliances, and led to a massive wave of conversions during the peace. Within two years, more people entered Islam than in the previous nineteen years combined. It proved the Prophet's ﷺ superior strategic vision.",
+      "significanceArabic": "ومع أنه بدا تراجعًا فقد سماه القرآن فتحًا مبينًا. فقد أعطى الصلح المسلمين شرعية العمل في العلن، وأتاح لهم عقد الأحلاف، وأدى في مدة السلم إلى دخول الناس في الدين أفواجًا. فأسلم في سنتين أكثر ممن أسلم في تسع عشرة سنة قبلها. وفي ذلك بيان لبعد نظر النبي صلى الله عليه وسلم.",
+      "significanceFrench": "Bien que cela parût un revers, le Coran l'appela « une victoire éclatante » (Fath Moubîn). Le traité donna aux musulmans la légitimité d'agir ouvertement, leur permit de conclure des alliances et entraîna une vague massive de conversions durant la paix. En deux ans, plus de personnes entrèrent en islam qu'au cours des dix-neuf années précédentes réunies. Cela démontra la vision stratégique supérieure du Prophète ﷺ.",
       "quranReferences": [
         {
           "surah": 48,
           "surahName": "Al-Fath",
           "ayahRange": "1-3",
-          "textArabic": "إِنَّا فَتَحْنَا لَكَ فَتْحًۭا مُّبِينًۭا ۝ لِّيَغْفِرَ لَكَ ٱللَّهُ مَا تَقَدَّمَ مِن ذَنۢبِكَ وَمَا تَأَخَّرَ",
-          "textEnglish": "Indeed, We have given you a manifest victory, that Allah may forgive for you what preceded of your sin and what will follow."
+          "textArabic": "إِنَّا فَتَحْنَا لَكَ فَتْحًۭا مُّبِينًۭا ۝ لِّيَغْفِرَ لَكَ ٱللَّهُ مَا تَقَدَّمَ مِن ذَنۢبِكَ وَمَا تَأَخَّرَ وَيُتِمَّ نِعْمَتَهُۥ عَلَيْكَ وَيَهْدِيَكَ صِرَٰطًۭا مُّسْتَقِيمًۭا ۝ وَيَنصُرَكَ ٱللَّهُ نَصْرًا عَزِيزًا",
+          "textEnglish": "Indeed, We have given you, [O Muhammad], a clear conquest That Allah may forgive for you what preceded of your sin and what will follow and complete His favor upon you and guide you to a straight path And [that] Allah may aid you with a mighty victory.",
+          "textFrench": "En vérité Nous t'avons accordé une victoire éclatante, afin qu'Allah te pardonne tes péchés, passés et futurs, qu'Il parachève sur toi Son bienfait et te guide sur une voie droite; et qu'Allah te donne un puissant secours.",
+          "translationProvenance": "fetched"
         },
         {
           "surah": 48,
           "surahName": "Al-Fath",
           "ayahRange": "18",
-          "textArabic": "لَّقَدْ رَضِىَ ٱللَّهُ عَنِ ٱلْمُؤْمِنِينَ إِذْ يُبَايِعُونَكَ تَحْتَ ٱلشَّجَرَةِ",
-          "textEnglish": "Certainly Allah was pleased with the believers when they pledged allegiance to you under the tree."
+          "textArabic": "۞ لَّقَدْ رَضِىَ ٱللَّهُ عَنِ ٱلْمُؤْمِنِينَ إِذْ يُبَايِعُونَكَ تَحْتَ ٱلشَّجَرَةِ فَعَلِمَ مَا فِى قُلُوبِهِمْ فَأَنزَلَ ٱلسَّكِينَةَ عَلَيْهِمْ وَأَثَٰبَهُمْ فَتْحًۭا قَرِيبًۭا",
+          "textEnglish": "Certainly was Allah pleased with the believers when they pledged allegiance to you, [O Muhammad], under the tree, and He knew what was in their hearts, so He sent down tranquillity upon them and rewarded them with an imminent conquest",
+          "textFrench": "Allah a très certainement agréé les croyants quand ils t'ont prêté le serment d'allégeance sous l'arbre. Il a su ce qu'il y avait dans leurs cœurs, et a fait descendre sur eux la quiétude, et Il les a récompensés par une victoire proche.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [],
-      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum", "Ibn Ishaq's Sirah"],
-      "keyFigures": ["Suhayl ibn Amr (Quraysh negotiator)", "Umar ibn al-Khattab", "Uthman ibn Affan (sent as envoy to Makkah)"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Ar-Raheeq Al-Makhtum",
+        "Ibn Ishaq's Sirah"
+      ],
+      "keyFigures": [
+        "Suhayl ibn Amr (Quraysh negotiator)",
+        "Umar ibn al-Khattab",
+        "Uthman ibn Affan (sent as envoy to Makkah)"
+      ],
       "location": "Hudaybiyah, near Makkah",
-      "locationArabic": "الحديبية"
+      "locationArabic": "الحديبية",
+      "locationFrench": "Houdaybiyya, près de La Mecque"
     },
     {
       "id": "med-011",
       "title": "Letters to the Kings and Leaders",
       "titleArabic": "رسائل إلى الملوك والزعماء",
+      "titleFrench": "Les lettres aux rois et aux souverains",
       "year": "7 AH",
       "yearCE": "628 CE",
       "month": "Muharram and after",
       "category": "dawah",
       "summary": "The Prophet ﷺ sent letters to the rulers of the known world inviting them to Islam, including: Heraclius (the Roman Emperor), Khosrau II (the Persian Emperor), the Muqawqis (ruler of Egypt), An-Najashi (King of Abyssinia), and others. Approximately 22-25 letters were sent. Heraclius recognized the truth of the message but did not accept. Khosrau tore up the letter, and the Prophet ﷺ said: 'His kingdom will be torn apart.'",
+      "summaryArabic": "بعث النبي صلى الله عليه وسلم بالكتب إلى ملوك الأرض المعروفين يدعوهم إلى الإسلام، منهم هرقل عظيم الروم، وكسرى الثاني ملك الفرس، والمقوقس عظيم مصر، والنجاشي ملك الحبشة وغيرهم، فبلغت الكتب نحو اثنين وعشرين إلى خمسة وعشرين كتابًا. فعرف هرقل صدق الرسالة ولم يُسلم، ومزّق كسرى الكتاب فقال النبي صلى الله عليه وسلم: «مُزّق مُلكه».",
+      "summaryFrench": "Le Prophète ﷺ envoya des lettres aux souverains du monde connu pour les inviter à l'islam, notamment Héraclius (l'empereur romain), Khosro II (l'empereur perse), le Mouqawqis (gouverneur d'Égypte), An-Najâchî (roi d'Abyssinie) et d'autres. Environ vingt-deux à vingt-cinq lettres furent envoyées. Héraclius reconnut la véracité du message mais ne l'accepta pas. Khosro déchira la lettre, et le Prophète ﷺ dit : « Son royaume sera déchiré. »",
       "significance": "This demonstrated the universal nature of the Prophet's ﷺ message — Islam was not an Arab religion but a call to all of humanity. The period of peace after Hudaybiyah made this diplomatic outreach possible. Khosrau's kingdom was indeed destroyed within a decade. Heraclius's recognition of the Prophet's ﷺ truthfulness is recorded in detail in Sahih al-Bukhari.",
+      "significanceArabic": "دلّ ذلك على عالمية رسالة النبي صلى الله عليه وسلم، فليس الإسلام دينًا للعرب بل دعوة للناس كافة. وقد أتاحت مدة السلم بعد الحديبية هذا التواصل الدبلوماسي. وقد زال ملك كسرى فعلًا في نحو عشر سنين. وخبر إقرار هرقل بصدق النبي صلى الله عليه وسلم مروي بتفصيله في صحيح البخاري.",
+      "significanceFrench": "Cela démontra le caractère universel du message du Prophète ﷺ : l'islam n'était pas une religion arabe mais un appel à toute l'humanité. La période de paix après Houdaybiya rendit possible cette ouverture diplomatique. Le royaume de Khosro fut effectivement détruit en une décennie. La reconnaissance par Héraclius de la véracité du Prophète ﷺ est rapportée en détail dans Sahîh al-Boukhârî.",
       "quranReferences": [],
       "hadithReferences": [
         {
           "source": "Sahih al-Bukhari",
           "hadithNumber": "7",
           "narrator": "Abdullah ibn Abbas",
-          "textEnglish": "The Prophet ﷺ wrote to Caesar... Abu Sufyan [before his Islam] was summoned and Heraclius asked him about the Prophet ﷺ. After the questioning, Heraclius said: 'If what you say is true, then he will rule over what is beneath these two feet of mine.'"
+          "textEnglish": "The Prophet ﷺ wrote to Caesar... Abu Sufyan [before his Islam] was summoned and Heraclius asked him about the Prophet ﷺ. After the questioning, Heraclius said: 'If what you say is true, then he will rule over what is beneath these two feet of mine.'",
+          "grade": "sahih",
+          "textFrench": "Le Prophète ﷺ écrivit à César... Abou Soufyân, avant son islam, fut convoqué et Héraclius l'interrogea au sujet du Prophète ﷺ. À l'issue de l'interrogatoire, Héraclius dit : « Si ce que tu dis est vrai, il régnera sur ce qui se trouve sous mes deux pieds. »",
+          "translationProvenance": "project",
+          "textArabic": "أَيُّكُمْ أَقْرَبُ نَسَبًا بِهَذَا الرَّجُلِ الَّذِي يَزْعُمُ أَنَّهُ نَبِيٌّ فَقَالَ أَبُو سُفْيَانَ فَقُلْتُ أَنَا أَقْرَبُهُمْ نَسَبًا‏.‏ فَقَالَ أَدْنُوهُ مِنِّي، وَقَرِّبُوا أَصْحَابَهُ، فَاجْعَلُوهُمْ عِنْدَ ظَهْرِهِ‏.‏ ثُمَّ قَالَ لِتَرْجُمَانِهِ قُلْ لَهُمْ إِنِّي سَائِلٌ هَذَا عَنْ هَذَا الرَّجُلِ، فَإِنْ كَذَبَنِي فَكَذِّبُوهُ‏.‏ فَوَاللَّهِ لَوْلاَ الْحَيَاءُ مِنْ أَنْ يَأْثِرُوا عَلَىَّ كَذِبًا لَكَذَبْتُ عَنْهُ، ثُمَّ كَانَ أَوَّلَ مَا سَأَلَنِي عَنْهُ أَنْ قَالَ كَيْفَ نَسَبُهُ فِيكُمْ قُلْتُ هُوَ فِينَا ذُو نَسَبٍ‏.‏ قَالَ فَهَلْ قَالَ هَذَا الْقَوْلَ مِنْكُمْ أَحَدٌ قَطُّ قَبْلَهُ قُلْتُ لاَ‏.‏ قَالَ فَهَلْ كَانَ مِنْ آبَائِهِ مِنْ مَلِكٍ قُلْتُ لاَ‏.‏ قَالَ فَأَشْرَافُ النَّاسِ يَتَّبِعُونَهُ أَمْ ضُعَفَاؤُهُمْ فَقُلْتُ بَلْ ضُعَفَاؤُهُمْ‏.‏ قَالَ أَيَزِيدُونَ أَمْ يَنْقُصُونَ قُلْتُ بَلْ يَزِيدُونَ‏.‏ قَالَ فَهَلْ يَرْتَدُّ أَحَدٌ مِنْهُمْ سَخْطَةً لِدِينِهِ بَعْدَ أَنْ يَدْخُلَ فِيهِ قُلْتُ لاَ‏.‏ قَالَ فَهَلْ كُنْتُمْ تَتَّهِمُونَهُ بِالْكَذِبِ قَبْلَ أَنْ يَقُولَ مَا قَالَ قُلْتُ لاَ‏.‏ قَالَ فَهَلْ يَغْدِرُ قُلْتُ لاَ، وَنَحْنُ مِنْهُ فِي مُدَّةٍ لاَ نَدْرِي مَا هُوَ فَاعِلٌ فِيهَا‏.‏ قَالَ وَلَمْ تُمْكِنِّي كَلِمَةٌ أُدْخِلُ فِيهَا شَيْئًا غَيْرُ هَذِهِ الْكَلِمَةِ‏.‏ قَالَ فَهَلْ قَاتَلْتُمُوهُ قُلْتُ نَعَمْ‏.‏ قَالَ فَكَيْفَ كَانَ قِتَالُكُمْ إِيَّاهُ قُلْتُ الْحَرْبُ بَيْنَنَا وَبَيْنَهُ سِجَالٌ، يَنَالُ مِنَّا وَنَنَالُ مِنْهُ‏.‏ قَالَ مَاذَا يَأْمُرُكُمْ قُلْتُ يَقُولُ اعْبُدُوا اللَّهَ وَحْدَهُ، وَلاَ تُشْرِكُوا بِهِ شَيْئًا، وَاتْرُكُوا مَا يَقُولُ آبَاؤُكُمْ، وَيَأْمُرُنَا بِالصَّلاَةِ وَالصِّدْقِ وَالْعَفَافِ وَالصِّلَةِ‏.‏ فَقَالَ لِلتَّرْجُمَانِ قُلْ لَهُ سَأَلْتُكَ عَنْ نَسَبِهِ، فَذَكَرْتَ أَنَّهُ فِيكُمْ ذُو نَسَبٍ، فَكَذَلِكَ الرُّسُلُ تُبْعَثُ فِي نَسَبِ قَوْمِهَا، وَسَأَلْتُكَ هَلْ قَالَ أَحَدٌ مِنْكُمْ هَذَا الْقَوْلَ فَذَكَرْتَ أَنْ لاَ، فَقُلْتُ لَوْ كَانَ أَحَدٌ قَالَ هَذَا الْقَوْلَ قَبْلَهُ لَقُلْتُ رَجُلٌ يَأْتَسِي بِقَوْلٍ قِيلَ قَبْلَهُ، وَسَأَلْتُكَ هَلْ كَانَ مِنْ آبَائِهِ مِنْ مَلِكٍ فَذَكَرْتَ أَنْ لاَ، قُلْتُ فَلَوْ كَانَ مِنْ آبَائِهِ مِنْ مَلِكٍ قُلْتُ رَجُلٌ يَطْلُبُ مُلْكَ أَبِيهِ، وَسَأَلْتُكَ هَلْ كُنْتُمْ تَتَّهِمُونَهُ بِالْكَذِبِ قَبْلَ أَنْ يَقُولَ مَا قَالَ فَذَكَرْتَ أَنْ لاَ، فَقَدْ أَعْرِفُ أَنَّهُ لَمْ يَكُنْ لِيَذَرَ الْكَذِبَ عَلَى النَّاسِ وَيَكْذِبَ عَلَى اللَّهِ، وَسَأَلْتُكَ أَشْرَافُ النَّاسِ اتَّبَعُوهُ أَمْ ضُعَفَاؤُهُمْ فَذَكَرْتَ أَنَّ ضُعَفَاءَهُمُ اتَّبَعُوهُ، وَهُمْ أَتْبَاعُ الرُّسُلِ، وَسَأَلْتُكَ أَيَزِيدُونَ أَمْ يَنْقُصُونَ فَذَكَرْتَ أَنَّهُمْ يَزِيدُونَ، وَكَذَلِكَ أَمْرُ الإِيمَانِ حَتَّى يَتِمَّ، وَسَأَلْتُكَ أَيَرْتَدُّ أَحَدٌ سَخْطَةً لِدِينِهِ بَعْدَ أَنْ يَدْخُلَ فِيهِ فَذَكَرْتَ أَنْ لاَ، وَكَذَلِكَ الإِيمَانُ حِينَ تُخَالِطُ بَشَاشَتُهُ الْقُلُوبَ، وَسَأَلْتُكَ هَلْ يَغْدِرُ فَذَكَرْتَ أَنْ لاَ، وَكَذَلِكَ الرُّسُلُ لاَ تَغْدِرُ، وَسَأَلْتُكَ بِمَا يَأْمُرُكُمْ، فَذَكَرْتَ أَنَّهُ يَأْمُرُكُمْ أَنْ تَعْبُدُوا اللَّهَ، وَلاَ تُشْرِكُوا بِهِ شَيْئًا، وَيَنْهَاكُمْ عَنْ عِبَادَةِ الأَوْثَانِ، وَيَأْمُرُكُمْ بِالصَّلاَةِ وَالصِّدْقِ وَالْعَفَافِ‏.‏ فَإِنْ كَانَ مَا تَقُولُ حَقًّا فَسَيَمْلِكُ مَوْضِعَ قَدَمَىَّ هَاتَيْنِ، وَقَدْ كُنْتُ أَعْلَمُ أَنَّهُ خَارِجٌ، لَمْ أَكُنْ أَظُنُّ أَنَّهُ مِنْكُمْ، فَلَوْ أَنِّي أَعْلَمُ أَنِّي أَخْلُصُ إِلَيْهِ لَتَجَشَّمْتُ لِقَاءَهُ، وَلَوْ كُنْتُ عِنْدَهُ لَغَسَلْتُ عَنْ قَدَمِهِ‏.‏ ثُمَّ دَعَا بِكِتَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم الَّذِي بَعَثَ بِهِ دِحْيَةُ إِلَى عَظِيمِ بُصْرَى، فَدَفَعَهُ إِلَى هِرَقْلَ فَقَرَأَهُ فَإِذَا فِيهِ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ‏.‏ مِنْ مُحَمَّدٍ عَبْدِ اللَّهِ وَرَسُولِهِ إِلَى هِرَقْلَ عَظِيمِ الرُّومِ‏.‏ سَلاَمٌ عَلَى مَنِ اتَّبَعَ الْهُدَى، أَمَّا بَعْدُ فَإِنِّي أَدْعُوكَ بِدِعَايَةِ الإِسْلاَمِ، أَسْلِمْ تَسْلَمْ، يُؤْتِكَ اللَّهُ أَجْرَكَ مَرَّتَيْنِ، فَإِنْ تَوَلَّيْتَ فَإِنَّ عَلَيْكَ إِثْمَ الأَرِيسِيِّينَ وَ‏{‏يَا أَهْلَ الْكِتَابِ تَعَالَوْا إِلَى كَلِمَةٍ سَوَاءٍ بَيْنَنَا وَبَيْنَكُمْ أَنْ لاَ نَعْبُدَ إِلاَّ اللَّهَ وَلاَ نُشْرِكَ بِهِ شَيْئًا وَلاَ يَتَّخِذَ بَعْضُنَا بَعْضًا أَرْبَابًا مِنْ دُونِ اللَّهِ فَإِنْ تَوَلَّوْا فَقُولُوا اشْهَدُوا بِأَنَّا مُسْلِمُونَ‏}‏ قَالَ أَبُو سُفْيَانَ فَلَمَّا قَالَ مَا قَالَ، وَفَرَغَ مِنْ قِرَاءَةِ الْكِتَابِ كَثُرَ عِنْدَهُ الصَّخَبُ، وَارْتَفَعَتِ الأَصْوَاتُ وَأُخْرِجْنَا، فَقُلْتُ لأَصْحَابِي حِينَ أُخْرِجْنَا لَقَدْ أَمِرَ أَمْرُ ابْنِ أَبِي كَبْشَةَ، إِنَّهُ يَخَافُهُ مَلِكُ بَنِي الأَصْفَرِ‏.‏ فَمَا زِلْتُ مُوقِنًا أَنَّهُ سَيَظْهَرُ حَتَّى أَدْخَلَ اللَّهُ عَلَىَّ الإِسْلاَمَ‏.‏ وَكَانَ ابْنُ النَّاظُورِ صَاحِبُ إِيلِيَاءَ وَهِرَقْلَ سُقُفًّا عَلَى نَصَارَى الشَّأْمِ، يُحَدِّثُ أَنَّ هِرَقْلَ حِينَ قَدِمَ إِيلِيَاءَ أَصْبَحَ يَوْمًا خَبِيثَ النَّفْسِ، فَقَالَ بَعْضُ بَطَارِقَتِهِ قَدِ اسْتَنْكَرْنَا هَيْئَتَكَ‏.‏ قَالَ ابْنُ النَّاظُورِ وَكَانَ هِرَقْلُ حَزَّاءً يَنْظُرُ فِي النُّجُومِ، فَقَالَ لَهُمْ حِينَ سَأَلُوهُ إِنِّي رَأَيْتُ اللَّيْلَةَ حِينَ نَظَرْتُ فِي النُّجُومِ مَلِكَ الْخِتَانِ قَدْ ظَهَرَ، فَمَنْ يَخْتَتِنُ مِنْ هَذِهِ الأُمَّةِ قَالُوا لَيْسَ يَخْتَتِنُ إِلاَّ الْيَهُودُ فَلاَ يُهِمَّنَّكَ شَأْنُهُمْ وَاكْتُبْ إِلَى مَدَايِنِ مُلْكِكَ، فَيَقْتُلُوا مَنْ فِيهِمْ مِنَ الْيَهُودِ‏.‏ فَبَيْنَمَا هُمْ عَلَى أَمْرِهِمْ أُتِيَ هِرَقْلُ بِرَجُلٍ أَرْسَلَ بِهِ مَلِكُ غَسَّانَ، يُخْبِرُ عَنْ خَبَرِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَلَمَّا اسْتَخْبَرَهُ هِرَقْلُ قَالَ اذْهَبُوا فَانْظُرُوا أَمُخْتَتِنٌ هُوَ أَمْ لاَ‏.‏ فَنَظَرُوا إِلَيْهِ، فَحَدَّثُوهُ أَنَّهُ مُخْتَتِنٌ، وَسَأَلَهُ عَنِ الْعَرَبِ فَقَالَ هُمْ يَخْتَتِنُونَ‏.‏ فَقَالَ هِرَقْلُ هَذَا مَلِكُ هَذِهِ الأُمَّةِ قَدْ ظَهَرَ‏.‏ ثُمَّ كَتَبَ هِرَقْلُ إِلَى صَاحِبٍ لَهُ بِرُومِيَةَ، وَكَانَ نَظِيرَهُ فِي الْعِلْمِ، وَسَارَ هِرَقْلُ إِلَى حِمْصَ، فَلَمْ يَرِمْ حِمْصَ حَتَّى أَتَاهُ كِتَابٌ مِنْ صَاحِبِهِ يُوَافِقُ رَأْىَ هِرَقْلَ عَلَى خُرُوجِ النَّبِيِّ صلى الله عليه وسلم وَأَنَّهُ نَبِيٌّ، فَأَذِنَ هِرَقْلُ لِعُظَمَاءِ الرُّومِ فِي دَسْكَرَةٍ لَهُ بِحِمْصَ ثُمَّ أَمَرَ بِأَبْوَابِهَا فَغُلِّقَتْ، ثُمَّ اطَّلَعَ فَقَالَ يَا مَعْشَرَ الرُّومِ، هَلْ لَكُمْ فِي الْفَلاَحِ وَالرُّشْدِ وَأَنْ يَثْبُتَ مُلْكُكُمْ فَتُبَايِعُوا هَذَا النَّبِيَّ، فَحَاصُوا حَيْصَةَ حُمُرِ الْوَحْشِ إِلَى الأَبْوَابِ، فَوَجَدُوهَا قَدْ غُلِّقَتْ، فَلَمَّا رَأَى هِرَقْلُ نَفْرَتَهُمْ، وَأَيِسَ مِنَ الإِيمَانِ قَالَ رُدُّوهُمْ عَلَىَّ‏.‏ وَقَالَ إِنِّي قُلْتُ مَقَالَتِي آنِفًا أَخْتَبِرُ بِهَا شِدَّتَكُمْ عَلَى دِينِكُمْ، فَقَدْ رَأَيْتُ‏.‏ فَسَجَدُوا لَهُ وَرَضُوا عَنْهُ، فَكَانَ ذَلِكَ آخِرَ شَأْنِ هِرَقْلَ‏.‏"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Heraclius (Roman Emperor)", "Khosrau II (Persian Emperor)", "Al-Muqawqis (Egypt)", "An-Najashi (Abyssinia)"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Heraclius (Roman Emperor)",
+        "Khosrau II (Persian Emperor)",
+        "Al-Muqawqis (Egypt)",
+        "An-Najashi (Abyssinia)"
+      ],
       "location": "Letters sent from Madinah to various kingdoms",
-      "locationArabic": "المدينة المنورة"
+      "locationArabic": "المدينة المنورة",
+      "locationFrench": "Lettres envoyées de Médine vers divers royaumes"
     },
     {
       "id": "med-012",
       "title": "The Battle of Khaybar",
       "titleArabic": "غزوة خيبر",
+      "titleFrench": "La bataille de Khaybar",
       "year": "7 AH",
       "yearCE": "628 CE",
       "month": "Muharram/Rabi' al-Awwal",
       "category": "battle",
       "summary": "The Prophet ﷺ marched with 1,420 warriors against the Jewish fortress complex of Khaybar, whose inhabitants had been plotting with the Quraysh and other tribes against the Muslims. After a prolonged siege, Ali ibn Abi Talib was given the banner and led the assault that conquered the main fortress. The inhabitants were allowed to remain and farm their land in exchange for half the produce.",
+      "summaryArabic": "سار النبي صلى الله عليه وسلم بألف وأربعمائة وعشرين مقاتلًا إلى حصون خيبر اليهودية، وقد كان أهلها يكيدون مع قريش وغيرها من القبائل للمسلمين. وبعد حصار طويل أُعطي علي بن أبي طالب الراية ففتح الحصن الأعظم. وأُقرّ أهلها على أرضهم يعملون فيها على أن يكون للمسلمين شطر ما يخرج منها.",
+      "summaryFrench": "Le Prophète ﷺ marcha avec mille quatre cent vingt combattants contre le complexe fortifié juif de Khaybar, dont les habitants complotaient avec Qouraych et d'autres tribus contre les musulmans. Après un siège prolongé, Alî ibn Abî Tâlib reçut l'étendard et mena l'assaut qui emporta la forteresse principale. Les habitants furent autorisés à demeurer et à cultiver leur terre en échange de la moitié de la récolte.",
       "significance": "Khaybar was the largest Jewish settlement in Arabia and a center of opposition to Islam. Its conquest secured Madinah's northern frontier and demonstrated the military capability of the Muslim state. The Prophet ﷺ was poisoned by a Jewish woman of Khaybar who placed poison in a roasted lamb; the effects of this poisoning would contribute to his final illness years later.",
+      "significanceArabic": "كانت خيبر أكبر تجمع يهودي في جزيرة العرب ومركزًا لمناوأة الإسلام، ففتحها أمّن الحدّ الشمالي للمدينة وأظهر قدرة الدولة المسلمة العسكرية. وقد سُمّ النبي صلى الله عليه وسلم في شاة مصلية دسّتها امرأة من يهود خيبر، وكان لأثر ذلك السم أثر في مرض موته بعد سنين.",
+      "significanceFrench": "Khaybar était la plus grande implantation juive d'Arabie et un centre d'opposition à l'islam. Sa conquête sécurisa la frontière nord de Médine et démontra la capacité militaire de l'État musulman. Le Prophète ﷺ fut empoisonné par une femme juive de Khaybar qui plaça du poison dans un agneau rôti ; les effets de cet empoisonnement contribueraient à sa maladie finale des années plus tard.",
       "quranReferences": [
         {
           "surah": 48,
           "surahName": "Al-Fath",
           "ayahRange": "20",
-          "textArabic": "وَعَدَكُمُ ٱللَّهُ مَغَانِمَ كَثِيرَةًۭ تَأْخُذُونَهَا فَعَجَّلَ لَكُمْ هَـٰذِهِۦ",
-          "textEnglish": "Allah has promised you much spoils that you will take, and He hastened this for you."
+          "textArabic": "وَعَدَكُمُ ٱللَّهُ مَغَانِمَ كَثِيرَةًۭ تَأْخُذُونَهَا فَعَجَّلَ لَكُمْ هَٰذِهِۦ وَكَفَّ أَيْدِىَ ٱلنَّاسِ عَنكُمْ وَلِتَكُونَ ءَايَةًۭ لِّلْمُؤْمِنِينَ وَيَهْدِيَكُمْ صِرَٰطًۭا مُّسْتَقِيمًۭا",
+          "textEnglish": "Allah has promised you much booty that you will take [in the future] and has hastened for you this [victory] and withheld the hands of people from you - that it may be a sign for the believers and [that] He may guide you to a straight path.",
+          "textFrench": "Allah vous a promis un abondant butin que vous prendrez et Il a hâté pour vous Celle-ci et repoussé de vous les mains des gens, afin que tout cela soit un signe pour les croyants et qu'Il vous guide dans un droit chemin;",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [
@@ -347,38 +553,59 @@
           "source": "Sahih al-Bukhari",
           "hadithNumber": "4210",
           "narrator": "Sahl ibn Sa'd",
-          "textEnglish": "The Prophet ﷺ said on the day of Khaybar: 'I will give the banner tomorrow to a man through whose hands Allah will bring about victory; he loves Allah and His Messenger, and Allah and His Messenger love him.' The next morning, he gave the banner to Ali ibn Abi Talib."
+          "textEnglish": "The Prophet ﷺ said on the day of Khaybar: 'I will give the banner tomorrow to a man through whose hands Allah will bring about victory; he loves Allah and His Messenger, and Allah and His Messenger love him.' The next morning, he gave the banner to Ali ibn Abi Talib.",
+          "grade": "sahih",
+          "textFrench": "Le Prophète ﷺ dit le jour de Khaybar : « Je remettrai demain l'étendard à un homme par les mains duquel Allah accordera la victoire ; il aime Allah et Son Messager, et Allah et Son Messager l'aiment. » Le lendemain matin, il remit l'étendard à Alî ibn Abî Tâlib.",
+          "translationProvenance": "project",
+          "textArabic": "\"‏ لأُعْطِيَنَّ هَذِهِ الرَّايَةَ غَدًا رَجُلاً، يَفْتَحُ اللَّهُ عَلَى يَدَيْهِ، يُحِبُّ اللَّهَ وَرَسُولَهُ، وَيُحِبُّهُ اللَّهُ وَرَسُولُهُ ‏\"‏‏.‏ قَالَ فَبَاتَ النَّاسُ يَدُوكُونَ لَيْلَتَهُمْ أَيُّهُمْ يُعْطَاهَا فَلَمَّا أَصْبَحَ النَّاسُ غَدَوْا عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم، كُلُّهُمْ يَرْجُو أَنْ يُعْطَاهَا فَقَالَ ‏\"‏ أَيْنَ عَلِيُّ بْنُ أَبِي طَالِبٍ ‏\"‏‏.‏ فَقِيلَ هُوَ يَا رَسُولَ اللَّهِ يَشْتَكِي عَيْنَيْهِ‏.‏ قَالَ ‏\"‏ فَأَرْسِلُوا إِلَيْهِ ‏\"‏‏.‏ فَأُتِيَ بِهِ فَبَصَقَ رَسُولُ اللَّهِ صلى الله عليه وسلم فِي عَيْنَيْهِ، وَدَعَا لَهُ، فَبَرَأَ حَتَّى كَأَنْ لَمْ يَكُنْ بِهِ وَجَعٌ، فَأَعْطَاهُ الرَّايَةَ، فَقَالَ عَلِيٌّ يَا رَسُولَ اللَّهِ أُقَاتِلُهُمْ حَتَّى يَكُونُوا مِثْلَنَا، فَقَالَ ‏\"‏ انْفُذْ عَلَى رِسْلِكَ حَتَّى تَنْزِلَ بِسَاحَتِهِمْ، ثُمَّ ادْعُهُمْ إِلَى الإِسْلاَمِ، وَأَخْبِرْهُمْ بِمَا يَجِبُ عَلَيْهِمْ مِنْ حَقِّ اللَّهِ فِيهِ، فَوَاللَّهِ لأَنْ يَهْدِيَ اللَّهُ بِكَ رَجُلاً وَاحِدًا خَيْرٌ لَكَ مِنْ أَنْ يَكُونَ لَكَ حُمْرُ النَّعَمِ ‏\""
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Ali ibn Abi Talib", "Marhab (Jewish warrior killed by Ali)"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Ali ibn Abi Talib",
+        "Marhab (Jewish warrior killed by Ali)"
+      ],
       "location": "Khaybar, north of Madinah",
-      "locationArabic": "خيبر"
+      "locationArabic": "خيبر",
+      "locationFrench": "Khaybar, au nord de Médine"
     },
     {
       "id": "med-013",
       "title": "The Conquest of Makkah (Fath Makkah)",
       "titleArabic": "فتح مكة",
+      "titleFrench": "La conquête de La Mecque (Fath Makka)",
       "year": "8 AH",
       "yearCE": "630 CE",
       "month": "Ramadan (20th)",
       "category": "conquest",
       "summary": "After the Quraysh violated the Treaty of Hudaybiyah by supporting an attack on the Prophet's ﷺ allies (Banu Khuza'ah), the Prophet ﷺ marched on Makkah with 10,000 Muslims. The city surrendered almost without resistance. The Prophet ﷺ entered Makkah on his camel with his head bowed in humility, reciting Surah Al-Fath. He went directly to the Ka'bah, circled it, and destroyed the 360 idols inside and around it, reciting: 'Truth has come and falsehood has perished. Indeed, falsehood is ever bound to perish.' He then declared a general amnesty for the people of Makkah.",
+      "summaryArabic": "لما نقضت قريش صلح الحديبية بإعانتها على حلفاء النبي صلى الله عليه وسلم من بني خزاعة، سار إلى مكة في عشرة آلاف من المسلمين، فاستسلمت المدينة من غير قتال يُذكر. ودخل النبي صلى الله عليه وسلم مكة على راحلته مطأطئ الرأس تواضعًا يقرأ سورة الفتح. ثم قصد الكعبة فطاف بها وكسر ما حولها وفيها من الأصنام وهي ثلاثمائة وستون صنمًا وهو يتلو: «وقل جاء الحق وزهق الباطل إن الباطل كان زهوقًا». ثم أعلن العفو العام عن أهل مكة.",
+      "summaryFrench": "Après que Qouraych eut violé le traité de Houdaybiya en soutenant une attaque contre les alliés du Prophète ﷺ (les Banoû Khouzâ'a), le Prophète ﷺ marcha sur La Mecque avec dix mille musulmans. La ville se rendit presque sans résistance. Le Prophète ﷺ entra à La Mecque sur sa chamelle, la tête inclinée par humilité, récitant la sourate Al-Fath. Il se rendit directement à la Ka'ba, en fit le tour, et détruisit les trois cent soixante idoles qui s'y trouvaient et l'entouraient, en récitant : « La vérité est venue et le faux a disparu. Certes le faux est voué à disparaître. » Il proclama ensuite une amnistie générale pour les gens de La Mecque.",
       "significance": "The conquest of Makkah is one of the most extraordinary events in history. The Prophet ﷺ, who had been driven out as a persecuted refugee eight years earlier, returned as a victor but displayed unparalleled mercy. He forgave even his worst enemies, including those who had tortured, killed, and persecuted Muslims for decades. When asked what he would do with the Quraysh, he said: 'Go, for you are free.' This act of mercy led to the mass acceptance of Islam across Arabia.",
+      "significanceArabic": "فتح مكة من أعظم أحداث التاريخ. فقد عاد النبي صلى الله عليه وسلم الذي أُخرج منها قبل ثماني سنين مضطهدًا، عاد فاتحًا فأظهر من الرحمة ما لا نظير له، فعفا عن أشد أعدائه، وفيهم من عذّب المسلمين وقتلهم واضطهدهم عقودًا. ولما سُئل ما هو صانع بقريش قال: «اذهبوا فأنتم الطلقاء». فكان هذا العفو سببًا في دخول العرب في الإسلام أفواجًا.",
+      "significanceFrench": "La conquête de La Mecque est l'un des événements les plus extraordinaires de l'histoire. Le Prophète ﷺ, chassé huit ans plus tôt en réfugié persécuté, revint en vainqueur mais fit preuve d'une miséricorde sans égale. Il pardonna même à ses pires ennemis, y compris ceux qui avaient torturé, tué et persécuté les musulmans pendant des décennies. Quand on lui demanda ce qu'il ferait de Qouraych, il répondit : « Allez, vous êtes libres. » Cet acte de miséricorde entraîna l'adhésion massive à l'islam dans toute l'Arabie.",
       "quranReferences": [
         {
           "surah": 17,
           "surahName": "Al-Isra",
           "ayahRange": "81",
-          "textArabic": "وَقُلْ جَآءَ ٱلْحَقُّ وَزَهَقَ ٱلْبَـٰطِلُ ۚ إِنَّ ٱلْبَـٰطِلَ كَانَ زَهُوقًۭا",
-          "textEnglish": "And say: Truth has come and falsehood has perished. Indeed, falsehood is ever bound to perish."
+          "textArabic": "وَقُلْ جَآءَ ٱلْحَقُّ وَزَهَقَ ٱلْبَٰطِلُ ۚ إِنَّ ٱلْبَٰطِلَ كَانَ زَهُوقًۭا",
+          "textEnglish": "And say, \"Truth has come, and falsehood has departed. Indeed is falsehood, [by nature], ever bound to depart.\"",
+          "textFrench": "Et dis: «La Vérité (l'Islam) est venue et l'Erreur a disparu. Car l'Erreur est destinée à disparaître».",
+          "translationProvenance": "fetched"
         },
         {
           "surah": 110,
           "surahName": "An-Nasr",
           "ayahRange": "1-3",
-          "textArabic": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ ۝ وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًۭا ۝ فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
-          "textEnglish": "When the victory of Allah has come and the conquest, and you see the people entering into the religion of Allah in multitudes, then exalt with praise of your Lord and ask His forgiveness. Indeed, He is ever Accepting of repentance."
+          "textArabic": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ ۝ وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًۭا ۝ فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
+          "textEnglish": "When the victory of Allah has come and the conquest, And you see the people entering into the religion of Allah in multitudes, Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.",
+          "textFrench": "Lorsque vient le secours d'Allah ainsi que la victoire, et que tu vois les gens entrer en foule dans la religion d'Allah, alors, par la louange, célèbre la gloire de ton Seigneur et implore Son pardon. Car c'est Lui le grand Accueillant au repentir.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [
@@ -386,70 +613,110 @@
           "source": "Sahih al-Bukhari",
           "hadithNumber": "4287",
           "narrator": "Abdullah ibn Mas'ud",
-          "textEnglish": "The Prophet ﷺ entered Makkah on the Day of the Conquest, and there were 360 idols around the Ka'bah. He started poking them with a stick he had in his hand, saying: 'Truth has come and falsehood has perished. Indeed, falsehood is ever bound to perish.'"
+          "textEnglish": "The Prophet ﷺ entered Makkah on the Day of the Conquest, and there were 360 idols around the Ka'bah. He started poking them with a stick he had in his hand, saying: 'Truth has come and falsehood has perished. Indeed, falsehood is ever bound to perish.'",
+          "grade": "sahih",
+          "textFrench": "Le Prophète ﷺ entra à La Mecque le jour de la Conquête, et il y avait trois cent soixante idoles autour de la Ka'ba. Il se mit à les frapper d'un bâton qu'il tenait, en disant : « La vérité est venue et le faux a disparu. Certes le faux est voué à disparaître. »",
+          "translationProvenance": "project",
+          "textArabic": "جَاءَ الْحَقُّ وَزَهَقَ الْبَاطِلُ، جَاءَ الْحَقُّ، وَمَا يُبْدِئُ الْبَاطِلُ وَمَا يُعِيدُ ‏\""
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Abu Sufyan (accepted Islam)", "Khalid ibn al-Walid (now Muslim)", "Hind bint Utbah (accepted Islam)"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Abu Sufyan (accepted Islam)",
+        "Khalid ibn al-Walid (now Muslim)",
+        "Hind bint Utbah (accepted Islam)"
+      ],
       "location": "Makkah",
-      "locationArabic": "مكة المكرمة"
+      "locationArabic": "مكة المكرمة",
+      "locationFrench": "La Mecque"
     },
     {
       "id": "med-014",
       "title": "The Battle of Hunayn",
       "titleArabic": "غزوة حنين",
+      "titleFrench": "La bataille de Hounayn",
       "year": "8 AH",
       "yearCE": "630 CE",
       "month": "Shawwal",
       "category": "battle",
       "summary": "Shortly after the conquest of Makkah, the tribes of Hawazin and Thaqif gathered 20,000 warriors to fight the Muslims. The Prophet ﷺ marched with 12,000 — the largest Muslim army ever assembled. Initially, the Muslims were ambushed in the Hunayn valley and many fled in confusion. The Prophet ﷺ stood firm on his mule, calling the Companions back, until the tide turned and the Muslims won a decisive victory.",
+      "summaryArabic": "بعد فتح مكة بقليل جمعت هوازن وثقيف عشرين ألف مقاتل لقتال المسلمين. فخرج النبي صلى الله عليه وسلم في اثني عشر ألفًا، وهو أكبر جيش اجتمع للمسلمين. فبوغتوا في وادي حنين فانكشف كثير منهم، وثبت النبي صلى الله عليه وسلم على بغلته ينادي أصحابه حتى رجعوا فكانت الغلبة للمسلمين.",
+      "summaryFrench": "Peu après la conquête de La Mecque, les tribus de Hawâzin et de Thaqîf rassemblèrent vingt mille guerriers pour combattre les musulmans. Le Prophète ﷺ marcha avec douze mille hommes, la plus grande armée musulmane jamais réunie. Au début, les musulmans tombèrent dans une embuscade dans la vallée de Hounayn et beaucoup s'enfuirent dans la confusion. Le Prophète ﷺ tint bon sur sa mule, rappelant les Compagnons, jusqu'à ce que la situation se renverse et que les musulmans remportent une victoire décisive.",
       "significance": "Hunayn demonstrated that numbers alone do not guarantee victory — only reliance on Allah does. Some Muslims had felt invincible due to their large numbers, and the initial rout was a divine reminder. The Prophet's ﷺ personal courage in standing firm while arrows flew around him, calling 'I am the Prophet, there is no lie! I am the son of Abdul Muttalib!' was extraordinary.",
+      "significanceArabic": "أظهرت حنين أن الكثرة وحدها لا تصنع نصرًا، وإنما النصر بالاعتماد على الله. فقد أعجب بعض المسلمين بكثرتهم فكانت الهزيمة الأولى تذكيرًا ربانيًّا. وكان ثبات النبي صلى الله عليه وسلم بنفسه والسهام تتطاير حوله وهو ينادي: «أنا النبي لا كذب، أنا ابن عبد المطلب» أمرًا عظيمًا.",
+      "significanceFrench": "Hounayn démontra que le nombre seul ne garantit pas la victoire : seule la confiance en Allah le fait. Certains musulmans s'étaient sentis invincibles du fait de leur nombre, et la déroute initiale fut un rappel divin. Le courage personnel du Prophète ﷺ, tenant bon sous les flèches en criant « Je suis le Prophète, sans mensonge ! Je suis le fils d'Abd al-Mouttalib ! », fut extraordinaire.",
       "quranReferences": [
         {
           "surah": 9,
           "surahName": "At-Tawbah",
           "ayahRange": "25-26",
-          "textArabic": "لَقَدْ نَصَرَكُمُ ٱللَّهُ فِى مَوَاطِنَ كَثِيرَةٍۢ ۙ وَيَوْمَ حُنَيْنٍ ۙ إِذْ أَعْجَبَتْكُمْ كَثْرَتُكُمْ فَلَمْ تُغْنِ عَنكُمْ شَيْـًۭٔا",
-          "textEnglish": "Allah has already given you victory in many regions and on the day of Hunayn, when your great number pleased you, but it did not avail you at all."
+          "textArabic": "لَقَدْ نَصَرَكُمُ ٱللَّهُ فِى مَوَاطِنَ كَثِيرَةٍۢ ۙ وَيَوْمَ حُنَيْنٍ ۙ إِذْ أَعْجَبَتْكُمْ كَثْرَتُكُمْ فَلَمْ تُغْنِ عَنكُمْ شَيْـًۭٔا وَضَاقَتْ عَلَيْكُمُ ٱلْأَرْضُ بِمَا رَحُبَتْ ثُمَّ وَلَّيْتُم مُّدْبِرِينَ ۝ ثُمَّ أَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَىٰ رَسُولِهِۦ وَعَلَى ٱلْمُؤْمِنِينَ وَأَنزَلَ جُنُودًۭا لَّمْ تَرَوْهَا وَعَذَّبَ ٱلَّذِينَ كَفَرُوا۟ ۚ وَذَٰلِكَ جَزَآءُ ٱلْكَٰفِرِينَ",
+          "textEnglish": "Allah has already given you victory in many regions and [even] on the day of Hunayn, when your great number pleased you, but it did not avail you at all, and the earth was confining for you with its vastness; then you turned back, fleeing. Then Allah sent down His tranquillity upon His Messenger and upon the believers and sent down soldiers angels whom you did not see and punished those who disbelieved. And that is the recompense of the disbelievers.",
+          "textFrench": "Allah vous a déjà secourus en maints endroits. Et [rappelez-vous] le jour de Hunayn, quand vous étiez fiers de votre grand nombre et que cela ne vous a servi à rien. La terre, malgré son étendue vous devint bien étroite; puis vous avez tourné le dos en fuyards. Puis, Allah fit descendre Sa quiétude [Sa «sakîna»] sur Son messager et sur les croyants. Il fit descendre des troupes (Anges) que vous ne voyiez pas, et châtia ceux qui ont mécru. Telle est la rétribution des mécréants.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [
         {
           "source": "Sahih Muslim",
-          "hadithNumber": "1776",
+          "hadithNumber": "1775",
           "narrator": "Al-Abbas ibn Abdul Muttalib",
-          "textEnglish": "I was with the Prophet ﷺ on the Day of Hunayn. Abu Sufyan ibn al-Harith and I clung to the Messenger of Allah ﷺ and did not leave him. The Prophet ﷺ was riding his white mule... He said: 'I am the Prophet, there is no lie. I am the son of Abdul Muttalib.'"
+          "textEnglish": "I was with the Prophet ﷺ on the Day of Hunayn. Abu Sufyan ibn al-Harith and I clung to the Messenger of Allah ﷺ and did not leave him. The Prophet ﷺ was riding his white mule... He said: 'I am the Prophet, there is no lie. I am the son of Abdul Muttalib.'",
+          "grade": "sahih",
+          "textFrench": "J'étais avec le Prophète ﷺ le jour de Hounayn. Abou Soufyân ibn al-Hârith et moi sommes restés attachés au Messager d'Allah ﷺ sans le quitter. Le Prophète ﷺ montait sa mule blanche... Il dit : « Je suis le Prophète, sans mensonge. Je suis le fils d'Abd al-Mouttalib. »",
+          "translationProvenance": "project",
+          "textArabic": "فَطَفِقَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَرْكُضُ بَغْلَتَهُ قِبَلَ الْكُفَّارِ قَالَ عَبَّاسٌ وَ أَنَا آخِذٌ بِلِجَامِ بَغْلَةِ رَسُولِ اللَّهِ صلى الله عليه وسلم أَكُفُّهَا إِرَادَةَ أَنْ لاَ تُسْرِعَ وَأَبُو سُفْيَانَ آخِذٌ بِرِكَابِ رَسُولِ اللَّهِ صلى الله عليه وسلم فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَىْ عَبَّاسُ نَادِ أَصْحَابَ السَّمُرَةِ ‏\"‏ ‏.‏ فَقَالَ عَبَّاسٌ وَكَانَ رَجُلاً صَيِّتًا فَقُلْتُ بِأَعْلَى صَوْتِي أَيْنَ أَصْحَابُ السَّمُرَةِ قَالَ فَوَاللَّهِ لَكَأَنَّ عَطْفَتَهُمْ حِينَ سَمِعُوا صَوْتِي عَطْفَةُ الْبَقَرِ عَلَى أَوْلاَدِهَا ‏.‏ فَقَالُوا يَا لَبَّيْكَ يَا لَبَّيْكَ - قَالَ - فَاقْتَتَلُوا وَالْكُفَّارَ وَالدَّعْوَةُ فِي الأَنْصَارِ يَقُولُونَ يَا مَعْشَرَ الأَنْصَارِ يَا مَعْشَرَ الأَنْصَارِ قَالَ ثُمَّ قُصِرَتِ الدَّعْوَةُ عَلَى بَنِي الْحَارِثِ بْنِ الْخَزْرَجِ فَقَالُوا يَا بَنِي الْحَارِثِ بْنِ الْخَزْرَجِ يَا بَنِي الْحَارِثِ بْنِ الْخَزْرَجِ ‏.‏ فَنَظَرَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَهُوَ عَلَى بَغْلَتِهِ كَالْمُتَطَاوِلِ عَلَيْهَا إِلَى قِتَالِهِمْ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ هَذَا حِينَ حَمِيَ الْوَطِيسُ ‏\"‏ ‏.‏ قَالَ ثُمَّ أَخَذَ رَسُولُ اللَّهِ صلى الله عليه وسلم حَصَيَاتٍ فَرَمَى بِهِنَّ وُجُوهَ الْكُفَّارِ ثُمَّ قَالَ ‏\"‏ انْهَزَمُوا وَرَبِّ مُحَمَّدٍ ‏\"‏ ‏.‏ قَالَ فَذَهَبْتُ أَنْظُرُ فَإِذَا الْقِتَالُ عَلَى هَيْئَتِهِ فِيمَا أَرَى - قَالَ - فَوَاللَّهِ مَا هُوَ إِلاَّ أَنْ رَمَاهُمْ بِحَصَيَاتِهِ فَمَا زِلْتُ أَرَى حَدَّهُمْ كَلِيلاً وَأَمْرَهُمْ مُدْبِرًا ‏.‏"
         }
       ],
-      "primarySources": ["Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Al-Abbas ibn Abdul Muttalib", "Abu Sufyan ibn al-Harith"],
+      "primarySources": [
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Al-Abbas ibn Abdul Muttalib",
+        "Abu Sufyan ibn al-Harith"
+      ],
       "location": "Valley of Hunayn, between Makkah and Ta'if",
-      "locationArabic": "وادي حنين"
+      "locationArabic": "وادي حنين",
+      "locationFrench": "La vallée de Hounayn, entre La Mecque et Tâ'if"
     },
     {
       "id": "med-015",
       "title": "The Battle of Tabuk",
       "titleArabic": "غزوة تبوك",
+      "titleFrench": "L'expédition de Taboûk",
       "year": "9 AH",
       "yearCE": "630 CE",
       "month": "Rajab",
       "category": "battle",
       "summary": "Learning that the Byzantine Empire was gathering forces near the northern border, the Prophet ﷺ mobilized the largest army in Islamic history — 30,000 warriors — and marched to Tabuk in extreme heat and drought. The expedition was called 'Jaysh al-Usrah' (the Army of Hardship). Uthman ibn Affan single-handedly funded a large portion of the expedition. When they reached Tabuk, the Byzantine forces had withdrawn, and the Prophet ﷺ secured the northern frontier through treaties with local tribes.",
+      "summaryArabic": "لما بلغ النبي صلى الله عليه وسلم أن الروم يحشدون قرب الحدود الشمالية، جهّز أعظم جيش في تاريخ الإسلام يومئذ، ثلاثين ألف مقاتل، وسار إلى تبوك في حر شديد وجدب، فسُمّي جيش العسرة. وجهّز عثمان بن عفان قسمًا كبيرًا منه بماله. فلما بلغوا تبوك كانت الروم قد انسحبت، فأمّن النبي صلى الله عليه وسلم الحدّ الشمالي بمعاهدات مع القبائل هناك.",
+      "summaryFrench": "Apprenant que l'Empire byzantin rassemblait des forces près de la frontière nord, le Prophète ﷺ mobilisa la plus grande armée de l'histoire islamique d'alors, trente mille combattants, et marcha vers Tabouk sous une chaleur extrême et la sécheresse. L'expédition fut appelée « Jaych al-'Ousra » (l'armée de la difficulté). Othmân ibn Affân en finança à lui seul une large part. Lorsqu'ils atteignirent Tabouk, les forces byzantines s'étaient retirées, et le Prophète ﷺ sécurisa la frontière nord par des traités avec les tribus locales.",
       "significance": "Tabuk was the final major military expedition of the Prophet ﷺ. It exposed the hypocrites who made excuses not to participate, and Surah At-Tawbah was largely revealed in this context. The story of Ka'b ibn Malik, who truthfully confessed his failure to join and was boycotted for fifty days before Allah accepted his repentance, is one of the most powerful narratives in the hadith literature.",
+      "significanceArabic": "كانت تبوك آخر غزوة كبرى للنبي صلى الله عليه وسلم، وقد كشفت المنافقين الذين تخلّفوا بالمعاذير، ونزل في ذلك جلّ سورة التوبة. وقصة كعب بن مالك الذي صدق فاعترف بتخلّفه فهُجر خمسين ليلة حتى تاب الله عليه من أبلغ ما في كتب الحديث من القصص.",
+      "significanceFrench": "Tabouk fut la dernière expédition militaire majeure du Prophète ﷺ. Elle démasqua les hypocrites qui s'inventèrent des excuses pour ne pas participer, et la sourate At-Tawba fut en grande partie révélée dans ce contexte. L'histoire de Ka'b ibn Mâlik, qui avoua sincèrement son absence et fut boycotté cinquante jours avant qu'Allah n'accepte son repentir, est l'un des récits les plus puissants de la littérature du hadîth.",
       "quranReferences": [
         {
           "surah": 9,
           "surahName": "At-Tawbah",
           "ayahRange": "38-39",
-          "textArabic": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ مَا لَكُمْ إِذَا قِيلَ لَكُمُ ٱنفِرُوا۟ فِى سَبِيلِ ٱللَّهِ ٱثَّاقَلْتُمْ إِلَى ٱلْأَرْضِ",
-          "textEnglish": "O you who believe, what is the matter with you that when you are told to march forth in the cause of Allah, you cling heavily to the earth?"
+          "textArabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ مَا لَكُمْ إِذَا قِيلَ لَكُمُ ٱنفِرُوا۟ فِى سَبِيلِ ٱللَّهِ ٱثَّاقَلْتُمْ إِلَى ٱلْأَرْضِ ۚ أَرَضِيتُم بِٱلْحَيَوٰةِ ٱلدُّنْيَا مِنَ ٱلْءَاخِرَةِ ۚ فَمَا مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا فِى ٱلْءَاخِرَةِ إِلَّا قَلِيلٌ ۝ إِلَّا تَنفِرُوا۟ يُعَذِّبْكُمْ عَذَابًا أَلِيمًۭا وَيَسْتَبْدِلْ قَوْمًا غَيْرَكُمْ وَلَا تَضُرُّوهُ شَيْـًۭٔا ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌ",
+          "textEnglish": "O you who have believed, what is [the matter] with you that, when you are told to go forth in the cause of Allah, you adhere heavily to the earth? Are you satisfied with the life of this world rather than the Hereafter? But what is the enjoyment of worldly life compared to the Hereafter except a [very] little. If you do not go forth, He will punish you with a painful punishment and will replace you with another people, and you will not harm Him at all. And Allah is over all things competent.",
+          "textFrench": "O vous qui croyez! Qu'avez-vous? Lorsque l'on vous a dit: «Elancez-vous dans le sentier d'Allah» vous vous êtes appesantis sur la terre. La vie présente vous agrée-t-elle plus que l'au-delà? - Or, la jouissance de la vie présente ne sera que peu de chose, comparée à l'au-delà! Si vous ne vous lancez pas au combat, Il vous châtiera d'un châtiment douloureux et vous remplacera par un autre peuple. Vous ne Lui nuirez en rien. Et Allah est Omnipotent.",
+          "translationProvenance": "fetched"
         },
         {
           "surah": 9,
           "surahName": "At-Tawbah",
           "ayahRange": "118",
-          "textArabic": "وَعَلَى ٱلثَّلَـٰثَةِ ٱلَّذِينَ خُلِّفُوا۟",
-          "textEnglish": "And upon the three who were left behind... (regarding Ka'b ibn Malik and his companions)"
+          "textArabic": "وَعَلَى ٱلثَّلَٰثَةِ ٱلَّذِينَ خُلِّفُوا۟ حَتَّىٰٓ إِذَا ضَاقَتْ عَلَيْهِمُ ٱلْأَرْضُ بِمَا رَحُبَتْ وَضَاقَتْ عَلَيْهِمْ أَنفُسُهُمْ وَظَنُّوٓا۟ أَن لَّا مَلْجَأَ مِنَ ٱللَّهِ إِلَّآ إِلَيْهِ ثُمَّ تَابَ عَلَيْهِمْ لِيَتُوبُوٓا۟ ۚ إِنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+          "textEnglish": "And [He also forgave] the three who were left behind [and regretted their error] to the point that the earth closed in on them in spite of its vastness and their souls confined them and they were certain that there is no refuge from Allah except in Him. Then He turned to them so they could repent. Indeed, Allah is the Accepting of repentance, the Merciful.",
+          "textFrench": "Et [Il accueillit le repentir] des trois qui étaient restés à l'arrière si bien que, toute vaste qu'elle fût, la terre leur paraissait exiguë; ils se sentaient à l'étroit, dans leur propre personne et ils pensaient qu'il n'y avait d'autre refuge d'Allah qu'auprès de Lui. Puis Il agréa leur repentir pour qu'ils reviennent [à Lui], car Allah est l'accueillant au repentir, le Miséricordieux.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [
@@ -457,31 +724,51 @@
           "source": "Sahih al-Bukhari",
           "hadithNumber": "4418",
           "narrator": "Ka'b ibn Malik",
-          "textEnglish": "Ka'b narrated his story of not joining the expedition of Tabuk: '...Then Allah revealed His forgiveness for us in the last part of the night, and the Prophet ﷺ announced it after the Fajr prayer...'"
+          "textEnglish": "Ka'b narrated his story of not joining the expedition of Tabuk: '...Then Allah revealed His forgiveness for us in the last part of the night, and the Prophet ﷺ announced it after the Fajr prayer...'",
+          "grade": "sahih",
+          "textFrench": "Ka'b raconta l'histoire de son absence à l'expédition de Taboûk : « ... Puis Allah révéla notre pardon dans la dernière partie de la nuit, et le Prophète ﷺ l'annonça après la prière du Fajr... »",
+          "translationProvenance": "project",
+          "textArabic": "مَا فَعَلَ كَعْبٌ ‏\"‏‏.‏ فَقَالَ رَجُلٌ مِنْ بَنِي سَلِمَةَ يَا رَسُولَ اللَّهِ، حَبَسَهُ بُرْدَاهُ وَنَظَرُهُ فِي عِطْفِهِ‏.‏ فَقَالَ مُعَاذُ بْنُ جَبَلٍ بِئْسَ مَا قُلْتَ، وَاللَّهِ يَا رَسُولَ اللَّهِ، مَا عَلِمْنَا عَلَيْهِ إِلاَّ خَيْرًا‏.‏ فَسَكَتَ رَسُولُ اللَّهِ صلى الله عليه وسلم‏.‏ قَالَ كَعْبُ بْنُ مَالِكٍ فَلَمَّا بَلَغَنِي أَنَّهُ تَوَجَّهَ قَافِلاً حَضَرَنِي هَمِّي، وَطَفِقْتُ أَتَذَكَّرُ الْكَذِبَ وَأَقُولُ بِمَاذَا أَخْرُجُ مِنْ سَخَطِهِ غَدًا وَاسْتَعَنْتُ عَلَى ذَلِكَ بِكُلِّ ذِي رَأْىٍ مِنْ أَهْلِي، فَلَمَّا قِيلَ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم قَدْ أَظَلَّ قَادِمًا زَاحَ عَنِّي الْبَاطِلُ، وَعَرَفْتُ أَنِّي لَنْ أَخْرُجَ مِنْهُ أَبَدًا بِشَىْءٍ فِيهِ كَذِبٌ، فَأَجْمَعْتُ صِدْقَهُ، وَأَصْبَحَ رَسُولُ اللَّهِ صلى الله عليه وسلم قَادِمًا، وَكَانَ إِذَا قَدِمَ مِنْ سَفَرٍ بَدَأَ بِالْمَسْجِدِ فَيَرْكَعُ فِيهِ رَكْعَتَيْنِ ثُمَّ جَلَسَ لِلنَّاسِ، فَلَمَّا فَعَلَ ذَلِكَ جَاءَهُ الْمُخَلَّفُونَ، فَطَفِقُوا يَعْتَذِرُونَ إِلَيْهِ، وَيَحْلِفُونَ لَهُ، وَكَانُوا بِضْعَةً وَثَمَانِينَ رَجُلاً فَقَبِلَ مِنْهُمْ رَسُولُ اللَّهِ صلى الله عليه وسلم عَلاَنِيَتَهُمْ، وَبَايَعَهُمْ وَاسْتَغْفَرَ لَهُمْ، وَوَكَلَ سَرَائِرَهُمْ إِلَى اللَّهِ، فَجِئْتُهُ فَلَمَّا سَلَّمْتُ عَلَيْهِ تَبَسَّمَ تَبَسُّمَ الْمُغْضَبِ، ثُمَّ قَالَ ‏\"‏ تَعَالَ ‏\"‏‏.‏ فَجِئْتُ أَمْشِي حَتَّى جَلَسْتُ بَيْنَ يَدَيْهِ، فَقَالَ لِي ‏\"‏ مَا خَلَّفَكَ أَلَمْ تَكُنْ قَدِ ابْتَعْتَ ظَهْرَكَ ‏\"‏‏.‏ فَقُلْتُ بَلَى، إِنِّي وَاللَّهِ لَوْ جَلَسْتُ عِنْدَ غَيْرِكَ مِنْ أَهْلِ الدُّنْيَا، لَرَأَيْتُ أَنْ سَأَخْرُجُ مِنْ سَخَطِهِ بِعُذْرٍ، وَلَقَدْ أُعْطِيتُ جَدَلاً، وَلَكِنِّي وَاللَّهِ لَقَدْ عَلِمْتُ لَئِنْ حَدَّثْتُكَ الْيَوْمَ حَدِيثَ كَذِبٍ تَرْضَى بِهِ عَنِّي لَيُوشِكَنَّ اللَّهُ أَنْ يُسْخِطَكَ عَلَىَّ، وَلَئِنْ حَدَّثْتُكَ حَدِيثَ صِدْقٍ تَجِدُ عَلَىَّ فِيهِ إِنِّي لأَرْجُو فِيهِ عَفْوَ اللَّهِ، لاَ وَاللَّهِ مَا كَانَ لِي مِنْ عُذْرٍ، وَاللَّهِ مَا كُنْتُ قَطُّ أَقْوَى وَلاَ أَيْسَرَ مِنِّي حِينَ تَخَلَّفْتُ عَنْكَ‏.‏ فَقَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَمَّا هَذَا فَقَدْ صَدَقَ، فَقُمْ حَتَّى يَقْضِيَ اللَّهُ فِيكَ ‏\"‏‏.‏ فَقُمْتُ وَثَارَ رِجَالٌ مِنْ بَنِي سَلِمَةَ فَاتَّبَعُونِي، فَقَالُوا لِي وَاللَّهِ مَا عَلِمْنَاكَ كُنْتَ أَذْنَبْتَ ذَنْبًا قَبْلَ هَذَا، وَلَقَدْ عَجَزْتَ أَنْ لاَ تَكُونَ اعْتَذَرْتَ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم بِمَا اعْتَذَرَ إِلَيْهِ الْمُتَخَلِّفُونَ، قَدْ كَانَ كَافِيَكَ ذَنْبَكَ اسْتِغْفَارُ رَسُولِ اللَّهِ صلى الله عليه وسلم لَكَ، فَوَاللَّهِ مَا زَالُوا يُؤَنِّبُونِي حَتَّى أَرَدْتُ أَنْ أَرْجِعَ فَأُكَذِّبُ نَفْسِي، ثُمَّ قُلْتُ لَهُمْ هَلْ لَقِيَ هَذَا مَعِي أَحَدٌ قَالُوا نَعَمْ، رَجُلاَنِ قَالاَ مِثْلَ مَا قُلْتَ، فَقِيلَ لَهُمَا مِثْلُ مَا قِيلَ لَكَ‏.‏ فَقُلْتُ مَنْ هُمَا قَالُوا مُرَارَةُ بْنُ الرَّبِيعِ الْعَمْرِيُّ وَهِلاَلُ بْنُ أُمَيَّةَ الْوَاقِفِيُّ‏.‏ فَذَكَرُوا لِي رَجُلَيْنِ صَالِحَيْنِ قَدْ شَهِدَا بَدْرًا فِيهِمَا إِسْوَةٌ، فَمَضَيْتُ حِينَ ذَكَرُوهُمَا لِي، وَنَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم الْمُسْلِمِينَ عَنْ كَلاَمِنَا أَيُّهَا الثَّلاَثَةُ مِنْ بَيْنِ مَنْ تَخَلَّفَ عَنْهُ، فَاجْتَنَبَنَا النَّاسُ وَتَغَيَّرُوا لَنَا حَتَّى تَنَكَّرَتْ فِي نَفْسِي الأَرْضُ، فَمَا هِيَ الَّتِي أَعْرِفُ، فَلَبِثْنَا عَلَى ذَلِكَ خَمْسِينَ لَيْلَةً، فَأَمَّا صَاحِبَاىَ فَاسْتَكَانَا وَقَعَدَا فِي بُيُوتِهِمَا يَبْكِيَانِ، وَأَمَّا أَنَا فَكُنْتُ أَشَبَّ الْقَوْمِ وَأَجْلَدَهُمْ، فَكُنْتُ أَخْرُجُ فَأَشْهَدُ الصَّلاَةَ مَعَ الْمُسْلِمِينَ وَأَطُوفُ فِي الأَسْوَاقِ، وَلاَ يُكَلِّمُنِي أَحَدٌ، وَآتِي رَسُولَ اللَّهِ صلى الله عليه وسلم فَأُسَلِّمُ عَلَيْهِ وَهْوَ فِي مَجْلِسِهِ بَعْدَ الصَّلاَةِ، فَأَقُولُ فِي نَفْسِي هَلْ حَرَّكَ شَفَتَيْهِ بِرَدِّ السَّلاَمِ عَلَىَّ أَمْ لاَ ثُمَّ أُصَلِّي قَرِيبًا مِنْهُ فَأُسَارِقُهُ النَّظَرَ، فَإِذَا أَقْبَلْتُ عَلَى صَلاَتِي أَقْبَلَ إِلَىَّ، وَإِذَا الْتَفَتُّ نَحْوَهُ أَعْرَضَ عَنِّي، حَتَّى إِذَا طَالَ عَلَىَّ ذَلِكَ مِنْ جَفْوَةِ النَّاسِ مَشَيْتُ حَتَّى تَسَوَّرْتُ جِدَارَ حَائِطِ أَبِي قَتَادَةَ وَهْوَ ابْنُ عَمِّي وَأَحَبُّ النَّاسِ إِلَىَّ، فَسَلَّمْتُ عَلَيْهِ، فَوَاللَّهِ مَا رَدَّ عَلَىَّ السَّلاَمَ، فَقُلْتُ يَا أَبَا قَتَادَةَ، أَنْشُدُكَ بِاللَّهِ هَلْ تَعْلَمُنِي أُحِبُّ اللَّهَ وَرَسُولَهُ فَسَكَتَ، فَعُدْتُ لَهُ فَنَشَدْتُهُ فَسَكَتَ، فَعُدْتُ لَهُ فَنَشَدْتُهُ‏.‏ فَقَالَ اللَّهُ وَرَسُولُهُ أَعْلَمُ‏.‏ فَفَاضَتْ عَيْنَاىَ وَتَوَلَّيْتُ حَتَّى تَسَوَّرْتُ الْجِدَارَ، قَالَ فَبَيْنَا أَنَا أَمْشِي بِسُوقِ الْمَدِينَةِ إِذَا نَبَطِيٌّ مِنْ أَنْبَاطِ أَهْلِ الشَّأْمِ مِمَّنْ قَدِمَ بِالطَّعَامِ يَبِيعُهُ بِالْمَدِينَةِ يَقُولُ مَنْ يَدُلُّ عَلَى كَعْبِ بْنِ مَالِكٍ فَطَفِقَ النَّاسُ يُشِيرُونَ لَهُ، حَتَّى إِذَا جَاءَنِي دَفَعَ إِلَىَّ كِتَابًا مِنْ مَلِكِ غَسَّانَ، فَإِذَا فِيهِ أَمَّا بَعْدُ فَإِنَّهُ قَدْ بَلَغَنِي أَنَّ صَاحِبَكَ قَدْ جَفَاكَ، وَلَمْ يَجْعَلْكَ اللَّهُ بِدَارِ هَوَانٍ وَلاَ مَضْيَعَةٍ، فَالْحَقْ بِنَا نُوَاسِكَ‏.‏ فَقُلْتُ لَمَّا قَرَأْتُهَا وَهَذَا أَيْضًا مِنَ الْبَلاَءِ‏.‏ فَتَيَمَّمْتُ بِهَا التَّنُّورَ فَسَجَرْتُهُ بِهَا، حَتَّى إِذَا مَضَتْ أَرْبَعُونَ لَيْلَةً مِنَ الْخَمْسِينَ إِذَا رَسُولُ رَسُولِ اللَّهِ صلى الله عليه وسلم يَأْتِينِي فَقَالَ إِنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم يَأْمُرُكَ أَنْ تَعْتَزِلَ امْرَأَتَكَ فَقُلْتُ أُطَلِّقُهَا أَمْ مَاذَا أَفْعَلُ قَالَ لاَ بَلِ اعْتَزِلْهَا وَلاَ تَقْرَبْهَا‏.‏ وَأَرْسَلَ إِلَى صَاحِبَىَّ مِثْلَ ذَلِكَ، فَقُلْتُ لاِمْرَأَتِي الْحَقِي بِأَهْلِكِ فَتَكُونِي عِنْدَهُمْ حَتَّى يَقْضِيَ اللَّهُ فِي هَذَا الأَمْرِ‏.‏ قَالَ كَعْبٌ فَجَاءَتِ امْرَأَةُ هِلاَلِ بْنِ أُمَيَّةَ رَسُولَ اللَّهِ صلى الله عليه وسلم فَقَالَتْ يَا رَسُولَ اللَّهِ، إِنَّ هِلاَلَ بْنَ أُمَيَّةَ شَيْخٌ ضَائِعٌ لَيْسَ لَهُ خَادِمٌ فَهَلْ تَكْرَهُ أَنْ أَخْدُمَهُ قَالَ ‏\"‏ لاَ وَلَكِنْ لاَ يَقْرَبْكِ ‏\"‏‏.‏ قَالَتْ إِنَّهُ وَاللَّهِ مَا بِهِ حَرَكَةٌ إِلَى شَىْءٍ، وَاللَّهِ مَا زَالَ يَبْكِي مُنْذُ كَانَ مِنْ أَمْرِهِ مَا كَانَ إِلَى يَوْمِهِ هَذَا‏.‏ فَقَالَ لِي بَعْضُ أَهْلِي لَوِ اسْتَأْذَنْتَ رَسُولَ اللَّهِ صلى الله عليه وسلم فِي امْرَأَتِكَ كَمَا أَذِنَ لاِمْرَأَةِ هِلاَلِ بْنِ أُمَيَّةَ أَنْ تَخْدُمَهُ فَقُلْتُ وَاللَّهِ لاَ أَسْتَأْذِنُ فِيهَا رَسُولَ اللَّهِ صلى الله عليه وسلم وَمَا يُدْرِينِي مَا يَقُولُ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا اسْتَأْذَنْتُهُ فِيهَا وَأَنَا رَجُلٌ شَابٌّ فَلَبِثْتُ بَعْدَ ذَلِكَ عَشْرَ لَيَالٍ حَتَّى كَمَلَتْ لَنَا خَمْسُونَ لَيْلَةً مِنْ حِينِ نَهَى رَسُولُ اللَّهِ صلى الله عليه وسلم عَنْ كَلاَمِنَا، فَلَمَّا صَلَّيْتُ صَلاَةَ الْفَجْرِ صُبْحَ خَمْسِينَ لَيْلَةً، وَأَنَا عَلَى ظَهْرِ بَيْتٍ مِنْ بُيُوتِنَا، فَبَيْنَا أَنَا جَالِسٌ عَلَى الْحَالِ الَّتِي ذَكَرَ اللَّهُ، قَدْ ضَاقَتْ عَلَىَّ نَفْسِي، وَضَاقَتْ عَلَىَّ الأَرْضُ بِمَا رَحُبَتْ، سَمِعْتُ صَوْتَ صَارِخٍ أَوْفَى عَلَى جَبَلِ سَلْعٍ بِأَعْلَى صَوْتِهِ يَا كَعْبُ بْنَ مَالِكٍ، أَبْشِرْ‏.‏ قَالَ فَخَرَرْتُ سَاجِدًا، وَعَرَفْتُ أَنْ قَدْ جَاءَ فَرَجٌ، وَآذَنَ رَسُولُ اللَّهِ صلى الله عليه وسلم بِتَوْبَةِ اللَّهِ عَلَيْنَا حِينَ صَلَّى صَلاَةَ الْفَجْرِ، فَذَهَبَ النَّاسُ يُبَشِّرُونَنَا، وَذَهَبَ قِبَلَ صَاحِبَىَّ مُبَشِّرُونَ، وَرَكَضَ إِلَىَّ رَجُلٌ فَرَسًا، وَسَعَى سَاعٍ مِنْ أَسْلَمَ فَأَوْفَى عَلَى الْجَبَلِ وَكَانَ الصَّوْتُ أَسْرَعَ مِنَ الْفَرَسِ، فَلَمَّا جَاءَنِي الَّذِي سَمِعْتُ صَوْتَهُ يُبَشِّرُنِي نَزَعْتُ لَهُ ثَوْبَىَّ، فَكَسَوْتُهُ إِيَّاهُمَا بِبُشْرَاهُ، وَاللَّهِ مَا أَمْلِكُ غَيْرَهُمَا يَوْمَئِذٍ، وَاسْتَعَرْتُ ثَوْبَيْنِ فَلَبِسْتُهُمَا، وَانْطَلَقْتُ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم فَيَتَلَقَّانِي النَّاسُ فَوْجًا فَوْجًا يُهَنُّونِي بِالتَّوْبَةِ، يَقُولُونَ لِتَهْنِكَ تَوْبَةُ اللَّهِ عَلَيْكَ‏.‏ قَالَ كَعْبٌ حَتَّى دَخَلْتُ الْمَسْجِدَ، فَإِذَا رَسُولُ اللَّهِ صلى الله عليه وسلم جَالِسٌ حَوْلَهُ النَّاسُ فَقَامَ إِلَىَّ طَلْحَةُ بْنُ عُبَيْدِ اللَّهِ يُهَرْوِلُ حَتَّى صَافَحَنِي وَهَنَّانِي، وَاللَّهِ مَا قَامَ إِلَىَّ رَجُلٌ مِنَ الْمُهَاجِرِينَ غَيْرُهُ، وَلاَ أَنْسَاهَا لِطَلْحَةَ، قَالَ كَعْبٌ فَلَمَّا سَلَّمْتُ عَلَى رَسُولِ اللَّهِ صلى الله عليه وسلم قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَهْوَ يَبْرُقُ وَجْهُهُ مِنَ السُّرُورِ ‏\"‏ أَبْشِرْ بِخَيْرِ يَوْمٍ مَرَّ عَلَيْكَ مُنْذُ وَلَدَتْكَ أُمُّكَ ‏\"‏‏.‏ قَالَ قُلْتُ أَمِنْ عِنْدِكَ يَا رَسُولَ اللَّهِ أَمْ مِنْ عِنْدِ اللَّهِ قَالَ ‏\"‏ لاَ، بَلْ مِنْ عِنْدِ اللَّهِ ‏\"‏‏.‏ وَكَانَ رَسُولُ اللَّهِ صلى الله عليه وسلم إِذَا سُرَّ اسْتَنَارَ وَجْهُهُ حَتَّى كَأَنَّهُ قِطْعَةُ قَمَرٍ، وَكُنَّا نَعْرِفُ ذَلِكَ مِنْهُ، فَلَمَّا جَلَسْتُ بَيْنَ يَدَيْهِ قُلْتُ يَا رَسُولَ اللَّهِ، إِنَّ مِنْ تَوْبَتِي أَنْ أَنْخَلِعَ مِنْ مَالِي صَدَقَةً إِلَى اللَّهِ وَإِلَى رَسُولِ اللَّهِ‏.‏ قَالَ رَسُولُ اللَّهِ صلى الله عليه وسلم ‏\"‏ أَمْسِكْ عَلَيْكَ بَعْضَ مَالِكَ فَهُوَ خَيْرٌ لَكَ ‏\"‏‏.‏ قُلْتُ فَإِنِّي أُمْسِكُ سَهْمِي الَّذِي بِخَيْبَرَ، فَقُلْتُ يَا رَسُولَ اللَّهِ، إِنَّ اللَّهَ إِنَّمَا نَجَّانِي بِالصِّدْقِ، وَإِنَّ مِنْ تَوْبَتِي أَنْ لاَ أُحَدِّثَ إِلاَّ صِدْقًا مَا بَقِيتُ، فَوَاللَّهِ مَا أَعْلَمُ أَحَدًا مِنَ الْمُسْلِمِينَ أَبْلاَهُ اللَّهُ فِي صِدْقِ الْحَدِيثِ مُنْذُ ذَكَرْتُ ذَلِكَ لِرَسُولِ اللَّهِ صلى الله عليه وسلم أَحْسَنَ مِمَّا أَبْلاَنِي، مَا تَعَمَّدْتُ مُنْذُ ذَكَرْتُ ذَلِكَ لِرَسُولِ اللَّهِ صلى الله عليه وسلم إِلَى يَوْمِي هَذَا كَذِبًا، وَإِنِّي لأَرْجُو أَنْ يَحْفَظَنِي اللَّهُ فِيمَا بَقِيتُ وَأَنْزَلَ اللَّهُ عَلَى رَسُولِهِ صلى الله عليه وسلم ‏‏{‏لَقَدْ تَابَ اللَّهُ عَلَى النَّبِيِّ وَالْمُهَاجِرِينَ‏}‏ إِلَى قَوْلِهِ ‏‏{‏وَكُونُوا مَعَ الصَّادِقِينَ‏}‏ فَوَاللَّهِ مَا أَنْعَمَ اللَّهُ عَلَىَّ مِنْ نِعْمَةٍ قَطُّ بَعْدَ أَنْ هَدَانِي لِلإِسْلاَمِ أَعْظَمَ فِي نَفْسِي مِنْ صِدْقِي لِرَسُولِ اللَّهِ صلى الله عليه وسلم أَنْ لاَ أَكُونَ كَذَبْتُهُ، فَأَهْلِكَ كَمَا هَلَكَ الَّذِينَ كَذَبُوا، فَإِنَّ اللَّهَ قَالَ لِلَّذِينَ كَذَبُوا حِينَ أَنْزَلَ الْوَحْىَ شَرَّ مَا قَالَ لأَحَدٍ، فَقَالَ تَبَارَكَ وَتَعَالَى ‏‏{‏سَيَحْلِفُونَ بِاللَّهِ لَكُمْ إِذَا انْقَلَبْتُمْ‏}‏ إِلَى قَوْلِهِ ‏‏{‏فَإِنَّ اللَّهَ لاَ يَرْضَى عَنِ الْقَوْمِ الْفَاسِقِينَ‏}‏‏.‏ قَالَ كَعْبٌ وَكُنَّا تَخَلَّفْنَا أَيُّهَا الثَّلاَثَةُ عَنْ أَمْرِ أُولَئِكَ الَّذِينَ قَبِلَ مِنْهُمْ رَسُولُ اللَّهِ صلى الله عليه وسلم حِينَ حَلَفُوا لَهُ، فَبَايَعَهُمْ وَاسْتَغْفَرَ لَهُمْ وَأَرْجَأَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَمْرَنَا حَتَّى قَضَى اللَّهُ فِيهِ، فَبِذَلِكَ قَالَ اللَّهُ ‏‏{‏وَعَلَى الثَّلاَثَةِ الَّذِينَ خُلِّفُوا‏}‏ وَلَيْسَ الَّذِي ذَكَرَ اللَّهُ مِمَّا خُلِّفْنَا عَنِ الْغَزْوِ إِنَّمَا هُوَ تَخْلِيفُهُ إِيَّانَا وَإِرْجَاؤُهُ أَمْرَنَا عَمَّنْ حَلَفَ لَهُ وَاعْتَذَرَ إِلَيْهِ، فَقَبِلَ مِنْهُ‏.‏"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Uthman ibn Affan (major funder)", "Ka'b ibn Malik", "Abu Bakr as-Siddiq"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Uthman ibn Affan (major funder)",
+        "Ka'b ibn Malik",
+        "Abu Bakr as-Siddiq"
+      ],
       "location": "Tabuk, northern Arabia",
-      "locationArabic": "تبوك"
+      "locationArabic": "تبوك",
+      "locationFrench": "Taboûk, dans le nord de l'Arabie"
     },
     {
       "id": "med-016",
       "title": "The Farewell Pilgrimage (Hajjat al-Wada')",
       "titleArabic": "حجة الوداع",
+      "titleFrench": "Le pèlerinage d'adieu (Hajjat al-Wadâ')",
       "year": "10 AH",
       "yearCE": "632 CE",
       "month": "Dhul Hijjah",
       "category": "pilgrimage",
       "summary": "In the tenth year after Hijrah, the Prophet ﷺ performed Hajj — the only Hajj of his life — with approximately 100,000 or more Muslims. On the 9th of Dhul Hijjah, standing at Arafat, he delivered his Farewell Sermon (Khutbat al-Wada'), addressing all of humanity with principles of equality, justice, women's rights, the prohibition of usury, and the sanctity of life and property. He asked the people: 'Have I conveyed the message?' and they responded: 'Yes!' He said: 'O Allah, bear witness.'",
+      "summaryArabic": "حج النبي صلى الله عليه وسلم في السنة العاشرة من الهجرة، وهي حجته الوحيدة، ومعه نحو مائة ألف من المسلمين أو يزيدون. وفي التاسع من ذي الحجة وقف بعرفة فخطب خطبة الوداع، وخاطب الناس جميعًا بأصول المساواة والعدل وحقوق النساء وتحريم الربا وحرمة الدماء والأموال. ثم قال: «ألا هل بلّغت؟» قالوا: نعم. قال: «اللهم فاشهد».",
+      "summaryFrench": "La dixième année après l'Hégire, le Prophète ﷺ accomplit le pèlerinage, le seul de sa vie, avec environ cent mille musulmans ou davantage. Le 9 Dhoû al-Hijja, debout à Arafat, il prononça son Sermon d'adieu (Khoutbat al-Wadâ'), s'adressant à toute l'humanité avec les principes d'égalité, de justice, des droits des femmes, de l'interdiction de l'usure et du caractère sacré de la vie et des biens. Il demanda aux gens : « Ai-je transmis le message ? » et ils répondirent : « Oui ! » Il dit alors : « Ô Allah, sois-en témoin. »",
       "significance": "This was the culmination of the Prophet's ﷺ 23-year mission. The Farewell Sermon is one of the greatest speeches in human history, establishing principles of human rights, racial equality, and social justice that were centuries ahead of their time. On this occasion, the final verse of legislation was revealed, declaring the perfection of the religion. The Prophet ﷺ hinted at his impending departure.",
+      "significanceArabic": "كانت هذه ثمرة ثلاث وعشرين سنة من رسالته صلى الله عليه وسلم. وخطبة الوداع من أعظم الخطب في تاريخ البشر، أرست من قواعد حقوق الإنسان والمساواة بين الأجناس والعدل الاجتماعي ما سبقت به عصورًا. وفي هذا الموقف نزلت آية إكمال الدين. وقد ألمح النبي صلى الله عليه وسلم إلى قرب أجله.",
+      "significanceFrench": "Ce fut l'aboutissement de vingt-trois années de mission du Prophète ﷺ. Le Sermon d'adieu est l'un des plus grands discours de l'histoire humaine, établissant des principes de droits humains, d'égalité raciale et de justice sociale en avance de plusieurs siècles sur son temps. À cette occasion fut révélé le verset final de la législation, proclamant le parachèvement de la religion. Le Prophète ﷺ laissa entendre son départ imminent.",
       "quranReferences": [
         {
           "surah": 5,
           "surahName": "Al-Ma'idah",
           "ayahRange": "3",
-          "textArabic": "ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ ٱلْإِسْلَـٰمَ دِينًۭا",
-          "textEnglish": "This day I have perfected for you your religion and completed My favor upon you and have approved for you Islam as your religion."
+          "textArabic": "حُرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ وَٱلدَّمُ وَلَحْمُ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ وَٱلْمُنْخَنِقَةُ وَٱلْمَوْقُوذَةُ وَٱلْمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ وَمَآ أَكَلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيْتُمْ وَمَا ذُبِحَ عَلَى ٱلنُّصُبِ وَأَن تَسْتَقْسِمُوا۟ بِٱلْأَزْلَٰمِ ۚ ذَٰلِكُمْ فِسْقٌ ۗ ٱلْيَوْمَ يَئِسَ ٱلَّذِينَ كَفَرُوا۟ مِن دِينِكُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِ ۚ ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ ٱلْإِسْلَٰمَ دِينًۭا ۚ فَمَنِ ٱضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍۢ لِّإِثْمٍۢ ۙ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ",
+          "textEnglish": "Prohibited to you are dead animals, blood, the flesh of swine, and that which has been dedicated to other than Allah, and [those animals] killed by strangling or by a violent blow or by a head-long fall or by the goring of horns, and those from which a wild animal has eaten, except what you [are able to] slaughter [before its death], and those which are sacrificed on stone altars, and [prohibited is] that you seek decision through divining arrows. That is grave disobedience. This day those who disbelieve have despaired of [defeating] your religion; so fear them not, but fear Me. This day I have perfected for you your religion and completed My favor upon you and have approved for you Islam as religion. But whoever is forced by severe hunger with no inclination to sin - then indeed, Allah is Forgiving and Merciful.",
+          "textFrench": "Vous sont interdits la bête trouvée morte, le sang, la chair de porc, ce sur quoi on a invoqué un autre nom que celui d'Allah, la bête étouffée, la bête assommée ou morte d'une chute ou morte d'un coup de corne, et celle qu'une bête féroce a dévorée - sauf celle que vous égorgez avant qu'elle ne soit morte -. (Vous sont interdits aussi la bête) qu'on a immolée sur les pierres dressées, ainsi que de procéder au partage par tirage au sort au moyen de flèches. Car cela est perversité. Aujourd'hui, les mécréants désespèrent (de vous détourner) de votre religion: ne les craignez donc pas et craignez-Moi. Aujourd'hui, J'ai parachevé pour vous votre religion, et accompli sur vous Mon bienfait. Et J'agrée l'Islam comme religion pour vous. Si quelqu'un est contraint par la faim, sans inclination vers le péché... alors, Allah est Pardonneur et Miséricordieux.",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [
@@ -489,38 +776,58 @@
           "source": "Sahih Muslim",
           "hadithNumber": "1218",
           "narrator": "Jabir ibn Abdullah",
-          "textEnglish": "The Prophet ﷺ said in his sermon at Arafat: 'O people, your blood, your property, and your honor are sacred to you, like the sanctity of this day, in this month, in this city. All the practices of Jahiliyyah are under my feet. The usury of Jahiliyyah is abolished... Fear Allah regarding women, for you have taken them as a trust from Allah...'"
+          "textEnglish": "The Prophet ﷺ said in his sermon at Arafat: 'O people, your blood, your property, and your honor are sacred to you, like the sanctity of this day, in this month, in this city. All the practices of Jahiliyyah are under my feet. The usury of Jahiliyyah is abolished... Fear Allah regarding women, for you have taken them as a trust from Allah...'",
+          "grade": "sahih",
+          "textFrench": "Le Prophète ﷺ dit dans son sermon à Arafat : « Ô gens, votre sang, vos biens et votre honneur vous sont sacrés, comme est sacré ce jour, dans ce mois, dans cette cité. Toutes les pratiques de la Jâhiliyya sont sous mes pieds. L'usure de la Jâhiliyya est abolie... Craignez Allah au sujet des femmes, car vous les avez prises comme un dépôt confié par Allah... »",
+          "translationProvenance": "project",
+          "textArabic": "مَكَثَ تِسْعَ سِنِينَ لَمْ يَحُجَّ ثُمَّ أَذَّنَ فِي النَّاسِ فِي الْعَاشِرَةِ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم حَاجٌّ فَقَدِمَ الْمَدِينَةَ بَشَرٌ كَثِيرٌ كُلُّهُمْ يَلْتَمِسُ أَنْ يَأْتَمَّ بِرَسُولِ اللَّهِ صلى الله عليه وسلم وَيَعْمَلَ مِثْلَ عَمَلِهِ فَخَرَجْنَا مَعَهُ حَتَّى أَتَيْنَا ذَا الْحُلَيْفَةِ فَوَلَدَتْ أَسْمَاءُ بِنْتُ عُمَيْسٍ مُحَمَّدَ بْنَ أَبِي بَكْرٍ فَأَرْسَلَتْ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم كَيْفَ أَصْنَعُ قَالَ ‏\"‏ اغْتَسِلِي وَاسْتَثْفِرِي بِثَوْبٍ وَأَحْرِمِي ‏\"‏ ‏.‏ فَصَلَّى رَسُولُ اللَّهِ صلى الله عليه وسلم فِي الْمَسْجِدِ ثُمَّ رَكِبَ الْقَصْوَاءَ حَتَّى إِذَا اسْتَوَتْ بِهِ نَاقَتُهُ عَلَى الْبَيْدَاءِ نَظَرْتُ إِلَى مَدِّ بَصَرِي بَيْنَ يَدَيْهِ مِنْ رَاكِبٍ وَمَاشٍ وَعَنْ يَمِينِهِ مِثْلَ ذَلِكَ وَعَنْ يَسَارِهِ مِثْلَ ذَلِكَ وَمِنْ خَلْفِهِ مِثْلَ ذَلِكَ وَرَسُولُ اللَّهِ صلى الله عليه وسلم بَيْنَ أَظْهُرِنَا وَعَلَيْهِ يَنْزِلُ الْقُرْآنُ وَهُوَ يَعْرِفُ تَأْوِيلَهُ وَمَا عَمِلَ بِهِ مِنْ شَىْءٍ عَمِلْنَا بِهِ فَأَهَلَّ بِالتَّوْحِيدِ ‏\"‏ لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ لَبَّيْكَ لاَ شَرِيكَ لَكَ لَبَّيْكَ إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ لاَ شَرِيكَ لَكَ ‏\"‏ ‏.‏ وَأَهَلَّ النَّاسُ بِهَذَا الَّذِي يُهِلُّونَ بِهِ فَلَمْ يَرُدَّ رَسُولُ اللَّهِ صلى الله عليه وسلم عَلَيْهِمْ شَيْئًا مِنْهُ وَلَزِمَ رَسُولُ اللَّهِ صلى الله عليه وسلم تَلْبِيَتَهُ قَالَ جَابِرٌ - رضى الله عنه - لَسْنَا نَنْوِي إِلاَّ الْحَجَّ لَسْنَا نَعْرِفُ الْعُمْرَةَ حَتَّى إِذَا أَتَيْنَا الْبَيْتَ مَعَهُ اسْتَلَمَ الرُّكْنَ فَرَمَلَ ثَلاَثًا وَمَشَى أَرْبَعًا ثُمَّ نَفَذَ إِلَى مَقَامِ إِبْرَاهِيمَ - عَلَيْهِ السَّلاَمُ - فَقَرَأَ ‏‏{‏ وَاتَّخِذُوا مِنْ مَقَامِ إِبْرَاهِيمَ مُصَلًّى‏}‏ فَجَعَلَ الْمَقَامَ بَيْنَهُ وَبَيْنَ الْبَيْتِ فَكَانَ أَبِي يَقُولُ وَلاَ أَعْلَمُهُ ذَكَرَهُ إِلاَّ عَنِ النَّبِيِّ صلى الله عليه وسلم كَانَ يَقْرَأُ فِي الرَّكْعَتَيْنِ ‏‏{‏ قُلْ هُوَ اللَّهُ أَحَدٌ‏}‏ وَ ‏‏{‏ قُلْ يَا أَيُّهَا الْكَافِرُونَ‏}‏ ثُمَّ رَجَعَ إِلَى الرُّكْنِ فَاسْتَلَمَهُ ثُمَّ خَرَجَ مِنَ الْبَابِ إِلَى الصَّفَا فَلَمَّا دَنَا مِنَ الصَّفَا قَرَأَ ‏‏{‏ إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ شَعَائِرِ اللَّهِ‏}‏ ‏\"‏ أَبْدَأُ بِمَا بَدَأَ اللَّهُ بِهِ ‏\"‏ ‏.‏ فَبَدَأَ بِالصَّفَا فَرَقِيَ عَلَيْهِ حَتَّى رَأَى الْبَيْتَ فَاسْتَقْبَلَ الْقِبْلَةَ فَوَحَّدَ اللَّهَ وَكَبَّرَهُ وَقَالَ ‏\"‏ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كَلِّ شَىْءٍ قَدِيرٌ لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ أَنْجَزَ وَعْدَهُ وَنَصَرَ عَبْدَهُ وَهَزَمَ الأَحْزَابَ وَحْدَهُ ‏\"‏ ‏.‏ ثُمَّ دَعَا بَيْنَ ذَلِكَ قَالَ مِثْلَ هَذَا ثَلاَثَ مَرَّاتٍ ثُمَّ نَزَلَ إِلَى الْمَرْوَةِ حَتَّى إِذَا انْصَبَّتْ قَدَمَاهُ فِي بَطْنِ الْوَادِي سَعَى حَتَّى إِذَا صَعِدَتَا مَشَى حَتَّى أَتَى الْمَرْوَةَ فَفَعَلَ عَلَى الْمَرْوَةِ كَمَا فَعَلَ عَلَى الصَّفَا حَتَّى إِذَا كَانَ آخِرُ طَوَافِهِ عَلَى الْمَرْوَةِ فَقَالَ ‏\"‏ لَوْ أَنِّي اسْتَقْبَلْتُ مِنْ أَمْرِي مَا اسْتَدْبَرْتُ لَمْ أَسُقِ الْهَدْىَ وَجَعَلْتُهَا عُمْرَةً فَمَنْ كَانَ مِنْكُمْ لَيْسَ مَعَهُ هَدْىٌ فَلْيَحِلَّ وَلْيَجْعَلْهَا عُمْرَةً ‏\"‏ ‏.‏ فَقَامَ سُرَاقَةُ بْنُ مَالِكِ بْنِ جُعْشُمٍ فَقَالَ يَا رَسُولَ اللَّهِ أَلِعَامِنَا هَذَا أَمْ لأَبَدٍ فَشَبَّكَ رَسُولُ اللَّهِ صلى الله عليه وسلم أَصَابِعَهُ وَاحِدَةً فِي الأُخْرَى وَقَالَ ‏\"‏ دَخَلَتِ الْعُمْرَةُ فِي الْحَجِّ - مَرَّتَيْنِ - لاَ بَلْ لأَبَدٍ أَبَدٍ ‏\"‏ ‏.‏ وَقَدِمَ عَلِيٌّ مِنَ الْيَمَنِ بِبُدْنِ النَّبِيِّ صلى الله عليه وسلم فَوَجَدَ فَاطِمَةَ - رضى الله عنها - مِمَّنْ حَلَّ وَلَبِسَتْ ثِيَابًا صَبِيغًا وَاكْتَحَلَتْ فَأَنْكَرَ ذَلِكَ عَلَيْهَا فَقَالَتْ إِنَّ أَبِي أَمَرَنِي بِهَذَا ‏.‏ قَالَ فَكَانَ عَلِيٌّ يَقُولُ بِالْعِرَاقِ فَذَهَبْتُ إِلَى رَسُولِ اللَّهِ صلى الله عليه وسلم مُحَرِّشًا عَلَى فَاطِمَةَ لِلَّذِي صَنَعَتْ مُسْتَفْتِيًا لِرَسُولِ اللَّهِ صلى الله عليه وسلم فِيمَا ذَكَرَتْ عَنْهُ فَأَخْبَرْتُهُ أَنِّي أَنْكَرْتُ ذَلِكَ عَلَيْهَا فَقَالَ ‏\"‏ صَدَقَتْ صَدَقَتْ مَاذَا قُلْتَ حِينَ فَرَضْتَ الْحَجَّ ‏\"‏ ‏.‏ قَالَ قُلْتُ اللَّهُمَّ إِنِّي أُهِلُّ بِمَا أَهَلَّ بِهِ رَسُولُكَ ‏.‏ قَالَ ‏\"‏ فَإِنَّ مَعِيَ الْهَدْىَ فَلاَ تَحِلُّ ‏\"‏ ‏.‏ قَالَ فَكَانَ جَمَاعَةُ الْهَدْىِ الَّذِي قَدِمَ بِهِ عَلِيٌّ مِنَ الْيَمَنِ وَالَّذِي أَتَى بِهِ النَّبِيُّ صلى الله عليه وسلم مِائَةً - قَالَ - فَحَلَّ النَّاسُ كُلُّهُمْ وَقَصَّرُوا إِلاَّ النَّبِيَّ صلى الله عليه وسلم وَمَنْ كَانَ مَعَهُ هَدْىٌ فَلَمَّا كَانَ يَوْمُ التَّرْوِيَةِ تَوَجَّهُوا إِلَى مِنًى فَأَهَلُّوا بِالْحَجِّ وَرَكِبَ رَسُولُ اللَّهِ صلى الله عليه وسلم فَصَلَّى بِهَا الظُّهْرَ وَالْعَصْرَ وَالْمَغْرِبَ وَالْعِشَاءَ وَالْفَجْرَ ثُمَّ مَكَثَ قَلِيلاً حَتَّى طَلَعَتِ الشَّمْسُ وَأَمَرَ بِقُبَّةٍ مِنْ شَعَرٍ تُضْرَبُ لَهُ بِنَمِرَةَ فَسَارَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَلاَ تَشُكُّ قُرَيْشٌ إِلاَّ أَنَّهُ وَاقِفٌ عِنْدَ الْمَشْعَرِ الْحَرَامِ كَمَا كَانَتْ قُرَيْشٌ تَصْنَعُ فِي الْجَاهِلِيَّةِ فَأَجَازَ رَسُولُ اللَّهِ صلى الله عليه وسلم حَتَّى أَتَى عَرَفَةَ فَوَجَدَ الْقُبَّةَ قَدْ ضُرِبَتْ لَهُ بِنَمِرَةَ فَنَزَلَ بِهَا حَتَّى إِذَا زَاغَتِ الشَّمْسُ أَمَرَ بِالْقَصْوَاءِ فَرُحِلَتْ لَهُ فَأَتَى بَطْنَ الْوَادِي فَخَطَبَ النَّاسَ وَقَالَ ‏\"‏ إِنَّ دِمَاءَكُمْ وَأَمْوَالَكُمْ حَرَامٌ عَلَيْكُمْ كَحُرْمَةِ يَوْمِكُمْ هَذَا فِي شَهْرِكُمْ هَذَا فِي بَلَدِكُمْ هَذَا أَلاَ كُلُّ شَىْءٍ مِنْ أَمْرِ الْجَاهِلِيَّةِ تَحْتَ قَدَمَىَّ مَوْضُوعٌ وَدِمَاءُ الْجَاهِلِيَّةِ مَوْضُوعَةٌ وَإِنَّ أَوَّلَ دَمٍ أَضَعُ مِنْ دِمَائِنَا دَمُ ابْنِ رَبِيعَةَ بْنِ الْحَارِثِ كَانَ مُسْتَرْضِعًا فِي بَنِي سَعْدٍ فَقَتَلَتْهُ هُذَيْلٌ وَرِبَا الْجَاهِلِيَّةِ مَوْضُوعٌ وَأَوَّلُ رِبًا أَضَعُ رِبَانَا رِبَا عَبَّاسِ بْنِ عَبْدِ الْمُطَّلِبِ فَإِنَّهُ مَوْضُوعٌ كُلُّهُ فَاتَّقُوا اللَّهَ فِي النِّسَاءِ فَإِنَّكُمْ أَخَذْتُمُوهُنَّ بِأَمَانِ اللَّهِ وَاسْتَحْلَلْتُمْ فُرُوجَهُنَّ بِكَلِمَةِ اللَّهِ وَلَكُمْ عَلَيْهِنَّ أَنْ لاَ يُوطِئْنَ فُرُشَكُمْ أَحَدًا تَكْرَهُونَهُ ‏.‏ فَإِنْ فَعَلْنَ ذَلِكَ فَاضْرِبُوهُنَّ ضَرْبًا غَيْرَ مُبَرِّحٍ وَلَهُنَّ عَلَيْكُمْ رِزْقُهُنَّ وَكِسْوَتُهُنَّ بِالْمَعْرُوفِ وَقَدْ تَرَكْتُ فِيكُمْ مَا لَنْ تَضِلُّوا بَعْدَهُ إِنِ اعْتَصَمْتُمْ بِهِ كِتَابَ اللَّهِ ‏.‏ وَأَنْتُمْ تُسْأَلُونَ عَنِّي فَمَا أَنْتُمْ قَائِلُونَ ‏\"‏ ‏.‏ قَالُوا نَشْهَدُ أَنَّكَ قَدْ بَلَّغْتَ وَأَدَّيْتَ وَنَصَحْتَ ‏.‏ فَقَالَ بِإِصْبَعِهِ السَّبَّابَةِ يَرْفَعُهَا إِلَى السَّمَاءِ وَيَنْكُتُهَا إِلَى النَّاسِ ‏\"‏ اللَّهُمَّ اشْهَدِ اللَّهُمَّ اشْهَدْ ‏\"‏ ‏.‏ ثَلاَثَ مَرَّاتٍ ثُمَّ أَذَّنَ ثُمَّ أَقَامَ فَصَلَّى الظُّهْرَ ثُمَّ أَقَامَ فَصَلَّى الْعَصْرَ وَلَمْ يُصَلِّ بَيْنَهُمَا شَيْئًا ثُمَّ رَكِبَ رَسُولُ اللَّهِ صلى الله عليه وسلم حَتَّى أَتَى الْمَوْقِفَ فَجَعَلَ بَطْنَ نَاقَتِهِ الْقَصْوَاءِ إِلَى الصَّخَرَاتِ وَجَعَلَ حَبْلَ الْمُشَاةِ بَيْنَ يَدَيْهِ وَاسْتَقْبَلَ الْقِبْلَةَ فَلَمْ يَزَلْ وَاقِفًا حَتَّى غَرَبَتِ الشَّمْسُ وَذَهَبَتِ الصُّفْرَةُ قَلِيلاً حَتَّى غَابَ الْقُرْصُ وَأَرْدَفَ أُسَامَةَ خَلْفَهُ وَدَفَعَ رَسُولُ اللَّهِ صلى الله عليه وسلم وَقَدْ شَنَقَ لِلْقَصْوَاءِ الزِّمَامَ حَتَّى إِنَّ رَأْسَهَا لَيُصِيبُ مَوْرِكَ رَحْلِهِ وَيَقُولُ بِيَدِهِ الْيُمْنَى ‏\"‏ أَيُّهَا النَّاسُ السَّكِينَةَ السَّكِينَةَ ‏\"‏ ‏.‏ كُلَّمَا أَتَى حَبْلاً مِنَ الْحِبَالِ أَرْخَى لَهَا قَلِيلاً حَتَّى تَصْعَدَ حَتَّى أَتَى الْمُزْدَلِفَةَ فَصَلَّى بِهَا الْمَغْرِبَ وَالْعِشَاءَ بِأَذَانٍ وَاحِدٍ وَإِقَامَتَيْنِ وَلَمْ يُسَبِّحْ بَيْنَهُمَا شَيْئًا ثُمَّ اضْطَجَعَ رَسُولُ اللَّهِ صلى الله عليه وسلم حَتَّى طَلَعَ الْفَجْرُ وَصَلَّى الْفَجْرَ - حِينَ تَبَيَّنَ لَهُ الصُّبْحُ - بِأَذَانٍ وَإِقَامَةٍ ثُمَّ رَكِبَ الْقَصْوَاءَ حَتَّى أَتَى الْمَشْعَرَ الْحَرَامَ فَاسْتَقْبَلَ الْقِبْلَةَ فَدَعَاهُ وَكَبَّرَهُ وَهَلَّلَهُ وَوَحَّدَهُ فَلَمْ يَزَلْ وَاقِفًا حَتَّى أَسْفَرَ جِدًّا فَدَفَعَ قَبْلَ أَنْ تَطْلُعَ الشَّمْسُ وَأَرْدَفَ الْفَضْلَ بْنَ عَبَّاسٍ وَكَانَ رَجُلاً حَسَنَ الشَّعْرِ أَبْيَضَ وَسِيمًا فَلَمَّا دَفَعَ رَسُولُ اللَّهِ صلى الله عليه وسلم مَرَّتْ بِهِ ظُعُنٌ يَجْرِينَ فَطَفِقَ الْفَضْلُ يَنْظُرُ إِلَيْهِنَّ فَوَضَعَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَدَهُ عَلَى وَجْهِ الْفَضْلِ فَحَوَّلَ الْفَضْلُ وَجْهَهُ إِلَى الشِّقِّ الآخَرِ يَنْظُرُ فَحَوَّلَ رَسُولُ اللَّهِ صلى الله عليه وسلم يَدَهُ مِنَ الشِّقِّ الآخَرِ عَلَى وَجْهِ الْفَضْلِ يَصْرِفُ وَجْهَهُ مِنَ الشِّقِّ الآخَرِ يَنْظُرُ حَتَّى أَتَى بَطْنَ مُحَسِّرٍ فَحَرَّكَ قَلِيلاً ثُمَّ سَلَكَ الطَّرِيقَ الْوُسْطَى الَّتِي تَخْرُجُ عَلَى الْجَمْرَةِ الْكُبْرَى حَتَّى أَتَى الْجَمْرَةَ الَّتِي عِنْدَ الشَّجَرَةِ فَرَمَاهَا بِسَبْعِ حَصَيَاتٍ يُكَبِّرُ مَعَ كُلِّ حَصَاةٍ مِنْهَا مِثْلِ حَصَى الْخَذْفِ رَمَى مِنْ بَطْنِ الْوَادِي ثُمَّ انْصَرَفَ إِلَى الْمَنْحَرِ فَنَحَرَ ثَلاَثًا وَسِتِّينَ بِيَدِهِ ثُمَّ أَعْطَى عَلِيًّا فَنَحَرَ مَا غَبَرَ وَأَشْرَكَهُ فِي هَدْيِهِ ثُمَّ أَمَرَ مِنْ كُلِّ بَدَنَةٍ بِبَضْعَةٍ فَجُعِلَتْ فِي قِدْرٍ فَطُبِخَتْ فَأَكَلاَ مِنْ لَحْمِهَا وَشَرِبَا مِنْ مَرَقِهَا ثُمَّ رَكِبَ رَسُولُ اللَّهِ صلى الله عليه وسلم فَأَفَاضَ إِلَى الْبَيْتِ فَصَلَّى بِمَكَّةَ الظُّهْرَ فَأَتَى بَنِي عَبْدِ الْمُطَّلِبِ يَسْقُونَ عَلَى زَمْزَمَ فَقَالَ ‏\"‏ انْزِعُوا بَنِي عَبْدِ الْمُطَّلِبِ فَلَوْلاَ أَنْ يَغْلِبَكُمُ النَّاسُ عَلَى سِقَايَتِكُمْ لَنَزَعْتُ مَعَكُمْ ‏\"‏ ‏.‏ فَنَاوَلُوهُ دَلْوًا فَشَرِبَ مِنْهُ"
         }
       ],
-      "primarySources": ["Sahih Muslim", "Sahih al-Bukhari", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Approximately 100,000+ Muslims"],
+      "primarySources": [
+        "Sahih Muslim",
+        "Sahih al-Bukhari",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Approximately 100,000+ Muslims"
+      ],
       "location": "Arafat, Mina, and Makkah",
-      "locationArabic": "عرفة ومنى ومكة"
+      "locationArabic": "عرفة ومنى ومكة",
+      "locationFrench": "Arafat, Minâ et La Mecque"
     },
     {
       "id": "med-017",
       "title": "The Death of the Prophet ﷺ",
       "titleArabic": "وفاة النبي ﷺ",
+      "titleFrench": "La mort du Prophète ﷺ",
       "year": "11 AH",
       "yearCE": "632 CE",
       "month": "12 Rabi' al-Awwal (Monday)",
       "category": "death",
       "summary": "The Prophet ﷺ fell ill and his condition worsened over several days. During his illness, he continued to lead prayers until he became too weak, at which point he instructed Abu Bakr to lead the prayers. He spent his final days in the room of Aisha. On Monday, 12th Rabi' al-Awwal, he passed away with his head resting on Aisha's chest, having chosen to be with 'the Highest Companion' (Ar-Rafiq al-A'la). He was 63 years old.",
+      "summaryArabic": "مرض النبي صلى الله عليه وسلم واشتد به المرض أيامًا. وظل في مرضه يصلي بالناس حتى ضعف فأمر أبا بكر أن يصلي بهم. وقضى أيامه الأخيرة في حجرة عائشة. وتوفي يوم الاثنين الثاني عشر من ربيع الأول ورأسه في حجر عائشة، وقد اختار الرفيق الأعلى، وهو ابن ثلاث وستين سنة.",
+      "summaryFrench": "Le Prophète ﷺ tomba malade et son état s'aggrava sur plusieurs jours. Durant sa maladie, il continua de diriger les prières jusqu'à devenir trop faible, moment où il chargea Abou Bakr de les conduire. Il passa ses derniers jours dans la chambre d'Aïcha. Le lundi 12 Rabî' al-Awwal, il rendit l'âme, la tête reposant sur la poitrine d'Aïcha, ayant choisi d'être avec « le Compagnon suprême » (ar-Rafîq al-A'lâ). Il avait soixante-trois ans.",
       "significance": "The death of the Prophet ﷺ was the most devastating event for the Muslim community. Umar initially refused to believe it, threatening anyone who said the Prophet ﷺ had died. Abu Bakr entered, kissed the Prophet's ﷺ forehead, and addressed the people with the verse: 'Muhammad is no more than a messenger; other messengers have passed before him.' This confirmed the truth and Umar collapsed. The Prophet ﷺ was buried in the room where he died — now part of Masjid al-Nabawi.",
+      "significanceArabic": "كانت وفاته صلى الله عليه وسلم أشد ما نزل بالمسلمين. فأنكر عمر الخبر أول الأمر وتوعّد من قال إنه مات. فدخل أبو بكر فقبّل جبينه ثم خاطب الناس بقوله تعالى: «وما محمد إلا رسول قد خلت من قبله الرسل». فتقرر الحق وسقط عمر إلى الأرض. ودُفن النبي صلى الله عليه وسلم في الحجرة التي توفي فيها، وهي اليوم من المسجد النبوي.",
+      "significanceFrench": "La mort du Prophète ﷺ fut l'événement le plus bouleversant pour la communauté musulmane. Omar refusa d'abord d'y croire, menaçant quiconque dirait que le Prophète ﷺ était mort. Abou Bakr entra, embrassa le front du Prophète ﷺ, et s'adressa aux gens par le verset : « Mouhammad n'est qu'un messager ; d'autres messagers sont passés avant lui. » Cela confirma la vérité et Omar s'effondra. Le Prophète ﷺ fut enterré dans la chambre où il mourut, aujourd'hui partie de la Mosquée du Prophète.",
       "quranReferences": [
         {
           "surah": 3,
           "surahName": "Aal-Imran",
           "ayahRange": "144",
-          "textArabic": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌۭ قَدْ خَلَتْ مِن قَبْلِهِ ٱلرُّسُلُ ۚ أَفَإِيْن مَّاتَ أَوْ قُتِلَ ٱنقَلَبْتُمْ عَلَىٰٓ أَعْقَـٰبِكُمْ",
-          "textEnglish": "Muhammad is no more than a messenger; other messengers have passed before him. So if he were to die or be killed, would you turn back on your heels?"
+          "textArabic": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌۭ قَدْ خَلَتْ مِن قَبْلِهِ ٱلرُّسُلُ ۚ أَفَإِي۟ن مَّاتَ أَوْ قُتِلَ ٱنقَلَبْتُمْ عَلَىٰٓ أَعْقَٰبِكُمْ ۚ وَمَن يَنقَلِبْ عَلَىٰ عَقِبَيْهِ فَلَن يَضُرَّ ٱللَّهَ شَيْـًۭٔا ۗ وَسَيَجْزِى ٱللَّهُ ٱلشَّٰكِرِينَ",
+          "textEnglish": "Muhammad is not but a messenger. [Other] messengers have passed on before him. So if he was to die or be killed, would you turn back on your heels [to unbelief]? And he who turns back on his heels will never harm Allah at all; but Allah will reward the grateful.",
+          "textFrench": "Muhammad n'est qu'un messager - des messagers avant lui sont passés -. S'il mourait, donc, ou s'il était tué, retourneriez-vous sur vos talons? Quiconque retourne sur ses talons ne nuira en rien à Allah; et Allah récompensera bientôt les reconnaissants.",
+          "translationProvenance": "fetched"
         },
         {
           "surah": 39,
           "surahName": "Az-Zumar",
           "ayahRange": "30",
-          "textArabic": "إِنَّكَ مَيِّتٌۭ وَإِنَّهُم مَّيِّتُونَ",
-          "textEnglish": "Indeed, you are to die, and indeed, they are to die."
+          "textArabic": "إِنَّكَ مَيِّتٌۭ وَإِنَّهُم مَّيِّتُونَ",
+          "textEnglish": "Indeed, you are to die, and indeed, they are to die.",
+          "textFrench": "En vérité tu mourras et ils mourront eux aussi;",
+          "translationProvenance": "fetched"
         }
       ],
       "hadithReferences": [
@@ -528,19 +835,37 @@
           "source": "Sahih al-Bukhari",
           "hadithNumber": "4449",
           "narrator": "Aisha",
-          "textEnglish": "The Prophet ﷺ died in my house and on my day, and between my chest and my neck. Allah joined my saliva with his saliva at his death. Abdur-Rahman ibn Abu Bakr entered with a siwak (tooth stick), and the Prophet ﷺ looked at it, so I took it and chewed it to soften it, then gave it to him. He rubbed his teeth with it... then his hand dropped and he was gazing upward, saying: 'With the Highest Companion... with the Highest Companion.'"
+          "textEnglish": "The Prophet ﷺ died in my house and on my day, and between my chest and my neck. Allah joined my saliva with his saliva at his death. Abdur-Rahman ibn Abu Bakr entered with a siwak (tooth stick), and the Prophet ﷺ looked at it, so I took it and chewed it to soften it, then gave it to him. He rubbed his teeth with it... then his hand dropped and he was gazing upward, saying: 'With the Highest Companion... with the Highest Companion.'",
+          "grade": "sahih",
+          "textFrench": "Le Prophète ﷺ mourut dans ma maison, le jour de mon tour, entre ma poitrine et mon cou. Allah mêla ma salive à la sienne à sa mort. Abd ar-Rahmân ibn Abî Bakr entra avec un siwâk, et le Prophète ﷺ le regarda ; je le pris donc, le mâchai pour l'assouplir, puis le lui donnai. Il s'en frotta les dents... puis sa main retomba et il regardait vers le haut en disant : « Avec le Compagnon suprême... avec le Compagnon suprême. »",
+          "translationProvenance": "project",
+          "textArabic": "حَدَّثَنِي مُحَمَّدُ بْنُ عُبَيْدٍ، حَدَّثَنَا عِيسَى بْنُ يُونُسَ، عَنْ عُمَرَ بْنِ سَعِيدٍ، قَالَ أَخْبَرَنِي ابْنُ أَبِي مُلَيْكَةَ، أَنَّ أَبَا عَمْرٍو، ذَكْوَانَ مَوْلَى عَائِشَةَ أَخْبَرَهُ أَنَّ عَائِشَةَ كَانَتْ تَقُولُ إِنَّ مِنْ نِعَمِ اللَّهِ عَلَىَّ أَنَّ رَسُولَ اللَّهِ صلى الله عليه وسلم تُوُفِّيَ فِي بَيْتِي وَفِي يَوْمِي، وَبَيْنَ سَحْرِي وَنَحْرِي، وَأَنَّ اللَّهَ جَمَعَ بَيْنَ رِيقِي وَرِيقِهِ عِنْدَ مَوْتِهِ، دَخَلَ عَلَىَّ عَبْدُ الرَّحْمَنِ وَبِيَدِهِ السِّوَاكُ وَأَنَا مُسْنِدَةٌ رَسُولَ اللَّهِ صلى الله عليه وسلم فَرَأَيْتُهُ يَنْظُرُ إِلَيْهِ، وَعَرَفْتُ أَنَّهُ يُحِبُّ السِّوَاكَ فَقُلْتُ آخُذُهُ لَكَ فَأَشَارَ بِرَأْسِهِ أَنْ نَعَمْ، فَتَنَاوَلْتُهُ فَاشْتَدَّ عَلَيْهِ وَقُلْتُ أُلَيِّنُهُ لَكَ فَأَشَارَ بِرَأْسِهِ أَنْ نَعَمْ، فَلَيَّنْتُهُ، وَبَيْنَ يَدَيْهِ رَكْوَةٌ ـ أَوْ عُلْبَةٌ يَشُكُّ عُمَرُ ـ فِيهَا مَاءٌ، فَجَعَلَ يُدْخِلُ يَدَيْهِ فِي الْمَاءِ فَيَمْسَحُ بِهِمَا وَجْهَهُ يَقُولُ ‏\"‏ لاَ إِلَهَ إِلاَّ اللَّهُ، إِنَّ لِلْمَوْتِ سَكَرَاتٍ ‏\"‏‏.‏ ثُمَّ نَصَبَ يَدَهُ فَجَعَلَ يَقُولُ ‏\"‏ فِي الرَّفِيقِ الأَعْلَى ‏\" ‏‏.‏ حَتَّى قُبِضَ وَمَالَتْ يَدُهُ‏.‏"
         },
         {
           "source": "Sahih al-Bukhari",
           "hadithNumber": "1241",
           "narrator": "Aisha",
-          "textEnglish": "Abu Bakr came, uncovered the Prophet's ﷺ face, bent over him and kissed him, and wept, saying: 'You are dearer to me than my father and mother. By Allah, Allah will not cause you to die twice.' Then he went out and said: 'Whoever worshipped Muhammad, then Muhammad has died. And whoever worshipped Allah, then Allah is alive and will never die.' Then he recited the verse: 'Muhammad is no more than a messenger...'"
+          "textEnglish": "Abu Bakr came, uncovered the Prophet's ﷺ face, bent over him and kissed him, and wept, saying: 'You are dearer to me than my father and mother. By Allah, Allah will not cause you to die twice.' Then he went out and said: 'Whoever worshipped Muhammad, then Muhammad has died. And whoever worshipped Allah, then Allah is alive and will never die.' Then he recited the verse: 'Muhammad is no more than a messenger...'",
+          "grade": "sahih",
+          "textFrench": "Abou Bakr entra, découvrit le visage du Prophète ﷺ, se pencha sur lui, l'embrassa et pleura en disant : « Tu m'es plus cher que mon père et ma mère. Par Allah, Allah ne te fera pas mourir deux fois. » Puis il sortit et dit : « Que celui qui adorait Mouhammad sache que Mouhammad est mort. Et que celui qui adorait Allah sache qu'Allah est vivant et ne mourra jamais. » Puis il récita le verset : « Mouhammad n'est qu'un messager... »",
+          "translationProvenance": "project",
+          "textArabic": "فَمَنْ كَانَ مِنْكُمْ يَعْبُدُ مُحَمَّدًا صلى الله عليه وسلم فَإِنَّ مُحَمَّدًا صلى الله عليه وسلم قَدْ مَاتَ، وَمَنْ كَانَ يَعْبُدُ اللَّهَ فَإِنَّ اللَّهَ حَىٌّ لاَ يَمُوتُ، قَالَ اللَّهُ تَعَالَى ‏‏{‏وَمَا مُحَمَّدٌ إِلاَّ رَسُولٌ‏}‏ إِلَى ‏{‏الشَّاكِرِينَ‏}‏ وَاللَّهِ لَكَأَنَّ النَّاسَ لَمْ يَكُونُوا يَعْلَمُونَ أَنَّ اللَّهَ أَنْزَلَ الآيَةَ حَتَّى تَلاَهَا أَبُو بَكْرٍ ـ رضى الله عنه ـ فَتَلَقَّاهَا مِنْهُ النَّاسُ، فَمَا يُسْمَعُ بَشَرٌ إِلاَّ يَتْلُوهَا"
         }
       ],
-      "primarySources": ["Sahih al-Bukhari", "Sahih Muslim", "Ar-Raheeq Al-Makhtum"],
-      "keyFigures": ["Aisha bint Abi Bakr", "Abu Bakr as-Siddiq", "Umar ibn al-Khattab", "Ali ibn Abi Talib (who washed the body)"],
+      "primarySources": [
+        "Sahih al-Bukhari",
+        "Sahih Muslim",
+        "Ar-Raheeq Al-Makhtum"
+      ],
+      "keyFigures": [
+        "Aisha bint Abi Bakr",
+        "Abu Bakr as-Siddiq",
+        "Umar ibn al-Khattab",
+        "Ali ibn Abi Talib (who washed the body)"
+      ],
       "location": "The room of Aisha, adjacent to Masjid al-Nabawi, Madinah",
-      "locationArabic": "حجرة عائشة – المسجد النبوي – المدينة"
+      "locationArabic": "حجرة عائشة – المسجد النبوي – المدينة",
+      "locationFrench": "La chambre d'Aïcha, attenante à la mosquée du Prophète, à Médine"
     }
   ]
 }

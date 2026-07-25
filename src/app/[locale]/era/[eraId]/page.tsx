@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { localizedField } from '@/lib/localized';
 import { notFound } from 'next/navigation';
 import { hasLocale } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
@@ -11,7 +12,7 @@ import EraNav from '@/components/navigation/EraNav';
 import { Link } from '@/i18n/navigation';
 import { getCategoryColor } from '@/config/categories';
 import { CategoryGlyph } from '@/components/icons/CategoryGlyph';
-import { formatEraTimespan } from '@/lib/dates';
+import { formatEraTimespan, formatGregorianYear } from '@/lib/dates';
 import type { EraId } from '@/types/seerah';
 import { routing, type Locale } from '@/i18n/routing';
 
@@ -34,6 +35,7 @@ export async function generateMetadata({
   const { locale, eraId } = await params;
   if (!hasLocale(routing.locales, locale)) return {};
   const era = getEraMetadata(eraId as EraId);
+  if (!era) return {};
   return generateEraMetadata(era, locale as Locale);
 }
 
@@ -47,6 +49,7 @@ export default async function EraPage({
   setRequestLocale(locale);
 
   const era = getEraMetadata(eraId as EraId);
+  if (!era) notFound();
   const events = getEventsByEra(eraId as EraId);
   const tEra = await getTranslations({ locale, namespace: 'era' });
   const tCategories = await getTranslations({ locale, namespace: 'categories' });
@@ -68,23 +71,31 @@ export default async function EraPage({
         }}
       >
         <Container className="text-center space-y-6">
-          <p
-            dir="rtl"
-            lang="ar"
-            className={`font-arabic ${
-              isAr
-                ? 'text-4xl md:text-5xl lg:text-6xl'
-                : 'text-3xl md:text-4xl lg:text-5xl'
-            } leading-relaxed`}
-            style={{ color: era.themeColor }}
-          >
-            {era.titleArabic}
-          </p>
-
-          {!isAr && (
-            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-ink tracking-tight">
-              {eraTitle}
+          {/* On Arabic the Arabic era name is the page heading; the h1 used to
+              be gated behind `!isAr`, leaving /ar/era/* with no heading. */}
+          {isAr ? (
+            <h1
+              dir="rtl"
+              lang="ar"
+              className="font-arabic text-4xl md:text-5xl lg:text-6xl leading-relaxed"
+              style={{ color: era.themeColor }}
+            >
+              {era.titleArabic}
             </h1>
+          ) : (
+            <>
+              <p
+                dir="rtl"
+                lang="ar"
+                className="font-arabic text-3xl md:text-4xl lg:text-5xl leading-relaxed"
+                style={{ color: era.themeColor }}
+              >
+                {era.titleArabic}
+              </p>
+              <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-ink tracking-tight">
+                {eraTitle}
+              </h1>
+            </>
           )}
 
           <p className="font-body text-lg md:text-xl text-ink-light/70" dir="ltr">
@@ -95,13 +106,14 @@ export default async function EraPage({
             <span dir="ltr">{timespan.secondary}</span>
           </p>
 
-          {/* Era description: prefer Arabic when authored, otherwise English with explicit LTR markup. */}
+          {/* Era description in the active locale, falling back to English with
+              explicit markup so bidi and screen readers stay correct. */}
           {(() => {
-            const useArabic = isAr && Boolean(era.descriptionArabic);
-            const text = useArabic ? era.descriptionArabic! : era.description;
-            const lang = useArabic ? 'ar' : 'en';
-            const dir = useArabic ? 'rtl' : 'ltr';
-            const fontClass = useArabic ? '' : 'font-body';
+            const described = localizedField(era, 'description', locale as Locale);
+            const text = described.text;
+            const lang = described.lang;
+            const dir = lang === 'ar' ? 'rtl' : 'ltr';
+            const fontClass = lang === 'ar' ? '' : 'font-body';
             return (
               <p
                 lang={lang}
@@ -130,9 +142,9 @@ export default async function EraPage({
           {events.map((event) => {
             const categoryLabel = tCategories(event.category);
             const categoryColor = getCategoryColor(event.category);
-            const summarySource =
-              isAr && event.summaryArabic ? event.summaryArabic : event.summary;
-            const summaryLang = isAr && event.summaryArabic ? 'ar' : 'en';
+            const localizedSummary = localizedField(event, 'summary', locale as Locale);
+            const summarySource = localizedSummary.text;
+            const summaryLang = localizedSummary.lang;
             const summaryDir = summaryLang === 'ar' ? 'rtl' : 'ltr';
             const truncatedSummary =
               summarySource.length > 80
@@ -157,13 +169,13 @@ export default async function EraPage({
 
                 {!isAr && (
                   <h3 className="font-display text-xl font-semibold text-ink group-hover:text-gold-dark transition-colors duration-200 mb-2">
-                    {event.title}
+                    {localizedField(event, 'title', locale as Locale).text}
                   </h3>
                 )}
 
                 <div className="flex items-center gap-3 mb-3 flex-wrap">
                   <Badge variant="date">
-                    {isAr ? event.yearCE.replace(/\s*CE\s*$/i, '').trim() + ' م' : event.yearCE}
+                    {formatGregorianYear(event.yearCE, locale as Locale)}
                   </Badge>
                   <Badge
                     variant="category"

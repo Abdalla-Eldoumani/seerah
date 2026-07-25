@@ -5,6 +5,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Container } from '@/components/ui/Container';
 import { Divider } from '@/components/ui/Divider';
 import { routing } from '@/i18n/routing';
+import { localizeSource, localizeAuthor } from '@/config/names';
 import {
   HADITH_COLLECTIONS,
   SEERAH_WORKS,
@@ -23,7 +24,7 @@ export async function generateMetadata({
   return { title: t('about') };
 }
 
-function SourceList({ items }: { items: SourceWork[] }) {
+function SourceList({ items, locale }: { items: SourceWork[]; locale: string }) {
   return (
     <ul className="space-y-2 font-body text-ink-light">
       {items.map((item) => (
@@ -34,8 +35,8 @@ function SourceList({ items }: { items: SourceWork[] }) {
             aria-hidden="true"
           />
           <span>
-            <strong className="text-ink">{item.name}</strong>
-            {item.author && <>, {item.author}</>}
+            <strong className="text-ink">{localizeSource(item.name, locale)}</strong>
+            {item.author && <>, {localizeAuthor(item.author, locale)}</>}
           </span>
         </li>
       ))}
@@ -102,21 +103,21 @@ export default async function AboutPage({
             <h3 className="font-display text-xl sm:text-2xl font-medium text-ink mb-3">
               {t('hadithCollectionsHeading')}
             </h3>
-            <SourceList items={HADITH_COLLECTIONS} />
+            <SourceList items={HADITH_COLLECTIONS} locale={locale} />
           </div>
 
           <div className="mb-8">
             <h3 className="font-display text-xl sm:text-2xl font-medium text-ink mb-3">
               {t('seerahWorksHeading')}
             </h3>
-            <SourceList items={SEERAH_WORKS} />
+            <SourceList items={SEERAH_WORKS} locale={locale} />
           </div>
 
           <div>
             <h3 className="font-display text-xl sm:text-2xl font-medium text-ink mb-3">
               {t('additionalSourcesHeading')}
             </h3>
-            <SourceList items={ADDITIONAL_SOURCES} />
+            <SourceList items={ADDITIONAL_SOURCES} locale={locale} />
           </div>
         </section>
 

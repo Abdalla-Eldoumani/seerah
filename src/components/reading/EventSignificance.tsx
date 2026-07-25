@@ -4,7 +4,7 @@ interface EventSignificanceProps {
   significance: string;
   // Language of the significance text. The page picks Arabic when populated,
   // otherwise English; the component reads this to apply dir/lang/font.
-  lang?: 'en' | 'ar';
+  lang?: 'en' | 'ar' | 'fr';
 }
 
 export default function EventSignificance({

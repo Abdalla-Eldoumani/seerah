@@ -7,7 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "verify:citations": "node scripts/verify-citations.mjs",
+    "verify:locales": "node scripts/verify-locales.mjs",
+    "fetch:scripture": "node scripts/fetch-scripture.mjs",
+    "prebuild": "node scripts/verify-citations.mjs && node scripts/verify-names.mjs",
+    "verify:names": "node scripts/verify-names.mjs"
   },
   "dependencies": {
     "clsx": "2.1.1",

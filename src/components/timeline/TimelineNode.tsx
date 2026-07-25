@@ -1,4 +1,5 @@
 import { useLocale, useTranslations } from 'next-intl';
+import { localizedField } from '@/lib/localized';
 import { cn } from '@/lib/utils';
 import { getCategoryColor } from '@/config/categories';
 import { CategoryGlyph } from '@/components/icons/CategoryGlyph';
@@ -17,14 +18,18 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
   const locale = useLocale() as Locale;
   const t = useTranslations();
   const isAr = locale === 'ar';
+  const place = localizedField(event, 'location', locale);
   const isEven = index % 2 === 0;
   const categoryLabel = t(`categories.${event.category}`);
   const categoryColor = getCategoryColor(event.category);
   const dateLine = formatEventDate(event, locale);
 
-  const summarySource =
-    isAr && event.summaryArabic ? event.summaryArabic : event.summary;
-  const summaryLang = isAr && event.summaryArabic ? 'ar' : 'en';
+  // The two-way ternary this replaced showed the English summary on every
+  // French node. The scanner could not see it: English and French are both
+  // Latin, so the script check passed on all 49.
+  const summary = localizedField(event, 'summary', locale);
+  const summarySource = summary.text;
+  const summaryLang = summary.lang;
   const summaryDir = summaryLang === 'ar' ? 'rtl' : 'ltr';
   const truncatedSummary =
     summarySource.length > 100
@@ -77,24 +82,27 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
           </span>
         </div>
 
-        {!isAr && (
-          <h3 className="font-display text-lg md:text-xl text-ink leading-snug group-hover:text-gold-dark transition-colors">
-            {event.title}
+        {/* On Arabic the Arabic title is the card heading. Gating the only
+            h3 behind `!isAr` left the Arabic timeline with no card headings,
+            so nothing could be navigated by heading. */}
+        {isAr ? (
+          <h3
+            dir="rtl"
+            lang="ar"
+            className="font-arabic text-xl md:text-2xl text-ink group-hover:text-gold-dark transition-colors"
+          >
+            {event.titleArabic}
           </h3>
+        ) : (
+          <>
+            <h3 className="font-display text-lg md:text-xl text-ink leading-snug group-hover:text-gold-dark transition-colors">
+              {localizedField(event, 'title', locale).text}
+            </h3>
+            <p dir="rtl" lang="ar" className={cn('font-arabic', 'text-base text-ink-light/70 mt-1')}>
+              {event.titleArabic}
+            </p>
+          </>
         )}
-
-        <p
-          dir="rtl"
-          lang="ar"
-          className={cn(
-            'font-arabic',
-            isAr
-              ? 'text-xl md:text-2xl text-ink'
-              : 'text-base text-ink-light/70 mt-1'
-          )}
-        >
-          {event.titleArabic}
-        </p>
 
         <p className="text-sm font-body text-ink-light/80 mt-2">
           {dateLine}
@@ -111,8 +119,12 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
         </p>
 
         {event.location && (
-          <p className="text-xs font-body text-ink-light/60 mt-3">
-            {event.location}
+          <p
+            className="text-xs font-body text-ink-light/60 mt-3"
+            dir={place.lang === 'ar' ? 'rtl' : 'ltr'}
+            lang={place.lang}
+          >
+            {place.text}
           </p>
         )}
       </Link>

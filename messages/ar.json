@@ -11,7 +11,9 @@
     "openMenu": "فتح قائمة التنقّل",
     "closeMenu": "إغلاق قائمة التنقّل",
     "switchToArabic": "العربية",
-    "switchToEnglish": "English"
+    "switchToEnglish": "English",
+    "language": "اللغة",
+    "skipToContent": "تخطَّ إلى المحتوى"
   },
   "home": {
     "ctaPrimary": "ابدأ الرحلة",
@@ -43,7 +45,14 @@
     "navPrev": "السابق",
     "navNext": "التالي",
     "surah": "سورة",
-    "translationLabel": "الترجمة"
+    "translationLabel": "الترجمة",
+    "gradeLabel": "الدرجة",
+    "grades": {
+      "sahih": "صحيح",
+      "hasan": "حسن",
+      "hasan-sahih": "حسن صحيح",
+      "daif": "ضعيف"
+    }
   },
   "breadcrumb": {
     "home": "الرئيسية"
