@@ -188,6 +188,7 @@ export const NARRATOR_NAMES: Record<string, LocalizedName> = {
   "Sahl ibn Sa'd": { ar: 'سهل بن سعد', fr: "Sahl ibn Sa'd" },
   'Ubadah ibn as-Samit': { ar: 'عبادة بن الصامت', fr: 'Oubâda ibn as-Sâmit' },
   'Usaid ibn Hudair': { ar: 'أسيد بن حضير', fr: 'Ousayd ibn Houdayr' },
+  'Usaid ibn Zuhair': { ar: 'أسيد بن ظهير', fr: 'Ousayd ibn Zouhayr' },
   'Multiple narrators': { ar: 'رواة متعددون', fr: 'Plusieurs rapporteurs' },
   'Reported traditions': { ar: 'آثار مروية', fr: 'Traditions rapportées' },
 };

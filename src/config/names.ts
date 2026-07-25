@@ -76,28 +76,38 @@ export const MONTH_NAMES: Record<string, LocalizedName> = {
 // used inside the event data, so both spellings resolve.
 Object.assign(SOURCE_NAMES, {
   'Ar-Raheeq Al-Makhtum (The Sealed Nectar)': {
-    ar: 'Ø§ÙØ±Ø­ÙÙ Ø§ÙÙØ®ØªÙÙ',
-    fr: 'Ar-RahÃ®q al-MakhtoÃ»m (Le Nectar cachetÃ©)',
+    ar: 'الرحيق المختوم',
+    fr: 'Ar-Rahîq al-Makhtoûm (Le Nectar cacheté)',
   },
   'Sirat Rasul Allah': {
-    ar: 'Ø³ÙØ±Ø© Ø±Ø³ÙÙ Ø§ÙÙÙ',
-    fr: 'SÃ®rat RasÃ»l AllÃ¢h',
+    ar: 'سيرة رسول الله',
+    fr: 'Sîrat Rasûl Allâh',
   },
   'Al-Bidaya wan-Nihaya': {
-    ar: 'Ø§ÙØ¨Ø¯Ø§ÙØ© ÙØ§ÙÙÙØ§ÙØ©',
-    fr: 'Al-BidÃ¢ya wa an-NihÃ¢ya',
+    ar: 'البداية والنهاية',
+    fr: 'Al-Bidâya wa an-Nihâya',
   },
   'Asbab al-Nuzul': {
-    ar: 'Ø£Ø³Ø¨Ø§Ø¨ Ø§ÙÙØ²ÙÙ',
-    fr: 'AsbÃ¢b an-NouzoÃ»l',
+    ar: 'أسباب النزول',
+    fr: 'Asbâb an-Nouzoûl',
   },
   "Tabaqat Ibn Sa'd": {
-    ar: 'Ø§ÙØ·Ø¨ÙØ§Øª Ø§ÙÙØ¨Ø±Ù ÙØ§Ø¨Ù Ø³Ø¹Ø¯',
-    fr: "At-TabaqÃ¢t d'Ibn Sa'd",
+    ar: 'الطبقات الكبرى لابن سعد',
+    fr: "At-Tabaqât d'Ibn Sa'd",
   },
   'Al-Sunan al-Kubra': {
-    ar: 'Ø§ÙØ³ÙÙ Ø§ÙÙØ¨Ø±Ù',
-    fr: 'As-Sounan al-KoubrÃ¢',
+    ar: 'السنن الكبرى',
+    fr: 'As-Sounan al-Koubrâ',
+  },
+  // Two events cite a report that carries no collection number, so the label
+  // itself has to be localized.
+  'As-Sunan al-Kubra, al-Bayhaqi': {
+    ar: 'السنن الكبرى للبيهقي',
+    fr: "As-Sounan al-Koubrâ d'al-Bayhaqî",
+  },
+  'Reported in various sources': {
+    ar: 'مروي في مصادر متعددة',
+    fr: 'Rapporté par plusieurs sources',
   },
 });
 
