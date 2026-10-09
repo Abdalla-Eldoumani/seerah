@@ -3,8 +3,8 @@ import createNextIntlPlugin from 'next-intl/plugin';
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 // The site talks to nothing at runtime: content is baked in at build time and
-// next/font self-hosts the four families, so nothing outside the origin is
-// needed.
+// the fonts are self-hosted, so nothing outside the origin is needed. Security
+// headers are set here and nowhere else.
 const csp = [
   "default-src 'self'",
   // Next inlines its own bootstrap script before hydration.
@@ -32,12 +32,6 @@ const nextConfig = {
     root: import.meta.dirname,
   },
 
-  images: {
-    formats: ['image/avif', 'image/webp'],
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256],
-  },
-
   async headers() {
     return [
       {
@@ -55,19 +49,6 @@ const nextConfig = {
             key: 'Strict-Transport-Security',
             value: 'max-age=63072000; includeSubDomains; preload',
           },
-        ],
-      },
-      {
-        // Hashed filenames, so these can never go stale.
-        source: '/_next/static/(.*)',
-        headers: [
-          { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
-        ],
-      },
-      {
-        source: '/:all*.(svg|png|jpg|jpeg|webp|avif|ico|woff2)',
-        headers: [
-          { key: 'Cache-Control', value: 'public, max-age=31536000, immutable' },
         ],
       },
     ];
