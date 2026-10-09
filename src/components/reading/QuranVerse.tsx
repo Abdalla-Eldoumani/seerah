@@ -30,7 +30,8 @@ export default function QuranVerse({ reference }: QuranVerseProps) {
       </p>
 
       <p className="citation">
-        {t('surah')} {localizeSurah(reference.surahName, locale)},{' '}
+        {t('surah')} {localizeSurah(reference.surahName, locale)}
+        {locale === 'ar' ? '،' : ','}{' '}
         <span dir="ltr">{reference.ayahRange}</span>
       </p>
 
