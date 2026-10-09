@@ -6,10 +6,8 @@
 // (circumflex for long vowels, `ou` for damma), so the names read correctly
 // aloud to a French speaker.
 //
-// A name with no entry falls back to the English form, and `npm run verify:i18n`
-// reports it rather than letting it pass silently.
-
-export type Locale = 'en' | 'ar' | 'fr';
+// A name with no entry falls back to the English form, and `npm run verify:names`
+// fails the build on it rather than letting it pass silently.
 
 export interface LocalizedName {
   ar: string;
@@ -140,10 +138,6 @@ export const localizeSource = (value: string, locale: string) =>
 export const localizeMonth = (value: string, locale: string) =>
   lookup(MONTH_NAMES, value, locale);
 
-// True when the registry has no entry, so the verifier can report the gap.
-export const isUnregisteredSource = (value: string) => !(value in SOURCE_NAMES);
-export const isUnregisteredMonth = (value: string) => !(value in MONTH_NAMES);
-
 export const SURAH_NAMES: Record<string, LocalizedName> = {
   'Al-Fatiha': { ar: 'الفاتحة', fr: 'Al-Fâtiha' },
   'Al-Baqarah': { ar: 'البقرة', fr: 'Al-Baqara' },
@@ -174,8 +168,6 @@ export const SURAH_NAMES: Record<string, LocalizedName> = {
 
 export const localizeSurah = (value: string, locale: string) =>
   lookup(SURAH_NAMES, value, locale);
-
-export const isUnregisteredSurah = (value: string) => !(value in SURAH_NAMES);
 
 // Authors as they appear on the about page. The death year is kept in the
 // reader's own era marker rather than a bare "d. 870 CE".
@@ -218,5 +210,3 @@ export const AUTHOR_NAMES: Record<string, LocalizedName> = {
 
 export const localizeAuthor = (value: string, locale: string) =>
   lookup(AUTHOR_NAMES, value, locale);
-
-export const isUnregisteredAuthor = (value: string) => !(value in AUTHOR_NAMES);
