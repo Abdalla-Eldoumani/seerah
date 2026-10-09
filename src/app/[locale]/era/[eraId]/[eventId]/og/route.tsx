@@ -38,15 +38,24 @@ async function loadFont(locale: Locale) {
   };
 }
 
-// The renderer lays Arabic words out left to right, so each word is its own box
-// and the row runs right to left. Letters inside a word still join correctly.
+// The renderer lays text out left to right and does not mirror brackets, so an
+// Arabic line is handed over already in visual order: runs (a word, a number, a
+// bracket, a comma) reversed, brackets swapped. Letters inside a run still join.
+const BRACKETS: Record<string, string> = { '(': ')', ')': '(' };
+const RUNS = /[\u0600-\u06FF\u0750-\u077F\uFDFA]+|[0-9\u0660-\u0669]+|[^\s]/g;
+
+function visualOrder(line: string): string {
+  const parts = line.split(' ').flatMap((word, i, all) => [
+    ...(word.match(RUNS) ?? []).map((run) => BRACKETS[run] ?? run),
+    ...(i < all.length - 1 ? [' '] : []),
+  ]);
+  return parts.reverse().join('');
+}
+
 function Text({ children, rtl }: { children: string; rtl: boolean }) {
-  if (!rtl) return <div style={{ display: 'flex' }}>{children}</div>;
   return (
-    <div style={{ display: 'flex', flexDirection: 'row-reverse', flexWrap: 'wrap', gap: '0 0.28em' }}>
-      {children.split(' ').map((word, i) => (
-        <span key={i}>{word}</span>
-      ))}
+    <div style={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
+      {rtl ? visualOrder(children) : children}
     </div>
   );
 }
@@ -89,7 +98,7 @@ export async function GET(
               flex: 1,
               flexDirection: 'column',
               justifyContent: 'space-between',
-              alignItems: rtl ? 'flex-end' : 'flex-start',
+              alignItems: 'center',
               padding: '44px 64px',
               border: '1px solid #b88a2a',
             }}
@@ -103,15 +112,15 @@ export async function GET(
                 textTransform: rtl ? 'none' : 'uppercase',
               }}
             >
-              {eraTitle}
+              <Text rtl={rtl}>{eraTitle}</Text>
             </div>
 
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 22, alignItems: rtl ? 'flex-end' : 'flex-start' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 22, alignItems: 'center' }}>
               <div
                 style={{
                   display: 'flex',
                   color: ink,
-                  fontSize: title.length > 40 ? 58 : 72,
+                  fontSize: title.length > (rtl ? 24 : 40) ? 58 : 72,
                   lineHeight: rtl ? 1.5 : 1.12,
                 }}
               >
@@ -123,9 +132,9 @@ export async function GET(
             </div>
 
             <div style={{ display: 'flex', alignItems: 'center', gap: 18, color: goldDark, fontSize: 30 }}>
-              {rtl ? null : <div style={{ width: 56, height: 2, background: goldDark }} />}
-              <div style={{ display: 'flex' }}>{tSite('name')}</div>
-              {rtl ? <div style={{ width: 56, height: 2, background: goldDark }} /> : null}
+              <div style={{ width: 56, height: 2, background: goldDark }} />
+              <Text rtl={rtl}>{tSite('name')}</Text>
+              <div style={{ width: 56, height: 2, background: goldDark }} />
             </div>
           </div>
         </div>
