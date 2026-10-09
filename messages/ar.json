@@ -10,8 +10,6 @@
     "about": "عن المشروع",
     "openMenu": "فتح قائمة التنقّل",
     "closeMenu": "إغلاق قائمة التنقّل",
-    "switchToArabic": "العربية",
-    "switchToEnglish": "English",
     "language": "اللغة",
     "skipToContent": "تخطَّ إلى المحتوى"
   },
@@ -28,6 +26,7 @@
   "era": {
     "eventsCountSingular": "حدثٌ واحد في هذه الحقبة",
     "eventsCountPlural": "{count} أحداث في هذه الحقبة",
+    "navLabel": "التصفّح حسب الحقبة",
     "names": {
       "pre-prophethood": "قبل البعثة",
       "meccan": "العهد المكّي",
@@ -35,7 +34,6 @@
     }
   },
   "event": {
-    "summaryHeading": "ملخّص الحدث",
     "significanceHeading": "أهمّية الحدث",
     "quranHeading": "الآيات القرآنية",
     "hadithHeading": "الأحاديث النبوية",
@@ -45,7 +43,7 @@
     "navPrev": "السابق",
     "navNext": "التالي",
     "surah": "سورة",
-    "translationLabel": "الترجمة",
+    "renderingLabel": "ترجمة أعدّها المشروع نفسه، وليست من نشرة منشورة",
     "gradeLabel": "الدرجة",
     "grades": {
       "sahih": "صحيح",
@@ -55,7 +53,8 @@
     }
   },
   "breadcrumb": {
-    "home": "الرئيسية"
+    "home": "الرئيسية",
+    "label": "مسار التنقّل"
   },
   "about": {
     "title": "عن نور السيرة",

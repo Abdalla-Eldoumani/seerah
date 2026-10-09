@@ -10,8 +10,6 @@
     "about": "About",
     "openMenu": "Open navigation menu",
     "closeMenu": "Close navigation menu",
-    "switchToArabic": "العربية",
-    "switchToEnglish": "English",
     "language": "Language",
     "skipToContent": "Skip to content"
   },
@@ -28,6 +26,7 @@
   "era": {
     "eventsCountSingular": "{count} event in this era",
     "eventsCountPlural": "{count} events in this era",
+    "navLabel": "Browse by era",
     "names": {
       "pre-prophethood": "Before the Light",
       "meccan": "The Light in the Darkness",
@@ -35,7 +34,6 @@
     }
   },
   "event": {
-    "summaryHeading": "Summary",
     "significanceHeading": "Why this matters",
     "quranHeading": "Quran references",
     "hadithHeading": "Hadith references",
@@ -45,7 +43,7 @@
     "navPrev": "Previous",
     "navNext": "Next",
     "surah": "Surah",
-    "translationLabel": "Translation",
+    "renderingLabel": "Rendering by this project, not a published translation",
     "gradeLabel": "Grading",
     "grades": {
       "sahih": "Sahih",
@@ -55,7 +53,8 @@
     }
   },
   "breadcrumb": {
-    "home": "Home"
+    "home": "Home",
+    "label": "Breadcrumb"
   },
   "about": {
     "title": "About Noor al-Seerah",

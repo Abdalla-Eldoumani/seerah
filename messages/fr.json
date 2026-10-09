@@ -10,8 +10,6 @@
     "about": "À propos",
     "openMenu": "Ouvrir le menu de navigation",
     "closeMenu": "Fermer le menu de navigation",
-    "switchToArabic": "العربية",
-    "switchToEnglish": "English",
     "language": "Langue",
     "skipToContent": "Aller au contenu principal"
   },
@@ -28,6 +26,7 @@
   "era": {
     "eventsCountSingular": "{count} événement dans cette époque",
     "eventsCountPlural": "{count} événements dans cette époque",
+    "navLabel": "Parcourir par époque",
     "names": {
       "pre-prophethood": "Avant la lumière",
       "meccan": "La lumière dans les ténèbres",
@@ -35,7 +34,6 @@
     }
   },
   "event": {
-    "summaryHeading": "Résumé",
     "significanceHeading": "Pourquoi cela compte",
     "quranHeading": "Références coraniques",
     "hadithHeading": "Références des hadîths",
@@ -45,7 +43,7 @@
     "navPrev": "Précédent",
     "navNext": "Suivant",
     "surah": "Sourate",
-    "translationLabel": "Traduction",
+    "renderingLabel": "Traduction propre au projet, non tirée d'une édition publiée",
     "gradeLabel": "Authentification",
     "grades": {
       "sahih": "Sahîh (authentique)",
@@ -55,7 +53,8 @@
     }
   },
   "breadcrumb": {
-    "home": "Accueil"
+    "home": "Accueil",
+    "label": "Fil d'Ariane"
   },
   "about": {
     "title": "À propos de Noor al-Sîra",
