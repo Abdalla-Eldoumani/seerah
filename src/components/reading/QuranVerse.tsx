@@ -6,6 +6,8 @@ interface QuranVerseProps {
   reference: QuranReference;
 }
 
+const EDITIONS = { en: 'Saheeh International', fr: 'Hamidullah' } as const;
+
 export default function QuranVerse({ reference }: QuranVerseProps) {
   const locale = useLocale();
   const t = useTranslations('event');
@@ -19,6 +21,7 @@ export default function QuranVerse({ reference }: QuranVerseProps) {
       : locale === 'fr'
         ? reference.textFrench
         : reference.textEnglish;
+  const edition = locale === 'fr' ? EDITIONS.fr : EDITIONS.en;
 
   return (
     <blockquote className="quran-verse">
@@ -32,9 +35,12 @@ export default function QuranVerse({ reference }: QuranVerseProps) {
       </p>
 
       {translation && (
-        <p lang={locale} dir="ltr" className="translation italic">
-          {translation}
-        </p>
+        <>
+          <p lang={locale} dir="ltr" className="translation">
+            {translation}
+          </p>
+          <p className="edition">{edition}</p>
+        </>
       )}
     </blockquote>
   );
