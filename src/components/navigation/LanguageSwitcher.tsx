@@ -5,10 +5,7 @@ import { useTranslations } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/navigation';
 import { routing, localeNames, type Locale } from '@/i18n/routing';
 
-// A dropdown rather than a toggle. The previous two-way button hardcoded
-// `en <-> ar`, so once French was added it was unreachable: on /fr the only
-// option offered was English. Iterating `routing.locales` means a new locale
-// appears here on its own.
+// A dropdown over `routing.locales`, so a new locale appears without a change here.
 export default function LanguageSwitcher({ locale }: { locale: Locale }) {
   const router = useRouter();
   const pathname = usePathname();
@@ -27,7 +24,7 @@ export default function LanguageSwitcher({ locale }: { locale: Locale }) {
     <label className="relative inline-flex items-center gap-1.5">
       <span className="sr-only">{t('language')}</span>
       <svg
-        className="w-4 h-4 text-ink-light/60 pointer-events-none flex-shrink-0"
+        className="w-4 h-4 text-ink-soft pointer-events-none shrink-0"
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
@@ -45,7 +42,7 @@ export default function LanguageSwitcher({ locale }: { locale: Locale }) {
         onChange={onChange}
         disabled={isPending}
         aria-label={t('language')}
-        className="appearance-none bg-transparent ps-1 pe-4 py-1 text-sm tracking-wide text-ink-light hover:text-gold-dark transition-colors disabled:opacity-50 cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-midnight"
+        className="min-h-11 cursor-pointer appearance-none bg-transparent ps-1 pe-4 text-sm text-ink-light transition-colors hover:text-gold-dark disabled:opacity-50"
       >
         {routing.locales.map((option) => (
           <option key={option} value={option} lang={option}>
@@ -54,7 +51,7 @@ export default function LanguageSwitcher({ locale }: { locale: Locale }) {
         ))}
       </select>
       <svg
-        className="absolute end-0 w-3 h-3 text-ink-light/50 pointer-events-none"
+        className="absolute end-0 h-3 w-3 text-ink-soft pointer-events-none"
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
