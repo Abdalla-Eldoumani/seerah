@@ -65,7 +65,9 @@
     color: var(--color-ink);
   }
 
-  html[lang="ar"] :is(h1, h2, h3, h4, h5, h6) {
+  /* Plex has a 600 face; Amiri does not, so headings set in Amiri keep 400
+     rather than getting a synthesised bold. */
+  html[lang="ar"] :is(h1, h2, h3, h4, h5, h6):not(.font-arabic) {
     font-weight: 600;
   }
 
@@ -79,6 +81,12 @@
     outline-offset: 3px;
     border-radius: 2px;
   }
+}
+
+/* Outside every layer so it beats the tracking utilities: letter-spacing pulls
+   Arabic letters apart and breaks the joins between them. */
+html[lang="ar"] * {
+  letter-spacing: normal;
 }
 
 @media (prefers-reduced-motion: no-preference) {
