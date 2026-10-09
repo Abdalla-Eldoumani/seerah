@@ -1,7 +1,8 @@
 // Type definitions for all Seerah data structures.
 // These types map directly to the JSON data files in /data/events/.
 
-export type EraId = 'pre-prophethood' | 'meccan' | 'medinan';
+export const ERA_IDS = ['pre-prophethood', 'meccan', 'medinan'] as const;
+export type EraId = (typeof ERA_IDS)[number];
 
 export type EventCategory =
   | 'historical-context'
@@ -113,13 +114,4 @@ export interface EraMetadata {
 export interface EraData {
   era: EraMetadata;
   events: SeerahEvent[];
-}
-
-export interface TimelineNode {
-  event: SeerahEvent;
-  era: EraMetadata;
-  index: number;
-  eraIndex: number;
-  prev: string | null;
-  next: string | null;
 }
