@@ -146,6 +146,12 @@ html[lang="ar"] * {
     margin: 0 auto;
   }
 
+  .quran-verse .edition {
+    font-size: 0.8125rem;
+    color: var(--color-ink-soft);
+    margin-top: 0.5rem;
+  }
+
   /* Hadith: a rule down the leading edge and nothing else. */
   .hadith-block {
     margin-block: 1.75rem;
