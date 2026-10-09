@@ -24,17 +24,10 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
   const categoryColor = getCategoryColor(event.category);
   const dateLine = formatEventDate(event, locale);
 
-  // The two-way ternary this replaced showed the English summary on every
-  // French node. The scanner could not see it: English and French are both
-  // Latin, so the script check passed on all 49.
+  // A two-way ternary here once showed the English summary on every French
+  // node; the script check could not catch it because both are Latin.
   const summary = localizedField(event, 'summary', locale);
-  const summarySource = summary.text;
-  const summaryLang = summary.lang;
-  const summaryDir = summaryLang === 'ar' ? 'rtl' : 'ltr';
-  const truncatedSummary =
-    summarySource.length > 100
-      ? summarySource.slice(0, 100).replace(/\s+\S*$/, '') + '...'
-      : summarySource;
+  const summaryIsArabic = summary.lang === 'ar';
 
   return (
     <div
@@ -48,12 +41,12 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
       <div
         className={cn(
           'absolute z-10',
-          'start-[18px] top-2',
-          'md:start-1/2 md:-translate-x-1/2 rtl:md:translate-x-1/2 md:top-4'
+          'start-0 top-2',
+          'md:start-1/2 md:-ms-2 md:top-4'
         )}
       >
         <div
-          className="h-4 w-4 rounded-full border-2 border-gold bg-parchment shadow-sm"
+          className="h-4 w-4 rounded-full border-2 border-gold-dark bg-parchment"
           aria-hidden="true"
         />
       </div>
@@ -63,9 +56,8 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
         className={cn(
           'block group',
           'w-full md:w-[calc(50%-2rem)]',
-          'rounded-lg border border-parchment-dark bg-parchment/80 p-5',
-          'shadow-sm hover:shadow-md transition-shadow duration-200',
-          'hover:border-gold/50'
+          'rounded-sm border border-parchment-dark bg-parchment p-5',
+          'transition-colors hover:border-gold-dark'
         )}
       >
         <div className="flex items-center gap-2 mb-2">
@@ -98,29 +90,30 @@ export default function TimelineNode({ event, eraId, index }: TimelineNodeProps)
             <h3 className="font-display text-lg md:text-xl text-ink leading-snug group-hover:text-gold-dark transition-colors">
               {localizedField(event, 'title', locale).text}
             </h3>
-            <p dir="rtl" lang="ar" className={cn('font-arabic', 'text-base text-ink-light/70 mt-1')}>
+            <p dir="rtl" lang="ar" className={cn('font-arabic', 'text-base text-ink-soft mt-1')}>
               {event.titleArabic}
             </p>
           </>
         )}
 
-        <p className="text-sm font-body text-ink-light/80 mt-2">
+        <p className="text-sm font-body text-ink-soft mt-2">
           {dateLine}
         </p>
 
         <p
-          lang={summaryLang}
-          dir={summaryDir}
-          className={`text-sm text-ink-light leading-relaxed mt-3 ${
-            summaryLang === 'ar' ? '' : 'font-body'
-          }`}
+          lang={summary.lang}
+          dir={summaryIsArabic ? 'rtl' : 'ltr'}
+          className={cn(
+            'mt-3 line-clamp-3 text-ink-light',
+            summaryIsArabic ? 'font-arabic text-base leading-loose' : 'font-body text-sm leading-relaxed'
+          )}
         >
-          {truncatedSummary}
+          {summary.text}
         </p>
 
         {event.location && (
           <p
-            className="text-xs font-body text-ink-light/60 mt-3"
+            className="text-xs font-body text-ink-soft mt-3"
             dir={place.lang === 'ar' ? 'rtl' : 'ltr'}
             lang={place.lang}
           >
