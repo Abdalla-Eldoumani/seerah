@@ -198,6 +198,3 @@ export const localizeFigure = (value: string, locale: string): string => {
   if (!entry) return value;
   return locale === 'ar' ? entry.ar : entry.fr;
 };
-
-export const isUnregisteredFigure = (value: string) =>
-  !(value in FIGURE_NAMES) && !(value in NARRATOR_NAMES);
