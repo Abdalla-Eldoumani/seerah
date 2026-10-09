@@ -1,4 +1,5 @@
 import { useLocale, useTranslations } from 'next-intl';
+import { cn } from '@/lib/utils';
 import type { HadithReference } from '@/types/seerah';
 import { localizeSource } from '@/config/names';
 import { localizeFigure } from '@/config/figures';
@@ -10,24 +11,21 @@ interface HadithBlockProps {
 export default function HadithBlock({ reference }: HadithBlockProps) {
   const t = useTranslations('event');
   const locale = useLocale();
-  const isAr = locale === 'ar';
   const collection = localizeSource(reference.source, locale);
   const sourceLine = reference.hadithNumber
     ? `${collection}, #${reference.hadithNumber}`
     : collection;
 
-  // Prefer the verified Arabic text when available. Otherwise render the
-  // rendering for the reader's own language, with explicit lang and dir so
-  // screen readers and bidi resolution behave correctly.
-  const useArabic = isAr && Boolean(reference.textArabic);
+  // The Arabic matn is shown to Arabic readers. Everyone else, and an Arabic
+  // reader where no matn is stored, gets the project's own rendering, which is
+  // labelled as such because it is not a published translation.
+  const useArabic = locale === 'ar' && Boolean(reference.textArabic);
   const bodyText = useArabic
     ? reference.textArabic!
     : locale === 'fr'
       ? reference.textFrench
       : reference.textEnglish;
   const bodyLang = useArabic ? 'ar' : locale === 'fr' ? 'fr' : 'en';
-  const bodyDir = useArabic ? 'rtl' : 'ltr';
-  const bodyFont = useArabic ? 'font-arabic' : 'font-body';
 
   return (
     <div className="hadith-block">
@@ -42,11 +40,15 @@ export default function HadithBlock({ reference }: HadithBlockProps) {
       )}
       <p
         lang={bodyLang}
-        dir={bodyDir}
-        className={`text ${bodyFont}`}
+        dir={useArabic ? 'rtl' : 'ltr'}
+        className={cn(
+          'text',
+          useArabic ? 'font-arabic text-xl leading-loose' : 'font-body'
+        )}
       >
-        &ldquo;{bodyText}&rdquo;
+        {bodyText}
       </p>
+      {!useArabic && <p className="rendering-note">{t('renderingLabel')}</p>}
     </div>
   );
 }
