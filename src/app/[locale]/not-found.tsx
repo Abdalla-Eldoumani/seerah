@@ -36,7 +36,7 @@ export default function LocaleNotFound() {
           </svg>
         </div>
 
-        <h1 className="font-display text-3xl sm:text-4xl font-bold text-ink mb-3">
+        <h1 className="font-display text-3xl sm:text-4xl font-semibold text-ink mb-3">
           {t('title')}
         </h1>
 
