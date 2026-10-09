@@ -23,6 +23,8 @@ const csp = [
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  // Without this, next dev writes agent rule files into the repo root.
+  agentRules: false,
   poweredByHeader: false,
   compress: true,
 
