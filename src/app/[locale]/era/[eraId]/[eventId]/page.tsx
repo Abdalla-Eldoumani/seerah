@@ -1,14 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { localizedField } from '@/lib/localized';
-
-// schema.org wants BCP 47. A French page declaring en-US tells a search engine
-// and a screen reader the wrong thing about its own contents.
-const BCP47: Record<string, string> = {
-  en: 'en-US',
-  ar: 'ar-SA',
-  fr: 'fr-FR',
-};
 import { hasLocale } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import {
@@ -18,7 +10,9 @@ import {
   getAdjacentEvents,
   getEventsByEra,
 } from '@/lib/data';
-import { generateEventMetadata } from '@/lib/metadata';
+import { eventPath, generateEventMetadata } from '@/lib/metadata';
+import { BCP47, pageUrl } from '@/lib/seo';
+import { truncate } from '@/lib/utils';
 import { Container } from '@/components/ui/Container';
 import { Divider } from '@/components/ui/Divider';
 import EventHero from '@/components/reading/EventHero';
@@ -31,16 +25,11 @@ import PrimarySources from '@/components/reading/PrimarySources';
 import EventNav from '@/components/navigation/EventNav';
 import Breadcrumb from '@/components/navigation/Breadcrumb';
 import type { EraId } from '@/types/seerah';
-import { routing, type Locale } from '@/i18n/routing';
+import { routing } from '@/i18n/routing';
 
-const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://noor-al-seerah.vercel.app';
-
-function pageUrl(locale: string, path: string): string {
-  return locale === routing.defaultLocale
-    ? `${SITE_URL}${path}`
-    : `${SITE_URL}/${locale}${path}`;
-}
+// Only the era and event pairs listed below exist; anything else is a 404,
+// including a real event under the wrong era.
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   const eras = getAllEras();
@@ -67,7 +56,7 @@ export async function generateMetadata({
   if (!hasLocale(routing.locales, locale)) return {};
   const event = getEventById(eventId);
   if (!event) return {};
-  return generateEventMetadata(event, eraId, locale as Locale);
+  return generateEventMetadata(event, eraId, locale);
 }
 
 export default async function EventPage({
@@ -94,7 +83,7 @@ export default async function EventPage({
   const prevNav = prev
     ? {
         id: prev.id,
-        title: localizedField(prev, 'title', locale as Locale).text,
+        title: localizedField(prev, 'title', locale).text,
         eraId: prevEra?.id ?? eraId,
       }
     : null;
@@ -102,21 +91,21 @@ export default async function EventPage({
   const nextNav = next
     ? {
         id: next.id,
-        title: localizedField(next, 'title', locale as Locale).text,
+        title: localizedField(next, 'title', locale).text,
         eraId: nextEra?.id ?? eraId,
       }
     : null;
 
-  const eventTitle = localizedField(event, 'title', locale as Locale).text;
+  const eventTitle = localizedField(event, 'title', locale).text;
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: eventTitle,
-    description: localizedField(event, 'summary', locale as Locale).text.slice(0, 200),
-    inLanguage: BCP47[locale as Locale] ?? BCP47.en,
+    description: truncate(localizedField(event, 'summary', locale).text, 200),
+    inLanguage: BCP47[locale],
     author: { '@type': 'Organization', name: 'Noor al-Seerah Project' },
     publisher: { '@type': 'Organization', name: 'Noor al-Seerah Project' },
-    mainEntityOfPage: pageUrl(locale, `/era/${era.id}/${event.id}`),
+    mainEntityOfPage: pageUrl(locale, eventPath(era.id, event.id)),
     isBasedOn: event.primarySources,
   };
   const breadcrumbSchema = {
@@ -137,10 +126,10 @@ export default async function EventPage({
   const articleJson = JSON.stringify(articleSchema).replace(/</g, '\\u003c');
   const breadcrumbJson = JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c');
 
-  const summaryText = localizedField(event, 'summary', locale as Locale);
-  const significanceText = localizedField(event, 'significance', locale as Locale);
+  const summaryText = localizedField(event, 'summary', locale);
+  const significanceText = localizedField(event, 'significance', locale);
   return (
-    <main className="min-h-screen bg-parchment pb-24">
+    <div className="bg-parchment pb-24">
       <script type="application/ld+json">{articleJson}</script>
       <script type="application/ld+json">{breadcrumbJson}</script>
       <Container className="pt-6 sm:pt-8 md:pt-12">
@@ -154,14 +143,12 @@ export default async function EventPage({
 
         <EventHero event={event} />
 
-        <Divider />
+        <Divider ornament />
 
         {/* Resolve the narrative for the active locale. The helper reports
             which language it actually returned so the component can set dir and
             font correctly when it falls back to English. */}
         <EventSummary summary={summaryText.text} lang={summaryText.lang} />
-
-        <Divider />
 
         <EventSignificance
           significance={significanceText.text}
@@ -202,6 +189,6 @@ export default async function EventPage({
 
         <EventNav prev={prevNav} next={nextNav} />
       </Container>
-    </main>
+    </div>
   );
 }
