@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl';
 import { cn } from '@/lib/utils';
 import { Link } from '@/i18n/navigation';
 
@@ -11,16 +12,18 @@ interface BreadcrumbProps {
 }
 
 export default function Breadcrumb({ items }: BreadcrumbProps) {
+  const t = useTranslations('breadcrumb');
+
   return (
-    <nav aria-label="Breadcrumb">
-      <ol className="flex items-center gap-1.5 flex-wrap text-sm font-body text-ink-light/60">
+    <nav aria-label={t('label')}>
+      <ol className="flex items-center gap-1.5 flex-wrap text-sm font-body text-ink-soft">
         {items.map((item, index) => {
           const isLast = index === items.length - 1;
           return (
             <li key={index} className="flex items-center gap-1.5">
               {index > 0 && (
                 <svg
-                  className="w-3.5 h-3.5 text-ink-light/30 rtl:scale-x-[-1]"
+                  className="h-3.5 w-3.5 text-gold rtl:scale-x-[-1]"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={2}
@@ -39,7 +42,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
                 <Link
                   href={item.href}
                   className={cn(
-                    'hover:text-gold-dark transition-colors duration-150',
+                    'inline-flex min-h-11 items-center transition-colors hover:text-gold-dark',
                     'underline-offset-2 hover:underline'
                   )}
                 >
@@ -47,7 +50,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
                 </Link>
               ) : (
                 <span
-                  className={cn(isLast && 'text-ink-light/80')}
+                  className={cn(isLast && 'text-ink-light')}
                   aria-current={isLast ? 'page' : undefined}
                 >
                   {item.label}
