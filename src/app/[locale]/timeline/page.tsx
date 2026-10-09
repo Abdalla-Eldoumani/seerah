@@ -7,6 +7,7 @@ import { Container } from '@/components/ui/Container';
 import TimelineSpine from '@/components/timeline/TimelineSpine';
 import TimelineEraSection from '@/components/timeline/TimelineEraSection';
 import EraNav from '@/components/navigation/EraNav';
+import { pageMetadata } from '@/lib/metadata';
 import { routing } from '@/i18n/routing';
 
 export async function generateMetadata({
@@ -18,10 +19,12 @@ export async function generateMetadata({
   if (!hasLocale(routing.locales, locale)) return {};
 
   const t = await getTranslations({ locale, namespace: 'timeline' });
-  return {
+  return pageMetadata({
+    locale,
+    path: '/timeline',
     title: t('metaTitle'),
     description: t('metaDescription'),
-  };
+  });
 }
 
 export default async function TimelinePage({
@@ -36,16 +39,15 @@ export default async function TimelinePage({
   const t = await getTranslations({ locale, namespace: 'timeline' });
   const eras = getAllEras();
 
-  let runningIndex = 0;
-  const eraSections = eras.map((era) => {
-    const events = getEventsByEra(era.id);
-    const startIndex = runningIndex;
-    runningIndex += events.length;
-    return { era, events, startIndex };
-  });
+  const eraSections = eras
+    .map((era) => ({ era, events: getEventsByEra(era.id) }))
+    .map((section, i, all) => ({
+      ...section,
+      startIndex: all.slice(0, i).reduce((n, prior) => n + prior.events.length, 0),
+    }));
 
   return (
-    <main className="min-h-screen bg-parchment pb-24">
+    <div className="bg-parchment pb-24">
       <Container className="pt-16 pb-12 text-center">
         <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-ink tracking-tight">
           {t('title')}
@@ -69,6 +71,6 @@ export default async function TimelinePage({
           />
         ))}
       </TimelineSpine>
-    </main>
+    </div>
   );
 }
