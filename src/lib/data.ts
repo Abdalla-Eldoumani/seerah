@@ -1,20 +1,18 @@
-import type { EraData, EraId, EraMetadata, SeerahEvent, TimelineNode } from '@/types/seerah';
+import type { EraData, EraId, EraMetadata, SeerahEvent } from '@/types/seerah';
 
-import preProhpethoodData from '@/data/events/pre-prophethood.json';
+import preProphethoodData from '@/data/events/pre-prophethood.json';
 import meccanEraData from '@/data/events/meccan-era.json';
 import medinanEraData from '@/data/events/medinan-era.json';
 
 const allEraData: EraData[] = [
-  preProhpethoodData as EraData,
+  preProphethoodData as EraData,
   meccanEraData as EraData,
   medinanEraData as EraData,
 ];
 
-const ERA_ID_MAP: Record<string, EraData> = {
-  'pre-prophethood': preProhpethoodData as EraData,
-  'meccan': meccanEraData as EraData,
-  'medinan': medinanEraData as EraData,
-};
+const ERA_ID_MAP: Record<string, EraData> = Object.fromEntries(
+  allEraData.map((data) => [data.era.id, data])
+);
 
 export function getAllEvents(): SeerahEvent[] {
   return allEraData.flatMap((era) => era.events);
@@ -48,24 +46,6 @@ export function getEraForEvent(eventId: string): EraMetadata | undefined {
   return undefined;
 }
 
-export function getTimelineNodes(): TimelineNode[] {
-  const allEvents = getAllEvents();
-  return allEvents.map((event, index) => {
-    const era = getEraForEvent(event.id)!;
-    const eraEvents = getEventsByEra(era.id);
-    const eraIndex = eraEvents.findIndex((e) => e.id === event.id);
-
-    return {
-      event,
-      era,
-      index,
-      eraIndex,
-      prev: index > 0 ? allEvents[index - 1].id : null,
-      next: index < allEvents.length - 1 ? allEvents[index + 1].id : null,
-    };
-  });
-}
-
 export function getAdjacentEvents(eventId: string): {
   prev: SeerahEvent | null;
   next: SeerahEvent | null;
@@ -88,8 +68,4 @@ export function getAdjacentEvents(eventId: string): {
     prevEra: prev ? getEraForEvent(prev.id) ?? null : null,
     nextEra: next ? getEraForEvent(next.id) ?? null : null,
   };
-}
-
-export function getEraIdForEvent(eventId: string): EraId | undefined {
-  return getEraForEvent(eventId)?.id;
 }
