@@ -5,7 +5,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { amiri, cormorantGaramond, ibmPlexSansArabic, sourceSerif4 } from '@/lib/fonts';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
-import { routing, localeDirection, type Locale } from '@/i18n/routing';
+import { routing, localeDirection } from '@/i18n/routing';
 import { OG_LOCALES, SITE_URL } from '@/lib/seo';
 import '@/styles/globals.css';
 
@@ -74,13 +74,12 @@ export default async function LocaleLayout({
 
   const tNav = await getTranslations({ locale, namespace: 'nav' });
 
-  // Load only the fonts each locale actually renders. Latin pages skip the
-  // Plex Arabic UI face. Arabic pages skip Cormorant Garamond and Source Serif.
-  // Amiri is loaded everywhere because Quranic verses render in Amiri regardless of locale.
-  const fontClass =
-    locale === 'ar'
-      ? `${amiri.variable} ${ibmPlexSansArabic.variable}`
-      : `${amiri.variable} ${cormorantGaramond.variable} ${sourceSerif4.variable}`;
+  const fontClass = [
+    amiri.variable,
+    cormorantGaramond.variable,
+    sourceSerif4.variable,
+    ibmPlexSansArabic.variable,
+  ].join(' ');
 
   return (
     <html
@@ -98,7 +97,7 @@ export default async function LocaleLayout({
           >
             {tNav('skipToContent')}
           </a>
-          <Header locale={locale as Locale} />
+          <Header locale={locale} />
           <main id="main" className="flex-1">
             {children}
           </main>
