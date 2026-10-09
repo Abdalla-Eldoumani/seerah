@@ -8,6 +8,9 @@ export const routing = defineRouting({
   // and no cookie written, so the statically cached pages stay cacheable.
   localeDetection: false,
   localeCookie: false,
+  // Pages declare their own alternates; the header would list languages for
+  // URLs that do not exist.
+  alternateLinks: false,
 });
 
 export type Locale = (typeof routing.locales)[number];
