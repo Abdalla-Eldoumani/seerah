@@ -72,8 +72,9 @@ export async function GET(
 
   const rtl = locale === 'ar';
   const tSite = await getTranslations({ locale, namespace: 'site' });
+  const tEra = await getTranslations({ locale, namespace: 'era.names' });
   const title = localizedField(event, 'title', locale).text;
-  const eraTitle = localizedField(era, 'title', locale).text;
+  const eraTitle = tEra(era.id);
   const date = formatEventDate(event, locale);
 
   const ink = '#14110a';
