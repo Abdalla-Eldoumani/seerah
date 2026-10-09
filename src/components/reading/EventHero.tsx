@@ -27,7 +27,7 @@ export default function EventHero({ event }: EventHeroProps) {
         <h1
           dir="rtl"
           lang="ar"
-          className="font-arabic font-normal text-gold-dark leading-relaxed text-4xl md:text-5xl lg:text-6xl"
+          className="font-arabic text-gold-dark leading-relaxed text-4xl md:text-5xl lg:text-6xl"
         >
           {event.titleArabic}
         </h1>
