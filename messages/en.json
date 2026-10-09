@@ -2,7 +2,7 @@
   "site": {
     "name": "Noor al-Seerah",
     "subtitle": "The Light of the Biography",
-    "tagline": "An interactive journey through the life of Prophet Muhammad ﷺ",
+    "tagline": "An interactive timeline of the life of Prophet Muhammad ﷺ",
     "description": "Forty-nine key events from the life of Prophet Muhammad ﷺ, drawn from authenticated Islamic sources."
   },
   "nav": {
@@ -14,7 +14,7 @@
     "skipToContent": "Skip to content"
   },
   "home": {
-    "ctaPrimary": "Begin the journey",
+    "ctaPrimary": "Open the timeline",
     "ctaSecondary": "About this project"
   },
   "timeline": {
