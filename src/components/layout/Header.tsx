@@ -21,12 +21,12 @@ export function Header({ locale }: HeaderProps) {
   ];
 
   return (
-    <header className="sticky top-0 z-40 bg-parchment/95 backdrop-blur-sm border-b border-gold/20">
+    <header className="sticky top-0 z-40 border-b border-gold/30 bg-parchment">
       <nav className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link
             href="/"
-            className="font-display text-xl sm:text-2xl font-semibold text-ink tracking-wide hover:text-gold-dark transition-colors"
+            className="inline-flex min-h-11 items-center font-display text-xl font-semibold text-ink hover:text-gold-dark transition-colors sm:text-2xl"
           >
             {t('site.name')}
           </Link>
@@ -36,7 +36,7 @@ export function Header({ locale }: HeaderProps) {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="font-display text-sm tracking-widest uppercase text-ink-light hover:text-gold-dark transition-colors"
+                  className="inline-flex min-h-11 items-center font-display text-sm tracking-widest uppercase text-ink-light hover:text-gold-dark transition-colors"
                 >
                   {link.label}
                 </Link>
@@ -85,7 +85,7 @@ export function Header({ locale }: HeaderProps) {
         <div
           inert={!mobileMenuOpen}
           className={cn(
-            'sm:hidden overflow-hidden transition-all duration-200 ease-in-out',
+            'sm:hidden overflow-hidden transition-[max-height] duration-200',
             mobileMenuOpen ? 'max-h-48 pb-4' : 'max-h-0'
           )}
         >
@@ -94,14 +94,14 @@ export function Header({ locale }: HeaderProps) {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="block py-2 font-display text-sm tracking-widest uppercase text-ink-light hover:text-gold-dark transition-colors"
+                  className="flex min-h-11 items-center font-display text-sm tracking-widest uppercase text-ink-light hover:text-gold-dark transition-colors"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {link.label}
                 </Link>
               </li>
             ))}
-            <li className="py-2">
+            <li>
               <LanguageSwitcher locale={locale} />
             </li>
           </ul>
