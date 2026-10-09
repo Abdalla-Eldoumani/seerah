@@ -18,33 +18,42 @@ const EVENTS = path.join(ROOT, "data", "events");
 const CONFIG = path.join(ROOT, "src", "config");
 
 // The registries are TypeScript, so read the keys rather than importing them.
-// A key is a quoted string at the start of an object entry.
+// A registry is an object literal, declared once and sometimes extended with
+// Object.assign. Each block is read up to its closing brace so that the
+// parameters of the functions below it are not mistaken for keys.
 function registryKeys(file, ...constants) {
   const source = readFileSync(path.join(CONFIG, file), "utf8");
   const keys = new Set();
+  // Keys come in three shapes: 'quoted', "quoted", and bare identifiers such
+  // as `Muharram:`. Matching only the quoted ones under-collected the
+  // registry and reported five months as missing that were there all along.
+  const entry = /^\s{2}(?:'((?:[^'\\]|\\.)*)'|"((?:[^"\\]|\\.)*)"|([A-Za-z_$][\w$]*))\s*:/gm;
   for (const constant of constants) {
-    const start = source.indexOf(constant);
-    if (start === -1) continue;
-    const body = source.slice(start);
-    // Keys come in three shapes: 'quoted', "quoted", and bare identifiers such
-    // as `Muharram:`. Matching only the quoted ones under-collected the
-    // registry and reported five months as missing that were there all along.
-    const pattern = /^\s{2}(?:'((?:[^'\\]|\\.)*)'|"((?:[^"\\]|\\.)*)"|([A-Za-z_$][\w$]*))\s*:/gm;
-    for (const match of body.matchAll(pattern)) {
-      const key = match[1] ?? match[2] ?? match[3];
-      keys.add(key.replace(/\\'/g, "'").replace(/\\"/g, '"'));
+    const opener = new RegExp(
+      `^(?:export const ${constant}\\b[^\\n]*=\\s*\\{|Object\\.assign\\(${constant},\\s*\\{)\\s*$`,
+      "gm",
+    );
+    for (const open of source.matchAll(opener)) {
+      const rest = source.slice(open.index + open[0].length);
+      const end = rest.search(/^\}\)?;\s*$/m);
+      const body = end === -1 ? rest : rest.slice(0, end);
+      for (const match of body.matchAll(entry)) {
+        const key = match[1] ?? match[2] ?? match[3];
+        keys.add(key.replace(/\\'/g, "'").replace(/\\"/g, '"'));
+      }
     }
   }
   return keys;
 }
 
-const figures = registryKeys("figures.ts", "FIGURE_NAMES");
+const figures = registryKeys("figures.ts", "FIGURE_NAMES", "NARRATOR_NAMES");
 const names = registryKeys(
   "names.ts",
   "SOURCE_NAMES",
   "MONTH_NAMES",
   "SURAH_NAMES",
   "YEAR_PHRASES",
+  "AUTHOR_NAMES",
 );
 
 // field -> which registry has to carry it
