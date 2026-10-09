@@ -81,19 +81,14 @@ const GLYPHS: Record<GlyphId, ReactNode> = {
   conflict: (
     <>
       <path
-        d="M5 5L11 11M19 5L13 11M5 19L11 13M19 19L13 13"
+        d="M4.5 3.5L15 14M13 16.5L16.5 13M15 14L18.5 17.5M19.5 3.5L9 14M11 16.5L7.5 13M9 14L5.5 17.5"
         stroke="currentColor"
         strokeWidth="1.5"
         strokeLinecap="round"
+        strokeLinejoin="round"
       />
-      <circle
-        cx="12"
-        cy="12"
-        r="1.5"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        fill="none"
-      />
+      <circle cx="19.6" cy="18.6" r="1.2" fill="currentColor" />
+      <circle cx="4.4" cy="18.6" r="1.2" fill="currentColor" />
     </>
   ),
   movement: (
