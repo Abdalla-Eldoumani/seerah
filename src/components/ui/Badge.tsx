@@ -17,7 +17,7 @@ const variantStyles: Record<BadgeVariant, string> = {
   date:
     'bg-transparent text-gold-dark border border-gold/40 font-display',
   source:
-    'bg-parchment-dark text-ink-light border border-ink/10 italic',
+    'bg-parchment-dark text-ink-light border border-ink/10',
 };
 
 export function Badge({
