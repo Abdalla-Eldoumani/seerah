@@ -63,11 +63,11 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string; eraId: string; eventId: string }>;
 }): Promise<Metadata> {
-  const { locale, eventId } = await params;
+  const { locale, eraId, eventId } = await params;
   if (!hasLocale(routing.locales, locale)) return {};
   const event = getEventById(eventId);
   if (!event) return {};
-  return generateEventMetadata(event, locale as Locale);
+  return generateEventMetadata(event, eraId, locale as Locale);
 }
 
 export default async function EventPage({
