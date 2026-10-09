@@ -20,7 +20,7 @@ export default function KeyFigures({ figures }: KeyFiguresProps) {
         {figures.map((figure) => (
           <span
             key={figure}
-            className="inline-block px-4 py-1.5 rounded-full text-sm font-medium bg-parchment-dark text-gold-dark border border-gold/30"
+            className="inline-block rounded-sm border border-gold-dark/30 bg-parchment-dark px-4 py-1.5 text-sm font-medium text-gold-dark"
           >
             {localizeFigure(figure, locale)}
           </span>
