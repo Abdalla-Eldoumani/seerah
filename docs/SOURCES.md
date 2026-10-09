@@ -1,94 +1,80 @@
-# Primary Sources & Methodology
+# Sources and methodology
 
-## Sources Used for Content Verification
+What each kind of content on the site rests on, what is checked by a script, and what is not checked at all.
 
-All content in the `/data/events/*.json` files was verified against
-the following authenticated Islamic sources:
+## Works the events name
 
-### Hadith Collections (Primary)
-1. **Sahih al-Bukhari** — Compiled by Imam Muhammad ibn Ismail al-Bukhari (d. 870 CE). Considered the most authentic collection of hadith.
-2. **Sahih Muslim** — Compiled by Imam Muslim ibn al-Hajjaj (d. 875 CE). The second most authentic collection.
-3. **Jami' at-Tirmidhi** — Compiled by Imam Abu Isa at-Tirmidhi (d. 892 CE).
-4. **Sunan Abu Dawud** — Compiled by Imam Abu Dawud as-Sijistani (d. 889 CE).
+Each event lists the works its account draws on. The list below is the set of works that appear across the 49 events and on the about page (`src/config/sources.ts`). It says where an account comes from. It is not a record that every sentence was checked against every work.
 
-### Seerah Works
-5. **Ar-Raheeq Al-Makhtum (The Sealed Nectar)** — By Sheikh Safiur Rahman al-Mubarakpuri. Won first prize in the Muslim World League's worldwide Seerah competition in 1979. The primary reference for chronology and event ordering.
-6. **Sirat Rasul Allah** — By Ibn Ishaq (d. 767 CE), edited by Ibn Hisham (d. 833 CE). The earliest comprehensive biography of the Prophet ﷺ.
-7. **Al-Bidaya wan-Nihaya** — By Imam Ibn Kathir (d. 1373 CE). A comprehensive Islamic history.
+**Hadith collections**
+- Sahih al-Bukhari, Imam Muhammad ibn Ismail al-Bukhari (d. 870 CE)
+- Sahih Muslim, Imam Muslim ibn al-Hajjaj (d. 875 CE)
+- Jami' at-Tirmidhi, Imam Abu Isa at-Tirmidhi (d. 892 CE)
+- Sunan Abu Dawud, Imam Abu Dawud as-Sijistani (d. 889 CE)
 
-### Tafsir (Quran Commentary)
-8. **Tafsir Ibn Kathir** — For connecting Quranic verses to specific events.
-9. **Asbab al-Nuzul** — By Ali ibn Ahmad al-Wahidi (d. 1075 CE). Occasions of revelation.
+**Seerah works**
+- Ar-Raheeq Al-Makhtum (The Sealed Nectar), Sheikh Safiur Rahman al-Mubarakpuri. The chronological frame for the events.
+- Sirat Rasul Allah, Ibn Ishaq (d. 767 CE), edited by Ibn Hisham (d. 833 CE)
+- Al-Bidaya wan-Nihaya, Imam Ibn Kathir (d. 1373 CE)
 
-### Additional References
-10. **Tabaqat Ibn Sa'd** — Biographical encyclopedia of early Muslims.
-11. **Al-Sunan al-Kubra** — By Imam al-Bayhaqi.
-12. **Musnad Ahmad** — By Imam Ahmad ibn Hanbal.
+**Additional**
+- Tafsir Ibn Kathir
+- Tabaqat Ibn Sa'd
+- Al-Sunan al-Kubra, Imam al-Bayhaqi
+- Al-Mustadrak, al-Hakim
+- Abu Ubayd's Kitab al-Amwal
+- Musnad Ahmad, Imam Ahmad ibn Hanbal
 
-## Methodology
+## Qur'an passages
 
-1. Events were identified from Ar-Raheeq Al-Makhtum as the primary chronological framework
-2. Each event was cross-referenced with the hadith collections for supporting narrations
-3. Quran references were verified against Asbab al-Nuzul literature and Tafsir Ibn Kathir
-4. Dates follow the majority scholarly opinion; where scholars differ, this is noted
-5. Arabic text was verified for accuracy
+The site shows 36 passages. The text is fetched, never typed: `npm run fetch:scripture` reads each cited ayah range from api.alquran.cloud in three editions and writes it back to the event data.
 
-## Citation verification
+| Language | Edition |
+|---|---|
+| Arabic | `quran-uthmani` |
+| English | `en.sahih` (Saheeh International) |
+| French | `fr.hamidullah` (Hamidullah) |
 
-Every hadith cited in `data/events` was opened at the collection under the number the
-event cites, and the narrator and wording were compared against what the event stores.
-Twenty-nine were read at sunnah.com. The two that no sunnah.com collection carries were
-traced through dorar.net to al-Hakim's Mustadrak and al-Bayhaqi's Sunan al-Kubra.
-`data/citation-review.json` records the result for each one, and
-`npm run verify:citations` fails the build if a citation has no entry or an entry is no
-longer cited.
+The three come from the same ayah range, so they describe the same passage. `npm run fetch:scripture -- --check` compares the stored text with the editions without writing. The basmalah is dropped from the opening ayah of a range where the edition prepends it, because the citation does not cover it.
 
-**31 hadith citations. 31 read at the collection. 0 unresolved.**
+## Hadith citations
 
-Checking them found ten references pointing at a different narration. All are corrected,
-and each entry in the record says what it replaced. The pattern was mostly a right story
-with a wrong number: `Sahih al-Bukhari 4` carried the Aqaba pledge (it is Jabir on the
-pause in revelation, and the pledge is Bukhari 18), and `Sahih al-Bukhari 349` carried the
-Buraq (it is Abu Dharr on the opening of the chest, and the Buraq is Sahih Muslim 162a).
+The events cite 33 hadith references, 31 distinct citations. `data/citation-review.json` has one entry for each. An entry names the narrator, the wording that was confirmed at the collection, the grading, and where it was read: 29 at sunnah.com, and 2 at dorar.net because no sunnah.com collection carries them (al-Hakim's Mustadrak and al-Bayhaqi's Sunan al-Kubra). The record is the project's own account of that check; the entries can be re-read at those pages.
 
-Every citation now carries the grading the collection itself gives, and the event page
-shows it. One narration is graded weak: the meeting with the monk Bahira,
-`Jami' at-Tirmidhi 3620`, is Da'if by Darussalam's grading. It is kept because the episode
-is standard in the seerah literature, and the page says the grading so a reader can weigh
-it. Earlier wording here claimed only sahih and hasan hadith are cited; that was not true,
-and saying the grading is more useful than a claim that has to be maintained.
+`npm run verify:citations` runs before every build. It fails when a cited hadith has no entry, when an entry is no longer cited, and when an entry marked verified names no source. It does not decide whether a citation is right. It makes sure none is unaccounted for.
 
-Two references had no number at all and read as `Reported in various sources` and
-`As-Sunan al-Kubra, al-Bayhaqi`. Both are now traced:
+What the record does not cover: the English and French text of each hadith is the project's own abridgement, and the record does not compare it with the Arabic. Those entries are marked `translationProvenance: "project"` in the data and labelled as such on the page. Read them against the Arabic matn, which is the collection's wording.
 
-- The words to the family of Yasir are **al-Hakim's Mustadrak 5777**, from Jabir ibn
-  Abdullah, sahih on the condition of Muslim with adh-Dhahabi agreeing. The wording matters:
-  the popular version is "be patient, O family of Yasir", and the authenticated version is
-  "**glad tidings**, O family of Ammar and family of Yasir". The event carried the popular
-  wording and now carries the authenticated one.
-- The Hilf al-Fudul report is **al-Bayhaqi's Sunan al-Kubra 13211**, from Talha ibn Abdullah
-  ibn Awf. The collection the event named was right; the narrator and the number were
-  missing. The chain is sahih but mursal and is strengthened by corroborating narrations
-  (al-Albani, Fiqh as-Sirah p. 72). The clause about returning rights to their owners belongs
-  to al-Humaydi's wording rather than al-Bayhaqi's, so it stays in the event summary instead
-  of inside the quotation.
+### Gradings
 
-Every one of the 31 now carries the Arabic matn, so the Arabic locale shows the source
-itself rather than a rendering of it.
+Every hadith shows the grading its collection gives. Across the 33 references: 28 sahih, 3 hasan, 1 hasan-sahih, 1 da'if. The weak one is the meeting with the monk Bahira, Jami' at-Tirmidhi 3620, graded da'if in Darussalam's grading. It stays because the episode is standard in the seerah literature, and the page shows the grading so the reader can weigh it.
 
-## Scholarly Differences on Dates
+### What checking found
 
-Some notable areas where scholars differ:
-- The exact date of the Prophet's ﷺ birth (8th, 10th, or 12th Rabi' al-Awwal)
-- The exact date of the first revelation (17th or 21st Ramadan)
-- The duration of the pause in revelation (Fatrah)
-- The exact dating of the Isra wal Mi'raj
-- The year of the Slander of Aisha (5 or 6 AH)
+Ten references pointed at a different narration than the story they sat under. Each was replaced, and the entry for the replacement says what it replaced. Two examples:
 
-In all cases, we followed the most commonly cited opinion in the primary sources listed above.
+- Sahih al-Bukhari 4 is Jabir on the pause in revelation. The Aqabah pledge it was cited for is Sahih al-Bukhari 18.
+- Sahih al-Bukhari 349 is Abu Dharr on the opening of the chest and has no Buraq. The Buraq narration is Sahih Muslim 162a.
 
-## Disclaimer
+Two references had no number. Both are now traced:
 
-This project is a best-effort compilation based on the most widely accepted and authenticated sources in Sunni Islamic scholarship. It is not a substitute for formal Islamic education. Readers are encouraged to study the Seerah under qualified scholars and to refer to the original sources for deeper understanding.
+- The words to the family of Yasir are al-Hakim's Mustadrak 5777, from Jabir ibn Abdullah, graded sahih on the condition of Muslim with adh-Dhahabi agreeing. The authenticated wording is "glad tidings, O family of Ammar and family of Yasir". The event had carried the popular wording, "be patient".
+- The Hilf al-Fudul report is al-Bayhaqi's Sunan al-Kubra 13211, from Talha ibn Abdullah ibn Awf. Its chain is sahih but mursal, strengthened by corroborating narrations (al-Albani, Fiqh as-Sirah, p. 72).
 
-We ask Allah to accept this effort and make it a source of benefit for the Ummah.
+## Names
+
+`scripts/verify-names.mjs` fails the build when a proper noun in the data has no Arabic or French form in the registries under `src/config`. It checks that a form exists, not that the spelling is the preferred one.
+
+## Dates
+
+Each event stores one Hijri reading and one Gregorian reading. Four carry a qualifier in the month: the first revelation (`Ramadan (17th or 21st)`), the Isra and Mi'raj (`Rajab (according to many scholars)`), the change of qiblah (`Rajab or Sha'ban`), and the conquest of Makkah (`Ramadan (20th)`). Every other date is a single reading, and the site does not list alternatives for it. A reader who needs a settled date should consult the works above and a qualified scholar.
+
+## Limits
+
+- The narrative summaries and significance paragraphs are the project's own prose. This repository does not record a line-by-line check of them against the works listed above.
+- The Arabic and French renderings of that prose are unreviewed by a native-speaking reader.
+- The scripts prove that records exist and that fetched text matches its edition. They do not prove a reading of the sources correct.
+
+This is a study aid, not a substitute for learning the seerah from qualified teachers.
+
+We ask Allah to accept this effort and make it a source of benefit.
