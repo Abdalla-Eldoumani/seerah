@@ -25,6 +25,3 @@ next-env.d.ts
 # misc
 .DS_Store
 Thumbs.db
-
-# screenshot artifacts, regenerable
-.playwright-mcp/
