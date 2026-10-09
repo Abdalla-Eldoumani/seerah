@@ -13,18 +13,16 @@ import { Link } from '@/i18n/navigation';
 import { getCategoryColor } from '@/config/categories';
 import { CategoryGlyph } from '@/components/icons/CategoryGlyph';
 import { formatEraTimespan, formatGregorianYear } from '@/lib/dates';
-import type { EraId } from '@/types/seerah';
-import { routing, type Locale } from '@/i18n/routing';
+import { ERA_IDS, type EraId } from '@/types/seerah';
+import { routing } from '@/i18n/routing';
+
+// Only the three era ids exist; any other segment is a 404.
+export const dynamicParams = false;
 
 export function generateStaticParams() {
-  const eraIds: EraId[] = ['pre-prophethood', 'meccan', 'medinan'];
-  const params: { locale: string; eraId: string }[] = [];
-  for (const locale of routing.locales) {
-    for (const eraId of eraIds) {
-      params.push({ locale, eraId });
-    }
-  }
-  return params;
+  return routing.locales.flatMap((locale) =>
+    ERA_IDS.map((eraId) => ({ locale, eraId }))
+  );
 }
 
 export async function generateMetadata({
@@ -36,7 +34,7 @@ export async function generateMetadata({
   if (!hasLocale(routing.locales, locale)) return {};
   const era = getEraMetadata(eraId as EraId);
   if (!era) return {};
-  return generateEraMetadata(era, locale as Locale);
+  return generateEraMetadata(era, locale);
 }
 
 export default async function EraPage({
@@ -54,7 +52,7 @@ export default async function EraPage({
   const tEra = await getTranslations({ locale, namespace: 'era' });
   const tCategories = await getTranslations({ locale, namespace: 'categories' });
   const isAr = locale === 'ar';
-  const timespan = formatEraTimespan(era, locale as Locale);
+  const timespan = formatEraTimespan(era, locale);
 
   const eraTitle = tEra(`names.${eraId}`);
   const countLabel =
@@ -63,7 +61,7 @@ export default async function EraPage({
       : tEra('eventsCountPlural', { count: events.length });
 
   return (
-    <main className="min-h-screen bg-parchment pb-24">
+    <div className="bg-parchment pb-24">
       <section
         className="relative py-16 md:py-24 overflow-hidden"
         style={{
@@ -98,7 +96,7 @@ export default async function EraPage({
             </>
           )}
 
-          <p className="font-body text-lg md:text-xl text-ink-light/70" dir="ltr">
+          <p className="font-body text-lg md:text-xl text-ink-soft" dir="ltr">
             <span dir="ltr">{timespan.primary}</span>
             <span className="mx-2 text-gold" aria-hidden="true">
               ·
@@ -109,7 +107,7 @@ export default async function EraPage({
           {/* Era description in the active locale, falling back to English with
               explicit markup so bidi and screen readers stay correct. */}
           {(() => {
-            const described = localizedField(era, 'description', locale as Locale);
+            const described = localizedField(era, 'description', locale);
             const text = described.text;
             const lang = described.lang;
             const dir = lang === 'ar' ? 'rtl' : 'ltr';
@@ -125,7 +123,7 @@ export default async function EraPage({
             );
           })()}
 
-          <Divider className="mt-8" />
+          <Divider ornament className="mt-8" />
 
           <div className="pt-4">
             <EraNav currentEra={eraId as EraId} />
@@ -142,40 +140,36 @@ export default async function EraPage({
           {events.map((event) => {
             const categoryLabel = tCategories(event.category);
             const categoryColor = getCategoryColor(event.category);
-            const localizedSummary = localizedField(event, 'summary', locale as Locale);
+            const localizedSummary = localizedField(event, 'summary', locale);
             const summarySource = localizedSummary.text;
             const summaryLang = localizedSummary.lang;
             const summaryDir = summaryLang === 'ar' ? 'rtl' : 'ltr';
-            const truncatedSummary =
-              summarySource.length > 80
-                ? summarySource.slice(0, 80) + '...'
-                : summarySource;
 
             return (
               <Link
                 key={event.id}
                 href={`/era/${era.id}/${event.id}`}
-                className="group block rounded-lg border border-parchment-dark hover:border-gold/50 bg-parchment hover:bg-parchment-dark/30 p-6 transition-all duration-200 hover:shadow-md"
+                className="group block rounded-lg border border-parchment-dark hover:border-gold/50 bg-parchment hover:bg-parchment-dark/30 p-6 transition-colors duration-200"
               >
                 <p
                   dir="rtl"
                   lang="ar"
                   className={`font-arabic ${
                     isAr ? 'text-xl' : 'text-lg'
-                  } text-gold-dark/80 leading-relaxed mb-1`}
+                  } text-gold-dark leading-relaxed mb-1`}
                 >
                   {event.titleArabic}
                 </p>
 
                 {!isAr && (
                   <h3 className="font-display text-xl font-semibold text-ink group-hover:text-gold-dark transition-colors duration-200 mb-2">
-                    {localizedField(event, 'title', locale as Locale).text}
+                    {localizedField(event, 'title', locale).text}
                   </h3>
                 )}
 
                 <div className="flex items-center gap-3 mb-3 flex-wrap">
                   <Badge variant="date">
-                    {formatGregorianYear(event.yearCE, locale as Locale)}
+                    {formatGregorianYear(event.yearCE, locale)}
                   </Badge>
                   <Badge
                     variant="category"
@@ -192,17 +186,17 @@ export default async function EraPage({
                 <p
                   lang={summaryLang}
                   dir={summaryDir}
-                  className={`text-sm text-ink-light/70 leading-relaxed ${
+                  className={`line-clamp-3 text-sm text-ink-soft leading-relaxed ${
                     summaryLang === 'ar' ? '' : 'font-body'
                   }`}
                 >
-                  {truncatedSummary}
+                  {summarySource}
                 </p>
               </Link>
             );
           })}
         </div>
       </Container>
-    </main>
+    </div>
   );
 }
