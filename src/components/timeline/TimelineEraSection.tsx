@@ -1,5 +1,4 @@
 import { useLocale, useTranslations } from 'next-intl';
-import { cn } from '@/lib/utils';
 import { formatEraTimespan } from '@/lib/dates';
 import type { Locale } from '@/i18n/routing';
 import type { EraMetadata, SeerahEvent } from '@/types/seerah';
@@ -23,24 +22,22 @@ export default function TimelineEraSection({
 
   return (
     <section className="relative pb-8">
-      <div className={cn('sticky top-0 z-20', 'py-4 px-6 md:px-8 -mx-4 md:-mx-8', 'mb-8')}>
+      {/* top-16 clears the sticky site header; a solid ground keeps the cards
+          scrolling underneath from showing through the gap. */}
+      <div className="sticky top-16 z-20 -mx-4 mb-8 bg-parchment px-4 py-3 md:-mx-8 md:px-8">
         <div
-          className="rounded-lg px-6 py-4 text-center shadow-md"
+          className="rounded-sm border border-gold/50 px-6 py-3 text-center"
           style={{ backgroundColor: era.themeColor }}
         >
-          <h2 className="font-display text-2xl md:text-3xl text-parchment">
+          <h2 className="font-display text-2xl text-parchment md:text-3xl">
             {t(era.id)}
           </h2>
           {!isAr && (
-            <p
-              dir="rtl"
-              lang="ar"
-              className="font-arabic text-lg text-parchment/80 mt-1"
-            >
+            <p dir="rtl" lang="ar" className="font-arabic text-lg text-parchment/85">
               {era.titleArabic}
             </p>
           )}
-          <p className="font-body text-sm text-parchment/60 mt-2">
+          <p className="font-body text-sm text-parchment/85 mt-1">
             {timespan.primary} &middot; {timespan.secondary}
           </p>
         </div>
