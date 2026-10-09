@@ -5,6 +5,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Container } from '@/components/ui/Container';
 import { Divider } from '@/components/ui/Divider';
 import { routing } from '@/i18n/routing';
+import { pageMetadata } from '@/lib/metadata';
 import { localizeSource, localizeAuthor } from '@/config/names';
 import {
   HADITH_COLLECTIONS,
@@ -21,7 +22,7 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) return {};
   const t = await getTranslations({ locale, namespace: 'nav' });
-  return { title: t('about') };
+  return pageMetadata({ locale, path: '/about', title: t('about') });
 }
 
 function SourceList({ items, locale }: { items: SourceWork[]; locale: string }) {
@@ -30,8 +31,7 @@ function SourceList({ items, locale }: { items: SourceWork[]; locale: string }) 
       {items.map((item) => (
         <li key={item.name} className="flex items-start gap-2">
           <span
-            className="mt-2 block w-1.5 h-1.5 rounded-full flex-shrink-0"
-            style={{ backgroundColor: 'var(--color-gold)' }}
+            className="mt-2.5 block h-1.5 w-1.5 shrink-0 rounded-full bg-gold-dark"
             aria-hidden="true"
           />
           <span>
@@ -58,24 +58,24 @@ export default async function AboutPage({
   const isAr = locale === 'ar';
 
   return (
-    <main className="py-16 sm:py-20">
+    <div className="py-16 sm:py-20">
       <Container>
         <header className="text-center mb-12">
-          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold text-ink mb-4">
+          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-semibold text-ink mb-4">
             {t('title')}
           </h1>
           {!isAr && (
             <p
               dir="rtl"
               lang="ar"
-              className="font-arabic text-gold text-xl sm:text-2xl"
+              className="font-arabic text-gold-dark text-xl sm:text-2xl"
             >
               {tSiteAr('name')}
             </p>
           )}
         </header>
 
-        <Divider />
+        <Divider ornament />
 
         <section className="mb-12" aria-labelledby="purpose-heading">
           <h2
@@ -100,21 +100,21 @@ export default async function AboutPage({
           </h2>
 
           <div className="mb-8">
-            <h3 className="font-display text-xl sm:text-2xl font-medium text-ink mb-3">
+            <h3 className="font-display text-xl sm:text-2xl font-semibold text-ink mb-3">
               {t('hadithCollectionsHeading')}
             </h3>
             <SourceList items={HADITH_COLLECTIONS} locale={locale} />
           </div>
 
           <div className="mb-8">
-            <h3 className="font-display text-xl sm:text-2xl font-medium text-ink mb-3">
+            <h3 className="font-display text-xl sm:text-2xl font-semibold text-ink mb-3">
               {t('seerahWorksHeading')}
             </h3>
             <SourceList items={SEERAH_WORKS} locale={locale} />
           </div>
 
           <div>
-            <h3 className="font-display text-xl sm:text-2xl font-medium text-ink mb-3">
+            <h3 className="font-display text-xl sm:text-2xl font-semibold text-ink mb-3">
               {t('additionalSourcesHeading')}
             </h3>
             <SourceList items={ADDITIONAL_SOURCES} locale={locale} />
@@ -158,16 +158,13 @@ export default async function AboutPage({
           >
             {t('sadaqahHeading')}
           </h2>
-          <p
-            className="font-body text-base sm:text-lg leading-relaxed italic"
-            style={{ color: 'var(--color-ink-light)' }}
-          >
+          <p className="font-body text-base sm:text-lg text-ink-light leading-relaxed">
             {t('sadaqahBody')}
           </p>
         </section>
 
         <Divider className="mt-12" />
       </Container>
-    </main>
+    </div>
   );
 }
