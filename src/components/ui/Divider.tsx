@@ -1,47 +1,26 @@
 import { cn } from '@/lib/utils';
 
 interface DividerProps {
+  // The diamond is reserved for one break per page; every other break is a rule.
+  ornament?: boolean;
   className?: string;
 }
 
-export function Divider({ className }: DividerProps) {
+export function Divider({ ornament = false, className }: DividerProps) {
+  if (!ornament) {
+    return <hr className={cn('my-10 h-px border-0 bg-gold/30', className)} />;
+  }
+
   return (
     <div
-      className={cn('flex items-center justify-center gap-4 my-8', className)}
-      role="separator"
+      className={cn('my-10 flex items-center gap-4', className)}
       aria-hidden="true"
     >
-      {/* Left line */}
-      <div
-        className="flex-1 h-px"
-        style={{
-          background:
-            'linear-gradient(to right, transparent, var(--color-gold), var(--color-gold))',
-        }}
-      />
-
-      {/* Center diamond ornament */}
-      <div className="relative flex items-center justify-center">
-        {/* Outer diamond */}
-        <div
-          className="w-3 h-3 rotate-45 border border-gold"
-          style={{ borderColor: 'var(--color-gold)' }}
-        />
-        {/* Inner dot */}
-        <div
-          className="absolute w-1.5 h-1.5 rotate-45"
-          style={{ backgroundColor: 'var(--color-gold)' }}
-        />
-      </div>
-
-      {/* Right line */}
-      <div
-        className="flex-1 h-px"
-        style={{
-          background:
-            'linear-gradient(to left, transparent, var(--color-gold), var(--color-gold))',
-        }}
-      />
+      <span className="h-px flex-1 bg-linear-to-r from-transparent to-gold-dark/60" />
+      <span className="relative block size-3 rotate-45 border border-gold-dark">
+        <span className="absolute inset-[3px] bg-gold-dark" />
+      </span>
+      <span className="h-px flex-1 bg-linear-to-l from-transparent to-gold-dark/60" />
     </div>
   );
 }
