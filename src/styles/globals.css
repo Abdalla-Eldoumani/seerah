@@ -1,66 +1,45 @@
 @import "tailwindcss";
 
+/* The salaat-ala-nabi symbol (U+FDFA) is missing from the Latin faces, so
+   browsers fell back to a system font that drew it blocky. This file is that one
+   glyph cut from Amiri. size-adjust brings it to the visual size of a Latin
+   capital. */
+@font-face {
+  font-family: "Salawat";
+  src: url("../../assets/fonts/salawat.woff2") format("woff2");
+  unicode-range: U+FDFA;
+  font-display: swap;
+  size-adjust: 112%;
+}
+
 @theme {
-  /* Colour palette: parchment surface, ink text, warm gold accent, deep midnight anchor. */
+  /* Parchment surface, ink text, gold rules. */
   --color-parchment: #f5efe0;
   --color-parchment-dark: #e8dcc8;
-  --color-parchment-deep: #ddcfb4;
 
   --color-ink: #14110a;
   --color-ink-light: #3d3628;
   --color-ink-soft: #5e5641;
 
+  /* gold is for rules and ornament only: 2.73:1 on parchment fails as text.
+     Text and filled buttons use gold-dark (5.49:1). */
   --color-gold: #b88a2a;
   --color-gold-light: #d8b25a;
   --color-gold-dark: #7a5b13;
 
   --color-midnight: #0d1b2a;
-  --color-midnight-light: #1c2d44;
 
-  --color-era-pre: #1f3a2a;
-  --color-era-meccan: #1a1a2e;
-  --color-era-medinan: #0d1b2a;
-
-  --color-accent-red: #762020;
-  --color-accent-green: #2d5a27;
-
-  /* Typographic scale (fluid via clamp). */
-  --text-display: clamp(2.75rem, 1.6rem + 4vw, 5rem);
-  --text-display--line-height: 1.05;
-  --text-h1: clamp(2rem, 1.4rem + 2.4vw, 3.5rem);
-  --text-h1--line-height: 1.1;
-  --text-h2: clamp(1.5rem, 1.2rem + 1.4vw, 2.25rem);
-  --text-h2--line-height: 1.2;
-  --text-h3: clamp(1.25rem, 1.1rem + 0.8vw, 1.625rem);
-  --text-h3--line-height: 1.3;
-  --text-lead: clamp(1.0625rem, 1rem + 0.4vw, 1.25rem);
-  --text-lead--line-height: 1.6;
-  --text-body: 1rem;
-  --text-body--line-height: 1.65;
-  --text-meta: 0.875rem;
-  --text-meta--line-height: 1.5;
-  --text-small: 0.75rem;
-  --text-small--line-height: 1.4;
-
-  /* Font families. */
   --font-arabic: var(--font-amiri), "Amiri", "Noto Naskh Arabic", serif;
-  --font-arabic-ui: var(--font-plex-arabic), "IBM Plex Sans Arabic", "Tahoma", sans-serif;
-  --font-display: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
-  --font-body: var(--font-source-serif), "Source Serif 4", Georgia, serif;
-
-  /* Motion tokens. */
-  --ease-soft: cubic-bezier(0.32, 0.72, 0.21, 1);
-  --duration-quick: 160ms;
-  --duration-slow: 280ms;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  html {
-    scroll-behavior: smooth;
-  }
+  --font-arabic-ui: var(--font-plex-arabic), "IBM Plex Sans Arabic", Tahoma, sans-serif;
+  --font-display: "Salawat", var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  --font-body: "Salawat", var(--font-source-serif), "Source Serif 4", Georgia, serif;
 }
 
 @layer base {
+  html {
+    scroll-padding-top: 5rem;
+  }
+
   body {
     background-color: var(--color-parchment);
     color: var(--color-ink);
@@ -69,11 +48,16 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  /* Arabic UI: nav, body text, generic UI uses IBM Plex Sans Arabic. */
-  /* Quranic verses and classical Arabic spans keep the Amiri family via .font-arabic. */
-  body[dir="rtl"] {
-    font-family: var(--font-arabic-ui);
-    line-height: 1.75;
+  /* On Arabic pages the Latin stacks give way to the Arabic interface face, so
+     body copy, labels and headings never fall through to a system font. Reading
+     prose and Qur'anic text opt into Amiri with .font-arabic. */
+  html[lang="ar"] {
+    --font-display: var(--font-arabic-ui);
+    --font-body: var(--font-arabic-ui);
+  }
+
+  html[dir="rtl"] body {
+    line-height: 1.8;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -81,13 +65,7 @@
     color: var(--color-ink);
   }
 
-  body[dir="rtl"] h1,
-  body[dir="rtl"] h2,
-  body[dir="rtl"] h3,
-  body[dir="rtl"] h4,
-  body[dir="rtl"] h5,
-  body[dir="rtl"] h6 {
-    font-family: var(--font-arabic-ui);
+  html[lang="ar"] :is(h1, h2, h3, h4, h5, h6) {
     font-weight: 600;
   }
 
@@ -103,133 +81,124 @@
   }
 }
 
-/* Arabic content. Used inside any element that holds rendered Arabic text. */
-.arabic-text {
-  direction: rtl;
-  font-family: var(--font-arabic);
-  line-height: 1.9;
-  font-size: 1.35em;
-  text-align: center;
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
-/* Quran verse: editorial blockquote with hairline gold rules. No card. */
-.quran-verse {
-  margin: 2.25rem auto;
-  padding: 1.75rem 0;
-  border-top: 1px solid color-mix(in oklab, var(--color-gold) 60%, transparent);
-  border-bottom: 1px solid color-mix(in oklab, var(--color-gold) 60%, transparent);
-  max-width: 60ch;
-  text-align: center;
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
-.quran-verse .arabic-text {
-  font-size: 1.6em;
-  line-height: 2;
-  color: var(--color-ink);
-  margin-bottom: 1rem;
+/* These sit in the components layer so a utility class on the same element, such
+   as font-arabic on a hadith line, overrides them. */
+@layer components {
+  .arabic-text {
+    direction: rtl;
+    font-family: var(--font-arabic);
+    line-height: 1.9;
+    font-size: 1.35em;
+    text-align: center;
+  }
+
+  /* Qur'an verse: hairline rules above and below, no card. */
+  .quran-verse {
+    margin: 2.25rem auto;
+    padding: 1.75rem 0;
+    border-block: 1px solid color-mix(in oklab, var(--color-gold) 60%, transparent);
+    max-width: 60ch;
+    text-align: center;
+  }
+
+  .quran-verse .arabic-text {
+    font-size: 1.6em;
+    line-height: 2;
+    color: var(--color-ink);
+    margin-bottom: 1rem;
+  }
+
+  .quran-verse .citation {
+    font-size: 0.8125rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-gold-dark);
+    margin: 0.75rem 0;
+  }
+
+  .quran-verse .translation {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-ink-light);
+    font-family: var(--font-body);
+    max-width: 56ch;
+    margin: 0 auto;
+  }
+
+  /* Hadith: a rule down the leading edge and nothing else. */
+  .hadith-block {
+    margin-block: 1.75rem;
+    padding-block: 1rem;
+    padding-inline-start: 1.25rem;
+    border-inline-start: 2px solid color-mix(in oklab, var(--color-gold-dark) 70%, transparent);
+  }
+
+  .hadith-block .source {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-gold-dark);
+    margin-bottom: 0.25rem;
+  }
+
+  .hadith-block .narrator {
+    font-size: 0.875rem;
+    color: var(--color-ink-soft);
+    margin-bottom: 0.75rem;
+  }
+
+  .hadith-block .text {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-ink-light);
+    font-family: var(--font-body);
+  }
+
+  .hadith-block .rendering-note {
+    font-size: 0.8125rem;
+    color: var(--color-ink-soft);
+    margin-top: 0.5rem;
+  }
+
+  /* Latin drop cap. The Arabic summary never takes this class: ::first-letter
+     would cut "لما" into two letters. */
+  .drop-cap::first-letter {
+    font-family: var(--font-display);
+    float: inline-start;
+    font-size: 2.4em;
+    line-height: 0.9;
+    padding-inline-end: 0.08em;
+    padding-block-start: 0.05em;
+    color: var(--color-gold-dark);
+    font-weight: 600;
+  }
+
+  .timeline-node {
+    contain: content;
+  }
 }
 
-.quran-verse .citation {
-  font-size: 0.8125rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--color-gold-dark);
-  margin: 0.75rem 0;
-}
-
-.quran-verse .translation {
-  font-size: 1rem;
-  line-height: 1.7;
-  color: var(--color-ink-light);
-  font-family: var(--font-body);
-  max-width: 56ch;
-  margin: 0 auto;
-  font-style: italic;
-}
-
-/* Hadith: quiet treatment, no tinted background. */
-.hadith-block {
-  margin: 1.75rem 0;
-  padding: 1rem 0 1rem 1.25rem;
-  border-inline-start: 2px solid color-mix(in oklab, var(--color-gold-dark) 70%, transparent);
-}
-
-.hadith-block .source {
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--color-gold-dark);
-  margin-bottom: 0.25rem;
-}
-
-.hadith-block .narrator {
-  font-size: 0.875rem;
-  font-style: italic;
-  color: var(--color-ink-soft);
-  margin-bottom: 0.75rem;
-}
-
-.hadith-block .text {
-  font-size: 1rem;
-  line-height: 1.7;
-  color: var(--color-ink-light);
-  font-family: var(--font-body);
-}
-
-/* Drop cap: smaller than before, no bold, gold colour. */
-.drop-cap::first-letter {
-  font-family: var(--font-display);
-  float: inline-start;
-  font-size: 2.4em;
-  line-height: 0.9;
-  padding-inline-end: 0.08em;
-  padding-block-start: 0.05em;
-  color: var(--color-gold-dark);
-  font-weight: 500;
-}
-
-/* Decorative divider with two hairline rules. */
-.divider {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  margin-block: 2rem;
-}
-
-.divider::before,
-.divider::after {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: linear-gradient(
-    to var(--direction, right),
-    transparent,
-    color-mix(in oklab, var(--color-gold) 80%, transparent),
-    transparent
-  );
-}
-
-.divider::before { --direction: right; }
-.divider::after  { --direction: left; }
-
-/* Constrain reading content. */
-.reading-content p,
-.drop-cap {
-  max-width: 70ch;
-}
-
-/* Print sheet: legible, ornament-free. */
 @media print {
-  header, footer, nav,
-  [role="progressbar"] {
+  header, footer, nav {
     display: none !important;
   }
 
   body {
     background: white !important;
-    background-image: none !important;
     color: black !important;
     font-size: 11pt;
     line-height: 1.5;
@@ -238,7 +207,6 @@
   .quran-verse,
   .hadith-block {
     break-inside: avoid;
-    page-break-inside: avoid;
     border-color: #444 !important;
   }
 
@@ -250,16 +218,5 @@
     content: " (" attr(href) ")";
     font-size: 0.85em;
     color: #555;
-  }
-}
-
-/* Performance: contain layout for fixed and timeline elements. */
-.timeline-node {
-  contain: content;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
   }
 }
