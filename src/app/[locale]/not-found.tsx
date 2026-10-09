@@ -5,7 +5,7 @@ export default function LocaleNotFound() {
   const t = useTranslations('notFound');
 
   return (
-    <main className="min-h-[70vh] flex items-center justify-center px-6 py-16">
+    <div className="min-h-[70vh] flex items-center justify-center px-6 py-16">
       <div className="text-center max-w-md mx-auto">
         <div className="mb-6" aria-hidden="true">
           <svg
@@ -60,6 +60,6 @@ export default function LocaleNotFound() {
           </Link>
         </div>
       </div>
-    </main>
+    </div>
   );
 }

@@ -1,15 +1,7 @@
-import type { Metadata } from 'next';
-import LocaleNotFound from '../not-found';
+import { notFound } from 'next/navigation';
 
-// Unmatched URLs under a locale land here so the reader gets a page in their own
-// language with the site chrome around it, rather than the English fallback at
-// src/app/not-found.tsx. It renders the view directly instead of calling
-// `notFound()`: that resolves to the root boundary, which sits above the locale
-// provider, and localizing there turns every prerendered route into a
-// server-rendered one. A helpful page on a mistyped URL is not worth making
-// every real page slower, so this route is `noindex` instead.
-export const metadata: Metadata = { robots: { index: false, follow: false } };
-
+// Unmatched URLs under a locale resolve here so the 404 renders inside the
+// locale layout, in the reader's language, with a real 404 status.
 export default function CatchAllNotFound() {
-  return <LocaleNotFound />;
+  notFound();
 }
