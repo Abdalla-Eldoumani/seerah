@@ -35,7 +35,7 @@ export default function RootNotFound() {
                 fontSize: '0.875rem',
                 fontWeight: 600,
                 color: '#f5efe0',
-                backgroundColor: '#8b6914',
+                backgroundColor: '#7a5b13',
                 borderRadius: '2px',
                 textDecoration: 'none',
               }}
