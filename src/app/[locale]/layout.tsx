@@ -93,7 +93,7 @@ export default async function LocaleLayout({
               one of the ~170 pages before reaching the content. */}
           <a
             href="#main"
-            className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:start-2 focus:z-50 focus:rounded-lg focus:bg-midnight focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-parchment"
+            className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:start-2 focus:z-50 focus:rounded-sm focus:bg-midnight focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-parchment"
           >
             {tNav('skipToContent')}
           </a>
