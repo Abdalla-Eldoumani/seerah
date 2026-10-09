@@ -29,12 +29,12 @@ export default function EventNav({ prev, next }: EventNavProps) {
           <Link
             href={`/era/${prev.eraId}/${prev.id}`}
             className={cn(
-              'group flex items-center gap-3 p-4 rounded-lg',
-              'hover:bg-parchment-dark/50 transition-colors duration-200'
+              'group flex items-center gap-3 p-4 rounded-sm',
+              'hover:bg-parchment-dark/50 transition-colors'
             )}
           >
             <svg
-              className="w-5 h-5 text-gold group-hover:text-gold-dark transition-colors shrink-0 rtl:scale-x-[-1]"
+              className="w-5 h-5 text-gold-dark shrink-0 rtl:scale-x-[-1]"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={2}
@@ -48,7 +48,7 @@ export default function EventNav({ prev, next }: EventNavProps) {
               />
             </svg>
             <div className="min-w-0">
-              <span className="block text-xs font-body text-ink-light/60 uppercase tracking-wider">
+              <span className="block text-xs font-body text-ink-soft uppercase tracking-wider">
                 {t('navPrev')}
               </span>
               <span className="block text-sm md:text-base font-display text-ink truncate group-hover:text-gold-dark transition-colors">
@@ -66,12 +66,12 @@ export default function EventNav({ prev, next }: EventNavProps) {
           <Link
             href={`/era/${next.eraId}/${next.id}`}
             className={cn(
-              'group flex items-center justify-end gap-3 p-4 rounded-lg text-right',
-              'hover:bg-parchment-dark/50 transition-colors duration-200'
+              'group flex items-center justify-end gap-3 p-4 rounded-sm text-end',
+              'hover:bg-parchment-dark/50 transition-colors'
             )}
           >
             <div className="min-w-0">
-              <span className="block text-xs font-body text-ink-light/60 uppercase tracking-wider">
+              <span className="block text-xs font-body text-ink-soft uppercase tracking-wider">
                 {t('navNext')}
               </span>
               <span className="block text-sm md:text-base font-display text-ink truncate group-hover:text-gold-dark transition-colors">
@@ -79,7 +79,7 @@ export default function EventNav({ prev, next }: EventNavProps) {
               </span>
             </div>
             <svg
-              className="w-5 h-5 text-gold group-hover:text-gold-dark transition-colors shrink-0 rtl:scale-x-[-1]"
+              className="w-5 h-5 text-gold-dark shrink-0 rtl:scale-x-[-1]"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={2}
