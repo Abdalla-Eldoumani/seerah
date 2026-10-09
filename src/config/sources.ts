@@ -27,8 +27,9 @@ export const SEERAH_WORKS: SourceWork[] = [
 
 export const ADDITIONAL_SOURCES: SourceWork[] = [
   { name: 'Tafsir Ibn Kathir' },
-  { name: 'Asbab al-Nuzul', author: 'Ali ibn Ahmad al-Wahidi (d. 1075 CE)' },
   { name: "Tabaqat Ibn Sa'd" },
   { name: 'Al-Sunan al-Kubra', author: 'Imam al-Bayhaqi' },
+  { name: 'Al-Mustadrak, al-Hakim' },
+  { name: "Abu Ubayd's Kitab al-Amwal" },
   { name: 'Musnad Ahmad', author: 'Imam Ahmad ibn Hanbal' },
 ];
