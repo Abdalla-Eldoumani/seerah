@@ -22,14 +22,12 @@ export default function EventHero({ event }: EventHeroProps) {
 
   return (
     <header className="text-center py-12 md:py-16 lg:py-20 space-y-6">
-      {/* On Arabic the Arabic title is the page heading. Gating the only h1
-          behind `!isAr` left every Arabic page with no h1 at all, so a screen
-          reader had nothing to announce as the document title. */}
+      {/* On Arabic the Arabic title is the only h1, so every page has one. */}
       {isAr ? (
         <h1
           dir="rtl"
           lang="ar"
-          className="font-arabic text-gold-dark leading-relaxed text-4xl md:text-5xl lg:text-6xl"
+          className="font-arabic font-normal text-gold-dark leading-relaxed text-4xl md:text-5xl lg:text-6xl"
         >
           {event.titleArabic}
         </h1>
@@ -42,17 +40,17 @@ export default function EventHero({ event }: EventHeroProps) {
           >
             {event.titleArabic}
           </p>
-          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-ink leading-tight text-balance">
+          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold text-ink leading-tight text-balance">
             {localizedField(event, 'title', locale).text}
           </h1>
         </>
       )}
 
-      <p className="text-lg md:text-xl text-ink-light/70 font-body mx-auto">
+      <p className="text-lg md:text-xl text-ink-soft font-body mx-auto">
         {dateLine}
       </p>
 
-      <p className="text-base md:text-lg text-ink-light/60 font-body mx-auto">
+      <p className="text-base md:text-lg text-ink-soft font-body mx-auto">
         <span
           dir={place.lang === 'ar' ? 'rtl' : 'ltr'}
           lang={place.lang}
@@ -64,8 +62,8 @@ export default function EventHero({ event }: EventHeroProps) {
 
       <div className="flex justify-center">
         <span
-          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-medium tracking-wide text-parchment"
-          style={{ backgroundColor: categoryColor }}
+          className="inline-flex items-center gap-2 border px-4 py-1.5 text-sm font-medium tracking-wide"
+          style={{ color: categoryColor, borderColor: categoryColor }}
         >
           <CategoryGlyph category={event.category} className="w-4 h-4" />
           {categoryLabel}
