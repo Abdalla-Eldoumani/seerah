@@ -1,9 +1,9 @@
 import { useTranslations } from 'next-intl';
+import { cn } from '@/lib/utils';
 
 interface EventSignificanceProps {
   significance: string;
-  // Language of the significance text. The page picks Arabic when populated,
-  // otherwise English; the component reads this to apply dir/lang/font.
+  // Language of the text passed in, which decides dir, lang and typeface.
   lang?: 'en' | 'ar' | 'fr';
 }
 
@@ -12,8 +12,7 @@ export default function EventSignificance({
   lang = 'en',
 }: EventSignificanceProps) {
   const t = useTranslations('event');
-  const dir = lang === 'ar' ? 'rtl' : 'ltr';
-  const fontClass = lang === 'ar' ? '' : 'font-body';
+  const isArabic = lang === 'ar';
 
   return (
     <section className="my-10 md:my-14 max-w-prose mx-auto">
@@ -22,8 +21,13 @@ export default function EventSignificance({
       </h2>
       <p
         lang={lang}
-        dir={dir}
-        className={`${fontClass} text-base md:text-lg leading-relaxed text-ink-light`}
+        dir={isArabic ? 'rtl' : 'ltr'}
+        className={cn(
+          'text-ink-light',
+          isArabic
+            ? 'font-arabic text-lg leading-loose md:text-xl'
+            : 'font-body text-base leading-relaxed md:text-lg'
+        )}
       >
         {significance}
       </p>
