@@ -1,9 +1,22 @@
+import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { HomeOrnament } from '@/components/icons/HomeOrnament';
+import { pageMetadata } from '@/lib/metadata';
+import { cn } from '@/lib/utils';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) return {};
+  return pageMetadata({ locale, path: '/' });
+}
 
 export default async function HomePage({
   params,
@@ -21,17 +34,16 @@ export default async function HomePage({
   const isAr = locale === 'ar';
 
   return (
-    <main className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <div className="relative flex min-h-[calc(100svh-4rem)] items-center justify-center">
       <div className="relative z-10 text-center px-6 py-16 max-w-2xl mx-auto">
         <HomeOrnament className="mx-auto mb-8 w-20 h-20 text-gold-dark/70" />
 
-        {/* The Arabic wordmark is the page heading on Arabic. It used to be a
-            <p> on every locale, which left /ar with no h1 at all. */}
+        {/* On Arabic the Arabic wordmark is the h1; elsewhere the Latin one is. */}
         {isAr ? (
           <h1
             dir="rtl"
             lang="ar"
-            className="font-arabic text-gold text-5xl sm:text-6xl md:text-7xl mb-4 leading-relaxed"
+            className="font-arabic text-gold-dark text-5xl sm:text-6xl md:text-7xl mb-4 leading-relaxed"
           >
             {tArabic('name')}
           </h1>
@@ -39,7 +51,7 @@ export default async function HomePage({
           <p
             dir="rtl"
             lang="ar"
-            className="font-arabic text-gold text-3xl sm:text-4xl md:text-5xl mb-4 leading-relaxed"
+            className="font-arabic text-gold-dark text-3xl sm:text-4xl md:text-5xl mb-4 leading-relaxed"
           >
             {tArabic('name')}
           </p>
@@ -49,28 +61,28 @@ export default async function HomePage({
           <p
             lang="en"
             dir="ltr"
-            className="font-display text-lg sm:text-xl md:text-2xl text-ink-light font-medium tracking-wide mb-8 mx-auto"
+            className="font-display text-lg sm:text-xl md:text-2xl text-ink-light font-semibold tracking-wide mb-8 mx-auto"
           >
             {tEnglish('name')}
           </p>
         ) : (
           <>
-            <h1
-              className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold text-ink tracking-tight mb-3"
-              style={{ fontFamily: 'Georgia, "Times New Roman", serif' }}
-            >
+            <h1 className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold text-ink tracking-tight mb-3">
               {t('name')}
             </h1>
-            <p className="font-display text-lg sm:text-xl md:text-2xl text-ink-light font-medium tracking-wide mb-8 mx-auto">
+            <p className="font-display text-lg sm:text-xl md:text-2xl text-ink-light font-semibold tracking-wide mb-8 mx-auto">
               {t('subtitle')}
             </p>
           </>
         )}
 
         <p
-          className={`font-body text-base sm:text-lg text-ink-light leading-relaxed max-w-lg mx-auto mb-12 ${
-            isAr ? 'font-arabic' : ''
-          }`}
+          className={cn(
+            'mx-auto mb-12 max-w-lg text-ink-light',
+            isAr
+              ? 'font-arabic text-xl leading-loose sm:text-2xl'
+              : 'font-body text-base leading-relaxed sm:text-lg'
+          )}
         >
           {t('tagline')}
         </p>
@@ -78,8 +90,7 @@ export default async function HomePage({
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link
             href="/timeline"
-            className="inline-flex items-center gap-2 px-8 py-3.5 font-display text-base sm:text-lg font-semibold tracking-wide text-parchment rounded-sm transition-all duration-200 hover:brightness-110 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-parchment"
-            style={{ backgroundColor: 'var(--color-gold-dark)' }}
+            className="inline-flex min-h-11 items-center gap-2 rounded-sm bg-gold-dark px-8 py-3.5 font-display text-base font-semibold tracking-wide text-parchment transition-colors hover:bg-ink sm:text-lg"
           >
             {tHome('ctaPrimary')}
             <svg
@@ -100,12 +111,12 @@ export default async function HomePage({
 
           <Link
             href="/about"
-            className="inline-flex items-center gap-1 px-6 py-3 font-display text-sm sm:text-base font-medium tracking-wide text-ink-light hover:text-gold-dark transition-colors focus:outline-none focus:ring-2 focus:ring-gold/40 rounded-sm"
+            className="inline-flex min-h-11 items-center gap-1 rounded-sm px-6 py-3 font-display text-sm font-semibold tracking-wide text-ink-light transition-colors hover:text-gold-dark sm:text-base"
           >
             {tHome('ctaSecondary')}
           </Link>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
