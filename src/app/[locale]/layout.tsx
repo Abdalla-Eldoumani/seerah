@@ -6,14 +6,7 @@ import { amiri, cormorantGaramond, ibmPlexSansArabic, sourceSerif4 } from '@/lib
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { routing, localeDirection, type Locale } from '@/i18n/routing';
-
-// Open Graph wants the underscore form. Keeping the map beside the locale list
-// makes adding a fourth locale a compile error rather than a silent en_US.
-const OG_LOCALES: Record<Locale, string> = {
-  en: 'en_US',
-  ar: 'ar_SA',
-  fr: 'fr_FR',
-};
+import { OG_LOCALES, SITE_URL } from '@/lib/seo';
 import '@/styles/globals.css';
 
 export function generateStaticParams() {
@@ -35,11 +28,8 @@ export async function generateMetadata({
   const subtitle = tSite('subtitle');
   const description = tSite('description');
 
-  const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL ?? 'https://noor-al-seerah.vercel.app';
-
   return {
-    metadataBase: new URL(siteUrl),
+    metadataBase: new URL(SITE_URL),
     title: {
       default: `${siteName} | ${subtitle}`,
       template: `%s | ${siteName}`,
@@ -57,16 +47,8 @@ export async function generateMetadata({
       title: `${siteName} | ${subtitle}`,
       description,
       type: 'website',
-      locale: OG_LOCALES[locale as Locale] ?? OG_LOCALES.en,
-    },
-    alternates: {
-      canonical: locale === routing.defaultLocale ? `${siteUrl}/` : `${siteUrl}/${locale}`,
-      languages: {
-        en: `${siteUrl}/`,
-        ar: `${siteUrl}/ar`,
-        fr: `${siteUrl}/fr`,
-        'x-default': `${siteUrl}/`,
-      },
+      locale: OG_LOCALES[locale],
+      siteName,
     },
   };
 }
