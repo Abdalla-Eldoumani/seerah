@@ -1,22 +1,26 @@
+import { cn } from '@/lib/utils';
+
 interface EventSummaryProps {
   summary: string;
-  // Language of the summary text being passed in. The component reads this
-  // to apply the correct dir, lang, and font family. Pages choose the right
-  // text (Arabic when populated, otherwise English) and tell the component
-  // which one it is.
+  // Language of the text passed in, which decides dir, lang and typeface.
   lang?: 'en' | 'ar' | 'fr';
 }
 
 export default function EventSummary({ summary, lang = 'en' }: EventSummaryProps) {
-  const dir = lang === 'ar' ? 'rtl' : 'ltr';
-  const fontClass = lang === 'ar' ? '' : 'font-body';
+  const isArabic = lang === 'ar';
 
   return (
     <section className="my-8 md:my-12">
       <p
         lang={lang}
-        dir={dir}
-        className={`drop-cap ${fontClass} text-lg md:text-xl leading-relaxed text-ink-light max-w-prose mx-auto`}
+        dir={isArabic ? 'rtl' : 'ltr'}
+        className={cn(
+          'mx-auto max-w-prose text-ink-light',
+          // The drop cap is Latin only: ::first-letter would split an Arabic word.
+          isArabic
+            ? 'font-arabic text-xl leading-loose md:text-2xl'
+            : 'drop-cap font-body text-lg leading-relaxed md:text-xl'
+        )}
       >
         {summary}
       </p>
