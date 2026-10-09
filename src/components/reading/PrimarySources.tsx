@@ -20,7 +20,7 @@ export default function PrimarySources({ sources }: PrimarySourcesProps) {
         {sources.map((source) => (
           <span
             key={source}
-            className="inline-block px-3 py-1 rounded text-xs font-medium bg-parchment-dark/70 text-ink-light/70 border border-ink-light/10"
+            className="inline-block rounded-sm border border-ink-soft/20 bg-parchment-dark px-3 py-1 text-xs font-medium text-ink-soft"
           >
             {localizeSource(source, locale)}
           </span>
