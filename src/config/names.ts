@@ -85,10 +85,6 @@ Object.assign(SOURCE_NAMES, {
     ar: 'البداية والنهاية',
     fr: 'Al-Bidâya wa an-Nihâya',
   },
-  'Asbab al-Nuzul': {
-    ar: 'أسباب النزول',
-    fr: 'Asbâb an-Nouzoûl',
-  },
   "Tabaqat Ibn Sa'd": {
     ar: 'الطبقات الكبرى لابن سعد',
     fr: "At-Tabaqât d'Ibn Sa'd",
@@ -199,10 +195,6 @@ export const AUTHOR_NAMES: Record<string, LocalizedName> = {
   'Imam Ibn Kathir (d. 1373 CE)': {
     ar: 'الإمام ابن كثير (ت ٧٧٤ هـ)',
     fr: "L'imâm Ibn Kathîr (m. 1373 ap. J.-C.)",
-  },
-  'Ali ibn Ahmad al-Wahidi (d. 1075 CE)': {
-    ar: 'علي بن أحمد الواحدي (ت ٤٦٨ هـ)',
-    fr: 'Alî ibn Ahmad al-Wâhidî (m. 1075 ap. J.-C.)',
   },
   'Imam al-Bayhaqi': { ar: 'الإمام البيهقي', fr: "L'imâm al-Bayhaqî" },
   'Imam Ahmad ibn Hanbal': { ar: 'الإمام أحمد بن حنبل', fr: "L'imâm Ahmad ibn Hanbal" },
