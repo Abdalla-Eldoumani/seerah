@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { localizedField } from '@/lib/localized';
+import { cn } from '@/lib/utils';
 import { notFound } from 'next/navigation';
 import { hasLocale } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
@@ -48,11 +49,12 @@ export default async function EraPage({
 
   const era = getEraMetadata(eraId as EraId);
   if (!era) notFound();
-  const events = getEventsByEra(eraId as EraId);
+  const events = getEventsByEra(era.id);
   const tEra = await getTranslations({ locale, namespace: 'era' });
   const tCategories = await getTranslations({ locale, namespace: 'categories' });
   const isAr = locale === 'ar';
   const timespan = formatEraTimespan(era, locale);
+  const described = localizedField(era, 'description', locale);
 
   const eraTitle = tEra(`names.${eraId}`);
   const countLabel =
@@ -62,15 +64,9 @@ export default async function EraPage({
 
   return (
     <div className="bg-parchment pb-24">
-      <section
-        className="relative py-16 md:py-24 overflow-hidden"
-        style={{
-          background: `linear-gradient(to bottom, ${era.themeColor}10, transparent)`,
-        }}
-      >
+      <section className="py-16 md:py-24">
         <Container className="text-center space-y-6">
-          {/* On Arabic the Arabic era name is the page heading; the h1 used to
-              be gated behind `!isAr`, leaving /ar/era/* with no heading. */}
+          {/* On Arabic the Arabic era name is the h1; elsewhere the translated name is. */}
           {isAr ? (
             <h1
               dir="rtl"
@@ -90,7 +86,7 @@ export default async function EraPage({
               >
                 {era.titleArabic}
               </p>
-              <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-ink tracking-tight">
+              <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-semibold text-ink tracking-tight">
                 {eraTitle}
               </h1>
             </>
@@ -104,29 +100,23 @@ export default async function EraPage({
             <span dir="ltr">{timespan.secondary}</span>
           </p>
 
-          {/* Era description in the active locale, falling back to English with
-              explicit markup so bidi and screen readers stay correct. */}
-          {(() => {
-            const described = localizedField(era, 'description', locale);
-            const text = described.text;
-            const lang = described.lang;
-            const dir = lang === 'ar' ? 'rtl' : 'ltr';
-            const fontClass = lang === 'ar' ? '' : 'font-body';
-            return (
-              <p
-                lang={lang}
-                dir={dir}
-                className={`${fontClass} text-base md:text-lg text-ink-light leading-relaxed max-w-2xl mx-auto`}
-              >
-                {text}
-              </p>
-            );
-          })()}
+          <p
+            lang={described.lang}
+            dir={described.lang === 'ar' ? 'rtl' : 'ltr'}
+            className={cn(
+              'mx-auto max-w-2xl text-ink-light',
+              described.lang === 'ar'
+                ? 'font-arabic text-xl leading-loose md:text-2xl'
+                : 'font-body text-base leading-relaxed md:text-lg'
+            )}
+          >
+            {described.text}
+          </p>
 
           <Divider ornament className="mt-8" />
 
           <div className="pt-4">
-            <EraNav currentEra={eraId as EraId} />
+            <EraNav currentEra={era.id} />
           </div>
         </Container>
       </section>
@@ -141,15 +131,12 @@ export default async function EraPage({
             const categoryLabel = tCategories(event.category);
             const categoryColor = getCategoryColor(event.category);
             const localizedSummary = localizedField(event, 'summary', locale);
-            const summarySource = localizedSummary.text;
-            const summaryLang = localizedSummary.lang;
-            const summaryDir = summaryLang === 'ar' ? 'rtl' : 'ltr';
 
             return (
               <Link
                 key={event.id}
                 href={`/era/${era.id}/${event.id}`}
-                className="group block rounded-lg border border-parchment-dark hover:border-gold/50 bg-parchment hover:bg-parchment-dark/30 p-6 transition-colors duration-200"
+                className="group block rounded-sm border border-parchment-dark bg-parchment p-6 transition-colors hover:border-gold-dark"
               >
                 <p
                   dir="rtl"
@@ -162,7 +149,7 @@ export default async function EraPage({
                 </p>
 
                 {!isAr && (
-                  <h3 className="font-display text-xl font-semibold text-ink group-hover:text-gold-dark transition-colors duration-200 mb-2">
+                  <h3 className="font-display text-xl font-semibold text-ink group-hover:text-gold-dark transition-colors mb-2">
                     {localizedField(event, 'title', locale).text}
                   </h3>
                 )}
@@ -184,13 +171,16 @@ export default async function EraPage({
                 </div>
 
                 <p
-                  lang={summaryLang}
-                  dir={summaryDir}
-                  className={`line-clamp-3 text-sm text-ink-soft leading-relaxed ${
-                    summaryLang === 'ar' ? '' : 'font-body'
-                  }`}
+                  lang={localizedSummary.lang}
+                  dir={localizedSummary.lang === 'ar' ? 'rtl' : 'ltr'}
+                  className={cn(
+                    'line-clamp-3 text-ink-soft',
+                    localizedSummary.lang === 'ar'
+                      ? 'font-arabic text-base leading-loose'
+                      : 'font-body text-sm leading-relaxed'
+                  )}
                 >
-                  {summarySource}
+                  {localizedSummary.text}
                 </p>
               </Link>
             );
