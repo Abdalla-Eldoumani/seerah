@@ -29,6 +29,21 @@ function stripEraTokens(value: string): string {
     .trim();
 }
 
+// A leading "c." marks a date the sources do not settle. It is peeled off first
+// and put back as a word, so the digits and era marker format exactly as they
+// do for a firm date.
+const APPROX_PREFIX = /^c\.\s*/i;
+const APPROX_WORD: Record<Locale, string> = { en: 'c.', ar: 'نحو', fr: 'vers' };
+
+function splitApprox(value: string): { approx: boolean; rest: string } {
+  const approx = APPROX_PREFIX.test(value);
+  return { approx, rest: approx ? value.replace(APPROX_PREFIX, '') : value };
+}
+
+function withApprox(approx: boolean, text: string, locale: Locale): string {
+  return approx ? `${APPROX_WORD[locale]} ${text}` : text;
+}
+
 // Every stored month, qualifiers included ("Ramadan (17th or 21st)", "12 Rabi'
 // al-Awwal (Monday)"), has its own registry entry, because substituting word by
 // word leaves the English connective behind. verify-names fails the build on a
@@ -52,16 +67,18 @@ function localizeHijriYear(yearString: string, locale: Locale): string {
   }
   // The era marker is not always trailing: values like "44 BH onwards" exist,
   // so anchoring the match to the end leaves it in place.
-  const isBeforeHijra = /BH/i.test(yearString);
-  const continues = /\bonwards\b/i.test(yearString);
-  const numeric = stripEraTokens(yearString);
+  const { approx, rest } = splitApprox(yearString);
+  const isBeforeHijra = /BH/i.test(rest);
+  const continues = /\bonwards\b/i.test(rest);
+  const numeric = stripEraTokens(rest);
 
   if (locale === 'ar') {
     const suffix = isBeforeHijra ? 'ق.هـ' : 'هـ';
-    return `${toEasternDigits(numeric)} ${suffix}${continues ? ' فما بعدها' : ''}`;
+    const text = `${toEasternDigits(numeric)} ${suffix}${continues ? ' فما بعدها' : ''}`;
+    return withApprox(approx, text, locale);
   }
   const suffix = isBeforeHijra ? 'av. H.' : 'H.';
-  return `${numeric} ${suffix}${continues ? ' et après' : ''}`;
+  return withApprox(approx, `${numeric} ${suffix}${continues ? ' et après' : ''}`, locale);
 }
 
 // Convert a CE year string (e.g., "613-615 CE") to its locale display.
@@ -69,13 +86,15 @@ function localizeHijriYear(yearString: string, locale: Locale): string {
 export function formatGregorianYear(yearString: string, locale: Locale): string {
   if (!yearString) return '';
   if (locale === 'en') return yearString;
-  const continues = /\bonwards\b/i.test(yearString);
-  const numeric = stripEraTokens(yearString);
+  const { approx, rest } = splitApprox(yearString);
+  const continues = /\bonwards\b/i.test(rest);
+  const numeric = stripEraTokens(rest);
 
-  if (locale === 'ar') {
-    return `${numeric} م${continues ? ' فما بعدها' : ''}`;
-  }
-  return `${numeric} ap. J.-C.${continues ? ' et après' : ''}`;
+  const text =
+    locale === 'ar'
+      ? `${numeric} م${continues ? ' فما بعدها' : ''}`
+      : `${numeric} ap. J.-C.${continues ? ' et après' : ''}`;
+  return withApprox(approx, text, locale);
 }
 
 // Format an event's date line: month, Hijri year (Gregorian year).
@@ -94,7 +113,8 @@ export function formatEventDate(event: SeerahEvent, locale: Locale): string {
 export function formatEraTimespan(era: EraMetadata, locale: Locale) {
   return {
     primary: localizeHijriRange(era.timespanHijri, locale),
-    secondary: localizeGregorianRange(era.timespan, locale),
+    // The Gregorian marker belongs on the range, not on each endpoint: "610 - 622 CE".
+    secondary: formatGregorianYear(era.timespan, locale),
   };
 }
 
@@ -106,15 +126,4 @@ function localizeHijriRange(range: string, locale: Locale): string {
   const [separator] = range.match(/\s*[–-]\s*/) ?? [' – '];
   const endpoints = range.split(/\s*[–-]\s*/).map((part) => localizeHijriYear(part, locale));
   return endpoints.join(separator.includes('–') ? ' – ' : separator);
-}
-
-function localizeGregorianRange(range: string, locale: Locale): string {
-  if (locale === 'en') return range;
-  // The marker belongs on the range, not on each endpoint: "610 - 622 CE".
-  const continues = /onwards/i.test(range);
-  const numeric = stripEraTokens(range);
-  if (locale === 'ar') {
-    return `${numeric} م${continues ? ' فما بعدها' : ''}`;
-  }
-  return `${numeric} ap. J.-C.${continues ? ' et après' : ''}`;
 }
