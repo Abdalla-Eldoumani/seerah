@@ -1,3 +1,4 @@
+import { markLatinRuns } from '@/lib/latin-runs';
 import { cn } from '@/lib/utils';
 
 interface EventSummaryProps {
@@ -22,7 +23,7 @@ export default function EventSummary({ summary, lang = 'en' }: EventSummaryProps
             : 'drop-cap font-body text-lg leading-relaxed md:text-xl'
         )}
       >
-        {summary}
+        {isArabic ? markLatinRuns(summary) : summary}
       </p>
     </section>
   );
