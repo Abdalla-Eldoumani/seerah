@@ -208,6 +208,17 @@
       "grade": "the collection carries no grading line",
       "note": "Added for the orchards arrangement. The event shows sunnah.com English and Arabic in full."
     },
+    "Sahih al-Bukhari 2731": {
+      "usedIn": [
+        "med-010"
+      ],
+      "status": "verified",
+      "narrator": "Al-Miswar ibn Makhramah and Marwan",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "Suhayl asked for a treaty to be written; he said he did not know al-Rahman and asked for the heading to be by Your name O Allah, which the Prophet had written although the Muslims said they would write nothing else; he refused the wording Messenger of Allah, and the Prophet had Muhammad ibn Abdullah written; he refused entry that year and agreed to the next; he required the return of anyone who came from Quraysh even if Muslim; Abu Jandal arrived in fetters and asked not to be returned to the polytheists; the narration then continues with Umar questioning the Prophet and Abu Bakr, the order to slaughter and shave that the Companions did not obey until Umm Salamah advised the Prophet to do it first, the believing women of 60:10, and Abu Basir",
+      "grade": "the collection carries no grading line",
+      "note": "Shown as a marked excerpt of a long narration, from the arrival of Suhayl to Abu Jandal's plea. The sentences about Umar, Umm Salamah and Abu Basir lie after the excerpt and are given in the prose as Ar-Raheeq's account, with the text noting that al-Bukhari continues. On the English page the excerpt is followed by a site splice marker, and two small typos (\"I won't do.:\" and a missing closing quotation mark) are sunnah.com's own and are kept. The Arabic chain on the page and the English heading name the narrators as Al-Miswar ibn Makhramah and Marwan; the entry shares its page with the next number."
+    },
     "Sahih al-Bukhari 2805": {
       "usedIn": [
         "med-008"
@@ -363,6 +374,17 @@
       "confirmedWording": "when the clans were driven away the Prophet said that from now on the Muslims would go out against them and they would not go out against the Muslims, and that the Muslims would march to them",
       "grade": "the collection carries no grading line",
       "note": "Added so the event can state the Prophet's words after the siege from a collection instead of from memory. The page spells the narrator Sulaiman bin Surd; the Arabic reads Sulayman ibn Surad."
+    },
+    "Sahih al-Bukhari 4154": {
+      "usedIn": [
+        "med-010"
+      ],
+      "status": "verified",
+      "narrator": "Jabir ibn Abdullah",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "on the day of Hudaybiyah the Prophet said to the Companions that they were the best people on the earth; Jabir says they were 1400, and that if he could see he would show the place of the tree; the page adds that Salim said the number was 1400",
+      "grade": "the collection carries no grading line",
+      "note": "Shown as a marked excerpt that ends before the closing remark that Salim gave the same number. The English adds the words (beneath which we gave the Pledge of Allegiance), which are not in the Arabic and are not relied on."
     },
     "Sahih al-Bukhari 4210": {
       "usedIn": [
