@@ -10,12 +10,12 @@ export default function EventSummary({ summary, lang = 'en' }: EventSummaryProps
   const isArabic = lang === 'ar';
 
   return (
-    <section className="my-8 md:my-12">
+    <section className="mb-10 md:mb-12">
       <p
         lang={lang}
         dir={isArabic ? 'rtl' : 'ltr'}
         className={cn(
-          'mx-auto max-w-prose text-ink-light',
+          'max-w-[42rem] text-ink-light',
           // The drop cap is Latin only: ::first-letter would split an Arabic word.
           isArabic
             ? 'font-arabic text-xl leading-loose md:text-2xl'
