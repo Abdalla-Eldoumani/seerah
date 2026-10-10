@@ -1,6 +1,7 @@
 import { useLocale, useTranslations } from 'next-intl';
 import { formatEraTimespan } from '@/lib/dates';
 import { eraStyle } from '@/lib/era-style';
+import { cn } from '@/lib/utils';
 import { Container } from '@/components/ui/Container';
 import type { Locale } from '@/i18n/routing';
 import type { EraMetadata, SeerahEvent } from '@/types/seerah';
@@ -68,10 +69,20 @@ export default function TimelineEraSection({
           {routeStop && (
             <div className="ledger-row relative items-center pb-6">
               <span
-                className="col-start-1 size-4 justify-self-center rounded-full bg-terracotta md:col-start-2"
+                className={cn(
+                  'col-start-1 size-4 justify-self-center rounded-full md:col-start-2',
+                  routeStop === 'to' ? 'bg-palm' : 'bg-terracotta'
+                )}
                 aria-hidden="true"
               />
-              <p className="place-label col-start-2 md:col-start-3">{tRoute(routeStop)}</p>
+              <p
+                className={cn(
+                  'place-label col-start-2 md:col-start-3',
+                  routeStop === 'to' && 'text-palm'
+                )}
+              >
+                {tRoute(routeStop)}
+              </p>
             </div>
           )}
 
