@@ -208,6 +208,17 @@
       "grade": "the collection carries no grading line",
       "note": "Added for the orchards arrangement. The event shows sunnah.com English and Arabic in full."
     },
+    "Sahih al-Bukhari 2805": {
+      "usedIn": [
+        "med-008"
+      ],
+      "status": "verified",
+      "narrator": "Anas ibn Malik",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "Anas ibn an-Nadr missed Badr and said Allah would see what he did; at Uhud, when the Muslims broke, he said he found the scent of Paradise before Uhud and went forward; Sad ibn Muadh said he could not do what Anas did; more than eighty wounds were counted on his body and only his sister knew him, by his fingers",
+      "grade": "the collection carries no grading line",
+      "note": "Shown as a marked excerpt ending at the identification by his sister. The rest of the page (the verse thought to be about him, and the case of his sister Ar-Rubayyi breaking a woman's tooth and the retaliation that followed) is a separate matter and is not shown or relied on."
+    },
     "Sahih al-Bukhari 3": {
       "usedIn": [
         "mec-001",
@@ -319,6 +330,17 @@
       "checkedAgainst": "sunnah.com",
       "confirmedWording": "on the pause in revelation: I saw the angel who came to me in Hira seated between the sky and the earth",
       "grade": "the collection carries no grading line"
+    },
+    "Sahih al-Bukhari 4043": {
+      "usedIn": [
+        "med-008"
+      ],
+      "status": "verified",
+      "narrator": "Al-Bara' ibn Azib",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "the Prophet placed archers under Abdullah and told them not to leave the place, and not to help if they saw the enemy winning; the Muslims broke the enemy, the archers left for the booty, and seventy were killed; Abu Sufyan asked for Muhammad, Abu Bakr and Umar; the exchange about Hubal and al-Uzza; his remark that the day answered Badr and that some dead would be found mutilated, which he had not ordered and did not regret",
+      "grade": "the collection carries no grading line",
+      "note": "Shown as a marked excerpt. The page goes on to a separate report from Jabir about men who drank wine on the morning of Uhud and were killed as martyrs; it is not shown or relied on. The English adds the words (at a special place), (of the battle of Uhud) and (to) in parentheses that the Arabic does not carry."
     },
     "Sahih al-Bukhari 4098": {
       "usedIn": [
