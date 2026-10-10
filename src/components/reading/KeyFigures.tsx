@@ -12,20 +12,15 @@ export default function KeyFigures({ figures }: KeyFiguresProps) {
   if (figures.length === 0) return null;
 
   return (
-    <section className="my-8 md:my-12 max-w-prose mx-auto">
-      <h2 className="font-display text-2xl md:text-3xl font-semibold text-ink mb-4">
+    <section>
+      <h2 className="mb-3 border-b border-line pb-2 font-display text-xl font-bold text-ink">
         {t('keyFiguresHeading')}
       </h2>
-      <div className="flex flex-wrap gap-2">
+      <ul className="space-y-1.5 text-base text-ink-light">
         {figures.map((figure) => (
-          <span
-            key={figure}
-            className="inline-block rounded-sm border border-gold-dark/30 bg-parchment-dark px-4 py-1.5 text-sm font-medium text-gold-dark"
-          >
-            {localizeFigure(figure, locale)}
-          </span>
+          <li key={figure}>{localizeFigure(figure, locale)}</li>
         ))}
-      </div>
+      </ul>
     </section>
   );
 }
