@@ -67,15 +67,16 @@
       "grade": "the collection carries no grading line",
       "note": "Sahih Muslim 1162 groups several narrations. The stored text came from the one on fasting Arafah and Ashura; the Monday wording is the narration numbered 1162b on sunnah.com, and the event shows it as a marked excerpt."
     },
-    "Sahih Muslim 1218": {
+    "Sahih Muslim 1218a": {
       "usedIn": [
         "med-016"
       ],
       "status": "verified",
       "narrator": "Jabir ibn Abdullah, reported by Ja'far ibn Muhammad from his father",
       "checkedAgainst": "sunnah.com",
-      "confirmedWording": "the sermon at Arafat: your blood and your property are sacred to you, and the usury of the Jahiliyyah is abolished",
-      "grade": "the collection carries no grading line"
+      "confirmedWording": "the Prophet stayed nine years in Madinah without performing Hajj and announced in the tenth year that he was going to perform it, and many people came to Madinah to follow him; the people went to Mina on the day of Tarwiyah and he led five prayers there, then passed on to Arafa where a tent had been pitched for him at Namira; at the bottom of the valley he addressed the people (blood and property sacred, Jahiliyyah practices and blood-revenge abolished beginning with the son of Rabi'a ibn al-Harith, usury abolished beginning with that of Al-Abbas ibn Abd al-Muttalib, fear Allah concerning women, the Book of Allah left among them); the people said they bear witness that he conveyed, fulfilled and advised, and he raised his forefinger to the sky and toward the people and asked Allah three times to be witness; an adhan and then an iqama and the noon prayer, then an iqama and the afternoon prayer with no prayer between; standing facing the qibla until sunset; Muzdalifa, evening and night prayers with one adhan and two iqamas; the dawn prayer and standing at al-Mash'ar al-Haram; pebbles at the jamra; sixty-three camels sacrificed with his own hand and the rest given to Ali, who shared in the sacrifice; Zuhr at Makkah; Zamzam with Banu Abd al-Muttalib",
+      "grade": "the collection carries no grading line",
+      "note": "The event shows an excerpt, from Arafa to the Zamzam passage, and replaces the project's earlier English and French, which were worded by the project. The page's English adds Bilal's name in brackets before the adhan; the Arabic gives the verb with no subject, so the event text names Bilal only on Ar-Raheeq's authority. The English adds 'camels' in brackets after sixty-three; a later word in the Arabic (badana) is a camel offered at Hajj, so the event text says camels. The English says a basket where the Arabic says a bucket, and the event text avoids the word. The English 'chastise them but not severely' for the Arabic verb about striking is not relied on in the event text. The page's English has typographical slips ('she pre-Islamic period', 'we are rocks', 'Hadrat 'All') and a footnote number after 'Muhassir', published as is. Ar-Raheeq's longer version of the speech adds further instructions that this narration does not contain, and they are not shown."
     },
     "Sahih Muslim 1398a": {
       "usedIn": [
