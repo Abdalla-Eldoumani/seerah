@@ -27,20 +27,25 @@ export async function generateMetadata({
 
 function SourceList({ items, locale }: { items: SourceWork[]; locale: string }) {
   return (
-    <ul className="space-y-2 font-body text-ink-light">
+    <ul className="text-base text-ink-light">
       {items.map((item) => (
-        <li key={item.name} className="flex items-start gap-2">
-          <span
-            className="mt-2.5 block h-1.5 w-1.5 shrink-0 rounded-full bg-gold-dark"
-            aria-hidden="true"
-          />
-          <span>
-            <strong className="text-ink">{localizeSource(item.name, locale)}</strong>
-            {item.author && <>, {localizeAuthor(item.author, locale)}</>}
-          </span>
+        <li key={item.name} className="border-t border-line py-2.5">
+          <strong className="font-semibold text-ink">{localizeSource(item.name, locale)}</strong>
+          {item.author && <>, {localizeAuthor(item.author, locale)}</>}
         </li>
       ))}
     </ul>
+  );
+}
+
+function Prose({ id, heading, children }: { id: string; heading: string; children: string }) {
+  return (
+    <section className="max-w-[42rem] border-t border-line pt-8" aria-labelledby={id}>
+      <h2 id={id} className="mb-4 font-display text-2xl font-bold text-ink md:text-3xl">
+        {heading}
+      </h2>
+      <p className="text-lg leading-relaxed text-ink-light">{children}</p>
+    </section>
   );
 }
 
@@ -58,113 +63,65 @@ export default async function AboutPage({
   const isAr = locale === 'ar';
 
   return (
-    <div className="py-16 sm:py-20">
-      <Container>
-        <header className="text-center mb-12">
-          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-semibold text-ink mb-4">
-            {t('title')}
-          </h1>
-          {!isAr && (
-            <p
-              dir="rtl"
-              lang="ar"
-              className="font-arabic text-gold-dark text-xl sm:text-2xl"
-            >
-              {tSiteAr('name')}
-            </p>
-          )}
-        </header>
+    <Container className="py-12 md:py-16">
+      <header>
+        <h1 className="font-display text-4xl font-bold text-ink md:text-6xl">{t('title')}</h1>
+        {!isAr && (
+          <p dir="rtl" lang="ar" className="mt-2 w-fit font-arabic text-2xl text-ink-light">
+            {tSiteAr('name')}
+          </p>
+        )}
+      </header>
 
-        <Divider ornament />
+      <Divider ornament />
 
-        <section className="mb-12" aria-labelledby="purpose-heading">
-          <h2
-            id="purpose-heading"
-            className="font-display text-2xl sm:text-3xl font-semibold text-ink mb-4"
-          >
+      <div className="space-y-12">
+        <section className="max-w-[42rem]" aria-labelledby="purpose-heading">
+          <h2 id="purpose-heading" className="mb-4 font-display text-2xl font-bold text-ink md:text-3xl">
             {t('purposeHeading')}
           </h2>
-          <p className="font-body text-base sm:text-lg text-ink-light leading-relaxed">
-            {t('purposeBody')}
-          </p>
+          <p className="text-lg leading-relaxed text-ink-light">{t('purposeBody')}</p>
         </section>
 
-        <Divider />
-
-        <section className="mb-12" aria-labelledby="sources-heading">
-          <h2
-            id="sources-heading"
-            className="font-display text-2xl sm:text-3xl font-semibold text-ink mb-6"
-          >
+        <section className="border-t border-line pt-8" aria-labelledby="sources-heading">
+          <h2 id="sources-heading" className="mb-6 font-display text-2xl font-bold text-ink md:text-3xl">
             {t('sourcesHeading')}
           </h2>
 
-          <div className="mb-8">
-            <h3 className="font-display text-xl sm:text-2xl font-semibold text-ink mb-3">
-              {t('hadithCollectionsHeading')}
-            </h3>
-            <SourceList items={HADITH_COLLECTIONS} locale={locale} />
+          <div className="grid gap-10 md:grid-cols-3 md:gap-8">
+            <div>
+              <h3 className="mb-3 font-display text-xl font-bold text-ink">
+                {t('hadithCollectionsHeading')}
+              </h3>
+              <SourceList items={HADITH_COLLECTIONS} locale={locale} />
+            </div>
+            <div>
+              <h3 className="mb-3 font-display text-xl font-bold text-ink">
+                {t('seerahWorksHeading')}
+              </h3>
+              <SourceList items={SEERAH_WORKS} locale={locale} />
+            </div>
+            <div>
+              <h3 className="mb-3 font-display text-xl font-bold text-ink">
+                {t('additionalSourcesHeading')}
+              </h3>
+              <SourceList items={ADDITIONAL_SOURCES} locale={locale} />
+            </div>
           </div>
-
-          <div className="mb-8">
-            <h3 className="font-display text-xl sm:text-2xl font-semibold text-ink mb-3">
-              {t('seerahWorksHeading')}
-            </h3>
-            <SourceList items={SEERAH_WORKS} locale={locale} />
-          </div>
-
-          <div>
-            <h3 className="font-display text-xl sm:text-2xl font-semibold text-ink mb-3">
-              {t('additionalSourcesHeading')}
-            </h3>
-            <SourceList items={ADDITIONAL_SOURCES} locale={locale} />
-          </div>
         </section>
 
-        <Divider />
+        <Prose id="methodology-heading" heading={t('methodologyHeading')}>
+          {t('methodologyBody')}
+        </Prose>
 
-        <section className="mb-12" aria-labelledby="methodology-heading">
-          <h2
-            id="methodology-heading"
-            className="font-display text-2xl sm:text-3xl font-semibold text-ink mb-4"
-          >
-            {t('methodologyHeading')}
-          </h2>
-          <p className="font-body text-base sm:text-lg text-ink-light leading-relaxed">
-            {t('methodologyBody')}
-          </p>
-        </section>
+        <Prose id="differences-heading" heading={t('differencesHeading')}>
+          {t('differencesBody')}
+        </Prose>
 
-        <Divider />
-
-        <section className="mb-12" aria-labelledby="differences-heading">
-          <h2
-            id="differences-heading"
-            className="font-display text-2xl sm:text-3xl font-semibold text-ink mb-4"
-          >
-            {t('differencesHeading')}
-          </h2>
-          <p className="font-body text-base sm:text-lg text-ink-light leading-relaxed">
-            {t('differencesBody')}
-          </p>
-        </section>
-
-        <Divider />
-
-        <section className="mb-4" aria-labelledby="sadaqah-heading">
-          <h2
-            id="sadaqah-heading"
-            className="font-display text-2xl sm:text-3xl font-semibold text-ink mb-4"
-          >
-            {t('sadaqahHeading')}
-          </h2>
-          <p className="font-body text-base sm:text-lg text-ink-light leading-relaxed">
-            {t('sadaqahBody')}
-          </p>
-        </section>
-
-        <Divider className="mt-12" />
-      </Container>
-    </div>
+        <Prose id="sadaqah-heading" heading={t('sadaqahHeading')}>
+          {t('sadaqahBody')}
+        </Prose>
+      </div>
+    </Container>
   );
 }
