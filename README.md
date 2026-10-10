@@ -1,12 +1,12 @@
 # Noor al-Seerah
 
-An interactive reader for the life of Prophet Muhammad ﷺ, in English, Arabic, and French. Forty-nine events across three eras, each with its location, summary, and significance in all three languages and a list of the primary sources it draws on. English is the source of record. Content lives in JSON and the application only renders it.
+A timeline of the life of Prophet Muhammad ﷺ, in English, Arabic, and French. Forty-nine events across three eras, each with its place, date, summary, and the reasons it matters in all three languages, and a list of the sources it draws on. The timeline reads as a ledger of dates beside a dashed route from Makkah to Madinah. English is the source of record. Content lives in JSON and the application only renders it.
 
 | Era | Events |
 |---|---|
-| Before the Light (pre-prophethood) | 14 |
-| The Light in the Darkness (Meccan) | 18 |
-| The Dawn of a Civilisation (Medinan) | 17 |
+| Before Prophethood | 14 |
+| The Makkan Period | 18 |
+| The Madinan Period | 17 |
 
 ![The home page in English](docs/screenshots/home-en.png)
 
@@ -15,11 +15,11 @@ An interactive reader for the life of Prophet Muhammad ﷺ, in English, Arabic, 
 ## What is on a page
 
 - **Qur'an passages** (36 across the events) are published editions fetched by `npm run fetch:scripture`: Uthmani for Arabic, Saheeh International for English, Hamidullah for French. Nothing is translated here, and the three columns always describe the same ayah range.
-- **Hadith** (33 references, 31 distinct citations) show the Arabic matn read from the collection. The English and French are the project's own abridgements and each page says so. Every hadith shows the grading its collection gives: 28 sahih, 3 hasan, 1 hasan-sahih, 1 da'if.
-- **Citation record.** `data/citation-review.json` records, for each of the 31 citations, what was read at the collection under that number. The build fails if a citation has no entry.
+- **Hadith** (54 references, 50 distinct narrations) show the Arabic and the English as sunnah.com publishes them for that collection and number. French pages show the English, because sunnah.com publishes no French, and say so. Two narrations that no sunnah.com collection carries have an English and French rendering made for this project, and each is labelled. Where only part of a narration is shown, the page says that too. Every hadith shows a grading: 48 sahih, 3 hasan, 1 hasan sahih, 1 da'if, 1 mursal.
+- **Citation record.** `data/citation-review.json` records, for each of the 50 narrations, what was read under that number: 48 at sunnah.com and 2 at dorar.net. The build fails if a narration has no entry.
 - **Proper nouns** (people, groups, works, months, surahs) resolve through registries in `src/config`, so Arabic pages do not fall back to Latin script mid-sentence. The build fails on a name with no Arabic or French form.
 - **Nothing is requested from another origin at runtime.** Fonts are self-hosted and the content security policy sets `connect-src 'self'`.
-- **Share cards** are rendered at build time for every event in every language (147 images), with Arabic set in visual order.
+- **Share cards** are rendered at build time for every event in every language (147 images): the era name on a solid strip, then the place, title, and date. Arabic is set in visual order.
 
 ## Stack
 
@@ -28,6 +28,7 @@ An interactive reader for the life of Prophet Muhammad ﷺ, in English, Arabic, 
 - TypeScript 5.9
 - Tailwind CSS 4.3 with CSS-first tokens
 - next-intl 4.14 for routing and messages
+- Alegreya, IBM Plex Sans, Amiri, and IBM Plex Sans Arabic, self-hosted through `next/font`
 
 ## Run it
 
