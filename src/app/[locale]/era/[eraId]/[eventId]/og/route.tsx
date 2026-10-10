@@ -27,15 +27,19 @@ export function generateStaticParams() {
 const FONT_DIR = path.join(process.cwd(), 'assets', 'fonts');
 
 // The renderer cannot apply Amiri's Arabic substitution rules, so Arabic cards
-// use Plex Sans Arabic and Latin cards use Amiri.
-async function loadFont(locale: Locale) {
-  const file = locale === 'ar' ? 'IBMPlexSansArabic-Bold.ttf' : 'Amiri-Bold.ttf';
-  return {
-    name: locale === 'ar' ? 'Plex Arabic' : 'Amiri',
-    data: await readFile(path.join(FONT_DIR, file)),
-    weight: 700 as const,
-    style: 'normal' as const,
-  };
+// use Plex Sans Arabic. Latin cards use Alegreya, the site's display face, with
+// Amiri behind it for the salaat-ala-nabi symbol, which Alegreya lacks. The
+// renderer reads TTF, OTF and WOFF but not WOFF2 or variable fonts.
+async function loadFonts(locale: Locale) {
+  const read = (file: string) => readFile(path.join(FONT_DIR, file));
+  const bold = { weight: 700 as const, style: 'normal' as const };
+  if (locale === 'ar') {
+    return [{ name: 'Plex Arabic', data: await read('IBMPlexSansArabic-Bold.ttf'), ...bold }];
+  }
+  return [
+    { name: 'Alegreya', data: await read('Alegreya-Bold.woff'), ...bold },
+    { name: 'Amiri', data: await read('Amiri-Bold.ttf'), ...bold },
+  ];
 }
 
 // The renderer lays text out left to right and does not mirror brackets, so an
@@ -52,13 +56,23 @@ function visualOrder(line: string): string {
   return parts.reverse().join('');
 }
 
+// The renderer measures Arabic letters in their unjoined forms, so a line is a
+// little wider than it paints. Left-aligned Latin is exact; Arabic is centred so
+// the error splits across both sides instead of leaving a ragged right edge.
 function Text({ children, rtl }: { children: string; rtl: boolean }) {
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', textAlign: 'center' }}>
+    <div style={{ display: 'flex', justifyContent: rtl ? 'center' : 'flex-start' }}>
       {rtl ? visualOrder(children) : children}
     </div>
   );
 }
+
+const SAND = '#f2ead7';
+const INK = '#1c1913';
+const INK_SOFT = '#5b5343';
+const TERRACOTTA = '#8f3b25';
+const ON_ERA = '#f8f1e0';
+const ROUTE = '#8a7a58';
 
 export async function GET(
   _request: Request,
@@ -77,8 +91,8 @@ export async function GET(
   const eraTitle = tEra(era.id);
   const date = formatEventDate(event, locale);
 
-  const ink = '#14110a';
-  const goldDark = '#7a5b13';
+  const place = localizedField(event, 'location', locale).text;
+  const align = rtl ? 'center' : 'flex-start';
 
   return new ImageResponse(
     (
@@ -87,64 +101,94 @@ export async function GET(
           width: '100%',
           height: '100%',
           display: 'flex',
-          padding: 32,
-          background: '#f5efe0',
-          fontFamily: rtl ? 'Plex Arabic' : 'Amiri',
+          flexDirection: 'column',
+          background: SAND,
+          fontFamily: rtl ? 'Plex Arabic' : 'Alegreya, Amiri',
         }}
       >
-        <div style={{ display: 'flex', flex: 1, padding: 6, border: `2px solid ${goldDark}` }}>
-          <div
-            style={{
-              display: 'flex',
-              flex: 1,
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              alignItems: 'center',
-              padding: '44px 64px',
-              border: '1px solid #b88a2a',
-            }}
-          >
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: align,
+            padding: '30px 72px',
+            background: era.themeColor,
+            color: ON_ERA,
+            fontSize: 32,
+            letterSpacing: rtl ? 0 : 3,
+            textTransform: rtl ? 'none' : 'uppercase',
+          }}
+        >
+          <Text rtl={rtl}>{eraTitle}</Text>
+        </div>
+
+        <div
+          style={{
+            display: 'flex',
+            flex: 1,
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: align,
+            gap: 20,
+            padding: '0 72px',
+          }}
+        >
+          {place && (
             <div
               style={{
                 display: 'flex',
-                color: goldDark,
+                color: TERRACOTTA,
                 fontSize: 28,
                 letterSpacing: rtl ? 0 : 4,
                 textTransform: rtl ? 'none' : 'uppercase',
               }}
             >
-              <Text rtl={rtl}>{eraTitle}</Text>
+              <Text rtl={rtl}>{place}</Text>
             </div>
-
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 22, alignItems: 'center' }}>
-              <div
-                style={{
-                  display: 'flex',
-                  color: ink,
-                  fontSize: title.length > (rtl ? 24 : 40) ? 58 : 72,
-                  lineHeight: rtl ? 1.5 : 1.12,
-                }}
-              >
-                <Text rtl={rtl}>{title}</Text>
-              </div>
-              <div style={{ display: 'flex', color: '#5e5641', fontSize: 30 }}>
-                <Text rtl={rtl}>{date}</Text>
-              </div>
-            </div>
-
-            <div style={{ display: 'flex', alignItems: 'center', gap: 18, color: goldDark, fontSize: 30 }}>
-              <div style={{ width: 56, height: 2, background: goldDark }} />
-              <Text rtl={rtl}>{tSite('name')}</Text>
-              <div style={{ width: 56, height: 2, background: goldDark }} />
-            </div>
+          )}
+          <div
+            style={{
+              display: 'flex',
+              color: INK,
+              fontSize: title.length > (rtl ? 24 : 36) ? 64 : 80,
+              lineHeight: rtl ? 1.5 : 1.1,
+            }}
+          >
+            <Text rtl={rtl}>{title}</Text>
           </div>
+          <div style={{ display: 'flex', color: INK_SOFT, fontSize: 34 }}>
+            <Text rtl={rtl}>{date}</Text>
+          </div>
+        </div>
+
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: rtl ? 'row-reverse' : 'row',
+            alignItems: 'center',
+            gap: 24,
+            padding: '0 72px 44px',
+            color: TERRACOTTA,
+            fontSize: 32,
+          }}
+        >
+          <Text rtl={rtl}>{tSite('name')}</Text>
+          <div style={{ flex: 1, height: 0, borderTop: `3px dashed ${ROUTE}` }} />
+          <div
+            style={{
+              width: 22,
+              height: 22,
+              borderRadius: 11,
+              border: `4px solid ${era.accentColor}`,
+              background: SAND,
+            }}
+          />
         </div>
       </div>
     ),
     {
       width: 1200,
       height: 630,
-      fonts: [await loadFont(locale)],
+      fonts: await loadFonts(locale),
     }
   );
 }
