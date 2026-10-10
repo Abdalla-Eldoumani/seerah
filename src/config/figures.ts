@@ -24,7 +24,6 @@ export const FIGURE_NAMES: Record<string, LocalizedName> = {
     fr: 'Hamza ibn Abd al-Mouttalib (tombé en martyr)',
   },
   'Ruqayyah bint Muhammad': { ar: 'رقية بنت محمد', fr: 'Rouqayya bint Mouhammad' },
-  'Fatimah bint al-Khattab': { ar: 'فاطمة بنت الخطاب', fr: 'Fâtima bint al-Khattâb' },
   'Umm Ayman (Barakah)': { ar: 'أم أيمن (بركة)', fr: 'Oumm Ayman (Baraka)' },
   'Halimah bint Abi Dhu\'ayb al-Sa\'diyyah': {
     ar: 'حليمة بنت أبي ذؤيب السعدية',
@@ -54,7 +53,6 @@ export const FIGURE_NAMES: Record<string, LocalizedName> = {
   },
   'Aisha bint Abi Bakr': { ar: 'عائشة بنت أبي بكر', fr: 'Aïcha bint Abî Bakr' },
   'Abdullah ibn Abi Bakr': { ar: 'عبد الله بن أبي بكر', fr: 'Abdallah ibn Abî Bakr' },
-  'Asma bint Abi Bakr': { ar: 'أسماء بنت أبي بكر', fr: 'Asmâ bint Abî Bakr' },
   'Abdur-Rahman ibn Awf': { ar: 'عبد الرحمن بن عوف', fr: 'Abd ar-Rahmân ibn Awf' },
   'Az-Zubayr ibn al-Awwam': { ar: 'الزبير بن العوام', fr: 'Az-Zoubayr ibn al-Awwâm' },
   'Talhah ibn Ubaydillah': { ar: 'طلحة بن عبيد الله', fr: 'Talha ibn Oubaydillâh' },
@@ -79,7 +77,6 @@ export const FIGURE_NAMES: Record<string, LocalizedName> = {
   "Sa'd ibn ar-Rabi'": { ar: 'سعد بن الربيع', fr: "Sa'd ibn ar-Rabî'" },
   'Abdullah ibn Zayd': { ar: 'عبد الله بن زيد', fr: 'Abdallah ibn Zayd' },
   'Al-Arqam ibn Abi al-Arqam': { ar: 'الأرقم بن أبي الأرقم', fr: 'Al-Arqam ibn Abî al-Arqam' },
-  'Suraqah ibn Malik': { ar: 'سراقة بن مالك', fr: 'Sourâqa ibn Mâlik' },
   'Abu Sufyan ibn al-Harith': { ar: 'أبو سفيان بن الحارث', fr: 'Abou Soufyân ibn al-Hârith' },
   'Khalid ibn al-Walid (now Muslim)': {
     ar: 'خالد بن الوليد (بعد إسلامه)',
@@ -111,9 +108,7 @@ export const FIGURE_NAMES: Record<string, LocalizedName> = {
     ar: 'هند بنت عتبة (أسلمت)',
     fr: 'Hind bint Outba (devenue musulmane)',
   },
-  "Utbah ibn Rabi'ah (killed)": { ar: 'عتبة بن ربيعة (قُتل)', fr: "Outba ibn Rabî'a (tué)" },
   'Umayyah ibn Khalaf': { ar: 'أمية بن خلف', fr: 'Oumayya ibn Khalaf' },
-  'Umayyah ibn Khalaf (killed)': { ar: 'أمية بن خلف (قُتل)', fr: 'Oumayya ibn Khalaf (tué)' },
   "Abdullah ibn Jud'an": { ar: 'عبد الله بن جدعان', fr: "Abdallah ibn Jou'dân" },
   'Suhayl ibn Amr (Quraysh negotiator)': {
     ar: 'سهيل بن عمرو (مفاوض قريش)',
@@ -152,18 +147,10 @@ export const FIGURE_NAMES: Record<string, LocalizedName> = {
     fr: 'Les clans de Banoû Hâchim et Banoû al-Mouttalib',
   },
   'Banu Amr ibn Awf': { ar: 'بنو عمرو بن عوف', fr: 'Banoû Amr ibn Awf' },
-  'The Jewish tribes of Madinah (Banu Qaynuqa, Banu Nadir, Banu Qurayza)': {
-    ar: 'قبائل يهود المدينة (بنو قينقاع وبنو النضير وبنو قريظة)',
-    fr: 'Les tribus juives de Médine (Banoû Qaynouqâ, Banoû an-Nadîr, Banoû Qourayza)',
-  },
   'Twelve men from Madinah': { ar: 'اثنا عشر رجلًا من أهل المدينة', fr: 'Douze hommes de Médine' },
   '73 men and 2 women from Madinah': {
     ar: 'ثلاثة وسبعون رجلًا وامرأتان من أهل المدينة',
     fr: 'Soixante-treize hommes et deux femmes de Médine',
-  },
-  'Approximately 100,000+ Muslims': {
-    ar: 'نحو مائة ألف مسلم أو يزيدون',
-    fr: 'Environ cent mille musulmans ou plus',
   },
   "Sahl and Suhayl (the orphan boys)": {
     ar: 'سهل وسهيل (الغلامان اليتيمان)',
@@ -190,7 +177,6 @@ export const NARRATOR_NAMES: Record<string, LocalizedName> = {
   "Sahl ibn Sa'd": { ar: 'سهل بن سعد', fr: "Sahl ibn Sa'd" },
   'Sulayman ibn Surad': { ar: 'سليمان بن صرد', fr: 'Soulaymân ibn Sourad' },
   'Ubadah ibn as-Samit': { ar: 'عبادة بن الصامت', fr: 'Oubâda ibn as-Sâmit' },
-  'Usaid ibn Hudair': { ar: 'أسيد بن حضير', fr: 'Ousayd ibn Houdayr' },
   'Usaid ibn Zuhair': { ar: 'أسيد بن ظهير', fr: 'Ousayd ibn Zouhayr' },
   'Talha ibn Abdullah ibn Awf': { ar: 'طلحة بن عبد الله بن عوف', fr: 'Talha ibn Abdallah ibn Awf' },
   'Urwah ibn az-Zubayr': { ar: 'عروة بن الزبير', fr: 'Ourwa ibn az-Zoubayr' },
