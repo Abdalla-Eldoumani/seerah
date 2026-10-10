@@ -307,7 +307,8 @@
       "narrator": "Abdullah ibn Abbas",
       "checkedAgainst": "sunnah.com",
       "confirmedWording": "when warn your closest kindred was revealed he ascended Safa and called O Bani Fihr, O Bani Adi",
-      "grade": "the collection carries no grading line"
+      "grade": "the collection carries no grading line",
+      "note": "The event showed a project rendering that gave only part of this narration. It now shows sunnah.com's English and the Arabic of the same narration in full. The Quran verses it mentions are 26:214 and 111:1-5."
     },
     "Sahih al-Bukhari 7": {
       "usedIn": [
@@ -329,6 +330,17 @@
       "confirmedWording": "the dream of the man carrying a bell, and the words of the adhan he was taught",
       "grade": "Hasan Sahih (Al-Albani)",
       "note": "Replaced Sunan Abi Dawud 498, which is Abu Umayr ibn Anas on how the people were gathered."
+    },
+    "Sunan Ibn Majah 150": {
+      "usedIn": [
+        "mec-007"
+      ],
+      "status": "verified",
+      "narrator": "Abdullah ibn Mas'ud",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "the first to declare their Islam were seven: the Messenger of Allah, Abu Bakr, Ammar and his mother Sumayyah, Suhayb, Bilal and Miqdad; the idolaters put the others in coats of chain mail and left them in the sun, and Bilal alone did not give in, and was handed to the children who led him through the streets of Makkah while he said Ahad, Ahad",
+      "grade": "Hasan (Darussalam)",
+      "note": "Added to the event so the Bilal detail rests on a collection and not on a project rendering. The event shows sunnah.com English and Arabic in full."
     }
   }
 }
