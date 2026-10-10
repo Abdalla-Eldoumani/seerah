@@ -46,6 +46,16 @@ export function getEraForEvent(eventId: string): EraMetadata | undefined {
   return undefined;
 }
 
+// Where an event falls among all of them in order, counted from 1. Undefined
+// for an id that is not an event.
+export function getEventPosition(
+  eventId: string
+): { current: number; total: number } | undefined {
+  const allEvents = getAllEvents();
+  const index = allEvents.findIndex((e) => e.id === eventId);
+  return index === -1 ? undefined : { current: index + 1, total: allEvents.length };
+}
+
 export function getAdjacentEvents(eventId: string): {
   prev: SeerahEvent | null;
   next: SeerahEvent | null;
