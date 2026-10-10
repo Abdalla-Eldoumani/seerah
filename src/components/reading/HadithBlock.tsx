@@ -3,6 +3,7 @@ import { cn } from '@/lib/utils';
 import type { HadithReference } from '@/types/seerah';
 import { localizeSource } from '@/config/names';
 import { localizeFigure } from '@/config/figures';
+import { rich } from '@/lib/rich';
 
 interface HadithBlockProps {
   reference: HadithReference;
@@ -31,8 +32,8 @@ export default function HadithBlock({ reference }: HadithBlockProps) {
   const bodyLang = useArabic ? 'ar' : useFrench ? 'fr' : 'en';
   const note = fromSunnah
     ? useArabic
-      ? t('sunnahArabic')
-      : t(locale === 'fr' ? 'sunnahFrench' : 'sunnahEnglish')
+      ? t.rich('sunnahArabic', rich)
+      : t.rich(locale === 'fr' ? 'sunnahFrench' : 'sunnahEnglish', rich)
     : useArabic
       ? null
       : t('renderingLabel');
