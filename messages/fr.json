@@ -55,11 +55,16 @@
       "hasan-sahih": "Hasan sahîh",
       "daif": "Da'îf (faible)",
       "mursal": "Mursal (le Successeur ne nomme pas le Compagnon)"
-    }
+    },
+    "position": "Événement {current} sur {total}"
   },
   "breadcrumb": {
     "home": "Accueil",
     "label": "Fil d'Ariane"
+  },
+  "route": {
+    "from": "La Mecque",
+    "to": "Médine"
   },
   "about": {
     "title": "À propos de Noor al-Sîra",

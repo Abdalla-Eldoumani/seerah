@@ -55,11 +55,16 @@
       "hasan-sahih": "Hasan sahih",
       "daif": "Da'if (weak)",
       "mursal": "Mursal (the Successor who reports it does not name the Companion)"
-    }
+    },
+    "position": "Event {current} of {total}"
   },
   "breadcrumb": {
     "home": "Home",
     "label": "Breadcrumb"
+  },
+  "route": {
+    "from": "Makkah",
+    "to": "Madinah"
   },
   "about": {
     "title": "About Noor al-Seerah",
