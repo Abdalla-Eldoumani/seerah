@@ -132,6 +132,17 @@
       "grade": "the collection carries no grading line",
       "note": "Replaced Sahih Muslim 1776, which is al-Bara ibn Azib's account of the same day."
     },
+    "Sahih Muslim 1780a": {
+      "usedIn": [
+        "med-013"
+      ],
+      "status": "verified",
+      "narrator": "Abu Hurairah",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "the Prophet advanced until he reached Makkah and sent Zubayr to one flank, Khalid to the other and Abu Ubaydah with the force that had no armour; he said whoever enters the house of Abu Sufyan is safe; he went to the Black Stone, circled the Kaaba and, at an idol beside it, pierced its eye with a bow, saying words that match the opening of Quran 17:81; he then went up Safa, raised his hands and praised Allah and prayed",
+      "grade": "the collection carries no grading line",
+      "note": "Shown as a marked excerpt, from where the account of the conquest begins to its end. The part left out is the opening frame (Abu Hurairah and the Ansar at Muawiyah's house). The excerpt also reports the Ansar's remark about the Prophet's attachment to his city and his reply, which the event text does not use. sunnah.com's English renders the Arabic 'istalamahu' as 'kissed it'; the event text says only that he went to the Black Stone."
+    },
     "Sahih al-Bukhari 1190": {
       "usedIn": [
         "med-002"
@@ -427,8 +438,9 @@
       "status": "verified",
       "narrator": "Abdullah ibn Mas'ud",
       "checkedAgainst": "sunnah.com",
-      "confirmedWording": "three hundred and sixty idols around the Kaaba, and truth has come and falsehood has vanished",
-      "grade": "the collection carries no grading line"
+      "confirmedWording": "on the day of the conquest there were 360 idols around the Kaaba and the Prophet struck them with a stick in his hand, saying words that open like Quran 17:81 and end like Quran 34:49",
+      "grade": "the collection carries no grading line",
+      "note": "Replaces the project's earlier English, which ended the saying with the end of Quran 17:81 and said he destroyed the idols; the Arabic ends with the words of 34:49. sunnah.com's English leaves out the Arabic's 'and falsehood has perished, truth has come' before 'and falsehood will neither start nor reappear', and renders yat'unuha (poked or stabbed) as 'striking'. The event text relies on the Arabic for the match with Quran 17:81 and 34:49."
     },
     "Sahih al-Bukhari 4418": {
       "usedIn": [
