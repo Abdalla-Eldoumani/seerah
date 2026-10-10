@@ -1,4 +1,4 @@
-import { Amiri, Cormorant_Garamond, IBM_Plex_Sans_Arabic, Source_Serif_4 } from 'next/font/google';
+import { Alegreya, Amiri, IBM_Plex_Sans, IBM_Plex_Sans_Arabic } from 'next/font/google';
 
 // Every face is declared on every page so each font stack in the stylesheet
 // always resolves. The Arabic UI face skips the preload: Latin pages never use
@@ -12,20 +12,19 @@ export const amiri = Amiri({
   display: 'swap',
 });
 
-// Latin display headings.
-export const cormorantGaramond = Cormorant_Garamond({
+// Latin display headings and dates. 500 serves the lighter labels, 700 the headings.
+export const alegreya = Alegreya({
   subsets: ['latin'],
-  weight: '600',
-  variable: '--font-cormorant',
+  weight: ['500', '700'],
+  variable: '--font-alegreya',
   display: 'swap',
 });
 
-// Latin body text. The 600 weight serves labels; without it the browser
-// smears the regular face.
-export const sourceSerif4 = Source_Serif_4({
+// Latin body text and labels. 500 and 600 serve the place labels and nav.
+export const ibmPlexSans = IBM_Plex_Sans({
   subsets: ['latin'],
-  weight: ['400', '600'],
-  variable: '--font-source-serif',
+  weight: ['400', '500', '600'],
+  variable: '--font-plex-sans',
   display: 'swap',
 });
 

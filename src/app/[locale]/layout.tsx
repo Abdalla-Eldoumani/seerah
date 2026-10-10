@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { notFound } from 'next/navigation';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { amiri, cormorantGaramond, ibmPlexSansArabic, sourceSerif4 } from '@/lib/fonts';
+import { alegreya, amiri, ibmPlexSans, ibmPlexSansArabic } from '@/lib/fonts';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { routing, localeDirection } from '@/i18n/routing';
@@ -54,7 +54,10 @@ export async function generateMetadata({
 }
 
 export const viewport: Viewport = {
-  themeColor: '#f5efe0',
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#f2ead7' },
+    { media: '(prefers-color-scheme: dark)', color: '#16140e' },
+  ],
   width: 'device-width',
   initialScale: 1,
 };
@@ -76,8 +79,8 @@ export default async function LocaleLayout({
 
   const fontClass = [
     amiri.variable,
-    cormorantGaramond.variable,
-    sourceSerif4.variable,
+    alegreya.variable,
+    ibmPlexSans.variable,
     ibmPlexSansArabic.variable,
   ].join(' ');
 
@@ -93,7 +96,7 @@ export default async function LocaleLayout({
               one of the ~170 pages before reaching the content. */}
           <a
             href="#main"
-            className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:start-2 focus:z-50 focus:rounded-sm focus:bg-midnight focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-parchment"
+            className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:start-2 focus:z-50 focus:rounded-sm focus:bg-ink focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-ground"
           >
             {tNav('skipToContent')}
           </a>
