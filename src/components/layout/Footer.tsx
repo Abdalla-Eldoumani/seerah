@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import { rich } from '@/lib/rich';
 
 export function Footer() {
   const t = useTranslations();
@@ -12,7 +13,7 @@ export function Footer() {
           <p className="font-body">{t('footer.copyright', { year })}</p>
 
           <p className="max-w-sm text-center font-body">
-            {t('footer.verifiedNote')}
+            {t.rich('footer.verifiedNote', rich)}
           </p>
 
           <Link
