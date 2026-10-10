@@ -182,6 +182,7 @@ export const NARRATOR_NAMES: Record<string, LocalizedName> = {
   'Abu Said al-Khudri': { ar: 'أبو سعيد الخدري', fr: "Abou Sa'îd al-Khoudrî" },
   'Aisha': { ar: 'عائشة', fr: 'Aïcha' },
   "Al-Bara' ibn Azib": { ar: 'البراء بن عازب', fr: 'Al-Barâ ibn Âzib' },
+  'Al-Miswar ibn Makhramah and Marwan': { ar: 'المسور بن مخرمة ومروان', fr: 'Al-Miswar ibn Makhrama et Marwân' },
   'Anas ibn Malik': { ar: 'أنس بن مالك', fr: 'Anas ibn Mâlik' },
   'Ibn Abbas': { ar: 'ابن عباس', fr: 'Ibn Abbâs' },
   'Ibn Umar': { ar: 'ابن عمر', fr: 'Ibn Omar' },
