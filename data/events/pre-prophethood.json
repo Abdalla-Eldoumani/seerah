@@ -22,9 +22,9 @@
       "yearCE": "571 CE",
       "month": "",
       "category": "historical-context",
-      "summary": "Abraha, the Abyssinian ruler of Yemen, marched upon Makkah with an army including war elephants to destroy the Ka'bah. Allah sent flocks of birds (Ababil) carrying stones of baked clay, destroying the army completely. This event is recorded in Surah Al-Fil.",
-      "summaryArabic": "زحف أبرهة الحبشي والي اليمن على مكة بجيش فيه الفيلة ليهدم الكعبة، فأرسل الله طيرًا أبابيل ترميهم بحجارة من سجيل فأهلكت الجيش عن آخره. وقد ذُكر هذا الحدث في سورة الفيل.",
-      "summaryFrench": "Abraha, le souverain abyssin du Yémen, marcha sur La Mecque avec une armée comprenant des éléphants de guerre pour détruire la Ka'ba. Allah envoya des nuées d'oiseaux (Abâbîl) portant des pierres d'argile cuite, qui anéantirent l'armée tout entière. Cet événement est rapporté dans la sourate Al-Fîl.",
+      "summary": "Ar-Raheeq al-Makhtum says Abraha, the Abyssinian viceroy of Yemen, built a large church at San'a to draw the Arab pilgrims away from Makkah, and that he then led a large army, with elephants, to demolish the Ka'bah. Between Muzdalifa and Mina the elephant knelt and would not go on when it was turned towards the Ka'bah. Surah Al-Fil (105:1-5, shown below) describes what Allah sent against the army. Ar-Raheeq adds that the birds were like swallows and sparrows, each carrying three stones, that many soldiers were killed and the rest fled, and that Abraha reached San'a in a miserable state and died soon after.",
+      "summaryArabic": "يذكر الرحيق المختوم أن أبرهة الحبشي، والي الحبشة على اليمن، بنى كنيسة كبيرة في صنعاء ليصرف حجاج العرب عن مكة، ثم سار بجيش كبير فيه فيلة ليهدم الكعبة. وبين مزدلفة ومنى برك الفيل ولم يتقدم حين وُجّه نحو الكعبة. وتصف سورة الفيل (105: 1-5، وهي معروضة أدناه) ما أرسله الله على الجيش. ويضيف الرحيق المختوم أن الطير كانت كالسنونو والعصافير، يحمل كل طائر ثلاثة أحجار، وأن كثيرًا من الجنود قُتلوا وفرّ الباقون، وأن أبرهة وصل صنعاء في حال بائسة ومات بعد قليل.",
+      "summaryFrench": "Ar-Rahîq al-Makhtoûm dit qu'Abraha, le vice-roi abyssin du Yémen, fit bâtir à San'a une grande église pour détourner de La Mecque les pèlerins arabes, puis conduisit une grande armée, avec des éléphants, pour démolir la Ka'ba. Entre Mouzdalifa et Mina, l'éléphant s'agenouilla et refusa d'avancer quand on le tournait vers la Ka'ba. La sourate Al-Fîl (105:1-5, reproduite plus bas) décrit ce qu'Allah envoya contre l'armée. Ar-Rahîq ajoute que les oiseaux ressemblaient à des hirondelles et à des moineaux, que chacun portait trois pierres, que beaucoup de soldats furent tués, que les autres s'enfuirent et qu'Abraha arriva à San'a dans un état misérable et mourut peu après.",
       "significance": "The Prophet ﷺ was born in this year. Ibn al-Qayyim writes that there is no difference of opinion on this (Zad al-Ma'ad, 1/76). The year is known as the Year of the Elephant.",
       "significanceArabic": "وُلد النبي صلى الله عليه وسلم في هذا العام، وقد نقل ابن القيم أنه لا خلاف في ذلك (زاد المعاد 1/76). ويُعرف هذا العام بعام الفيل.",
       "significanceFrench": "Le Prophète ﷺ naquit cette année-là. Ibn al-Qayyim écrit qu'il n'y a pas de divergence sur ce point (Zâd al-Ma'âd, 1/76). Cette année est connue sous le nom d'année de l'Éléphant.",
@@ -41,13 +41,10 @@
       ],
       "hadithReferences": [],
       "primarySources": [
-        "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah",
-        "Ibn Kathir's Al-Bidaya wan-Nihaya"
+        "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
-        "Abraha al-Ashram",
-        "Abdul Muttalib ibn Hashim"
+        "Abraha al-Ashram"
       ],
       "location": "Makkah",
       "locationArabic": "مكة المكرمة",
@@ -92,8 +89,6 @@
         }
       ],
       "primarySources": [
-        "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah",
         "Sahih Muslim"
       ],
       "keyFigures": [
@@ -124,8 +119,7 @@
       "hadithReferences": [],
       "primarySources": [
         "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah",
-        "Ibn Kathir's Al-Bidaya wan-Nihaya"
+        "Ibn Ishaq's Sirah"
       ],
       "keyFigures": [
         "Halimah bint Abi Dhu'ayb al-Sa'diyyah",
@@ -212,8 +206,7 @@
       ],
       "hadithReferences": [],
       "primarySources": [
-        "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah"
+        "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
         "Aminah bint Wahb",
@@ -241,8 +234,7 @@
       "quranReferences": [],
       "hadithReferences": [],
       "primarySources": [
-        "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah"
+        "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
         "Abdul Muttalib ibn Hashim"
@@ -269,8 +261,7 @@
       "quranReferences": [],
       "hadithReferences": [],
       "primarySources": [
-        "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah"
+        "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
         "Abdul Muttalib ibn Hashim",
@@ -298,8 +289,7 @@
       "quranReferences": [],
       "hadithReferences": [],
       "primarySources": [
-        "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah"
+        "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
         "Abu Talib ibn Abdul Muttalib"
@@ -337,8 +327,7 @@
       ],
       "primarySources": [
         "Jami' at-Tirmidhi",
-        "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah"
+        "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
         "Abu Talib ibn Abdul Muttalib",
@@ -378,7 +367,6 @@
       ],
       "primarySources": [
         "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah",
         "Al-Bayhaqi"
       ],
       "keyFigures": [
@@ -495,8 +483,7 @@
       ],
       "primarySources": [
         "Sahih al-Bukhari",
-        "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah"
+        "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
         "The tribes of Quraysh"
@@ -535,7 +522,6 @@
       ],
       "primarySources": [
         "Sahih al-Bukhari",
-        "Sahih Muslim",
         "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
