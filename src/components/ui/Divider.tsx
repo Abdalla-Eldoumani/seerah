@@ -1,26 +1,24 @@
 import { cn } from '@/lib/utils';
 
 interface DividerProps {
-  // The diamond is reserved for one break per page; every other break is a rule.
+  // The ringed marker is reserved for one break per page; every other break is a rule.
   ornament?: boolean;
   className?: string;
 }
 
 export function Divider({ ornament = false, className }: DividerProps) {
   if (!ornament) {
-    return <hr className={cn('my-10 h-px border-0 bg-gold/30', className)} />;
+    return <hr className={cn('my-10 h-px border-0 bg-line', className)} />;
   }
 
   return (
     <div
-      className={cn('my-10 flex items-center gap-4', className)}
+      className={cn('my-10 flex items-center gap-3', className)}
       aria-hidden="true"
     >
-      <span className="h-px flex-1 bg-linear-to-r from-transparent to-gold-dark/60" />
-      <span className="relative block size-3 rotate-45 border border-gold-dark">
-        <span className="absolute inset-[3px] bg-gold-dark" />
-      </span>
-      <span className="h-px flex-1 bg-linear-to-l from-transparent to-gold-dark/60" />
+      <span className="route-dashes-x flex-1" />
+      <span className="block size-3 rounded-full border-2 border-terracotta" />
+      <span className="route-dashes-x flex-1" />
     </div>
   );
 }
