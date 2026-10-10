@@ -55,16 +55,16 @@
       "confirmedWording": "O Allah, honour Islam with the dearer to You of these two men, Abu Jahl or Umar ibn al-Khattab",
       "grade": "Hasan (Darussalam)"
     },
-    "Sahih Muslim 1162": {
+    "Sahih Muslim 1162b": {
       "usedIn": [
         "pre-002"
       ],
       "status": "verified",
       "narrator": "Abu Qatadah al-Ansari",
       "checkedAgainst": "sunnah.com",
-      "confirmedWording": "asked about fasting on Monday, he said that is the day I was born and the day revelation came to me",
+      "confirmedWording": "asked about fasting on Monday, he said that is the day on which I was born and on which I was commissioned with prophethood or revelation was sent to me",
       "grade": "the collection carries no grading line",
-      "note": "Replaced Sahih Muslim 2606, which is Ibn Mas'ud on tale-carrying."
+      "note": "Sahih Muslim 1162 groups several narrations. The stored text came from the one on fasting Arafah and Ashura; the Monday wording is the narration numbered 1162b on sunnah.com, and the event shows it as a marked excerpt."
     },
     "Sahih Muslim 1218": {
       "usedIn": [

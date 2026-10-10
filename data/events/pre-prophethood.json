@@ -62,12 +62,12 @@
       "yearCE": "571 CE",
       "month": "Rabi' al-Awwal",
       "category": "birth",
-      "summary": "Muhammad ﷺ was born on a Monday in Rabi' al-Awwal, approximately 50-55 days after the Incident of the Elephant, in the house of his mother Aminah in Makkah. His father Abdullah had passed away before his birth. He was born into the Banu Hashim clan of the Quraysh tribe.",
-      "summaryArabic": "وُلد محمد صلى الله عليه وسلم يوم الاثنين في شهر ربيع الأول، بعد حادثة الفيل بنحو خمسين إلى خمسة وخمسين يومًا، في بيت أمه آمنة بمكة. وكان أبوه عبد الله قد توفي قبل مولده. ووُلد في بني هاشم من قبيلة قريش.",
-      "summaryFrench": "Mouhammad ﷺ naquit un lundi du mois de Rabî' al-Awwal, environ cinquante à cinquante-cinq jours après l'événement de l'Éléphant, dans la maison de sa mère Âmina à La Mecque. Son père Abdallah était mort avant sa naissance. Il naquit dans le clan des Banoû Hâchim, de la tribu de Qouraych.",
-      "significance": "The birth of the final Messenger of Allah, the Seal of the Prophets. His father had already passed away, and he would be raised as an orphan — a deliberate preparation by Allah so that no one could claim any human had shaped his character or mission.",
-      "significanceArabic": "مولد رسول الله الخاتم وخاتم النبيين. وقد توفي أبوه قبل ذلك، ونشأ يتيمًا، وكان ذلك إعدادًا مقصودًا من الله حتى لا يدّعي أحد أن بشرًا صاغ خلقه أو رسالته.",
-      "significanceFrench": "La naissance du Messager final d'Allah, le Sceau des prophètes. Son père était déjà mort et il serait élevé orphelin, préparation voulue par Allah afin que nul ne puisse prétendre qu'un être humain avait façonné son caractère ou sa mission.",
+      "summary": "Muhammad ﷺ was born on a Monday in Rabi' al-Awwal, in the house of his mother Aminah in Makkah. His father Abdullah had died before his birth. He was born into the Banu Hashim clan of the Quraysh tribe. The Monday is reported in Sahih Muslim. The day of the month is disputed: Ibn Kathir lists the 2nd, 8th, 10th and 12th, and calls the 12th the best known. The Year of the Elephant is placed in 570 or 571 CE.",
+      "summaryArabic": "وُلد محمد صلى الله عليه وسلم يوم الاثنين في شهر ربيع الأول، في بيت أمه آمنة بمكة. وكان أبوه عبد الله قد توفي قبل مولده. ووُلد في بني هاشم من قبيلة قريش. وقد ورد يوم الاثنين في صحيح مسلم. واختُلف في اليوم من الشهر، فذكر ابن كثير الثاني والثامن والعاشر والثاني عشر، وقال إن الثاني عشر هو المشهور. ويُجعل عام الفيل سنة 570 أو 571 للميلاد.",
+      "summaryFrench": "Mouhammad ﷺ naquit un lundi du mois de Rabî' al-Awwal, dans la maison de sa mère Âmina à La Mecque. Son père Abdallah était mort avant sa naissance. Il naquit dans le clan des Banoû Hâchim, de la tribu de Qouraych. Le lundi est rapporté dans Sahîh Mouslim. Le jour du mois est discuté : Ibn Kathîr cite le 2, le 8, le 10 et le 12, et tient le 12 pour le plus connu. L'année de l'Éléphant est placée en 570 ou 571 de l'ère chrétienne.",
+      "significance": "The birth of the final Messenger of Allah, the Seal of the Prophets. His father had died before his birth and he grew up an orphan, which Surah Ad-Duha recalls (93:6-8).",
+      "significanceArabic": "مولد رسول الله الخاتم وخاتم النبيين. وقد توفي أبوه قبل مولده ونشأ يتيمًا، وتذكر سورة الضحى ذلك (93: 6-8).",
+      "significanceFrench": "La naissance du Messager final d'Allah, le Sceau des prophètes. Son père était mort avant sa naissance et il grandit orphelin, ce que rappelle la sourate Ad-Douhâ (93:6-8).",
       "quranReferences": [
         {
           "surah": 93,
@@ -82,13 +82,13 @@
       "hadithReferences": [
         {
           "source": "Sahih Muslim",
-          "hadithNumber": "1162",
+          "hadithNumber": "1162b",
           "narrator": "Abu Qatadah al-Ansari",
-          "textEnglish": "The Prophet ﷺ was asked about fasting on Monday. He said: 'That is the day on which I was born and the day on which I received Revelation.'",
+          "textEnglish": "He was then asked about fasting on Monday, whereupon he said: It was the day on which I was born. on which I was commissioned with prophethood or revelation was sent to me",
           "grade": "sahih",
-          "textFrench": "On interrogea le Prophète ﷺ au sujet du jeûne du lundi. Il dit : « C'est le jour où je suis né et le jour où j'ai reçu la révélation. »",
-          "translationProvenance": "project",
-          "textArabic": "ثَلاَثٌ مِنْ كُلِّ شَهْرٍ وَرَمَضَانُ إِلَى رَمَضَانَ فَهَذَا صِيَامُ الدَّهْرِ كُلِّهِ صِيَامُ يَوْمِ عَرَفَةَ أَحْتَسِبُ عَلَى اللَّهِ أَنْ يُكَفِّرَ السَّنَةَ الَّتِي قَبْلَهُ وَالسَّنَةَ الَّتِي بَعْدَهُ وَصِيَامُ يَوْمِ عَاشُورَاءَ أَحْتَسِبُ عَلَى اللَّهِ أَنْ يُكَفِّرَ السَّنَةَ الَّتِي قَبْلَهُ ‏\""
+          "translationProvenance": "sunnah",
+          "textArabic": "قَالَ وَسُئِلَ عَنْ صَوْمِ يَوْمِ الاِثْنَيْنِ قَالَ ‏\"‏ ذَاكَ يَوْمٌ وُلِدْتُ فِيهِ وَيَوْمٌ بُعِثْتُ أَوْ أُنْزِلَ عَلَىَّ فِيهِ ‏\"‏",
+          "excerpt": true
         }
       ],
       "primarySources": [
