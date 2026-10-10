@@ -23,13 +23,15 @@ export const SOURCE_NAMES: Record<string, LocalizedName> = {
   'Musnad Ahmad': { ar: 'مسند أحمد', fr: 'Mousnad Ahmad' },
   'Ar-Raheeq Al-Makhtum': { ar: 'الرحيق المختوم', fr: 'Ar-Rahîq al-Makhtoûm' },
   "Ibn Ishaq's Sirah": { ar: 'سيرة ابن إسحاق', fr: "La Sîra d'Ibn Ishâq" },
-  "Ibn Kathir's Al-Bidaya wan-Nihaya": {
-    ar: 'البداية والنهاية لابن كثير',
-    fr: "Al-Bidâya wa an-Nihâya d'Ibn Kathîr",
-  },
-  "Ibn Sa'd's Tabaqat": { ar: 'الطبقات الكبرى لابن سعد', fr: "At-Tabaqât d'Ibn Sa'd" },
-  'Tafsir Ibn Kathir': { ar: 'تفسير ابن كثير', fr: 'Tafsîr Ibn Kathîr' },
   'Al-Bayhaqi': { ar: 'السنن الكبرى للبيهقي', fr: 'Al-Bayhaqî' },
+  'As-Sunan al-Kubra, al-Bayhaqi': {
+    ar: 'السنن الكبرى للبيهقي',
+    fr: "As-Sounan al-Koubrâ d'al-Bayhaqî",
+  },
+  'Al-Mustadrak, al-Hakim': {
+    ar: 'المستدرك على الصحيحين للحاكم',
+    fr: "Al-Moustadrak d'al-Hâkim",
+  },
   "Abu Ubayd's Kitab al-Amwal": {
     ar: 'كتاب الأموال لأبي عبيد',
     fr: "Kitâb al-Amwâl d'Abou 'Oubayd",
@@ -47,62 +49,10 @@ export const MONTH_NAMES: Record<string, LocalizedName> = {
   Shawwal: { ar: 'شوال', fr: 'Chawwâl' },
   "Dhul Qa'dah": { ar: 'ذو القعدة', fr: "Dhoû al-Qi'da" },
   'Dhul Hijjah': { ar: 'ذو الحجة', fr: 'Dhoû al-Hijja' },
-  '12 Rabi\' al-Awwal (Monday)': {
-    ar: '١٢ ربيع الأول (يوم الاثنين)',
-    fr: "12 Rabî' al-Awwal (un lundi)",
-  },
   '17 Ramadan': { ar: '١٧ رمضان', fr: '17 Ramadan' },
-  'Ramadan (17th or 21st)': {
-    ar: 'رمضان (السابع عشر أو الحادي والعشرون)',
-    fr: 'Ramadan (le 17 ou le 21)',
-  },
-  'Ramadan (20th)': { ar: 'رمضان (العشرون)', fr: 'Ramadan (le 20)' },
-  'Rajab (according to many scholars)': {
-    ar: 'رجب (على قول كثير من أهل العلم)',
-    fr: 'Rajab (selon de nombreux savants)',
-  },
   "Rajab or Sha'ban": { ar: 'رجب أو شعبان', fr: "Rajab ou Cha'bân" },
-  "Sha'ban/Ramadan": { ar: 'شعبان أو رمضان', fr: "Cha'bân ou Ramadan" },
   'Muharram and after': { ar: 'محرم وما بعده', fr: 'Mouharram et après' },
-  "Muharram/Rabi' al-Awwal": {
-    ar: 'محرم أو ربيع الأول',
-    fr: "Mouharram ou Rabî' al-Awwal",
-  },
 };
-
-
-// Works whose keys in `src/config/sources.ts` differ from the citation strings
-// used inside the event data, so both spellings resolve.
-Object.assign(SOURCE_NAMES, {
-  'Ar-Raheeq Al-Makhtum (The Sealed Nectar)': {
-    ar: 'الرحيق المختوم',
-    fr: 'Ar-Rahîq al-Makhtoûm (Le Nectar cacheté)',
-  },
-  'Sirat Rasul Allah': {
-    ar: 'سيرة رسول الله',
-    fr: 'Sîrat Rasûl Allâh',
-  },
-  'Al-Bidaya wan-Nihaya': {
-    ar: 'البداية والنهاية',
-    fr: 'Al-Bidâya wa an-Nihâya',
-  },
-  "Tabaqat Ibn Sa'd": {
-    ar: 'الطبقات الكبرى لابن سعد',
-    fr: "At-Tabaqât d'Ibn Sa'd",
-  },
-  'Al-Sunan al-Kubra': {
-    ar: 'السنن الكبرى',
-    fr: 'As-Sounan al-Koubrâ',
-  },
-  'As-Sunan al-Kubra, al-Bayhaqi': {
-    ar: 'السنن الكبرى للبيهقي',
-    fr: "As-Sounan al-Koubrâ d'al-Bayhaqî",
-  },
-  'Al-Mustadrak, al-Hakim': {
-    ar: 'المستدرك على الصحيحين للحاكم',
-    fr: "Al-Moustadrak d'al-Hâkim",
-  },
-});
 
 function lookup(
   registry: Record<string, LocalizedName>,
@@ -115,20 +65,6 @@ function lookup(
   return locale === 'ar' ? entry.ar : entry.fr;
 }
 
-
-// A few events store the year as a phrase rather than a BH or AH figure.
-export const YEAR_PHRASES: Record<string, LocalizedName> = {
-  '13th year of Prophethood': {
-    ar: 'السنة الثالثة عشرة من البعثة',
-    fr: "La treizième année de la prophétie",
-  },
-};
-
-export const localizeYearPhrase = (value: string, locale: string) =>
-  lookup(YEAR_PHRASES, value, locale);
-
-export const isYearPhrase = (value: string) => value in YEAR_PHRASES;
-
 export const localizeSource = (value: string, locale: string) =>
   lookup(SOURCE_NAMES, value, locale);
 
@@ -136,7 +72,6 @@ export const localizeMonth = (value: string, locale: string) =>
   lookup(MONTH_NAMES, value, locale);
 
 export const SURAH_NAMES: Record<string, LocalizedName> = {
-  'Al-Fatiha': { ar: 'الفاتحة', fr: 'Al-Fâtiha' },
   'Al-Baqarah': { ar: 'البقرة', fr: 'Al-Baqara' },
   'Aal-Imran': { ar: 'آل عمران', fr: "Âl-'Imrân" },
   "Al-Ma'idah": { ar: 'المائدة', fr: 'Al-Mâïda' },
@@ -173,9 +108,9 @@ export const AUTHOR_NAMES: Record<string, LocalizedName> = {
     ar: 'الإمام محمد بن إسماعيل البخاري (ت ٢٥٦ هـ)',
     fr: "L'imâm Mouhammad ibn Ismâ'îl al-Boukhârî (m. 870 ap. J.-C.)",
   },
-  'Imam Muslim ibn al-Hajjaj (d. 875 CE)': {
+  'Imam Muslim ibn al-Hajjaj (d. c. 875 CE)': {
     ar: 'الإمام مسلم بن الحجاج (ت ٢٦١ هـ)',
-    fr: "L'imâm Mouslim ibn al-Hajjâj (m. 875 ap. J.-C.)",
+    fr: "L'imâm Mouslim ibn al-Hajjâj (m. vers 875 ap. J.-C.)",
   },
   'Imam Abu Isa at-Tirmidhi (d. 892 CE)': {
     ar: 'الإمام أبو عيسى الترمذي (ت ٢٧٩ هـ)',
@@ -190,14 +125,9 @@ export const AUTHOR_NAMES: Record<string, LocalizedName> = {
     fr: 'Le cheikh Safiy ar-Rahmân al-Moubârakfoûrî',
   },
   'Ibn Ishaq (d. 767 CE), edited by Ibn Hisham (d. 833 CE)': {
-    ar: 'ابن إسحاق (ت ١٥٠ هـ)، تهذيب ابن هشام (ت ٢١٨ هـ)',
+    ar: 'ابن إسحاق (ت ٧٦٧ م)، تهذيب ابن هشام (ت ٢١٨ هـ)',
     fr: 'Ibn Ishâq (m. 767 ap. J.-C.), édité par Ibn Hichâm (m. 833 ap. J.-C.)',
   },
-  'Imam Ibn Kathir (d. 1373 CE)': {
-    ar: 'الإمام ابن كثير (ت ٧٧٤ هـ)',
-    fr: "L'imâm Ibn Kathîr (m. 1373 ap. J.-C.)",
-  },
-  'Imam al-Bayhaqi': { ar: 'الإمام البيهقي', fr: "L'imâm al-Bayhaqî" },
   'Imam Ahmad ibn Hanbal': { ar: 'الإمام أحمد بن حنبل', fr: "L'imâm Ahmad ibn Hanbal" },
 };
 
