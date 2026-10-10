@@ -208,6 +208,17 @@
       "grade": "the collection carries no grading line",
       "note": "Added for the orchards arrangement. The event shows sunnah.com English and Arabic in full."
     },
+    "Sahih al-Bukhari 2617": {
+      "usedIn": [
+        "med-012"
+      ],
+      "status": "verified",
+      "narrator": "Anas ibn Malik",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "a Jewess brought the Prophet a poisoned cooked sheep and he ate from it; she was brought and he was asked whether they should kill her and said no; Anas kept seeing the effect of the poison on the palate of the Prophet's mouth",
+      "grade": "the collection carries no grading line",
+      "note": "The narration does not name Khaybar or give the woman's name; the link to Khaybar and the account of what became of her come from Ar-Raheeq, which says the Prophet ordered her killed after a Companion died of the poison, and the event text sets the two side by side. Replaces the project's earlier claim, with no source, that the poisoning contributed to the Prophet's final illness."
+    },
     "Sahih al-Bukhari 2731": {
       "usedIn": [
         "med-010"
@@ -393,8 +404,9 @@
       "status": "verified",
       "narrator": "Sahl ibn Sa'd",
       "checkedAgainst": "sunnah.com",
-      "confirmedWording": "tomorrow I will give this flag to a man through whose hands Allah will give victory",
-      "grade": "the collection carries no grading line"
+      "confirmedWording": "on the day of Khaybar the Prophet said he would give the flag the next day to a man through whose hands Allah will give victory, who loves Allah and His Messenger and is loved by them; Ali, who had eye trouble, was sent for, the Prophet spat in his eye and prayed for him and he was cured, and was given the flag; the Prophet told him to proceed without hurrying, call them to Islam and tell them of Allah's right which they should observe, and that if Allah guides one man through him that is better for him than the nice red camels",
+      "grade": "the collection carries no grading line",
+      "note": "Replaces the project's earlier English and French, which were worded by the project. The page's English reads 'give us victory'; the Arabic has no word for 'us' and the event text does not rely on it. Ali's words about fighting them are a statement in the English and a question in the Arabic, so the event text speaks only of him asking about fighting them."
     },
     "Sahih al-Bukhari 428": {
       "usedIn": [
