@@ -60,12 +60,11 @@ export default async function HomePage({
   const total = getAllEvents().length;
   // Each era's first stop on the route is where its first event falls in the
   // whole sequence.
-  let before = 0;
-  const marks = eras.map((era) => {
-    const at = before / (total - 1);
-    before += getEventsByEra(era.id).length;
-    return { at, color: era.accentColor };
-  });
+  const counts = eras.map((era) => getEventsByEra(era.id).length);
+  const marks = eras.map((era, i) => ({
+    at: counts.slice(0, i).reduce((sum, n) => sum + n, 0) / (total - 1),
+    color: era.accentColor,
+  }));
 
   return (
     <>
