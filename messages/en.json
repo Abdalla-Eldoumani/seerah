@@ -44,12 +44,17 @@
     "navNext": "Next",
     "surah": "Surah",
     "renderingLabel": "Rendering by this project, not a published translation",
+    "sunnahEnglish": "English translation from sunnah.com, for this collection and number",
+    "sunnahArabic": "Arabic text from sunnah.com, for this collection and number",
+    "sunnahFrench": "English translation from sunnah.com, for this collection and number. No French translation is published here.",
+    "excerptLabel": "Excerpt: the narration continues beyond these words",
     "gradeLabel": "Grading",
     "grades": {
       "sahih": "Sahih",
       "hasan": "Hasan",
       "hasan-sahih": "Hasan sahih",
-      "daif": "Da'if (weak)"
+      "daif": "Da'if (weak)",
+      "mursal": "Mursal (the Successor who reports it does not name the Companion)"
     }
   },
   "breadcrumb": {

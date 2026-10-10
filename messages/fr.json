@@ -44,12 +44,17 @@
     "navNext": "Suivant",
     "surah": "Sourate",
     "renderingLabel": "Traduction propre au projet, non tirée d'une édition publiée",
+    "sunnahEnglish": "Traduction anglaise de sunnah.com, pour ce recueil et ce numéro",
+    "sunnahArabic": "Texte arabe de sunnah.com, pour ce recueil et ce numéro",
+    "sunnahFrench": "Traduction anglaise de sunnah.com, pour ce recueil et ce numéro. Aucune traduction française n'est publiée ici.",
+    "excerptLabel": "Extrait : le récit se poursuit dans la source",
     "gradeLabel": "Authentification",
     "grades": {
       "sahih": "Sahîh (authentique)",
       "hasan": "Hasan (bon)",
       "hasan-sahih": "Hasan sahîh",
-      "daif": "Da'îf (faible)"
+      "daif": "Da'îf (faible)",
+      "mursal": "Mursal (le Successeur ne nomme pas le Compagnon)"
     }
   },
   "breadcrumb": {
