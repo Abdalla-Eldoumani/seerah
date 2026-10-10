@@ -11,8 +11,8 @@ export default function EraNav({ currentEra }: EraNavProps) {
   const t = useTranslations('era');
 
   return (
-    <nav aria-label={t('navLabel')} className="flex justify-center">
-      <ul className="flex items-center gap-1 sm:gap-1.5 md:gap-2 flex-wrap justify-center">
+    <nav aria-label={t('navLabel')}>
+      <ul className="flex flex-wrap gap-x-5 gap-y-1">
         {ERA_IDS.map((id) => {
           const isActive = currentEra === id;
           return (
@@ -20,10 +20,10 @@ export default function EraNav({ currentEra }: EraNavProps) {
               <Link
                 href={`/era/${id}`}
                 className={cn(
-                  'inline-flex min-h-11 items-center rounded-sm px-4 text-sm font-display transition-colors md:text-base',
+                  'inline-flex min-h-11 items-center border-b-2 font-display text-lg font-bold transition-colors',
                   isActive
-                    ? 'bg-gold text-ink'
-                    : 'text-ink-light hover:bg-parchment-dark hover:text-ink'
+                    ? 'border-terracotta text-ink'
+                    : 'border-transparent text-ink-light hover:text-terracotta'
                 )}
                 aria-current={isActive ? 'page' : undefined}
               >
