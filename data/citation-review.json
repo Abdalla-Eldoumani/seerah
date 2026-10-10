@@ -471,6 +471,17 @@
       "grade": "the collection carries no grading line",
       "note": "Added so the account of how the adhan began rests on the narration that gives the discussion and the proposals. The event shows sunnah.com English and Arabic in full."
     },
+    "Sahih al-Bukhari 64": {
+      "usedIn": [
+        "med-011"
+      ],
+      "status": "verified",
+      "narrator": "Abdullah ibn Abbas",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "the Prophet sent his letter with a man to the governor of Bahrain, who sent it to Khosrau; when he read it he tore it to pieces; the sub-narrator Ibn Shihab thinks Ibn al-Musayyab said that the Prophet invoked Allah against them that they be torn to pieces",
+      "grade": "the collection carries no grading line",
+      "note": "Replaces the project's earlier saying attributed to the Prophet about Khosrau's kingdom, which no collection page read this session gives. The invocation in this narration is reported with doubt by the sub-narrator, and the event text says so. The English page names the ruler Chousroes; the Arabic reads Kisra."
+    },
     "Sahih al-Bukhari 7": {
       "usedIn": [
         "med-011"
@@ -478,8 +489,9 @@
       "status": "verified",
       "narrator": "Abdullah ibn Abbas",
       "checkedAgainst": "sunnah.com",
-      "confirmedWording": "Heraclius questioning Abu Sufyan, and his conclusion that the Prophet would rule what is beneath his feet",
-      "grade": "the collection carries no grading line"
+      "confirmedWording": "Abu Sufyan, with a Quraysh caravan in Ash-Sham during the truce, was summoned by Heraclius at Ilya and questioned about the Prophet; Heraclius said that if what Abu Sufyan had said was true the Prophet would soon occupy the place beneath his feet, that he knew a prophet was to appear but did not think he would be from among them, and that he would wash his feet; the letter of the Prophet, brought by Dihya to the governor of Busra and passed to Heraclius, was read, followed by a great hue and cry and the removal of Abu Sufyan and his companions; the narration then continues with Ibn an-Natur's report of Heraclius at Ilya and Homs, his calling the Byzantines to pledge to the Prophet, their running to the doors, and his saying he had spoken to test their conviction",
+      "grade": "the collection carries no grading line",
+      "note": "Shown as a marked excerpt, from Heraclius's reply to the end of Abu Sufyan's account. The English adds the words (the Prophet (ﷺ) Muhammad) and (Byzantine), and 'Ibn-Abi-Kabsha)' carries a stray bracket; these are sunnah.com's own. The part after the excerpt, Ibn an-Natur's report about Heraclius at Ilya and Homs, is not shown or relied on in the event text."
     },
     "Sunan Abu Dawud 499": {
       "usedIn": [
