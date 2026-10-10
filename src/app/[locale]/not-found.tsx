@@ -1,65 +1,34 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import { Container } from '@/components/ui/Container';
+import { Divider } from '@/components/ui/Divider';
 
 export default function LocaleNotFound() {
   const t = useTranslations('notFound');
 
   return (
-    <div className="min-h-[70vh] flex items-center justify-center px-6 py-16">
-      <div className="text-center max-w-md mx-auto">
-        <div className="mb-6" aria-hidden="true">
-          <svg
-            className="mx-auto"
-            width="80"
-            height="80"
-            viewBox="0 0 80 80"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <polygon
-              points="40,4 52,14 58,28 58,52 52,66 40,76 28,66 22,52 22,28 28,14"
-              fill="none"
-              stroke="var(--color-gold)"
-              strokeWidth="1"
-              opacity="0.5"
-            />
-            <text
-              x="40"
-              y="44"
-              textAnchor="middle"
-              fontSize="20"
-              fontWeight="600"
-              fill="var(--color-gold-dark)"
-            >
-              404
-            </text>
-          </svg>
-        </div>
+    <Container className="py-16 md:py-24">
+      <p className="place-label">404</p>
+      <h1 className="mt-3 max-w-[20ch] font-display text-4xl font-bold text-ink md:text-6xl">
+        {t('title')}
+      </h1>
+      <Divider ornament className="max-w-md" />
+      <p className="max-w-[42rem] text-lg leading-relaxed text-ink-light">{t('body')}</p>
 
-        <h1 className="font-display text-3xl sm:text-4xl font-semibold text-ink mb-3">
-          {t('title')}
-        </h1>
-
-        <p className="font-body text-ink-light leading-relaxed mb-8">
-          {t('body')}
-        </p>
-
-        <div className="flex flex-wrap justify-center gap-3">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 px-6 py-2.5 text-sm font-display font-semibold text-parchment rounded-sm transition-colors hover:brightness-110"
-            style={{ backgroundColor: 'var(--color-gold-dark)' }}
-          >
-            {t('ctaHome')}
-          </Link>
-          <Link
-            href="/timeline"
-            className="inline-flex items-center px-6 py-2.5 text-sm font-display font-medium text-ink-light hover:text-gold-dark transition-colors"
-          >
-            {t('ctaTimeline')}
-          </Link>
-        </div>
+      <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2">
+        <Link
+          href="/"
+          className="inline-flex min-h-11 items-center rounded-sm bg-terracotta px-6 font-display text-base font-bold text-ground transition-colors hover:bg-ink"
+        >
+          {t('ctaHome')}
+        </Link>
+        <Link
+          href="/timeline"
+          className="inline-flex min-h-11 items-center font-display text-base font-bold text-ink-light underline decoration-line underline-offset-4 transition-colors hover:text-terracotta"
+        >
+          {t('ctaTimeline')}
+        </Link>
       </div>
-    </div>
+    </Container>
   );
 }
