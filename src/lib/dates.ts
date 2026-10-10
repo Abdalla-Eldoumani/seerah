@@ -4,11 +4,7 @@
 
 import type { Locale } from '@/i18n/routing';
 import type { EraMetadata, SeerahEvent } from '@/types/seerah';
-import {
-  localizeMonth,
-  localizeYearPhrase,
-  isYearPhrase,
-} from '@/config/names';
+import { localizeMonth } from '@/config/names';
 
 const EASTERN_DIGITS = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
 
@@ -59,12 +55,6 @@ function localizeHijriMonth(monthString: string, locale: Locale): string {
 function localizeHijriYear(yearString: string, locale: Locale): string {
   if (!yearString) return '';
   if (locale === 'en') return yearString;
-  // Some years are stored as a phrase rather than a figure, so they
-  // resolve whole instead of going through token stripping.
-  if (isYearPhrase(yearString)) {
-    const phrase = localizeYearPhrase(yearString, locale);
-    return locale === 'ar' ? toEasternDigits(phrase) : phrase;
-  }
   // The era marker is not always trailing: values like "44 BH onwards" exist,
   // so anchoring the match to the end leaves it in place.
   const { approx, rest } = splitApprox(yearString);
