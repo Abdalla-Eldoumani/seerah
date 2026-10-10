@@ -16,14 +16,14 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
 
   return (
     <nav aria-label={t('label')}>
-      <ol className="flex items-center gap-1.5 flex-wrap text-sm font-body text-ink-soft">
+      <ol className="flex items-center gap-1.5 flex-wrap font-body text-[0.9375rem] text-ink-soft">
         {items.map((item, index) => {
           const isLast = index === items.length - 1;
           return (
             <li key={index} className="flex items-center gap-1.5">
               {index > 0 && (
                 <svg
-                  className="h-3.5 w-3.5 text-gold rtl:scale-x-[-1]"
+                  className="h-3.5 w-3.5 text-route rtl:scale-x-[-1]"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={2}
@@ -42,7 +42,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
                 <Link
                   href={item.href}
                   className={cn(
-                    'inline-flex min-h-11 items-center transition-colors hover:text-gold-dark',
+                    'inline-flex min-h-11 items-center transition-colors hover:text-terracotta',
                     'underline-offset-2 hover:underline'
                   )}
                 >
