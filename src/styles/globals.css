@@ -13,37 +13,70 @@
 }
 
 @theme {
-  /* Parchment surface, ink text, gold rules. */
-  --color-parchment: #f5efe0;
-  --color-parchment-dark: #e8dcc8;
+  /* Warm sand ground, dark ink, and two accents: terracotta for places and
+     actions, date-palm green for the Madinan period. Light values here; the dark
+     scheme overrides them in the base layer below. */
+  --color-ground: #f2ead7;
+  --color-surface: #e8dec5;
+  --color-line: #cbbd9b;
+  --color-route: #8a7a58;
 
-  --color-ink: #14110a;
-  --color-ink-light: #3d3628;
-  --color-ink-soft: #5e5641;
+  --color-ink: #1c1913;
+  --color-ink-light: #39332a;
+  --color-ink-soft: #5b5343;
 
-  /* gold is for rules and ornament only: 2.73:1 on parchment fails as text.
-     Text and filled buttons use gold-dark (5.49:1). */
-  --color-gold: #b88a2a;
-  --color-gold-light: #d8b25a;
-  --color-gold-dark: #7a5b13;
+  /* Text-safe accents: both clear 4.5:1 on the ground and on the era tints. */
+  --color-terracotta: #8f3b25;
+  --color-palm: #3f5a35;
 
-  --color-midnight: #0d1b2a;
+  /* Fixed light text for the solid era strips, which stay dark in both schemes. */
+  --color-on-era: #f8f1e0;
 
   --font-arabic: var(--font-amiri), "Amiri", "Noto Naskh Arabic", serif;
   --font-arabic-ui: var(--font-plex-arabic), "IBM Plex Sans Arabic", Tahoma, sans-serif;
-  --font-display: "Salawat", var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
-  --font-body: "Salawat", var(--font-source-serif), "Source Serif 4", Georgia, serif;
+  --font-display: "Salawat", var(--font-alegreya), "Alegreya", Georgia, serif;
+  --font-body: "Salawat", var(--font-plex-sans), "IBM Plex Sans", system-ui, sans-serif;
+
+  /* Legacy names kept until the components move to the tokens above. */
+  --color-parchment: var(--color-ground);
+  --color-parchment-dark: var(--color-surface);
+  --color-gold: var(--color-route);
+  --color-gold-light: var(--color-line);
+  --color-gold-dark: var(--color-terracotta);
+  --color-midnight: var(--color-ink);
 }
 
 @layer base {
+  :root {
+    color-scheme: light dark;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-ground: #16140e;
+      --color-surface: #211e15;
+      --color-line: #3b3626;
+      --color-route: #7d7154;
+
+      --color-ink: #ede4cf;
+      --color-ink-light: #d4cab2;
+      --color-ink-soft: #aea48c;
+
+      --color-terracotta: #e3896d;
+      --color-palm: #9fc08c;
+    }
+  }
+
   html {
     scroll-padding-top: 5rem;
   }
 
   body {
-    background-color: var(--color-parchment);
+    background-color: var(--color-ground);
     color: var(--color-ink);
     font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -63,21 +96,23 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
     color: var(--color-ink);
+    line-height: 1.2;
   }
 
   /* Plex has a 600 face; Amiri does not, so headings set in Amiri keep 400
      rather than getting a synthesised bold. */
   html[lang="ar"] :is(h1, h2, h3, h4, h5, h6):not(.font-arabic) {
     font-weight: 600;
+    line-height: 1.5;
   }
 
   ::selection {
-    background-color: var(--color-gold-light);
+    background-color: color-mix(in oklab, var(--color-terracotta) 30%, var(--color-ground));
     color: var(--color-ink);
   }
 
   :focus-visible {
-    outline: 2px solid var(--color-midnight);
+    outline: 2px solid var(--color-ink);
     outline-offset: 3px;
     border-radius: 2px;
   }
@@ -113,12 +148,67 @@ html[lang="ar"] * {
     text-align: center;
   }
 
-  /* Qur'an verse: hairline rules above and below, no card. */
+  /* A place name set like a label on a map: small, spaced capitals. Arabic is
+     never spaced or capitalised, since either breaks the joins. */
+  .place-label {
+    font-family: var(--font-body);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-terracotta);
+  }
+
+  html[lang="ar"] .place-label,
+  .place-label[lang="ar"] {
+    font-size: 0.9375rem;
+    letter-spacing: normal;
+    text-transform: none;
+  }
+
+  /* An era is a band: a solid strip carrying its name, over a ground tinted
+     with the era's own accent. Both colours come from the era's data, set as
+     --era and --era-accent on the band. */
+  .era-band {
+    background-color: color-mix(in oklab, var(--era-accent) 13%, var(--color-ground));
+  }
+
+  .era-strip {
+    background-color: var(--era);
+    color: var(--color-on-era);
+  }
+
+  .era-strip :is(h1, h2, h3, p) {
+    color: var(--color-on-era);
+  }
+
+  /* The route between Makkah and Madinah is a dashed line. Drawn as a
+     gradient so the dash length is the same on every screen. */
+  .route-dashes-x {
+    height: 2px;
+    background-image: repeating-linear-gradient(
+      to right,
+      var(--color-route) 0 7px,
+      transparent 7px 14px
+    );
+  }
+
+  .route-dashes-y {
+    width: 2px;
+    background-image: repeating-linear-gradient(
+      to bottom,
+      var(--color-route) 0 7px,
+      transparent 7px 14px
+    );
+  }
+
+  /* Qur'an verse: a panel in the surface tone with the Arabic centred. */
   .quran-verse {
-    margin: 2.25rem auto;
-    padding: 1.75rem 0;
-    border-block: 1px solid color-mix(in oklab, var(--color-gold) 60%, transparent);
-    max-width: 60ch;
+    margin: 2rem 0;
+    padding: 1.75rem 1.5rem;
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-line);
     text-align: center;
   }
 
@@ -131,14 +221,20 @@ html[lang="ar"] * {
 
   .quran-verse .citation {
     font-size: 0.8125rem;
-    letter-spacing: 0.08em;
+    font-weight: 500;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: var(--color-gold-dark);
+    color: var(--color-terracotta);
     margin: 0.75rem 0;
   }
 
+  html[lang="ar"] .quran-verse .citation {
+    font-size: 0.9375rem;
+    text-transform: none;
+  }
+
   .quran-verse .translation {
-    font-size: 1rem;
+    font-size: 1.0625rem;
     line-height: 1.7;
     color: var(--color-ink-light);
     font-family: var(--font-body);
@@ -147,43 +243,48 @@ html[lang="ar"] * {
   }
 
   .quran-verse .edition {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: var(--color-ink-soft);
     margin-top: 0.5rem;
   }
 
-  /* Hadith: a rule down the leading edge and nothing else. */
+  /* Hadith: set off by a hairline above, with the source line as its label. */
   .hadith-block {
     margin-block: 1.75rem;
-    padding-block: 1rem;
-    padding-inline-start: 1.25rem;
-    border-inline-start: 2px solid color-mix(in oklab, var(--color-gold-dark) 70%, transparent);
+    padding-block-start: 1rem;
+    border-block-start: 1px solid var(--color-route);
   }
 
   .hadith-block .source {
-    font-size: 0.75rem;
+    font-size: 0.8125rem;
     font-weight: 600;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
-    color: var(--color-gold-dark);
+    color: var(--color-terracotta);
     margin-bottom: 0.25rem;
   }
 
+  html[lang="ar"] .hadith-block .source {
+    font-size: 0.9375rem;
+    text-transform: none;
+  }
+
   .hadith-block .narrator {
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
     color: var(--color-ink-soft);
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.25rem;
   }
 
   .hadith-block .text {
-    font-size: 1rem;
+    font-size: 1.0625rem;
     line-height: 1.7;
     color: var(--color-ink-light);
     font-family: var(--font-body);
+    margin-top: 0.75rem;
   }
 
   .hadith-block .rendering-note {
-    font-size: 0.8125rem;
+    font-size: 0.875rem;
     color: var(--color-ink-soft);
     margin-top: 0.5rem;
   }
@@ -193,16 +294,12 @@ html[lang="ar"] * {
   .drop-cap::first-letter {
     font-family: var(--font-display);
     float: inline-start;
-    font-size: 2.4em;
-    line-height: 0.9;
+    font-size: 3.1em;
+    line-height: 0.85;
     padding-inline-end: 0.08em;
-    padding-block-start: 0.05em;
-    color: var(--color-gold-dark);
-    font-weight: 600;
-  }
-
-  .timeline-node {
-    contain: content;
+    padding-block-start: 0.04em;
+    color: var(--color-terracotta);
+    font-weight: 700;
   }
 }
 
@@ -222,6 +319,11 @@ html[lang="ar"] * {
   .hadith-block {
     break-inside: avoid;
     border-color: #444 !important;
+    background: none !important;
+  }
+
+  .era-band {
+    background: none !important;
   }
 
   .drop-cap::first-letter {
