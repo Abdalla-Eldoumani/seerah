@@ -1,12 +1,18 @@
 import type { ReactNode } from 'react';
 
-// Rich-text tag for a web address inside translated prose. A domain name stays in
-// Latin script on every page, so on an Arabic page it is marked as its own
-// left-to-right run in English: screen readers switch voice for it and the
-// locale scanner reads the attribute as a deliberate exception.
+// Rich-text tags for Latin-script names inside translated prose. On an Arabic
+// page a web address or the name of a translation stays in Latin script, so each
+// is marked as its own left-to-right run in the language it belongs to: screen
+// readers switch voice for it, and the locale scanner reads the attribute as a
+// deliberate exception.
 export const rich = {
-  domain: (chunks: ReactNode) => (
+  en: (chunks: ReactNode) => (
     <span lang="en" dir="ltr">
+      {chunks}
+    </span>
+  ),
+  fr: (chunks: ReactNode) => (
+    <span lang="fr" dir="ltr">
       {chunks}
     </span>
   ),
