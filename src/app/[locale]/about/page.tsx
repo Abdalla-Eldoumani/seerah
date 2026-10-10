@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import type { ReactNode } from 'react';
 import { notFound } from 'next/navigation';
 import { hasLocale } from 'next-intl';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
@@ -6,6 +7,7 @@ import { Container } from '@/components/ui/Container';
 import { Divider } from '@/components/ui/Divider';
 import { routing } from '@/i18n/routing';
 import { pageMetadata } from '@/lib/metadata';
+import { rich } from '@/lib/rich';
 import { localizeSource, localizeAuthor } from '@/config/names';
 import {
   HADITH_COLLECTIONS,
@@ -38,7 +40,7 @@ function SourceList({ items, locale }: { items: SourceWork[]; locale: string }) 
   );
 }
 
-function Prose({ id, heading, children }: { id: string; heading: string; children: string }) {
+function Prose({ id, heading, children }: { id: string; heading: string; children: ReactNode }) {
   return (
     <section className="max-w-[42rem] border-t border-line pt-8" aria-labelledby={id}>
       <h2 id={id} className="mb-4 font-display text-2xl font-bold text-ink md:text-3xl">
@@ -111,7 +113,7 @@ export default async function AboutPage({
         </section>
 
         <Prose id="methodology-heading" heading={t('methodologyHeading')}>
-          {t('methodologyBody')}
+          {t.rich('methodologyBody', rich)}
         </Prose>
 
         <Prose id="differences-heading" heading={t('differencesHeading')}>
