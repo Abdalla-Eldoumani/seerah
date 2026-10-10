@@ -121,16 +121,27 @@
       "grade": "the collection carries no grading line",
       "note": "The event now shows sunnah.com's English and Arabic in full in place of a project rendering. The narration runs on through a second chain from Ibn Abbas; the whole narration is shown."
     },
-    "Sahih Muslim 1775": {
+    "Sahih Muslim 1775a": {
       "usedIn": [
         "med-014"
       ],
       "status": "verified",
       "narrator": "Al-Abbas ibn Abd al-Muttalib",
       "checkedAgainst": "sunnah.com",
-      "confirmedWording": "at Hunayn on the white mule: I am the Prophet, no lie; I am the son of Abd al-Muttalib",
+      "confirmedWording": "Al-Abbas was with the Prophet at Hunayn together with Abu Sufyan ibn al-Harith; the Muslims fled when they met the disbelievers while the Prophet spurred his white mule towards them; Al-Abbas held the bridle and Abu Sufyan the stirrup; the Prophet told Al-Abbas, a loud-voiced man, to call the people of as-Samurah, who came back like cows to their calves saying they were present; the call then went to the Ansar and last to Banu al-Harith ibn al-Khazraj; the Prophet threw pebbles in the faces of the disbelievers and said they were defeated by the Lord of Muhammad; the fighting stayed as it was until he threw them, after which Al-Abbas saw their force spent and them retreating",
       "grade": "the collection carries no grading line",
-      "note": "Replaced Sahih Muslim 1776, which is al-Bara ibn Azib's account of the same day."
+      "note": "Replaces the project's earlier wording of this narration, which put the line 'I am the Prophet, no lie' in Al-Abbas's account; that line is in 1776a. The page's English has typos ('Abd Sufyan', 'Messenaer', 'may place be upon him') and reads 'people of al-Samura' for the Arabic 'ashab as-samurah'. Ar-Raheeq names the rein-holder only as Abu Sufyan, and its order of rein and stirrup is the reverse of this narration; the event text sets the two side by side."
+    },
+    "Sahih Muslim 1776a": {
+      "usedIn": [
+        "med-014"
+      ],
+      "status": "verified",
+      "narrator": "Al-Bara' ibn Azib",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "Al-Bara was asked whether they ran away on the Day of Hunayn and said no, by Allah, the Messenger of Allah did not turn his back; young men among his companions went out ahead and met archers of Hawazin and another clan whose arrows rarely missed; they came to the Prophet on his white mule, which Abu Sufyan ibn al-Harith was leading; he got down, asked for help, said he was the Prophet and the son of Abd al-Muttalib, and drew up his men",
+      "grade": "the collection carries no grading line",
+      "note": "The page's English reads 'Banu Nadir' where the Arabic has 'bani nasr', so the event text names only Hawazin. The Arabic clause on the young men's arms is read by the page's English as 'without any arms or did not have abundant arms'; the event text says only that they went ahead. The Arabic opens with the questioner addressing him as Abu Umarah, the English as Abu Umira."
     },
     "Sahih Muslim 1780a": {
       "usedIn": [
