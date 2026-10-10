@@ -36,14 +36,6 @@
   --font-arabic-ui: var(--font-plex-arabic), "IBM Plex Sans Arabic", Tahoma, sans-serif;
   --font-display: "Salawat", var(--font-alegreya), "Alegreya", Georgia, serif;
   --font-body: "Salawat", var(--font-plex-sans), "IBM Plex Sans", system-ui, sans-serif;
-
-  /* Legacy names kept until the components move to the tokens above. */
-  --color-parchment: var(--color-ground);
-  --color-parchment-dark: var(--color-surface);
-  --color-gold: var(--color-route);
-  --color-gold-light: var(--color-line);
-  --color-gold-dark: var(--color-terracotta);
-  --color-midnight: var(--color-ink);
 }
 
 @layer base {
