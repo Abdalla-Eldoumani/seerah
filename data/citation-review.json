@@ -32,7 +32,7 @@
       "checkedAgainst": "sunnah.com",
       "confirmedWording": "prayer in the mosque of Quba is like an Umrah",
       "grade": "Hasan (Darussalam)",
-      "note": "The number was right; the narrator was recorded as Usaid ibn Hudair, a different companion."
+      "note": "The number was right; the narrator was recorded as Usaid ibn Hudair, a different companion. The event now shows sunnah.com's English and Arabic in full in place of a project rendering."
     },
     "Jami' at-Tirmidhi 3620": {
       "usedIn": [
@@ -76,6 +76,17 @@
       "checkedAgainst": "sunnah.com",
       "confirmedWording": "the sermon at Arafat: your blood and your property are sacred to you, and the usury of the Jahiliyyah is abolished",
       "grade": "the collection carries no grading line"
+    },
+    "Sahih Muslim 1398a": {
+      "usedIn": [
+        "med-001"
+      ],
+      "status": "verified",
+      "narrator": "Abu Said al-Khudri",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "asked which of the two mosques was founded on piety, the Prophet threw a handful of pebbles on the ground and said it was the mosque in Madinah",
+      "grade": "the collection carries no grading line",
+      "note": "Numbered 1398a on sunnah.com. Added so the event shows that the reports differ on which mosque is meant. The event shows sunnah.com English and Arabic in full."
     },
     "Sahih Muslim 162a": {
       "usedIn": [
@@ -128,7 +139,8 @@
       "narrator": "Abu Hurayrah",
       "checkedAgainst": "sunnah.com",
       "confirmedWording": "one prayer in my mosque is better than a thousand prayers elsewhere, except al-Masjid al-Haram",
-      "grade": "the collection carries no grading line"
+      "grade": "the collection carries no grading line",
+      "note": "The event now shows sunnah.com's English and Arabic in full in place of a project rendering. The published English reads \"Al-Masjid-AI-Haram\", a misprint, and is kept as published."
     },
     "Sahih al-Bukhari 1241": {
       "usedIn": [
@@ -162,6 +174,17 @@
       "grade": "the collection carries no grading line",
       "note": "Replaced Sahih al-Bukhari 4, which is Jabir on the pause in revelation and carries none of this. The event showed a project rendering that read as a first-person account. It now shows sunnah.com's English with the Arabic of the same passage as a marked excerpt. The narration does not say whether it describes the first or the second night at Aqaba."
     },
+    "Sahih al-Bukhari 2048": {
+      "usedIn": [
+        "med-003"
+      ],
+      "status": "verified",
+      "narrator": "Abdur-Rahman ibn Awf",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "the Prophet made a bond of brotherhood between Abdur-Rahman ibn Awf and Sad ibn ar-Rabi; Sad offered half his wealth and to divorce one of his two wives; Abdur-Rahman declined and asked for the market",
+      "grade": "the collection carries no grading line",
+      "note": "Added to carry the offer of half the wealth and a wife, which the event had stated without a citation. The event shows sunnah.com English and Arabic in full."
+    },
     "Sahih al-Bukhari 2262": {
       "usedIn": [
         "pre-011"
@@ -172,6 +195,17 @@
       "confirmedWording": "Allah sent no prophet but he shepherded sheep, and I used to shepherd the sheep of the people of Mecca",
       "grade": "the collection carries no grading line",
       "note": "The Arabic word is qararit. Ibn Hajar (Fath al-Bari on this hadith, shamela.ws/book/1673/2731) reports Suwayd ibn Sa'id's reading as small shares of a dinar or dirham and Ibrahim al-Harbi's as the name of a place in Makkah, and judges the first more likely because Makkans know no such place. The event states both."
+    },
+    "Sahih al-Bukhari 2325": {
+      "usedIn": [
+        "med-003"
+      ],
+      "status": "verified",
+      "narrator": "Abu Hurairah",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "the Ansar asked the Prophet to divide the date palms between them and the Emigrants; he said no; they proposed that the Emigrants look after the trees and share the fruit, and the Emigrants agreed",
+      "grade": "the collection carries no grading line",
+      "note": "Added for the orchards arrangement. The event shows sunnah.com English and Arabic in full."
     },
     "Sahih al-Bukhari 3": {
       "usedIn": [
@@ -241,6 +275,18 @@
       "grade": "the collection carries no grading line",
       "note": "The event quoted the exchange in the cave under this number in a project rendering. That exchange is Abu Bakr's own narration, Sahih al-Bukhari 3653, now cited beside it. This number is shown as a marked excerpt on the preparations for the hijrah, with sunnah.com's English."
     },
+    "Sahih al-Bukhari 3906": {
+      "usedIn": [
+        "med-001",
+        "med-002"
+      ],
+      "status": "verified",
+      "narrator": "Urwah ibn az-Zubayr",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "the Prophet alighted among Banu Amr ibn Awf on a Monday in Rabi al-Awwal; the mosque founded on piety was established and he prayed in it; his camel then knelt at the drying yard of the orphans Suhayl and Sahl, who offered it as a gift, and he built a mosque there; while building he said that the actual reward is the reward of the Hereafter and asked for mercy on the Ansar and the Emigrants",
+      "grade": "the collection carries no grading line",
+      "note": "Shown as two marked excerpts, one on the stay at Quba and one on the site of the Prophet's Mosque, each with sunnah.com's English and the Arabic of the same passage. The Arabic gives the length of the stay as bid'a 'ashrata laylah, which sunnah.com's English renders as ten nights, so the count is left out of both excerpts and out of the prose."
+    },
     "Sahih al-Bukhari 3934": {
       "usedIn": [
         "mec-018"
@@ -282,6 +328,18 @@
       "checkedAgainst": "sunnah.com",
       "confirmedWording": "tomorrow I will give this flag to a man through whose hands Allah will give victory",
       "grade": "the collection carries no grading line"
+    },
+    "Sahih al-Bukhari 428": {
+      "usedIn": [
+        "med-001",
+        "med-002"
+      ],
+      "status": "verified",
+      "narrator": "Anas ibn Malik",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "the Prophet stayed fourteen nights among Banu Amr ibn Awf; he asked the Banu an-Najjar to name a price for their walled plot and they said they would ask its price only from Allah; graves, ruins and palms were cleared",
+      "grade": "the collection carries no grading line",
+      "note": "Added because it gives a length of stay and an owner of the land that differ from the other reports. Shown as two marked excerpts with sunnah.com's English and the Arabic of the same passages."
     },
     "Sahih al-Bukhari 4287": {
       "usedIn": [
@@ -334,6 +392,17 @@
       "grade": "the collection carries no grading line",
       "note": "The event showed a project rendering that gave only part of this narration. It now shows sunnah.com's English and the Arabic of the same narration in full. The Quran verses it mentions are 26:214 and 111:1-5."
     },
+    "Sahih al-Bukhari 604": {
+      "usedIn": [
+        "med-005"
+      ],
+      "status": "verified",
+      "narrator": "Ibn Umar",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "the Muslims at Madinah guessed the time of prayer; a bell and a horn were suggested; Umar was the first to suggest that a man call; the Prophet ordered Bilal to call",
+      "grade": "the collection carries no grading line",
+      "note": "Added so the account of how the adhan began rests on the narration that gives the discussion and the proposals. The event shows sunnah.com English and Arabic in full."
+    },
     "Sahih al-Bukhari 7": {
       "usedIn": [
         "med-011"
@@ -353,7 +422,7 @@
       "checkedAgainst": "sunnah.com",
       "confirmedWording": "the dream of the man carrying a bell, and the words of the adhan he was taught",
       "grade": "Hasan Sahih (Al-Albani)",
-      "note": "Replaced Sunan Abi Dawud 498, which is Abu Umayr ibn Anas on how the people were gathered."
+      "note": "Replaced Sunan Abi Dawud 498, which is Abu Umayr ibn Anas on how the people were gathered. The event now shows sunnah.com's English and Arabic as a marked excerpt in place of a project rendering. The English gives Bilal's louder voice as the reason he should call; the Arabic word is andā, which the event leaves out rather than choose between the two readings."
     },
     "Sunan Ibn Majah 150": {
       "usedIn": [
