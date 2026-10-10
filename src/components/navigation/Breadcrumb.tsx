@@ -42,7 +42,7 @@ export default function Breadcrumb({ items }: BreadcrumbProps) {
                 <Link
                   href={item.href}
                   className={cn(
-                    'inline-flex min-h-11 items-center transition-colors hover:text-terracotta',
+                    'inline-flex min-h-11 min-w-11 items-center transition-colors hover:text-terracotta',
                     'underline-offset-2 hover:underline'
                   )}
                 >
