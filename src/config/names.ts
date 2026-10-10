@@ -19,6 +19,7 @@ export const SOURCE_NAMES: Record<string, LocalizedName> = {
   'Sahih Muslim': { ar: 'صحيح مسلم', fr: 'Sahîh Mouslim' },
   "Jami' at-Tirmidhi": { ar: 'جامع الترمذي', fr: "Jâmi' at-Tirmidhî" },
   'Sunan Abu Dawud': { ar: 'سنن أبي داود', fr: 'Sounan Abou Dâwoud' },
+  'Sunan Ibn Majah': { ar: 'سنن ابن ماجه', fr: 'Sounan Ibn Mâja' },
   'Musnad Ahmad': { ar: 'مسند أحمد', fr: 'Mousnad Ahmad' },
   'Ar-Raheeq Al-Makhtum': { ar: 'الرحيق المختوم', fr: 'Ar-Rahîq al-Makhtoûm' },
   "Ibn Ishaq's Sirah": { ar: 'سيرة ابن إسحاق', fr: "La Sîra d'Ibn Ishâq" },
