@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { cn } from '@/lib/utils';
-import { Link } from '@/i18n/navigation';
+import { Link, usePathname } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 import LanguageSwitcher from '@/components/navigation/LanguageSwitcher';
 
@@ -11,8 +11,15 @@ interface HeaderProps {
   locale: Locale;
 }
 
+// Small spaced capitals, like the labels on a map. Arabic drops the spacing
+// through the global rule and takes a larger size, since 13 px is too small
+// for Arabic letterforms.
+const navLinkClass =
+  'inline-flex min-h-11 items-center border-b-2 border-transparent text-[0.8125rem] font-medium uppercase tracking-[0.14em] text-ink-light transition-colors hover:text-terracotta aria-[current=page]:border-terracotta aria-[current=page]:text-ink rtl:text-[0.9375rem]';
+
 export function Header({ locale }: HeaderProps) {
   const t = useTranslations();
+  const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
@@ -20,13 +27,16 @@ export function Header({ locale }: HeaderProps) {
     { label: t('nav.about'), href: '/about' },
   ];
 
+  // Only the page itself is marked current; an era page marks neither link.
+  const isCurrent = (href: string) => pathname === href;
+
   return (
-    <header className="sticky top-0 z-40 border-b border-gold/30 bg-parchment">
-      <nav className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+    <header className="sticky top-0 z-40 border-b border-line bg-ground">
+      <nav className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <Link
             href="/"
-            className="inline-flex min-h-11 items-center font-display text-xl font-semibold text-ink hover:text-gold-dark transition-colors sm:text-2xl"
+            className="inline-flex min-h-11 items-center font-display text-2xl font-bold text-ink transition-colors hover:text-terracotta"
           >
             {t('site.name')}
           </Link>
@@ -36,7 +46,8 @@ export function Header({ locale }: HeaderProps) {
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="inline-flex min-h-11 items-center font-display text-sm tracking-widest uppercase text-ink-light hover:text-gold-dark transition-colors"
+                  aria-current={isCurrent(link.href) ? 'page' : undefined}
+                  className={navLinkClass}
                 >
                   {link.label}
                 </Link>
@@ -49,7 +60,7 @@ export function Header({ locale }: HeaderProps) {
 
           <button
             type="button"
-            className="sm:hidden p-2.5 min-h-[44px] min-w-[44px] flex items-center justify-center text-ink-light hover:text-gold-dark transition-colors"
+            className="sm:hidden p-2.5 min-h-[44px] min-w-[44px] flex items-center justify-center text-ink-light hover:text-terracotta transition-colors"
             onClick={() => setMobileMenuOpen((prev) => !prev)}
             aria-expanded={mobileMenuOpen}
             aria-label={mobileMenuOpen ? t('nav.closeMenu') : t('nav.openMenu')}
@@ -89,12 +100,13 @@ export function Header({ locale }: HeaderProps) {
             mobileMenuOpen ? 'max-h-48 pb-4' : 'max-h-0'
           )}
         >
-          <ul className="flex flex-col gap-3 border-t border-gold/10 pt-4">
+          <ul className="flex flex-col gap-3 border-t border-line pt-4">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <Link
                   href={link.href}
-                  className="flex min-h-11 items-center font-display text-sm tracking-widest uppercase text-ink-light hover:text-gold-dark transition-colors"
+                  aria-current={isCurrent(link.href) ? 'page' : undefined}
+                  className={navLinkClass}
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {link.label}
