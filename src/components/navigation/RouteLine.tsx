@@ -13,7 +13,7 @@ interface RouteLineProps {
 }
 
 // The line between Makkah and Madinah, where the story runs from one to the
-// other. It is a drawing, so only the two names are exposed to assistive
+// other. Makkah is named in terracotta and Madinah in palm green. It is a drawing, so only the two names are exposed to assistive
 // technology; any caption for a mark sits beside it as text.
 export default function RouteLine({ marks = [], className }: RouteLineProps) {
   const t = useTranslations('route');
@@ -34,7 +34,7 @@ export default function RouteLine({ marks = [], className }: RouteLineProps) {
           />
         ))}
       </span>
-      <span className="place-label">{t('to')}</span>
+      <span className="place-label text-palm">{t('to')}</span>
     </div>
   );
 }
