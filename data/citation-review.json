@@ -86,7 +86,7 @@
       "checkedAgainst": "sunnah.com",
       "confirmedWording": "I was brought al-Buraq, I mounted it and came to Bayt al-Maqdis and tied it to the ring the prophets use",
       "grade": "the collection carries no grading line",
-      "note": "Replaced Sahih al-Bukhari 349, which is Abu Dharr on the opening of the chest and has no Buraq."
+      "note": "Replaced Sahih al-Bukhari 349, which is Abu Dharr on the opening of the chest and has no Buraq. The event now shows sunnah.com's English with the Arabic of the same narration in full; the earlier English stopped partway and was a project rendering."
     },
     "Sahih Muslim 162c": {
       "usedIn": [
@@ -160,7 +160,7 @@
       "checkedAgainst": "sunnah.com",
       "confirmedWording": "on the night of the Aqaba pledge: swear allegiance to me for not joining anything in worship with Allah, not stealing, not committing adultery",
       "grade": "the collection carries no grading line",
-      "note": "Replaced Sahih al-Bukhari 4, which is Jabir on the pause in revelation and carries none of this."
+      "note": "Replaced Sahih al-Bukhari 4, which is Jabir on the pause in revelation and carries none of this. The event showed a project rendering that read as a first-person account. It now shows sunnah.com's English with the Arabic of the same passage as a marked excerpt. The narration does not say whether it describes the first or the second night at Aqaba."
     },
     "Sahih al-Bukhari 2262": {
       "usedIn": [
@@ -197,6 +197,17 @@
       "grade": "the collection carries no grading line",
       "note": "The event showed a project rendering of only the last part of this narration. It now shows sunnah.com's English as a marked excerpt, from the Prophet's answer to Aisha to his reply to the angel, with the Arabic of the same passage. The narration does not name Ta'if; the link to Ta'if is Ar-Raheeq al-Makhtum's."
     },
+    "Sahih al-Bukhari 3653": {
+      "usedIn": [
+        "mec-018"
+      ],
+      "status": "verified",
+      "narrator": "Abu Bakr as-Siddiq",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "Abu Bakr in the cave: if one of them looked under his feet he would see us; the Prophet asked what he thought of two whose third is Allah",
+      "grade": "the collection carries no grading line",
+      "note": "Added so the exchange in the cave rests on the narration where Abu Bakr reports it himself. The event shows sunnah.com English and Arabic in full."
+    },
     "Sahih al-Bukhari 3815": {
       "usedIn": [
         "pre-012"
@@ -226,9 +237,20 @@
       "status": "verified",
       "narrator": "Aishah",
       "checkedAgainst": "sunnah.com",
-      "confirmedWording": "the hijrah, the cave, and Abu Bakr's fear that they would be seen",
+      "confirmedWording": "the Prophet told the Muslims he had been shown the land of their migration, a land of date palms between two stony tracts; Abu Bakr waited and fed two she-camels for four months",
       "grade": "the collection carries no grading line",
-      "note": "One long narration of the hijrah. The event quotes the exchange at the cave."
+      "note": "The event quoted the exchange in the cave under this number in a project rendering. That exchange is Abu Bakr's own narration, Sahih al-Bukhari 3653, now cited beside it. This number is shown as a marked excerpt on the preparations for the hijrah, with sunnah.com's English."
+    },
+    "Sahih al-Bukhari 3934": {
+      "usedIn": [
+        "mec-018"
+      ],
+      "status": "verified",
+      "narrator": "Sahl ibn Sa'd",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "the Companions dated the Muslim calendar from the day of the Prophet's arrival in Madinah, not from his mission or his death",
+      "grade": "the collection carries no grading line",
+      "note": "Added to carry the claim that the Hijrah begins the Muslim calendar, which the event had stated without a source. The event shows sunnah.com English and Arabic in full."
     },
     "Sahih al-Bukhari 4": {
       "usedIn": [
