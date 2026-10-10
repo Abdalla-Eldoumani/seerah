@@ -42,7 +42,7 @@ export default function LanguageSwitcher({ locale }: { locale: Locale }) {
         onChange={onChange}
         disabled={isPending}
         aria-label={t('language')}
-        className="min-h-11 cursor-pointer appearance-none bg-transparent ps-1 pe-4 text-sm text-ink-light transition-colors hover:text-gold-dark disabled:opacity-50"
+        className="min-h-11 cursor-pointer appearance-none bg-transparent ps-1 pe-4 text-[0.9375rem] text-ink-light transition-colors hover:text-terracotta disabled:opacity-50"
       >
         {routing.locales.map((option) => (
           <option key={option} value={option} lang={option}>
