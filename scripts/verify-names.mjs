@@ -4,10 +4,11 @@
 // renders silently: the page looks fine and an Arabic reader sees Latin script
 // in the middle of Arabic prose. This makes that gap loud.
 //
-// Pass --orphans to also list registry entries no event cites. That list is
-// advisory, not a failure: the registries deliberately carry alternate
-// spellings so both forms resolve, and author names used only by the about page
-// through `src/config/sources.ts`.
+// The about page lists works and authors through `src/config/sources.ts`, so
+// those strings need an entry too and count as used.
+//
+// Pass --orphans to also list registry entries that neither an event nor the
+// about page uses. That list is advisory, not a failure.
 
 import { readFileSync, readdirSync } from "node:fs";
 import { pathToFileURL } from "node:url";
@@ -52,7 +53,6 @@ const names = registryKeys(
   "SOURCE_NAMES",
   "MONTH_NAMES",
   "SURAH_NAMES",
-  "YEAR_PHRASES",
   "AUTHOR_NAMES",
 );
 
@@ -89,6 +89,19 @@ function hasLookupWord(value) {
 
 const missing = new Map();
 const seen = new Set();
+
+const sourcesTs = readFileSync(path.join(CONFIG, "sources.ts"), "utf8");
+for (const match of sourcesTs.matchAll(
+  /\b(?:name|author):\s*(?:'((?:[^'\\]|\\.)*)'|"((?:[^"\\]|\\.)*)")/g,
+)) {
+  const value = (match[1] ?? match[2]).replace(/\\'/g, "'");
+  seen.add(value);
+  if (!names.has(value)) {
+    const key = `about page: ${value}`;
+    if (!missing.has(key)) missing.set(key, new Set());
+    missing.get(key).add("sources.ts");
+  }
+}
 
 for (const file of readdirSync(EVENTS).filter((f) => f.endsWith(".json"))) {
   const data = JSON.parse(readFileSync(path.join(EVENTS, file), "utf8"));
