@@ -1,12 +1,12 @@
 {
   "era": {
     "id": "meccan",
-    "title": "The Light in the Darkness",
+    "title": "The Makkan Period",
     "titleArabic": "العهد المكي",
-    "titleFrench": "La lumière dans les ténèbres",
-    "description": "Thirteen years of revelation, persecution, patience, and unwavering faith. From the first words revealed in Cave Hira to the momentous migration to Madinah — the period in which Islam was born, the early believers were forged through suffering, and the Quran's foundational message of Tawhid was established.",
-    "descriptionArabic": "ثلاث عشرة سنة من الوحي والاضطهاد والصبر والثبات على الإيمان. من أول ما نزل في غار حراء إلى الهجرة العظيمة إلى المدينة، وهي المرحلة التي وُلد فيها الإسلام، وصُهر فيها المؤمنون الأولون بالبلاء، وتقرّرت فيها رسالة التوحيد التي قام عليها القرآن.",
-    "descriptionFrench": "Treize années de révélation, de persécution, de patience et de foi inébranlable. Des premiers mots révélés dans la grotte de Hirâ jusqu'à la grande émigration vers Médine : la période où l'islam naquit, où les premiers croyants furent éprouvés par la souffrance, et où s'établit le message fondateur du tawhîd porté par le Coran.",
+    "titleFrench": "La période mecquoise",
+    "description": "From the first revelation in the Cave of Hira, in 610 CE, to the migration to Madinah in 622 CE. Ar-Raheeq al-Makhtum puts the Makkan phase of the call at nearly thirteen years and divides it into the secret call, the open proclamation in Makkah and the call beyond Makkah. The eighteen events follow the revelation, the persecution of the early Muslims, the migrations to Abyssinia, the boycott, the Night Journey, the pledges at Aqaba and the Hijrah.",
+    "descriptionArabic": "من أول ما نزل من الوحي في غار حراء سنة 610 م إلى الهجرة إلى المدينة سنة 622 م. ويجعل الرحيق المختوم المرحلة المكية من الدعوة قرابة ثلاث عشرة سنة، ويقسمها إلى الدعوة السرية، ثم الجهر بالدعوة في مكة، ثم الدعوة خارج مكة. وتتناول الأحداث الثمانية عشر نزول الوحي، واضطهاد المسلمين الأوائل، والهجرتين إلى الحبشة، والمقاطعة، والإسراء والمعراج، وبيعتي العقبة، والهجرة.",
+    "descriptionFrench": "De la première révélation dans la grotte de Hirâ, en 610, à l'émigration vers Médine en 622. Ar-Rahîq al-Makhtoûm donne à la phase mecquoise de l'appel une durée de près de treize ans et la divise en appel discret, proclamation publique à La Mecque, puis appel au-delà de La Mecque. Les dix-huit événements suivent la révélation, la persécution des premiers musulmans, les émigrations vers l'Abyssinie, le boycott, le voyage nocturne, les serments d'al-Aqaba et l'Hégire.",
     "timespan": "610 CE – 622 CE",
     "timespanHijri": "13 BH – 1 AH",
     "themeColor": "#1a1a2e",
@@ -749,7 +749,7 @@
     },
     {
       "id": "mec-018",
-      "title": "The Hijrah — Migration to Madinah",
+      "title": "The Hijrah: Migration to Madinah",
       "titleArabic": "الهجرة إلى المدينة",
       "titleFrench": "L'Hégire : l'émigration vers Médine",
       "year": "1 AH",
