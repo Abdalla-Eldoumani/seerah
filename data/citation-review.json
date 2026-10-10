@@ -351,7 +351,18 @@
       "checkedAgainst": "sunnah.com",
       "confirmedWording": "we were with him at the Trench carrying earth on our shoulders, and he said there is no life but the life of the Hereafter",
       "grade": "the collection carries no grading line",
-      "note": "Replaced Sahih al-Bukhari 4109, which is Sulayman ibn Surad and carries different wording."
+      "note": "Replaced Sahih al-Bukhari 4109, which is Sulayman ibn Surad and carries different wording. The event now shows sunnah.com's English and Arabic in full in place of a project rendering."
+    },
+    "Sahih al-Bukhari 4110": {
+      "usedIn": [
+        "med-009"
+      ],
+      "status": "verified",
+      "narrator": "Sulayman ibn Surad",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "when the clans were driven away the Prophet said that from now on the Muslims would go out against them and they would not go out against the Muslims, and that the Muslims would march to them",
+      "grade": "the collection carries no grading line",
+      "note": "Added so the event can state the Prophet's words after the siege from a collection instead of from memory. The page spells the narrator Sulaiman bin Surd; the Arabic reads Sulayman ibn Surad."
     },
     "Sahih al-Bukhari 4210": {
       "usedIn": [
