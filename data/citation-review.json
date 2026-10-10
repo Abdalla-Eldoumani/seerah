@@ -117,8 +117,9 @@
       "status": "verified",
       "narrator": "Umar ibn al-Khattab",
       "checkedAgainst": "sunnah.com",
-      "confirmedWording": "at Badr: O Allah, if this band of Muslims perishes You will not be worshipped on earth",
-      "grade": "the collection carries no grading line"
+      "confirmedWording": "a thousand polytheists and 319 Companions at Badr; the Prophet asked Allah to fulfil His promise until his mantle fell and Abu Bakr put it back; a verse was revealed and Allah helped him with angels; seventy killed and seventy captured; Abu Bakr advised ransom, Umar advised execution, the Prophet approved Abu Bakr",
+      "grade": "the collection carries no grading line",
+      "note": "The event now shows sunnah.com's English and Arabic in full in place of a project rendering. The narration runs on through a second chain from Ibn Abbas; the whole narration is shown."
     },
     "Sahih Muslim 1775": {
       "usedIn": [
@@ -298,6 +299,17 @@
       "grade": "the collection carries no grading line",
       "note": "Added to carry the claim that the Hijrah begins the Muslim calendar, which the event had stated without a source. The event shows sunnah.com English and Arabic in full."
     },
+    "Sahih al-Bukhari 3959": {
+      "usedIn": [
+        "med-007"
+      ],
+      "status": "verified",
+      "narrator": "Al-Bara' ibn Azib",
+      "checkedAgainst": "sunnah.com",
+      "confirmedWording": "the Companions used to say the men of Badr were three hundred and some ten, the number of the companions of Saul who crossed the river with him",
+      "grade": "the collection carries no grading line",
+      "note": "Added so the event gives both counts of the Badr force (319 in Muslim 1763, over 310 here). The event shows sunnah.com English and Arabic in full."
+    },
     "Sahih al-Bukhari 4": {
       "usedIn": [
         "mec-003"
@@ -378,8 +390,9 @@
       "status": "verified",
       "narrator": "Al-Bara ibn Azib",
       "checkedAgainst": "sunnah.com",
-      "confirmedWording": "he prayed toward Bayt al-Maqdis for sixteen or seventeen months, and wished for the Kaaba",
-      "grade": "the collection carries no grading line"
+      "confirmedWording": "the Prophet prayed toward Bayt al-Maqdis for sixteen or seventeen months while wishing for the Kaaba; an Asr prayer facing the Kaaba; a man told people bowing in another mosque and they turned; men killed before the change and the verse revealed about them",
+      "grade": "the collection carries no grading line",
+      "note": "The event now shows sunnah.com's English and Arabic in full in place of a project rendering. The English adds (2.144) and (2.143) and the words \"in his Mosque\" in parentheses; the Arabic carries none of the three, so the prose does not rely on them."
     },
     "Sahih al-Bukhari 4770": {
       "usedIn": [
