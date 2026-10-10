@@ -16,16 +16,26 @@ export default function HadithBlock({ reference }: HadithBlockProps) {
     ? `${collection}, #${reference.hadithNumber}`
     : collection;
 
-  // The Arabic matn is shown to Arabic readers. Everyone else, and an Arabic
-  // reader where no matn is stored, gets the project's own rendering, which is
-  // labelled as such because it is not a published translation.
+  // Arabic readers get the Arabic matn where one is stored. Text pasted from
+  // sunnah.com keeps its English for everyone else, French readers included,
+  // because no French translation is published. Only the project's own
+  // renderings carry the "not a published translation" label.
+  const fromSunnah = reference.translationProvenance === 'sunnah';
   const useArabic = locale === 'ar' && Boolean(reference.textArabic);
+  const useFrench = locale === 'fr' && !fromSunnah;
   const bodyText = useArabic
     ? reference.textArabic!
-    : locale === 'fr'
+    : useFrench
       ? reference.textFrench
       : reference.textEnglish;
-  const bodyLang = useArabic ? 'ar' : locale === 'fr' ? 'fr' : 'en';
+  const bodyLang = useArabic ? 'ar' : useFrench ? 'fr' : 'en';
+  const note = fromSunnah
+    ? useArabic
+      ? t('sunnahArabic')
+      : t(locale === 'fr' ? 'sunnahFrench' : 'sunnahEnglish')
+    : useArabic
+      ? null
+      : t('renderingLabel');
 
   return (
     <div className="hadith-block">
@@ -48,7 +58,10 @@ export default function HadithBlock({ reference }: HadithBlockProps) {
       >
         {bodyText}
       </p>
-      {!useArabic && <p className="rendering-note">{t('renderingLabel')}</p>}
+      {note && <p className="rendering-note">{note}</p>}
+      {fromSunnah && reference.excerpt && (
+        <p className="rendering-note">{t('excerptLabel')}</p>
+      )}
     </div>
   );
 }
