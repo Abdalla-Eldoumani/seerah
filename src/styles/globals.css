@@ -203,6 +203,29 @@ html[lang="ar"] * {
     );
   }
 
+  /* The timeline is a ledger: dates, then the route, then the entry. The spine
+     runs down the middle column, so the rows and the spine share these widths. */
+  .ledger-row {
+    display: grid;
+    grid-template-columns: 1.5rem minmax(0, 1fr);
+    column-gap: 1rem;
+  }
+
+  .ledger-spine {
+    inset-inline-start: 0.75rem;
+    margin-inline-start: -1px;
+  }
+
+  @media (min-width: 48rem) {
+    .ledger-row {
+      grid-template-columns: 9.5rem 1.5rem minmax(0, 1fr);
+    }
+
+    .ledger-spine {
+      inset-inline-start: 10.75rem;
+    }
+  }
+
   /* Qur'an verse: a panel in the surface tone with the Arabic centred. */
   .quran-verse {
     margin: 2rem 0;
