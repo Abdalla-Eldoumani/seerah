@@ -2,8 +2,8 @@
   "site": {
     "name": "Noor al-Sîra",
     "subtitle": "La lumière de la biographie",
-    "tagline": "Un parcours interactif à travers la vie du Prophète Mouhammad ﷺ",
-    "description": "Quarante-neuf événements clés de la vie du Prophète Mouhammad ﷺ, tirés de sources islamiques authentifiées."
+    "tagline": "Une chronologie interactive de la vie du Prophète Mouhammad ﷺ",
+    "description": "Quarante-neuf événements de la vie du Prophète Mouhammad ﷺ, avec les versets du Coran et les hadîths qui s'y rapportent, en français, en arabe et en anglais."
   },
   "nav": {
     "timeline": "Chronologie",
@@ -14,23 +14,23 @@
     "skipToContent": "Aller au contenu principal"
   },
   "home": {
-    "ctaPrimary": "Commencer le parcours",
+    "ctaPrimary": "Ouvrir la chronologie",
     "ctaSecondary": "À propos du projet"
   },
   "timeline": {
     "title": "La chronologie",
-    "subtitle": "Quarante-neuf événements répartis sur trois époques, de 571 à 632 ap. J.-C.",
+    "subtitle": "Quarante-neuf événements en trois époques, de 571 environ à 632 ap. J.-C.",
     "metaTitle": "Chronologie",
-    "metaDescription": "Parcours la chronologie complète de la vie du Prophète Mouhammad ﷺ à travers trois époques."
+    "metaDescription": "La chronologie de la vie du Prophète Mouhammad ﷺ : quarante-neuf événements en trois époques."
   },
   "era": {
     "eventsCountSingular": "{count} événement dans cette époque",
     "eventsCountPlural": "{count} événements dans cette époque",
     "navLabel": "Parcourir par époque",
     "names": {
-      "pre-prophethood": "Avant la lumière",
-      "meccan": "La lumière dans les ténèbres",
-      "medinan": "L'aube d'une civilisation"
+      "pre-prophethood": "Avant la prophétie",
+      "meccan": "La période mecquoise",
+      "medinan": "La période médinoise"
     }
   },
   "event": {
@@ -64,21 +64,21 @@
   "about": {
     "title": "À propos de Noor al-Sîra",
     "purposeHeading": "Objectif",
-    "purposeBody": "Noor al-Sîra est une expérience web interactive pour apprendre la vie du Prophète Mouhammad ﷺ. Elle présente quarante-neuf événements clés répartis sur trois époques historiques, tirés entièrement de contenus vérifiés issus de sources islamiques authentifiées.",
+    "purposeBody": "Noor al-Sîra est une chronologie gratuite et open source de la vie du Prophète Mouhammad ﷺ. Elle présente quarante-neuf événements en trois époques, en français, en arabe et en anglais. L'ordre des événements et le récit de chacun suivent Ar-Rahîq al-Makhtoûm, et les versets du Coran et les hadîths qui s'y rapportent sont affichés à côté de chaque événement.",
     "sourcesHeading": "Sources",
     "hadithCollectionsHeading": "Recueils de hadîths",
     "seerahWorksHeading": "Ouvrages de sîra",
-    "additionalSourcesHeading": "Sources complémentaires",
+    "additionalSourcesHeading": "Autres ouvrages cités dans les événements",
     "methodologyHeading": "Méthodologie",
-    "methodologyBody": "Les événements ont été identifiés à partir d'Ar-Rahîq al-Makhtoûm comme cadre chronologique principal, recoupés avec les grands recueils de hadîths et vérifiés au regard de la littérature du tafsîr. Les dates suivent l'avis majoritaire des savants.",
+    "methodologyBody": "Les événements et leur ordre suivent Ar-Rahîq al-Makhtoûm de Safiy ar-Rahmân al-Moubârakfoûrî. Chaque hadîth est affiché en anglais et en arabe tel que sunnah.com le publie pour ce recueil et ce numéro, avec le degré que cette source donne. Quand seule une partie d'un récit est affichée, la page le signale. Deux récits que sunnah.com ne contient pas ont une traduction anglaise et française faite pour ce projet, chacune signalée comme telle. Les versets sont le texte outhmanien de l'API Quran.com, avec la traduction Saheeh International en anglais et celle de Hamidullah en français. Les pages françaises affichent les hadîths en anglais, car sunnah.com ne publie aucun texte français. Les résumés et les notes sur l'importance de chaque événement sont écrits pour ce site et indiquent la source qu'ils suivent.",
     "differencesHeading": "Divergences entre les savants",
-    "differencesBody": "Certaines dates diffèrent selon les savants. Ce projet suit les avis les plus couramment cités dans les sources énumérées ci-dessus. Nous encourageons les lecteurs à étudier auprès de savants qualifiés et à consulter les sources originales pour une compréhension approfondie.",
+    "differencesBody": "Les sources divergent sur certaines dates et certains détails, et les pages des événements le disent quand c'est le cas. Une date précédée de « vers » est approximative, ou donnée sous forme de fourchette, parce que les sources divergent. Les dates sont comptées en années avant l'hégire (av. H.) et après (H.), avec l'année ap. J.-C. à côté. Les années avant l'hégire se comptent à rebours en années lunaires depuis le 1er mouharram de l'an 1, si bien qu'une source qui compte les années écoulées peut donner un nombre inférieur d'une unité. L'année ap. J.-C. est convertie à partir de l'année lunaire et peut être décalée d'un an. Quand les savants divergent sur un avis juridique ou sur la façon de comprendre un texte, ce projet ne tranche pas entre eux. C'est une aide à la lecture, qui ne remplace pas l'étude auprès d'un savant qualifié.",
     "sadaqahHeading": "Sadaqa jâriya",
     "sadaqahBody": "Ce projet est conçu comme une sadaqa jâriya, une aumône continue. Nous demandons à Allah d'accepter cet effort et d'en faire une source de bienfait."
   },
   "footer": {
     "copyright": "© {year} Noor al-Sîra",
-    "verifiedNote": "Contenu vérifié à partir de sources islamiques authentifiées",
+    "verifiedNote": "Hadîths de sunnah.com, Coran de Quran.com",
     "sourcesLink": "Sources et à propos"
   },
   "notFound": {
