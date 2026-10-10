@@ -87,16 +87,23 @@ export function formatGregorianYear(yearString: string, locale: Locale): string 
   return withApprox(approx, text, locale);
 }
 
-// Format an event's date line: month, Hijri year (Gregorian year).
-export function formatEventDate(event: SeerahEvent, locale: Locale): string {
+// The two halves of an event's date: the Hijri month and year, and the Gregorian
+// year. Pages that set them apart (the timeline's date column) use these;
+// everything else uses the joined line below.
+export function formatEventDateParts(event: SeerahEvent, locale: Locale) {
   const month = localizeHijriMonth(event.month, locale);
   const hijri = localizeHijriYear(event.year, locale);
-  const gregorian = formatGregorianYear(event.yearCE, locale);
-
   const comma = locale === 'ar' ? '،' : ',';
-  const lead = month ? `${month}${comma} ${hijri}` : hijri;
-  if (!gregorian) return lead;
-  return `${lead} (${gregorian})`;
+  return {
+    hijri: month ? `${month}${comma} ${hijri}` : hijri,
+    gregorian: formatGregorianYear(event.yearCE, locale),
+  };
+}
+
+// Format an event's date line: month, Hijri year (Gregorian year).
+export function formatEventDate(event: SeerahEvent, locale: Locale): string {
+  const { hijri, gregorian } = formatEventDateParts(event, locale);
+  return gregorian ? `${hijri} (${gregorian})` : hijri;
 }
 
 // Format an era timespan: Hijri timespan paired with Gregorian timespan.
