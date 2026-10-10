@@ -46,26 +46,26 @@ export interface QuranReference {
   translationProvenance: 'fetched';
 }
 
-export interface HadithReference {
+interface HadithBase {
   source: string;
   hadithNumber: string;
   narrator: string;
   textEnglish: string;
-  // Optional. When populated from a verified source (e.g. Sunnah.com Arabic
-  // text for Bukhari/Muslim), the Arabic site will render this instead of
-  // the English translation. Only ever populated by humans from verified
-  // sources, never generated.
+  // Arabic matn, shown to Arabic readers. Only ever pasted from the page the
+  // citation names, never typed or generated.
   textArabic?: string;
-  // The English here is the project's own abridged rendering rather than a
-  // published translation, so the French is produced the same way and both are
-  // marked as such. A reviewer can list them by grepping for "project".
-  textFrench: string;
-  translationProvenance: 'project';
-  // The grading the collection carries, read from the collection itself. A
-  // reader deciding how much weight to give a report needs this, and the
-  // Bahira narration in particular is graded weak.
-  grade?: 'sahih' | 'hasan' | 'hasan-sahih' | 'daif';
+  // The grading the collection or a named grader gives, stated to the reader.
+  // The Bahira narration is graded weak and the Hilf al-Fudul report is mursal.
+  grade?: 'sahih' | 'hasan' | 'hasan-sahih' | 'daif' | 'mursal';
 }
+
+// 'sunnah': English and Arabic copied from the sunnah.com page for this exact
+// collection and number. `excerpt` marks a narration cut short on purpose.
+// 'project': an abridged English and French rendering written in this
+// repository, labelled as such on the page.
+export type HadithReference =
+  | (HadithBase & { translationProvenance: 'sunnah'; excerpt?: boolean })
+  | (HadithBase & { translationProvenance: 'project'; textFrench: string });
 
 export interface SeerahEvent {
   id: string;
