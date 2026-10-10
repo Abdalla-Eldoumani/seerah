@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { markLatinRuns } from '@/lib/latin-runs';
 import { cn } from '@/lib/utils';
 
 interface EventSignificanceProps {
@@ -29,7 +30,7 @@ export default function EventSignificance({
             : 'font-body text-[1.0625rem] leading-relaxed md:text-lg'
         )}
       >
-        {significance}
+        {isArabic ? markLatinRuns(significance) : significance}
       </p>
     </section>
   );
