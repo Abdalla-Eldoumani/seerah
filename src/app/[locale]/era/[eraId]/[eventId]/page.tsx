@@ -6,6 +6,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import {
   getAllEras,
   getEventById,
+  getEventPosition,
   getEraMetadata,
   getAdjacentEvents,
   getEventsByEra,
@@ -14,7 +15,7 @@ import { eventPath, generateEventMetadata } from '@/lib/metadata';
 import { BCP47, pageUrl } from '@/lib/seo';
 import { truncate } from '@/lib/utils';
 import { Container } from '@/components/ui/Container';
-import { Divider } from '@/components/ui/Divider';
+import { eraStyle } from '@/lib/era-style';
 import EventHero from '@/components/reading/EventHero';
 import EventSummary from '@/components/reading/EventSummary';
 import EventSignificance from '@/components/reading/EventSignificance';
@@ -73,6 +74,8 @@ export default async function EventPage({
 
   const era = getEraMetadata(eraId as EraId);
   if (!era) notFound();
+  const position = getEventPosition(eventId);
+  if (!position) notFound();
   const { prev, next, prevEra, nextEra } = getAdjacentEvents(eventId);
   const isAr = locale === 'ar';
 
@@ -129,63 +132,71 @@ export default async function EventPage({
   const summaryText = localizedField(event, 'summary', locale);
   const significanceText = localizedField(event, 'significance', locale);
   return (
-    <div className="bg-parchment pb-24">
+    <div className="pb-24" style={eraStyle(era)}>
       <script type="application/ld+json">{articleJson}</script>
       <script type="application/ld+json">{breadcrumbJson}</script>
-      <Container className="pt-6 sm:pt-8 md:pt-12">
-        <Breadcrumb
-          items={[
-            { label: tBreadcrumb('home'), href: '/' },
-            { label: tEra(eraId), href: `/era/${era.id}` },
-            { label: eventTitle },
-          ]}
-        />
 
-        <EventHero event={event} />
+      <div className="era-band border-t-[6px] border-t-(--era) border-b border-b-line pb-10 md:pb-12">
+        <Container className="pt-4 md:pt-6">
+          <Breadcrumb
+            items={[
+              { label: tBreadcrumb('home'), href: '/' },
+              { label: tEra(eraId), href: `/era/${era.id}` },
+              { label: eventTitle },
+            ]}
+          />
 
-        <Divider ornament />
+          <EventHero event={event} position={position} />
+        </Container>
+      </div>
 
-        {/* Resolve the narrative for the active locale. The helper reports
-            which language it actually returned so the component can set dir and
-            font correctly when it falls back to English. */}
-        <EventSummary summary={summaryText.text} lang={summaryText.lang} />
+      <Container className="pt-10 md:pt-14">
+        <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_17rem] lg:gap-16">
+          <div className="min-w-0">
+            {/* Resolve the narrative for the active locale. The helper reports
+                which language it actually returned so the component can set dir and
+                font correctly when it falls back to English. */}
+            <EventSummary summary={summaryText.text} lang={summaryText.lang} />
 
-        <EventSignificance
-          significance={significanceText.text}
-          lang={significanceText.lang}
-        />
+            <EventSignificance
+              significance={significanceText.text}
+              lang={significanceText.lang}
+            />
 
-        {event.quranReferences.length > 0 && (
-          <section className="my-8 md:my-12 max-w-prose mx-auto">
-            <h2 className="font-display text-2xl md:text-3xl font-semibold text-ink mb-6">
-              {tEvent('quranHeading')}
-            </h2>
-            <div className="space-y-6">
-              {event.quranReferences.map((ref, index) => (
-                <QuranVerse key={index} reference={ref} />
-              ))}
-            </div>
-          </section>
-        )}
+            {event.quranReferences.length > 0 && (
+              <section className="my-10 max-w-[42rem] md:my-12">
+                <h2 className="mb-2 font-display text-2xl font-bold text-ink md:text-3xl">
+                  {tEvent('quranHeading')}
+                </h2>
+                <div>
+                  {event.quranReferences.map((ref, index) => (
+                    <QuranVerse key={index} reference={ref} />
+                  ))}
+                </div>
+              </section>
+            )}
 
-        {event.hadithReferences.length > 0 && (
-          <section className="my-8 md:my-12 max-w-prose mx-auto">
-            <h2 className="font-display text-2xl md:text-3xl font-semibold text-ink mb-6">
-              {tEvent('hadithHeading')}
-            </h2>
-            <div className="space-y-6">
-              {event.hadithReferences.map((ref, index) => (
-                <HadithBlock key={index} reference={ref} />
-              ))}
-            </div>
-          </section>
-        )}
+            {event.hadithReferences.length > 0 && (
+              <section className="my-10 max-w-[42rem] md:my-12">
+                <h2 className="mb-2 font-display text-2xl font-bold text-ink md:text-3xl">
+                  {tEvent('hadithHeading')}
+                </h2>
+                <div>
+                  {event.hadithReferences.map((ref, index) => (
+                    <HadithBlock key={index} reference={ref} />
+                  ))}
+                </div>
+              </section>
+            )}
+          </div>
 
-        <KeyFigures figures={event.keyFigures} />
-
-        <PrimarySources sources={event.primarySources} />
-
-        <Divider />
+          {/* The people and sources sit beside the account on wide screens and
+              follow it on narrow ones. */}
+          <aside className="space-y-8 lg:sticky lg:top-24 lg:self-start">
+            <KeyFigures figures={event.keyFigures} />
+            <PrimarySources sources={event.primarySources} />
+          </aside>
+        </div>
 
         <EventNav prev={prevNav} next={nextNav} />
       </Container>
