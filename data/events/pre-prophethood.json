@@ -1,14 +1,14 @@
 {
   "era": {
     "id": "pre-prophethood",
-    "title": "Before the Light",
+    "title": "Before Prophethood",
     "titleArabic": "قبل البعثة",
-    "titleFrench": "Avant la lumière",
-    "description": "The years leading up to Prophethood — from the birth of Muhammad ﷺ to the age of forty. A period of preparation, in which Allah shaped His final Messenger through loss, honesty, contemplation, and an upbringing unlike any other.",
-    "descriptionArabic": "السنوات السابقة للبعثة، من مولد محمد صلى الله عليه وسلم إلى بلوغه الأربعين. مرحلة إعداد صاغ الله فيها رسوله الخاتم بالفقد والصدق والتأمل ونشأة لا تشبه غيرها.",
-    "descriptionFrench": "Les années qui précèdent la prophétie, de la naissance de Mouhammad ﷺ à ses quarante ans. Une période de préparation durant laquelle Allah façonna Son Messager final par la perte, l'honnêteté, la contemplation et une éducation sans pareille.",
-    "timespan": "571 CE – 610 CE",
-    "timespanHijri": "52 BH – 12 BH",
+    "titleFrench": "Avant la prophétie",
+    "description": "From the birth of Muhammad ﷺ, dated here to about 571 CE, to his retreats in the Cave of Hira before the first revelation. The fourteen events cover his birth and nursing, the deaths of his mother and his grandfather, his years with Abu Talib, a journey to Syria, a pact in Makkah, his work as a shepherd, his marriage to Khadijah and the rebuilding of the Ka'bah.",
+    "descriptionArabic": "من مولد محمد صلى الله عليه وسلم، ويؤرَّخ هنا بنحو سنة 571 م، إلى تحنثه في غار حراء قبل نزول الوحي. وتشمل الأحداث الأربعة عشر مولده ورضاعته ووفاة أمه وجده وكفالة أبي طالب له ورحلته إلى الشام وحلف الفضول ورعيه الغنم وزواجه من خديجة وبناء الكعبة.",
+    "descriptionFrench": "De la naissance de Mouhammad ﷺ, datée ici de 571 environ, à ses retraites dans la grotte de Hirâ avant la première révélation. Les quatorze événements couvrent sa naissance et son allaitement, la mort de sa mère et de son grand-père, ses années auprès d'Abou Tâlib, un voyage en Syrie, un pacte conclu à La Mecque, son travail de berger, son mariage avec Khadîja et la reconstruction de la Ka'ba.",
+    "timespan": "c. 571 CE – 610 CE",
+    "timespanHijri": "c. 53 BH – 13 BH",
     "themeColor": "#1a3a2a",
     "accentColor": "#c9a84c"
   },
