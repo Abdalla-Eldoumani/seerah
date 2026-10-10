@@ -13,88 +13,62 @@ interface EventNavProps {
   next: EventNavLink | null;
 }
 
+const arrowClass = 'size-5 shrink-0 text-terracotta rtl:scale-x-[-1]';
+const linkClass = cn(
+  'group flex min-h-11 items-center gap-3 rounded-sm p-4 transition-colors',
+  'hover:bg-surface'
+);
+
 export default function EventNav({ prev, next }: EventNavProps) {
   const t = useTranslations('event');
 
   return (
     <nav
       aria-label={t('navPrev') + ' / ' + t('navNext')}
-      className={cn(
-        'flex items-stretch gap-4 mt-12 pt-8',
-        'border-t border-parchment-dark'
-      )}
+      className="mt-12 grid gap-2 border-t border-line pt-6 sm:grid-cols-2 sm:gap-4"
     >
-      <div className="flex-1 min-w-0">
-        {prev ? (
-          <Link
-            href={`/era/${prev.eraId}/${prev.id}`}
-            className={cn(
-              'group flex items-center gap-3 p-4 rounded-sm',
-              'hover:bg-parchment-dark/50 transition-colors'
-            )}
-          >
+      <div className="min-w-0">
+        {prev && (
+          <Link href={`/era/${prev.eraId}/${prev.id}`} className={linkClass}>
             <svg
-              className="w-5 h-5 text-gold-dark shrink-0 rtl:scale-x-[-1]"
+              className={arrowClass}
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={2}
               stroke="currentColor"
               aria-hidden="true"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M15.75 19.5L8.25 12l7.5-7.5"
-              />
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
             </svg>
-            <div className="min-w-0">
-              <span className="block text-xs font-body text-ink-soft uppercase tracking-wider">
-                {t('navPrev')}
-              </span>
-              <span className="block text-sm md:text-base font-display text-ink truncate group-hover:text-gold-dark transition-colors">
-                {prev.title}
-              </span>
-            </div>
+            <span className="min-w-0">
+              <span className="place-label block">{t('navPrev')}</span>
+              <span className="block font-display text-lg font-bold text-ink">{prev.title}</span>
+            </span>
           </Link>
-        ) : (
-          <div />
         )}
       </div>
 
-      <div className="flex-1 min-w-0">
-        {next ? (
+      <div className="min-w-0">
+        {next && (
           <Link
             href={`/era/${next.eraId}/${next.id}`}
-            className={cn(
-              'group flex items-center justify-end gap-3 p-4 rounded-sm text-end',
-              'hover:bg-parchment-dark/50 transition-colors'
-            )}
+            className={cn(linkClass, 'justify-end text-end')}
           >
-            <div className="min-w-0">
-              <span className="block text-xs font-body text-ink-soft uppercase tracking-wider">
-                {t('navNext')}
-              </span>
-              <span className="block text-sm md:text-base font-display text-ink truncate group-hover:text-gold-dark transition-colors">
-                {next.title}
-              </span>
-            </div>
+            <span className="min-w-0">
+              <span className="place-label block">{t('navNext')}</span>
+              <span className="block font-display text-lg font-bold text-ink">{next.title}</span>
+            </span>
             <svg
-              className="w-5 h-5 text-gold-dark shrink-0 rtl:scale-x-[-1]"
+              className={arrowClass}
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={2}
               stroke="currentColor"
               aria-hidden="true"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M8.25 4.5l7.5 7.5-7.5 7.5"
-              />
+              <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
             </svg>
           </Link>
-        ) : (
-          <div />
         )}
       </div>
     </nav>
