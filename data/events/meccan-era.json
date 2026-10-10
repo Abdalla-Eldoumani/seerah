@@ -53,13 +53,11 @@
       ],
       "primarySources": [
         "Sahih al-Bukhari",
-        "Sahih Muslim",
         "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
         "Jibril (Angel Gabriel)",
-        "Khadijah bint Khuwaylid",
-        "Waraqah ibn Nawfal"
+        "Khadijah bint Khuwaylid"
       ],
       "location": "Cave of Hira, Jabal an-Nur",
       "locationArabic": "غار حراء – جبل النور",
@@ -171,8 +169,7 @@
       "quranReferences": [],
       "hadithReferences": [],
       "primarySources": [
-        "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah"
+        "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
         "Khadijah bint Khuwaylid",
@@ -207,9 +204,7 @@
       "quranReferences": [],
       "hadithReferences": [],
       "primarySources": [
-        "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah",
-        "Ibn Sa'd's Tabaqat"
+        "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
         "Al-Arqam ibn Abi al-Arqam"
@@ -266,7 +261,6 @@
       ],
       "primarySources": [
         "Sahih al-Bukhari",
-        "Sahih Muslim",
         "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
@@ -325,8 +319,7 @@
       ],
       "primarySources": [
         "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah",
-        "Ibn Kathir's Al-Bidaya wan-Nihaya"
+        "Sunan Ibn Majah"
       ],
       "keyFigures": [
         "Bilal ibn Rabah",
@@ -359,8 +352,7 @@
       "quranReferences": [],
       "hadithReferences": [],
       "primarySources": [
-        "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah"
+        "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
         "Uthman ibn Affan",
@@ -399,9 +391,7 @@
       ],
       "hadithReferences": [],
       "primarySources": [
-        "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah",
-        "Musnad Ahmad"
+        "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
         "Ja'far ibn Abi Talib",
@@ -451,13 +441,11 @@
       ],
       "primarySources": [
         "Jami' at-Tirmidhi",
-        "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah"
+        "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
         "Hamza ibn Abdul Muttalib",
-        "Umar ibn al-Khattab",
-        "Fatimah bint al-Khattab"
+        "Umar ibn al-Khattab"
       ],
       "location": "Makkah",
       "locationArabic": "مكة المكرمة",
@@ -481,9 +469,7 @@
       "quranReferences": [],
       "hadithReferences": [],
       "primarySources": [
-        "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah",
-        "Ibn Sa'd's Tabaqat"
+        "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
         "Abu Talib ibn Abdul Muttalib",
@@ -532,8 +518,7 @@
       ],
       "primarySources": [
         "Sahih al-Bukhari",
-        "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah"
+        "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
         "Abu Talib ibn Abdul Muttalib",
@@ -573,7 +558,6 @@
       ],
       "primarySources": [
         "Sahih al-Bukhari",
-        "Sahih Muslim",
         "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
@@ -632,7 +616,6 @@
         }
       ],
       "primarySources": [
-        "Sahih al-Bukhari",
         "Sahih Muslim",
         "Ar-Raheeq Al-Makhtum"
       ],
@@ -675,8 +658,7 @@
       ],
       "primarySources": [
         "Sahih al-Bukhari",
-        "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah"
+        "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
         "Twelve men from Madinah",
@@ -705,15 +687,13 @@
       "hadithReferences": [],
       "primarySources": [
         "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah",
         "Musnad Ahmad"
       ],
       "keyFigures": [
         "73 men and 2 women from Madinah",
         "Nusaybah bint Ka'b",
         "Asma bint Amr",
-        "Al-Abbas ibn Abdul Muttalib",
-        "As'ad ibn Zurarah"
+        "Al-Abbas ibn Abdul Muttalib"
       ],
       "location": "Aqaba, near Mina",
       "locationArabic": "العقبة – منى",
@@ -756,9 +736,7 @@
       ],
       "hadithReferences": [],
       "primarySources": [
-        "Ar-Raheeq Al-Makhtum",
-        "Ibn Ishaq's Sirah",
-        "Tafsir Ibn Kathir"
+        "Ar-Raheeq Al-Makhtum"
       ],
       "keyFigures": [
         "Abu Jahl",
@@ -827,17 +805,14 @@
       ],
       "primarySources": [
         "Sahih al-Bukhari",
-        "Sahih Muslim",
         "Ar-Raheeq Al-Makhtum",
         "Ibn Ishaq's Sirah"
       ],
       "keyFigures": [
         "Abu Bakr as-Siddiq",
         "Ali ibn Abi Talib",
-        "Asma bint Abi Bakr",
         "Abdullah ibn Abi Bakr",
-        "Abdullah ibn Urayqit (the guide)",
-        "Suraqah ibn Malik"
+        "Abdullah ibn Urayqit (the guide)"
       ],
       "location": "From Makkah to Cave Thawr to Quba to Madinah",
       "locationArabic": "من مكة إلى غار ثور إلى قباء إلى المدينة",
