@@ -179,6 +179,7 @@ export const NARRATOR_NAMES: Record<string, LocalizedName> = {
   'Abu Hurairah': { ar: 'أبو هريرة', fr: 'Abou Hourayra' },
   "Abu Musa al-Ash'ari": { ar: 'أبو موسى الأشعري', fr: "Abou Moûsâ al-Ach'arî" },
   'Abu Qatadah al-Ansari': { ar: 'أبو قتادة الأنصاري', fr: 'Abou Qatâda al-Ansârî' },
+  'Abu Said al-Khudri': { ar: 'أبو سعيد الخدري', fr: "Abou Sa'îd al-Khoudrî" },
   'Aisha': { ar: 'عائشة', fr: 'Aïcha' },
   "Al-Bara' ibn Azib": { ar: 'البراء بن عازب', fr: 'Al-Barâ ibn Âzib' },
   'Anas ibn Malik': { ar: 'أنس بن مالك', fr: 'Anas ibn Mâlik' },
@@ -186,10 +187,12 @@ export const NARRATOR_NAMES: Record<string, LocalizedName> = {
   'Ibn Umar': { ar: 'ابن عمر', fr: 'Ibn Omar' },
   'Jabir ibn Abdullah': { ar: 'جابر بن عبد الله', fr: 'Jâbir ibn Abdallah' },
   "Sahl ibn Sa'd": { ar: 'سهل بن سعد', fr: "Sahl ibn Sa'd" },
+  'Sulayman ibn Surad': { ar: 'سليمان بن صرد', fr: 'Soulaymân ibn Sourad' },
   'Ubadah ibn as-Samit': { ar: 'عبادة بن الصامت', fr: 'Oubâda ibn as-Sâmit' },
   'Usaid ibn Hudair': { ar: 'أسيد بن حضير', fr: 'Ousayd ibn Houdayr' },
   'Usaid ibn Zuhair': { ar: 'أسيد بن ظهير', fr: 'Ousayd ibn Zouhayr' },
   'Talha ibn Abdullah ibn Awf': { ar: 'طلحة بن عبد الله بن عوف', fr: 'Talha ibn Abdallah ibn Awf' },
+  'Urwah ibn az-Zubayr': { ar: 'عروة بن الزبير', fr: 'Ourwa ibn az-Zoubayr' },
 };
 
 export const localizeFigure = (value: string, locale: string): string => {
