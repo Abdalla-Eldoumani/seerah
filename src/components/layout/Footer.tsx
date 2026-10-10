@@ -6,18 +6,18 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-gold/15 mt-16">
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-10">
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-ink-soft">
+    <footer className="mt-16 border-t border-line">
+      <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
+        <div className="flex flex-col items-center justify-between gap-4 text-sm text-ink-soft sm:flex-row">
           <p className="font-body">{t('footer.copyright', { year })}</p>
 
-          <p className="font-body text-center text-xs max-w-xs">
+          <p className="max-w-sm text-center font-body">
             {t('footer.verifiedNote')}
           </p>
 
           <Link
             href="/about"
-            className="font-display text-xs tracking-widest uppercase text-ink-soft hover:text-gold-dark transition-colors"
+            className="inline-flex min-h-11 items-center text-[0.8125rem] font-medium uppercase tracking-[0.14em] text-ink-soft transition-colors hover:text-terracotta rtl:text-[0.9375rem]"
           >
             {t('footer.sourcesLink')}
           </Link>
