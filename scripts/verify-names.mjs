@@ -79,9 +79,10 @@ const FIELDS = [
   { collect: (e) => [e.year], registry: names, label: "year" },
 ];
 
-// Era markers and ordinal suffixes are stripped by the date formatter, so a
-// value made only of digits and those tokens needs no registry entry.
-const FORMATTER_TOKENS = /\b(BH|AH|CE|AD|onwards|st|nd|rd|th)\b/gi;
+// Era markers, the "c." approximation marker and ordinal suffixes are handled by
+// the date formatter, so a value made only of digits and those tokens needs no
+// registry entry.
+const FORMATTER_TOKENS = /\b(?:BH|AH|CE|AD|onwards|st|nd|rd|th)\b|\bc\./gi;
 function hasLookupWord(value) {
   return /[A-Za-z]/.test(value.replace(FORMATTER_TOKENS, ""));
 }
