@@ -15,8 +15,8 @@ export default function EventSignificance({
   const isArabic = lang === 'ar';
 
   return (
-    <section className="my-10 md:my-14 max-w-prose mx-auto">
-      <h2 className="font-display text-2xl md:text-3xl font-semibold text-ink mb-4">
+    <section className="mb-10 max-w-[42rem] md:mb-12">
+      <h2 className="mb-4 font-display text-2xl font-bold text-ink md:text-3xl">
         {t('significanceHeading')}
       </h2>
       <p
@@ -25,8 +25,8 @@ export default function EventSignificance({
         className={cn(
           'text-ink-light',
           isArabic
-            ? 'font-arabic text-lg leading-loose md:text-xl'
-            : 'font-body text-base leading-relaxed md:text-lg'
+            ? 'font-arabic text-xl leading-loose md:text-2xl'
+            : 'font-body text-[1.0625rem] leading-relaxed md:text-lg'
         )}
       >
         {significance}
